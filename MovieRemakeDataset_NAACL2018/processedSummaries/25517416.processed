@@ -1,0 +1,458 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	The	The	the	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	4	8	S	2	film	film	film	NN	O	nsubj	false	-1	-1	null	null	2	nsubj	null
+0	0	2	9	14	S	-1	opens	opens	open	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	3	15	19	S	2	with	with	with	IN	O	prep	false	-1	-1	null	null	4	case	null
+0	0	4	20	25	S	5	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c1	c1	2	nmod:with	(c1;ANIMATE;FEMALE),
+0	0	5	26	33	S	3	getting	getting	get	VBG	O	pcomp	false	-1	-1	c1	c1	4	acl	(c1;ANIMATE;FEMALE),
+0	0	6	34	41		5	dressed	dressed	dress	VBN	O	ccomp	false	-1	-1	c1	c1	5	dep	(c1;ANIMATE;FEMALE),
+0	0	7	41	42	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	8	43	45	S	14	In	In	in	IN	O	prep	false	-1	-1	null	null	10	case	null
+0	1	9	46	47	S	10	a	a	a	DT	O	det	false	-1	-1	null	null	10	det	null
+0	1	10	48	53	S	8	voice	voice	voice	NN	O	pobj	false	-1	-1	null	null	14	nmod:in	null
+0	1	11	54	58		10	over	over	over	IN	O	advmod	false	-1	-1	null	null	10	amod	null
+0	1	12	58	59	S	14	,	,	,	,	O	punct	false	-1	-1	null	null	14	punct	null
+0	1	13	60	63	S	14	she	she	she	PRP	O	nsubj	false	1	1	c1	null	14	nsubj	(c1;ANIMATE;FEMALE),
+0	1	14	64	73	S	-1	discusses	discusses	discuss	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	15	74	77	S	16	her	her	she	PRP$	O	poss	false	1	1	c1	null	16	nmod:poss	(c1;ANIMATE;FEMALE),
+0	1	16	78	86	S	14	business	business	business	NN	O	dobj	false	-1	-1	null	null	14	dobj	null
+0	1	17	87	89	S	14	as	as	as	IN	O	prep	false	-1	-1	null	null	20	case	null
+0	1	18	90	91	S	20	a	a	a	DT	O	det	false	-1	-1	null	null	20	det	null
+0	1	19	92	96	S	20	call	call	call	NN	O	nn	false	-1	-1	null	null	20	compound	null
+0	1	20	97	101		17	girl	girl	girl	NN	O	pobj	false	-1	-1	null	null	14	nmod:as	null
+0	1	21	101	102	S	14	.	.	.	.	O	punct	false	-1	-1	null	null	14	punct	null
+0	2	22	103	112	S	25	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	25	nsubj	(c2;ANIMATE;FEMALE),
+0	2	23	113	115	S	25	is	is	be	VBZ	O	cop	false	-1	-1	null	null	25	cop	null
+0	2	24	116	117	S	25	a	a	a	DT	O	det	false	-1	-1	c2	null	25	det	(c2;ANIMATE;UNKNOWN),
+0	2	25	118	130	S	-1	gynecologist	gynecologist	gynecologist	NN	O	null	false	-1	-1	c2	null	33	dep	(c2;ANIMATE;UNKNOWN),
+0	2	26	131	134	S	25	and	and	and	CC	O	cc	false	-1	-1	null	null	25	cc	null
+0	2	27	135	138	S	29	her	her	she	PRP$	O	poss	false	2	2	c2,c4	c4	28	nmod:poss	(c2;ANIMATE;FEMALE),(c4;ANIMATE;MALE),
+0	2	28	139	146	S	29	husband	husband	husband	NN	O	nn	false	-1	-1	c4	c4	25	conj:and	(c4;ANIMATE;MALE),
+0	2	29	147	152	S	33	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	c3	33	nsubj	(c3;ANIMATE;MALE),
+0	2	30	153	155	S	33	is	is	be	VBZ	O	cop	false	-1	-1	null	null	33	cop	null
+0	2	31	156	157	S	33	a	a	a	DT	O	det	false	-1	-1	c3	null	33	det	(c3;ANIMATE;MALE),
+0	2	32	158	165	S	33	college	college	college	NN	O	nn	false	-1	-1	c3	null	33	compound	(c3;ANIMATE;MALE),
+0	2	33	166	175		25	professor	professor	professor	NN	O	conj	false	-1	-1	c3	null	-1	root	(c3;ANIMATE;MALE),
+0	2	34	175	176	S	25	.	.	.	.	O	punct	false	-1	-1	null	null	33	punct	null
+0	3	35	177	186	S	36	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	36	nsubj	(c2;ANIMATE;FEMALE),
+0	3	36	187	195	S	-1	suspects	suspects	suspect	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	37	196	201	S	36	David	David	David	NNP	PERSON	dobj	false	3	3	null	null	36	dobj	null
+0	3	38	202	204	S	37	of	of	of	IN	O	prep	false	-1	-1	null	null	39	mark	null
+0	3	39	205	211	S	38	having	having	have	VBG	O	pcomp	false	-1	-1	null	null	37	acl	null
+0	3	40	212	214	S	41	an	an	a	DT	O	det	false	-1	-1	null	null	41	det	null
+0	3	41	215	221	S	39	affair	affair	affair	NN	O	dobj	false	-1	-1	null	null	39	dobj	null
+0	3	42	222	227	S	44	after	after	after	IN	O	mark	false	-1	-1	null	null	44	mark	null
+0	3	43	228	231	S	44	she	she	she	PRP	O	nsubj	false	2	2	c2	null	44	nsubj	(c2;ANIMATE;FEMALE),
+0	3	44	232	236	S	39	sees	sees	see	VBZ	O	advcl	false	-1	-1	null	null	41	acl	null
+0	3	45	237	238	S	47	a	a	a	DT	O	det	false	-1	-1	null	null	47	det	null
+0	3	46	239	249	S	47	cell-phone	cell-phone	cell-phone	JJ	O	amod	false	-1	-1	null	null	47	amod	null
+0	3	47	250	257	S	44	picture	picture	picture	NN	O	dobj	false	-1	-1	null	null	44	dobj	null
+0	3	48	258	260	S	47	of	of	of	IN	O	prep	false	-1	-1	null	null	50	mark	null
+0	3	49	261	264	S	48	him	him	he	PRP	O	pobj	false	3	3	c4	null	50	nsubj	(c4;ANIMATE;MALE),
+0	3	50	265	274	S	44	embracing	embracing	embrace	VBG	O	xcomp	false	-1	-1	null	null	47	acl	null
+0	3	51	275	276	S	53	a	a	a	DT	O	det	false	-1	-1	null	null	53	det	null
+0	3	52	277	283	S	53	female	female	female	JJ	O	amod	false	-1	-1	null	null	53	amod	null
+0	3	53	284	291		50	student	student	student	NN	O	dobj	false	-1	-1	null	null	50	dobj	null
+0	3	54	291	292	S	36	.	.	.	.	O	punct	false	-1	-1	null	null	36	punct	null
+0	4	55	293	298	S	59	After	After	after	IN	O	prep	false	-1	-1	null	null	56	case	null
+0	4	56	299	303		55	work	work	work	NN	O	pobj	false	-1	-1	null	null	59	nmod:after	null
+0	4	57	303	304	S	59	,	,	,	,	O	punct	false	-1	-1	null	null	59	punct	null
+0	4	58	305	314	S	59	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	59	nsubj	(c2;ANIMATE;FEMALE),
+0	4	59	315	320	S	-1	stops	stops	stop	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	60	321	323	S	59	by	by	by	IN	O	prep	false	-1	-1	null	null	63	case	null
+0	4	61	324	327	S	63	the	the	the	DT	O	det	false	-1	-1	null	null	63	det	null
+0	4	62	328	333	S	63	hotel	hotel	hotel	NN	O	nn	false	-1	-1	null	null	63	compound	null
+0	4	63	334	337	S	60	bar	bar	bar	NN	O	pobj	false	-1	-1	null	null	59	nmod:by	null
+0	4	64	338	343	S	66	where	where	where	WRB	O	advmod	false	-1	-1	null	null	66	advmod	null
+0	4	65	344	349	S	66	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	c5	66	nsubj	(c5;ANIMATE;FEMALE),
+0	4	66	350	355	S	63	waits	waits	wait	VBZ	O	rcmod	false	-1	-1	null	null	59	advcl	null
+0	4	67	356	359	S	66	for	for	for	IN	O	prep	false	-1	-1	null	null	68	case	null
+0	4	68	360	367		67	clients	clients	client	NNS	O	pobj	false	-1	-1	null	null	66	nmod:for	null
+0	4	69	367	368	S	59	.	.	.	.	O	punct	false	-1	-1	null	null	59	punct	null
+0	5	70	369	374	S	71	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	71	nsubj	(c5;ANIMATE;FEMALE),
+0	5	71	375	380	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	72	381	384	S	79	her	her	she	PRP$	O	poss	false	1	1	c5	null	71	dobj	(c5;ANIMATE;FEMALE),
+0	5	73	385	389	S	79	that	that	that	IN	O	complm	false	-1	-1	null	null	79	mark	null
+0	5	74	390	393	S	79	she	she	she	PRP	O	nsubj	false	1	1	c5	null	79	nsubj	(c5;ANIMATE;FEMALE),
+0	5	75	394	398		79	does	does	do	VBZ	O	aux	false	-1	-1	null	null	79	aux	null
+0	5	76	398	401	S	79	n't	n't	not	RB	O	neg	false	-1	-1	null	null	79	neg	null
+0	5	77	402	409	S	79	usually	usually	usually	RB	O	advmod	false	-1	-1	null	null	79	advmod	null
+0	5	78	410	417	S	79	service	service	service	NN	O	nn	false	-1	-1	null	null	79	compound	null
+0	5	79	418	423		71	women	women	woman	NNS	O	dobj	false	-1	-1	null	null	71	ccomp	null
+0	5	80	423	424	S	71	.	.	.	.	O	punct	false	-1	-1	null	null	71	punct	null
+0	6	81	425	434	S	82	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	82	nsubj	(c2;ANIMATE;FEMALE),
+0	6	82	435	440	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	83	441	446	S	82	Chloe	Chloe	Chloe	NNP	PERSON	dobj	false	1	1	null	null	82	dobj	null
+0	6	84	447	450	S	85	she	she	she	PRP	O	nsubj	false	2	2	c2	null	85	nsubj	(c2;ANIMATE;FEMALE),
+0	6	85	451	456	S	82	wants	wants	want	VBZ	O	dep	false	-1	-1	null	null	83	acl:relcl	null
+0	6	86	457	459	S	87	to	to	to	TO	O	aux	false	-1	-1	null	null	87	mark	null
+0	6	87	460	464	S	85	hire	hire	hire	VB	O	xcomp	false	-1	-1	null	null	85	xcomp	null
+0	6	88	465	468	S	87	her	her	she	PRP	O	dobj	false	2	2	c2	null	87	dobj	(c2;ANIMATE;FEMALE),
+0	6	89	469	471	S	90	to	to	to	TO	O	aux	false	-1	-1	null	null	90	mark	null
+0	6	90	472	476	S	87	test	test	test	VB	O	xcomp	false	-1	-1	null	null	87	xcomp	null
+0	6	91	477	482		93	David	David	David	NNP	PERSON	poss	false	3	3	c3	null	93	nmod:poss	(c3;ANIMATE;MALE),
+0	6	92	482	484	S	91	's	's	's	POS	O	possessive	false	-1	-1	c3	null	91	case	(c3;ANIMATE;MALE),
+0	6	93	485	492		90	loyalty	loyalty	loyalty	NN	O	dobj	false	-1	-1	null	null	90	dobj	null
+0	6	94	492	493	S	82	.	.	.	.	O	punct	false	-1	-1	null	null	82	punct	null
+0	7	95	494	497	S	97	The	The	the	DT	DATE	det	false	-1	-1	null	null	97	det	null
+0	7	96	498	502	S	97	next	next	next	JJ	DATE	amod	false	-1	-1	null	null	97	amod	null
+0	7	97	503	510	S	101	evening	evening	evening	NN	DATE	nsubj	false	-1	-1	null	null	101	nmod:tmod	null
+0	7	98	511	520	S	97	Catherine	Catherine	Catherine	NNP	PERSON	dep	false	2	2	c2,c6	c6	101	nsubj	(c2;ANIMATE;FEMALE),(c6;ANIMATE;UNKNOWN),
+0	7	99	521	524	S	98	and	and	and	CC	O	cc	false	-1	-1	c6	c6	98	cc	(c6;ANIMATE;UNKNOWN),
+0	7	100	525	530	S	98	Chloe	Chloe	Chloe	NNP	PERSON	conj	false	1	1	c5,c6	c6	98	conj:and	(c5;ANIMATE;FEMALE),(c6;ANIMATE;UNKNOWN),
+0	7	101	531	535	S	-1	meet	meet	meet	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	7	102	536	539	S	101	and	and	and	CC	O	cc	false	-1	-1	null	null	101	cc	null
+0	7	103	540	545	S	104	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	104	nsubj	(c5;ANIMATE;FEMALE),
+0	7	104	546	551	S	101	tells	tells	tell	VBZ	O	conj	false	-1	-1	null	null	101	conj:and	null
+0	7	105	552	561	S	104	Catherine	Catherine	Catherine	NNP	PERSON	dobj	false	2	2	c2	null	104	dobj	(c2;ANIMATE;FEMALE),
+0	7	106	562	566	S	108	that	that	that	IN	O	complm	false	-1	-1	null	null	108	mark	null
+0	7	107	567	569	S	108	he	he	he	PRP	O	nsubj	false	3	3	c3	null	108	nsubj	(c3;ANIMATE;MALE),
+0	7	108	570	575	S	104	asked	asked	ask	VBD	O	ccomp	false	-1	-1	null	null	104	ccomp	null
+0	7	109	576	579	S	108	her	her	she	PRP$	O	dobj	false	1	1	c5	null	108	dobj	(c5;ANIMATE;FEMALE),
+0	7	110	580	582	S	113	if	if	if	IN	O	mark	false	-1	-1	null	null	113	mark	null
+0	7	111	583	585	S	113	he	he	he	PRP	O	nsubj	false	3	3	c3	null	113	nsubj	(c3;ANIMATE;MALE),
+0	7	112	586	591	S	113	could	could	could	MD	O	aux	false	-1	-1	null	null	113	aux	null
+0	7	113	592	596	S	108	kiss	kiss	kiss	NN	O	advcl	false	-1	-1	null	null	108	advcl	null
+0	7	114	597	600		113	her	her	she	PRP	O	dep	false	1	1	c5	null	113	dobj	(c5;ANIMATE;FEMALE),
+0	7	115	600	601	S	101	,	,	,	,	O	punct	false	-1	-1	null	null	101	punct	null
+0	7	116	602	605	S	101	and	and	and	CC	O	cc	false	-1	-1	null	null	101	cc	null
+0	7	117	606	608	S	118	he	he	he	PRP	O	nsubj	false	3	3	c3	null	118	nsubj	(c3;ANIMATE;MALE),
+0	7	118	609	612		101	did	did	do	VBD	O	conj	false	-1	-1	null	null	101	conj:and	null
+0	7	119	612	613	S	101	.	.	.	.	O	punct	false	-1	-1	null	null	101	punct	null
+0	8	120	614	621		123	Angered	Angered	anger	VBN	O	ccomp	false	-1	-1	null	null	123	advcl	null
+0	8	121	621	622	S	123	,	,	,	,	O	punct	false	-1	-1	null	null	123	punct	null
+0	8	122	623	632	S	123	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	123	nsubj	(c2;ANIMATE;FEMALE),
+0	8	123	633	638	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	8	124	639	644	S	123	Chloe	Chloe	Chloe	NNP	PERSON	dobj	false	1	1	c5	null	123	dobj	(c5;ANIMATE;FEMALE),
+0	8	125	645	649	S	128	that	that	that	WDT	O	nsubj	false	-1	-1	c5	null	126	nsubj	(c5;ANIMATE;FEMALE),
+0	8	126	650	653		128	was	was	be	VBD	O	cop	false	-1	-1	c5	null	124	acl:relcl	(c5;ANIMATE;FEMALE),
+0	8	127	653	656	S	128	n't	n't	not	RB	O	neg	false	-1	-1	c5	null	126	neg	(c5;ANIMATE;FEMALE),
+0	8	128	657	661	S	130	what	what	what	WP	O	dobj	false	-1	-1	null	null	130	dobj	null
+0	8	129	662	665	S	130	she	she	she	PRP	O	nsubj	false	2	2	c2	null	130	nsubj	(c2;ANIMATE;FEMALE),
+0	8	130	666	672	S	124	wanted	wanted	want	VBD	O	rcmod	false	-1	-1	null	null	123	ccomp	null
+0	8	131	673	676	S	133	her	her	she	PRP	O	nsubj	false	2	2	c2	null	130	dobj	(c2;ANIMATE;FEMALE),
+0	8	132	677	679	S	133	to	to	to	TO	O	aux	false	-1	-1	null	null	133	mark	null
+0	8	133	680	682		130	do	do	do	VB	O	ccomp	false	-1	-1	null	null	130	xcomp	null
+0	8	134	682	683	S	123	.	.	.	.	O	punct	false	-1	-1	null	null	123	punct	null
+0	9	135	684	691		138	However	However	however	RB	O	advmod	false	-1	-1	null	null	138	advmod	null
+0	9	136	691	692	S	138	,	,	,	,	O	punct	false	-1	-1	null	null	138	punct	null
+0	9	137	693	696	S	138	she	she	she	PRP	O	nsubj	false	2	2	c2	null	138	nsubj	(c2;ANIMATE;FEMALE),
+0	9	138	697	704	S	-1	insists	insists	insist	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	139	705	709	S	141	that	that	that	IN	O	complm	false	-1	-1	null	null	141	mark	null
+0	9	140	710	715	S	141	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	141	nsubj	(c5;ANIMATE;FEMALE),
+0	9	141	716	720	S	138	meet	meet	meet	VBP	O	ccomp	false	-1	-1	null	null	138	ccomp	null
+0	9	142	721	725	S	141	with	with	with	IN	O	prep	false	-1	-1	null	null	143	case	null
+0	9	143	726	731	S	142	David	David	David	NNP	PERSON	pobj	false	3	3	c3	null	141	nmod:with	(c3;ANIMATE;MALE),
+0	9	144	732	737		141	again	again	again	RB	O	advmod	false	-1	-1	null	null	141	advmod	null
+0	9	145	737	738	S	138	.	.	.	.	O	punct	false	-1	-1	null	null	138	punct	null
+0	10	146	739	743	S	153	Over	Over	over	IN	O	prep	false	-1	-1	null	null	150	case	null
+0	10	147	744	747	S	150	the	the	the	DT	O	det	false	-1	-1	null	null	150	det	null
+0	10	148	748	752	S	150	next	next	next	JJ	O	amod	false	-1	-1	null	null	150	amod	null
+0	10	149	753	756	S	150	few	few	few	JJ	O	amod	false	-1	-1	null	null	150	amod	null
+0	10	150	757	763		146	nights	nights	night	NNS	TIME	pobj	false	-1	-1	null	null	153	nmod:over	null
+0	10	151	763	764	S	153	,	,	,	,	O	punct	false	-1	-1	null	null	153	punct	null
+0	10	152	765	769	S	153	they	they	they	PRP	O	nsubj	false	-1	-1	c6	null	153	nsubj	(c6;ANIMATE;UNKNOWN),
+0	10	153	770	774	S	-1	meet	meet	meet	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	10	154	775	778	S	153	and	and	and	CC	O	cc	false	-1	-1	null	null	153	cc	null
+0	10	155	779	784	S	156	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	156	nsubj	(c5;ANIMATE;FEMALE),
+0	10	156	785	794	S	153	describes	describes	describe	VBZ	O	conj	false	-1	-1	null	null	153	conj:and	null
+0	10	157	795	797	S	156	in	in	in	IN	O	prep	false	-1	-1	null	null	159	case	null
+0	10	158	798	806	S	159	explicit	explicit	explicit	JJ	O	amod	false	-1	-1	null	null	159	amod	null
+0	10	159	807	813	S	157	detail	detail	detail	NN	O	pobj	false	-1	-1	null	null	156	nmod:in	null
+0	10	160	814	817	S	161	her	her	she	PRP$	O	poss	false	1	1	c5,c7	c7	161	nmod:poss	(c5;ANIMATE;FEMALE),(c7;INANIMATE;UNKNOWN),
+0	10	161	818	828	S	156	encounters	encounters	encounter	NNS	O	dobj	false	-1	-1	c7	c7	156	dobj	(c7;INANIMATE;UNKNOWN),
+0	10	162	829	833	S	161	with	with	with	IN	O	prep	false	-1	-1	c7	c7	163	case	(c7;INANIMATE;UNKNOWN),
+0	10	163	834	839		162	David	David	David	NNP	PERSON	pobj	false	3	3	c3,c3,c7	c7	161	nmod:with	(c3;ANIMATE;MALE),(c3;ANIMATE;MALE),(c7;INANIMATE;UNKNOWN),
+0	10	164	839	840	S	163	,	,	,	,	O	punct	false	-1	-1	c3,c7	c7	163	punct	(c3;ANIMATE;MALE),(c7;INANIMATE;UNKNOWN),
+0	10	165	841	846	S	166	which	which	which	WDT	O	nsubj	false	-1	-1	c3,c7	c7	166	nsubj	(c3;ANIMATE;MALE),(c7;INANIMATE;UNKNOWN),
+0	10	166	847	854	S	163	arouses	arouses	arouse	VBZ	O	rcmod	false	-1	-1	c3,c7	c7	163	acl:relcl	(c3;ANIMATE;MALE),(c7;INANIMATE;UNKNOWN),
+0	10	167	855	864		166	Catherine	Catherine	Catherine	NNP	PERSON	dobj	false	2	2	c2,c3,c7	c7	166	dobj	(c2;ANIMATE;FEMALE),(c3;ANIMATE;MALE),(c7;INANIMATE;UNKNOWN),
+0	10	168	864	865	S	153	.	.	.	.	O	punct	false	-1	-1	null	null	153	punct	null
+0	11	169	866	869	S	171	The	The	the	DT	O	det	false	-1	-1	null	null	171	det	null
+0	11	170	870	873	S	171	two	two	two	CD	NUMBER	num	false	-1	-1	c8	c8	171	nummod	(c8;INANIMATE;UNKNOWN),
+0	11	171	874	878		-1	kiss	kiss	kiss	NN	O	null	false	-1	-1	null	null	-1	root	null
+0	11	172	878	879	S	171	;	;	;	:	O	punct	false	-1	-1	null	null	171	punct	null
+0	11	173	880	889	S	174	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	174	nsubj	(c2;ANIMATE;FEMALE),
+0	11	174	890	896		171	leaves	leaves	leave	VBZ	O	parataxis	false	-1	-1	null	null	171	dep	null
+0	11	175	896	897	S	171	.	.	.	.	O	punct	false	-1	-1	null	null	171	punct	null
+0	12	176	898	903		179	Later	Later	later	RB	O	advmod	false	-1	-1	null	null	179	advmod	null
+0	12	177	903	904	S	179	,	,	,	,	O	punct	false	-1	-1	null	null	179	punct	null
+0	12	178	905	908	S	179	she	she	she	PRP	O	nsubj	false	2	2	c2	null	179	nsubj	(c2;ANIMATE;FEMALE),
+0	12	179	909	916	S	186	recalls	recalls	recall	VBZ	O	advcl	false	-1	-1	null	null	-1	root	null
+0	12	180	917	920	S	181	her	her	she	PRP$	O	poss	false	2	2	c2	null	181	nmod:poss	(c2;ANIMATE;FEMALE),
+0	12	181	921	928	S	179	meeting	meeting	meeting	NN	O	dobj	false	-1	-1	null	null	179	dobj	null
+0	12	182	929	933	S	181	with	with	with	IN	O	prep	false	-1	-1	null	null	183	case	null
+0	12	183	934	939		182	Chloe	Chloe	Chloe	NNP	PERSON	pobj	false	1	1	c5	null	179	nmod:with	(c5;ANIMATE;FEMALE),
+0	12	184	939	940	S	186	,	,	,	,	O	punct	false	-1	-1	null	null	179	punct	null
+0	12	185	941	945	S	186	then	then	then	RB	O	advmod	false	-1	-1	null	null	186	advmod	null
+0	12	186	946	951	S	-1	meets	meets	meet	VBZ	O	null	false	-1	-1	null	null	179	conj:and	null
+0	12	187	952	957	S	186	Chloe	Chloe	Chloe	NNP	PERSON	dobj	false	1	1	c5	null	186	dobj	(c5;ANIMATE;FEMALE),
+0	12	188	958	960	S	186	at	at	at	IN	O	prep	false	-1	-1	c5	null	190	case	(c5;ANIMATE;FEMALE),
+0	12	189	961	962	S	190	a	a	a	DT	O	det	false	-1	-1	c5	null	190	det	(c5;ANIMATE;FEMALE),
+0	12	190	963	968	S	188	hotel	hotel	hotel	NN	O	pobj	false	-1	-1	c5	null	187	nmod:at	(c5;ANIMATE;FEMALE),
+0	12	191	969	972	S	186	and	and	and	CC	O	cc	false	-1	-1	null	null	179	cc	null
+0	12	192	973	976	S	186	has	has	have	VBZ	O	conj	false	-1	-1	null	null	179	conj:and	null
+0	12	193	977	980	S	192	sex	sex	sex	NN	O	dobj	false	-1	-1	null	null	192	dobj	null
+0	12	194	981	985	S	192	with	with	with	IN	O	prep	false	-1	-1	null	null	195	case	null
+0	12	195	986	989		194	her	her	she	PRP	O	pobj	false	1	1	c2	null	193	nmod:with	(c2;ANIMATE;FEMALE),
+0	12	196	989	990	S	186	.	.	.	.	O	punct	false	-1	-1	null	null	179	punct	null
+0	13	197	991	1001		200	Afterwards	Afterwards	afterwards	RB	O	advmod	false	-1	-1	null	null	200	advmod	null
+0	13	198	1001	1002	S	200	,	,	,	,	O	punct	false	-1	-1	null	null	200	punct	null
+0	13	199	1003	1008	S	200	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	200	nsubj	(c3;ANIMATE;MALE),
+0	13	200	1009	1013	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	13	201	1014	1017	S	200	her	her	she	PRP$	O	dobj	false	1	1	c2	null	200	dobj	(c2;ANIMATE;FEMALE),
+0	13	202	1018	1020	S	206	if	if	if	IN	O	mark	false	-1	-1	null	null	206	mark	null
+0	13	203	1021	1024		206	she	she	she	PRP	O	nsubjpass	false	1	1	c2	null	206	nsubjpass	(c2;ANIMATE;FEMALE),
+0	13	204	1024	1026	S	206	's	's	be	VBZ	O	auxpass	false	-1	-1	null	null	206	auxpass	null
+0	13	205	1027	1031	S	206	been	been	be	VBN	O	cop	false	-1	-1	null	null	206	cop	null
+0	13	206	1032	1042		200	unfaithful	unfaithful	unfaithful	JJ	O	advcl	false	-1	-1	null	null	200	advcl	null
+0	13	207	1042	1043	S	200	.	.	.	.	O	punct	false	-1	-1	null	null	200	punct	null
+0	14	208	1044	1053	S	209	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	209	nsubj	(c2;ANIMATE;FEMALE),
+0	14	209	1054	1059	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	212	dep	null
+0	14	210	1060	1063	S	209	him	him	he	PRP	O	dobj	false	3	3	c3	null	209	dobj	(c3;ANIMATE;MALE),
+0	14	211	1064	1067	S	212	she	she	she	PRP	O	nsubj	false	2	2	c2	null	212	nsubj	(c2;ANIMATE;FEMALE),
+0	14	212	1068	1074	S	209	thinks	thinks	think	VBZ	O	dep	false	-1	-1	null	null	-1	root	null
+0	14	213	1075	1077		216	he	he	he	PRP	O	nsubjpass	false	3	3	c3	null	216	nsubjpass	(c3;ANIMATE;MALE),
+0	14	214	1077	1079	S	216	's	's	be	VBZ	O	auxpass	false	-1	-1	null	null	216	auxpass	null
+0	14	215	1080	1084	S	216	been	been	be	VBN	O	cop	false	-1	-1	null	null	216	cop	null
+0	14	216	1085	1095		212	unfaithful	unfaithful	unfaithful	JJ	O	ccomp	false	-1	-1	null	null	212	ccomp	null
+0	14	217	1095	1096	S	209	.	.	.	.	O	punct	false	-1	-1	null	null	212	punct	null
+0	15	218	1097	1102	S	221	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	221	nsubj	(c3;ANIMATE;MALE),
+0	15	219	1103	1107	S	221	does	does	do	VBZ	O	aux	false	-1	-1	null	null	221	aux	null
+0	15	220	1108	1111	S	221	not	not	not	RB	O	neg	false	-1	-1	null	null	221	neg	null
+0	15	221	1112	1119		-1	respond	respond	respond	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	15	222	1119	1120	S	221	.	.	.	.	O	punct	false	-1	-1	null	null	221	punct	null
+0	16	223	1121	1124	S	225	The	The	the	DT	DATE	det	false	-1	-1	null	null	225	det	null
+0	16	224	1125	1129	S	225	next	next	next	JJ	DATE	amod	false	-1	-1	null	null	225	amod	null
+0	16	225	1130	1139	S	-1	afternoon	afternoon	afternoon	NN	DATE	null	false	-1	-1	null	null	229	dep	null
+0	16	226	1140	1143	S	228	the	the	the	DT	O	det	false	-1	-1	c9	c9	228	det	(c9;ANIMATE;UNKNOWN),
+0	16	227	1144	1147	S	228	two	two	two	CD	NUMBER	num	false	-1	-1	c8,c9	c9	228	nummod	(c8;INANIMATE;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	16	228	1148	1153	S	229	women	women	woman	NNS	O	nsubj	false	-1	-1	c9	c9	229	nsubj	(c9;ANIMATE;UNKNOWN),
+0	16	229	1154	1158	S	225	meet	meet	meet	VBP	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	16	230	1159	1162	S	229	and	and	and	CC	O	cc	false	-1	-1	null	null	229	cc	null
+0	16	231	1163	1172	S	232	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	232	nsubj	(c2;ANIMATE;FEMALE),
+0	16	232	1173	1178	S	229	calls	calls	call	VBZ	O	conj	false	-1	-1	null	null	229	conj:and	null
+0	16	233	1179	1182	S	232	off	off	off	RP	O	prt	false	-1	-1	null	null	232	compound:prt	null
+0	16	234	1183	1188	S	235	their	their	they	PRP$	O	poss	false	-1	-1	c9	null	235	nmod:poss	(c9;ANIMATE;UNKNOWN),
+0	16	235	1189	1201		232	relationship	relationship	relationship	NN	O	dobj	false	-1	-1	null	null	232	dobj	null
+0	16	236	1201	1202	S	225	.	.	.	.	O	punct	false	-1	-1	null	null	229	punct	null
+0	17	237	1203	1207	S	238	That	That	that	DT	O	det	false	-1	-1	c10	c10	238	det	(c10;INANIMATE;UNKNOWN),
+0	17	238	1208	1213	S	242	night	night	night	NN	TIME	tmod	false	-1	-1	c10	c10	242	nmod:tmod	(c10;INANIMATE;UNKNOWN),
+0	17	239	1214	1223	S	242	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	242	nsubj	(c2;ANIMATE;FEMALE),
+0	17	240	1224	1227	S	239	and	and	and	CC	O	cc	false	-1	-1	null	null	239	cc	null
+0	17	241	1228	1233	S	239	David	David	David	NNP	PERSON	conj	false	3	3	c3	null	239	conj:and	(c3;ANIMATE;MALE),
+0	17	242	1234	1236	S	-1	go	go	go	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	17	243	1237	1239	S	242	to	to	to	TO	O	prep	false	-1	-1	null	null	246	case	null
+0	17	244	1240	1241	S	246	a	a	a	DT	O	det	false	-1	-1	null	null	246	det	null
+0	17	245	1242	1248	S	246	coffee	coffee	coffee	NN	O	nn	false	-1	-1	null	null	246	compound	null
+0	17	246	1249	1254		243	house	house	house	NN	O	pobj	false	-1	-1	null	null	242	nmod:to	null
+0	17	247	1254	1255	S	246	,	,	,	,	O	punct	false	-1	-1	null	null	242	punct	null
+0	17	248	1256	1261	S	250	where	where	where	WRB	O	advmod	false	-1	-1	null	null	250	advmod	null
+0	17	249	1262	1271	S	250	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	250	nsubj	(c2;ANIMATE;FEMALE),
+0	17	250	1272	1279	S	246	demands	demands	demand	VBZ	O	rcmod	false	-1	-1	null	null	242	advcl	null
+0	17	251	1280	1284	S	253	that	that	that	IN	O	complm	false	-1	-1	null	null	253	mark	null
+0	17	252	1285	1290	S	253	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	253	nsubj	(c3;ANIMATE;MALE),
+0	17	253	1291	1296	S	250	admit	admit	admit	VBP	O	ccomp	false	-1	-1	null	null	250	ccomp	null
+0	17	254	1297	1301	S	257	that	that	that	IN	O	complm	false	-1	-1	null	null	257	mark	null
+0	17	255	1302	1304	S	257	he	he	he	PRP	O	nsubj	false	3	3	c3	null	257	nsubj	(c3;ANIMATE;MALE),
+0	17	256	1305	1307	S	257	is	is	be	VBZ	O	aux	false	-1	-1	null	null	257	aux	null
+0	17	257	1308	1314	S	253	having	having	have	VBG	O	ccomp	false	-1	-1	null	null	253	ccomp	null
+0	17	258	1315	1317	S	259	an	an	a	DT	O	det	false	-1	-1	null	null	259	det	null
+0	17	259	1318	1324		257	affair	affair	affair	NN	O	dobj	false	-1	-1	null	null	257	dobj	null
+0	17	260	1324	1325	S	242	.	.	.	.	O	punct	false	-1	-1	null	null	242	punct	null
+0	18	261	1326	1331	S	262	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	262	nsubj	(c3;ANIMATE;MALE),
+0	18	262	1332	1338	S	-1	denies	denies	deny	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	18	263	1339	1341		262	it	it	it	PRP	O	dobj	false	-1	-1	c10	null	262	dobj	(c10;INANIMATE;NEUTRAL),
+0	18	264	1341	1342	S	262	.	.	.	.	O	punct	false	-1	-1	null	null	262	punct	null
+0	19	265	1343	1348	S	267	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	267	nsubj	(c5;ANIMATE;FEMALE),
+0	19	266	1349	1357	S	267	suddenly	suddenly	suddenly	RB	O	advmod	false	-1	-1	null	null	267	advmod	null
+0	19	267	1358	1363	S	-1	walks	walks	walk	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	19	268	1364	1366	S	267	in	in	in	IN	O	prep	false	-1	-1	null	null	267	nmod	null
+0	19	269	1367	1370	S	268	and	and	and	CC	O	cc	false	-1	-1	null	null	267	cc	null
+0	19	270	1371	1376	S	273	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	273	nsubj	(c3;ANIMATE;MALE),
+0	19	271	1377	1381	S	273	does	does	do	VBZ	O	aux	false	-1	-1	null	null	273	aux	null
+0	19	272	1382	1385	S	273	not	not	not	RB	O	neg	false	-1	-1	null	null	273	neg	null
+0	19	273	1386	1392	S	268	appear	appear	appear	VB	O	conj	false	-1	-1	null	null	267	conj:and	null
+0	19	274	1393	1395	S	275	to	to	to	TO	O	aux	false	-1	-1	null	null	275	mark	null
+0	19	275	1396	1400	S	273	know	know	know	VB	O	xcomp	false	-1	-1	null	null	273	xcomp	null
+0	19	276	1401	1404	S	278	who	who	who	WP	O	dobj	false	-1	-1	null	null	278	dobj	null
+0	19	277	1405	1408	S	278	she	she	she	PRP	O	nsubj	false	1	1	c5	null	278	nsubj	(c5;ANIMATE;FEMALE),
+0	19	278	1409	1411		275	is	is	be	VBZ	O	ccomp	false	-1	-1	null	null	275	ccomp	null
+0	19	279	1411	1412	S	267	.	.	.	.	O	punct	false	-1	-1	null	null	267	punct	null
+0	20	280	1413	1418	S	281	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	281	nsubj	(c5;ANIMATE;FEMALE),
+0	20	281	1419	1425	S	-1	leaves	leaves	leave	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	20	282	1426	1433		281	quickly	quickly	quickly	RB	O	advmod	false	-1	-1	null	null	281	advmod	null
+0	20	283	1433	1434	S	281	,	,	,	,	O	punct	false	-1	-1	null	null	281	punct	null
+0	20	284	1435	1438	S	281	and	and	and	CC	O	cc	false	-1	-1	null	null	281	cc	null
+0	20	285	1439	1448	S	286	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	286	nsubj	(c2;ANIMATE;FEMALE),
+0	20	286	1449	1457	S	281	realizes	realizes	realize	VBZ	O	conj	false	-1	-1	null	null	281	conj:and	null
+0	20	287	1458	1462	S	289	that	that	that	IN	O	complm	false	-1	-1	null	null	289	mark	null
+0	20	288	1463	1468	S	289	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	289	nsubj	(c5;ANIMATE;FEMALE),
+0	20	289	1469	1473	S	286	made	made	make	VBD	O	ccomp	false	-1	-1	null	null	286	ccomp	null
+0	20	290	1474	1476	S	289	up	up	up	RP	O	prt	false	-1	-1	null	null	289	compound:prt	null
+0	20	291	1477	1480	S	292	her	her	she	PRP$	O	poss	false	1	1	c5,c7	null	292	nmod:poss	(c5;ANIMATE;FEMALE),(c7;INANIMATE;UNKNOWN),
+0	20	292	1481	1491	S	289	encounters	encounters	encounter	NNS	O	dobj	false	-1	-1	c7	null	289	dobj	(c7;INANIMATE;UNKNOWN),
+0	20	293	1492	1496	S	289	with	with	with	IN	O	prep	false	-1	-1	null	null	294	case	null
+0	20	294	1497	1502		293	David	David	David	NNP	PERSON	pobj	false	3	3	c3	null	289	nmod:with	(c3;ANIMATE;MALE),
+0	20	295	1502	1503	S	281	.	.	.	.	O	punct	false	-1	-1	null	null	281	punct	null
+0	21	296	1504	1513	S	297	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	297	nsubj	(c2;ANIMATE;FEMALE),
+0	21	297	1514	1523	S	-1	confesses	confesses	confess	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	21	298	1524	1527	S	300	her	her	she	PRP$	O	poss	false	2	2	c2	null	300	nmod:poss	(c2;ANIMATE;FEMALE),
+0	21	299	1528	1534	S	300	sexual	sexual	sexual	JJ	O	amod	false	-1	-1	null	null	300	amod	null
+0	21	300	1535	1545	S	297	encounters	encounters	encounter	NNS	O	dobj	false	-1	-1	null	null	297	dobj	null
+0	21	301	1546	1550	S	297	with	with	with	IN	O	prep	false	-1	-1	null	null	302	case	null
+0	21	302	1551	1556		301	Chloe	Chloe	Chloe	NNP	PERSON	pobj	false	1	1	c5	null	297	nmod:with	(c5;ANIMATE;FEMALE),
+0	21	303	1556	1557	S	297	.	.	.	.	O	punct	false	-1	-1	null	null	297	punct	null
+0	22	304	1558	1563	S	305	David	David	David	NNP	PERSON	nsubj	false	3	3	c3	null	305	nsubj	(c3;ANIMATE;MALE),
+0	22	305	1564	1572	S	-1	embraces	embraces	embrace	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	22	306	1573	1576	S	305	and	and	and	CC	O	cc	false	-1	-1	null	null	305	cc	null
+0	22	307	1577	1583	S	308	kisses	kisses	kiss	NNS	O	nsubj	false	-1	-1	null	null	308	dep	null
+0	22	308	1584	1587		305	her	her	she	PRP$	O	conj	false	1	1	c2	null	305	conj:and	(c2;ANIMATE;FEMALE),
+0	22	309	1587	1588	S	305	.	.	.	.	O	punct	false	-1	-1	null	null	305	punct	null
+0	23	310	1589	1594	S	311	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	311	nsubj	(c5;ANIMATE;FEMALE),
+0	23	311	1595	1599	S	-1	goes	goes	go	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	23	312	1600	1602	S	311	to	to	to	TO	O	prep	false	-1	-1	null	null	315	case	null
+0	23	313	1603	1606	S	315	the	the	the	DT	O	det	false	-1	-1	null	null	315	det	null
+0	23	314	1607	1614	S	315	Stewart	Stewart	Stewart	NNP	PERSON	nn	false	-1	-1	null	null	315	compound	null
+0	23	315	1615	1619	S	312	home	home	home	NN	O	pobj	false	-1	-1	null	null	311	nmod:to	null
+0	23	316	1620	1623	S	311	and	and	and	CC	O	cc	false	-1	-1	null	null	311	cc	null
+0	23	317	1624	1627	S	318	has	has	have	VBZ	O	aux	false	-1	-1	null	null	311	conj:and	null
+0	23	318	1628	1631	S	311	sex	sex	sex	NN	O	conj	false	-1	-1	null	null	317	dobj	null
+0	23	319	1632	1636	S	318	with	with	with	IN	O	prep	false	-1	-1	null	null	323	case	null
+0	23	320	1637	1646		323	Catherine	Catherine	Catherine	NNP	PERSON	poss	false	2	2	c2,c11	c11	323	nmod:poss	(c2;ANIMATE;FEMALE),(c11;ANIMATE;MALE),
+0	23	321	1646	1648	S	320	's	's	's	POS	O	possessive	false	-1	-1	c2,c11	c11	320	case	(c2;ANIMATE;FEMALE),(c11;ANIMATE;MALE),
+0	23	322	1649	1652	S	323	son	son	son	NN	O	nn	false	-1	-1	c11	c11	323	compound	(c11;ANIMATE;MALE),
+0	23	323	1653	1660	S	319	Michael	Michael	Michael	NNP	PERSON	pobj	false	0	0	c11	c11	318	nmod:with	(c11;ANIMATE;MALE),
+0	23	324	1661	1663	S	323	in	in	in	IN	O	prep	false	-1	-1	null	null	325	case	null
+0	23	325	1664	1673	S	324	Catherine	Catherine	Catherine	NNP	PERSON	pobj	false	2	2	c2	null	318	nmod:in	(c2;ANIMATE;FEMALE),
+0	23	326	1674	1677	S	325	and	and	and	CC	O	cc	false	-1	-1	null	null	318	cc	null
+0	23	327	1678	1683		329	David	David	David	NNP	PERSON	poss	false	3	3	c3	null	329	nmod:poss	(c3;ANIMATE;MALE),
+0	23	328	1683	1685	S	327	's	's	's	POS	O	possessive	false	-1	-1	c3	null	327	case	(c3;ANIMATE;MALE),
+0	23	329	1686	1689		325	bed	bed	bed	NN	O	conj	false	-1	-1	null	null	318	conj:and	null
+0	23	330	1689	1690	S	311	.	.	.	.	O	punct	false	-1	-1	null	null	311	punct	null
+0	24	331	1691	1700	S	332	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	332	nsubj	(c2;ANIMATE;FEMALE),
+0	24	332	1701	1708	S	-1	arrives	arrives	arrive	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	24	333	1709	1713	S	332	home	home	home	RB	O	advmod	false	-1	-1	null	null	332	advmod	null
+0	24	334	1714	1716	S	335	to	to	to	TO	O	aux	false	-1	-1	null	null	335	mark	null
+0	24	335	1717	1721	S	332	find	find	find	VB	O	xcomp	false	-1	-1	null	null	332	xcomp	null
+0	24	336	1722	1726		335	them	them	they	PRP	O	dobj	false	-1	-1	null	null	335	dobj	null
+0	24	337	1726	1727	S	332	.	.	.	.	O	punct	false	-1	-1	null	null	332	punct	null
+0	25	338	1728	1733	S	339	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	339	nsubj	(c5;ANIMATE;FEMALE),
+0	25	339	1734	1739	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	25	340	1740	1749	S	339	Catherine	Catherine	Catherine	NNP	PERSON	dobj	false	2	2	null	null	339	dobj	null
+0	25	341	1750	1754	S	346	that	that	that	IN	O	complm	false	-1	-1	null	null	346	mark	null
+0	25	342	1755	1758	S	346	she	she	she	PRP	O	nsubjpass	false	1	1	c5	null	346	nsubjpass	(c5;ANIMATE;FEMALE),
+0	25	343	1759	1762		346	can	can	can	MD	O	aux	false	-1	-1	null	null	346	aux	null
+0	25	344	1762	1765	S	346	not	not	not	RB	O	neg	false	-1	-1	null	null	346	neg	null
+0	25	345	1766	1768	S	346	be	be	be	VB	O	auxpass	false	-1	-1	null	null	346	auxpass	null
+0	25	346	1769	1775	S	339	bought	bought	buy	VBN	O	ccomp	false	-1	-1	null	null	340	dep	null
+0	25	347	1776	1779	S	346	off	off	off	RP	O	prt	false	-1	-1	null	null	346	compound:prt	null
+0	25	348	1780	1784	S	346	with	with	with	IN	O	prep	false	-1	-1	null	null	349	case	null
+0	25	349	1785	1790		348	money	money	money	NN	O	pobj	false	-1	-1	null	null	346	nmod:with	null
+0	25	350	1790	1791	S	346	,	,	,	,	O	punct	false	-1	-1	null	null	346	punct	null
+0	25	351	1792	1795	S	346	and	and	and	CC	O	cc	false	-1	-1	null	null	346	cc	null
+0	25	352	1796	1800	S	354	that	that	that	IN	O	complm	false	-1	-1	null	null	356	mark	null
+0	25	353	1801	1804	S	354	she	she	she	PRP	O	nsubj	false	1	1	c5	null	356	nsubj	(c5;ANIMATE;FEMALE),
+0	25	354	1805	1807	S	346	is	is	be	VBZ	O	conj	false	-1	-1	null	null	356	cop	null
+0	25	355	1808	1810	S	354	in	in	in	IN	O	prep	false	-1	-1	null	null	356	case	null
+0	25	356	1811	1815	S	355	love	love	love	NN	O	pobj	false	-1	-1	null	null	346	conj:and	null
+0	25	357	1816	1820	S	356	with	with	with	IN	O	prep	false	-1	-1	null	null	358	case	null
+0	25	358	1821	1824		357	her	her	she	PRP	O	pobj	false	1	1	c2	null	356	nmod:with	(c2;ANIMATE;FEMALE),
+0	25	359	1824	1825	S	346	,	,	,	,	O	punct	false	-1	-1	null	null	339	punct	null
+0	25	360	1826	1829	S	346	and	and	and	CC	O	cc	false	-1	-1	null	null	339	cc	null
+0	25	361	1830	1839	S	346	threatens	threatens	threaten	VBZ	O	conj	false	-1	-1	null	null	339	conj:and	null
+0	25	362	1840	1842	S	363	to	to	to	TO	O	aux	false	-1	-1	null	null	363	mark	null
+0	25	363	1843	1847	S	361	hurt	hurt	hurt	VB	O	xcomp	false	-1	-1	null	null	361	xcomp	null
+0	25	364	1848	1857	S	363	Catherine	Catherine	Catherine	NNP	PERSON	dobj	false	2	2	null	null	363	dobj	null
+0	25	365	1858	1862	S	363	with	with	with	IN	O	prep	false	-1	-1	null	null	368	case	null
+0	25	366	1863	1866	S	368	her	her	she	PRP$	O	poss	false	2	2	c5	null	368	nmod:poss	(c5;ANIMATE;FEMALE),
+0	25	367	1867	1871	S	368	hair	hair	hair	NN	O	nn	false	-1	-1	null	null	368	compound	null
+0	25	368	1872	1875		365	pin	pin	pin	NN	O	pobj	false	-1	-1	null	null	364	nmod:with	null
+0	25	369	1875	1876	S	339	.	.	.	.	O	punct	false	-1	-1	null	null	339	punct	null
+0	26	370	1877	1886	S	371	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	371	nsubj	(c2;ANIMATE;FEMALE),
+0	26	371	1887	1891	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	26	372	1892	1897	S	371	Chloe	Chloe	Chloe	NNP	PERSON	dobj	false	1	1	c5	null	371	dobj	(c5;ANIMATE;FEMALE),
+0	26	373	1898	1902	S	375	what	what	what	WP	O	dobj	false	-1	-1	c5	null	375	dobj	(c5;ANIMATE;FEMALE),
+0	26	374	1903	1906	S	375	she	she	she	PRP	O	nsubj	false	2	2	c2,c5	null	375	nsubj	(c2;ANIMATE;FEMALE),(c5;ANIMATE;FEMALE),
+0	26	375	1907	1912		372	wants	wants	want	VBZ	O	rcmod	false	-1	-1	c5	null	372	acl:relcl	(c5;ANIMATE;FEMALE),
+0	26	376	1912	1913	S	371	.	.	.	.	O	punct	false	-1	-1	null	null	371	punct	null
+0	27	377	1914	1919	S	378	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	378	nsubj	(c5;ANIMATE;FEMALE),
+0	27	378	1920	1924	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	27	379	1925	1928	S	378	for	for	for	IN	O	prep	false	-1	-1	null	null	382	case	null
+0	27	380	1929	1932	S	382	one	one	one	CD	NUMBER	num	false	-1	-1	null	null	382	nummod	null
+0	27	381	1933	1937	S	382	last	last	last	JJ	O	amod	false	-1	-1	null	null	382	amod	null
+0	27	382	1938	1942	S	379	kiss	kiss	kiss	NN	O	pobj	false	-1	-1	null	null	378	nmod:for	null
+0	27	383	1943	1946	S	382	and	and	and	CC	O	cc	false	-1	-1	null	null	382	cc	null
+0	27	384	1947	1956	S	385	Catherine	Catherine	Catherine	NNP	PERSON	nn	false	2	2	c2	null	385	compound	(c2;ANIMATE;FEMALE),
+0	27	385	1957	1965		382	complies	complies	comply	NNS	O	conj	false	-1	-1	null	null	382	conj:and	null
+0	27	386	1965	1966	S	378	.	.	.	.	O	punct	false	-1	-1	null	null	378	punct	null
+0	28	387	1967	1974	S	388	Michael	Michael	Michael	NNP	PERSON	nsubj	false	0	0	c11	null	388	nsubj	(c11;ANIMATE;MALE),
+0	28	388	1975	1979		-1	sees	sees	see	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	28	389	1979	1980	S	391	,	,	,	,	O	punct	false	-1	-1	null	null	388	punct	null
+0	28	390	1981	1990	S	391	startling	startling	startling	JJ	O	amod	false	-1	-1	c2	c2	391	amod	(c2;ANIMATE;FEMALE),
+0	28	391	1991	2000	S	388	Catherine	Catherine	Catherine	NNP	PERSON	dobj	false	2	2	c2,c2	c2	388	xcomp	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	28	392	2001	2004	S	391	and	and	and	CC	O	cc	false	-1	-1	null	null	391	cc	null
+0	28	393	2005	2012	S	391	causing	causing	cause	VBG	O	conj	false	-1	-1	null	null	391	acl	null
+0	28	394	2013	2016	S	393	her	her	she	PRP$	O	dobj	false	2	2	c2	null	393	dobj	(c2;ANIMATE;FEMALE),
+0	28	395	2017	2019	S	396	to	to	to	TO	O	aux	false	-1	-1	null	null	396	mark	null
+0	28	396	2020	2024	S	394	push	push	push	VB	O	xcomp	false	-1	-1	null	null	393	advcl	null
+0	28	397	2025	2030	S	396	Chloe	Chloe	Chloe	NNP	PERSON	dobj	false	1	1	c5	null	396	dobj	(c5;ANIMATE;FEMALE),
+0	28	398	2031	2035	S	396	into	into	into	IN	O	prep	false	-1	-1	null	null	401	case	null
+0	28	399	2036	2039	S	401	the	the	the	DT	O	det	false	-1	-1	null	null	401	det	null
+0	28	400	2040	2047	S	401	bedroom	bedroom	bedroom	NN	O	nn	false	-1	-1	null	null	401	compound	null
+0	28	401	2048	2054		398	window	window	window	NN	O	pobj	false	-1	-1	null	null	396	nmod:into	null
+0	28	402	2054	2055	S	388	,	,	,	,	O	punct	false	-1	-1	null	null	396	punct	null
+0	28	403	2056	2064	S	388	breaking	breaking	break	VBG	O	xcomp	false	-1	-1	null	null	396	advcl	null
+0	28	404	2065	2068	S	405	the	the	the	DT	O	det	false	-1	-1	null	null	405	det	null
+0	28	405	2069	2074		403	glass	glass	glass	NN	O	dobj	false	-1	-1	null	null	403	dobj	null
+0	28	406	2074	2075	S	388	.	.	.	.	O	punct	false	-1	-1	null	null	388	punct	null
+0	29	407	2076	2081	S	408	Chloe	Chloe	Chloe	NNP	PERSON	nsubj	false	1	1	c5	null	408	nsubj	(c5;ANIMATE;FEMALE),
+0	29	408	2082	2089	S	-1	manages	manages	manage	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	29	409	2090	2092	S	410	to	to	to	TO	O	aux	false	-1	-1	null	null	410	mark	null
+0	29	410	2093	2097	S	408	grab	grab	grab	VB	O	xcomp	false	-1	-1	null	null	408	xcomp	null
+0	29	411	2098	2102	S	410	hold	hold	hold	NN	O	dobj	false	-1	-1	null	null	410	dobj	null
+0	29	412	2103	2105	S	411	of	of	of	IN	O	prep	false	-1	-1	null	null	414	case	null
+0	29	413	2106	2109	S	414	the	the	the	DT	O	det	false	-1	-1	null	null	414	det	null
+0	29	414	2110	2115	S	412	frame	frame	frame	NN	O	pobj	false	-1	-1	null	null	411	nmod:of	null
+0	29	415	2116	2119	S	408	but	but	but	CC	O	cc	false	-1	-1	null	null	408	cc	null
+0	29	416	2120	2124	S	418	then	then	then	RB	O	advmod	false	-1	-1	null	null	418	advmod	null
+0	29	417	2125	2128	S	418	she	she	she	PRP	O	nsubj	false	1	1	c5	null	418	nsubj	(c5;ANIMATE;FEMALE),
+0	29	418	2129	2133	S	408	lets	lets	let	VBZ	O	conj	false	-1	-1	null	null	408	conj:but	null
+0	29	419	2134	2136	S	418	go	go	go	VB	O	ccomp	false	-1	-1	null	null	418	ccomp	null
+0	29	420	2137	2140	S	419	and	and	and	CC	O	cc	false	-1	-1	null	null	418	cc	null
+0	29	421	2141	2146	S	419	falls	falls	fall	VBZ	O	conj	false	-1	-1	null	null	418	conj:and	null
+0	29	422	2147	2149	S	421	to	to	to	TO	O	prep	false	-1	-1	null	null	424	case	null
+0	29	423	2150	2153	S	424	her	her	she	PRP$	O	poss	false	1	1	c5	null	424	nmod:poss	(c5;ANIMATE;FEMALE),
+0	29	424	2154	2159		422	death	death	death	NN	O	pobj	false	-1	-1	null	null	421	nmod:to	null
+0	29	425	2159	2160	S	408	.	.	.	.	O	punct	false	-1	-1	null	null	408	punct	null
+0	30	426	2161	2171	S	427	Paramedics	Paramedics	Paramedics	NNPS	O	nn	false	-1	-1	null	null	427	nsubj	null
+0	30	427	2172	2177	S	-1	wheel	wheel	wheel	NN	O	null	false	-1	-1	null	null	-1	root	null
+0	30	428	2178	2182	S	427	away	away	away	RB	O	advmod	false	-1	-1	null	null	427	advmod	null
+0	30	429	2183	2186	S	430	the	the	the	DT	O	det	false	-1	-1	null	null	430	det	null
+0	30	430	2187	2191	S	427	body	body	body	NN	O	dobj	false	-1	-1	null	null	428	nmod:npmod	null
+0	30	431	2192	2197	S	434	while	while	while	IN	O	mark	false	-1	-1	null	null	434	mark	null
+0	30	432	2198	2207	S	434	Catherine	Catherine	Catherine	NNP	PERSON	nsubjpass	false	2	2	c2	null	434	nsubjpass	(c2;ANIMATE;FEMALE),
+0	30	433	2208	2210	S	434	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	434	auxpass	null
+0	30	434	2211	2220	S	427	comforted	comforted	comfort	VBN	O	advcl	false	-1	-1	null	null	427	advcl	null
+0	30	435	2221	2223	S	434	by	by	by	IN	O	prep	false	-1	-1	null	null	437	case	null
+0	30	436	2224	2227	S	437	her	her	she	PRP$	O	poss	false	2	2	c2,c4	null	437	nmod:poss	(c2;ANIMATE;FEMALE),(c4;ANIMATE;MALE),
+0	30	437	2228	2235		435	husband	husband	husband	NN	O	pobj	false	-1	-1	c4	null	434	nmod:agent	(c4;ANIMATE;MALE),
+0	30	438	2235	2236	S	427	.	.	.	.	O	punct	false	-1	-1	null	null	427	punct	null
+0	31	439	2237	2242		449	Later	Later	later	RB	O	advmod	false	-1	-1	null	null	449	advmod	null
+0	31	440	2242	2243	S	449	,	,	,	,	O	punct	false	-1	-1	null	null	449	punct	null
+0	31	441	2244	2246	S	449	at	at	at	IN	O	prep	false	-1	-1	null	null	445	case	null
+0	31	442	2247	2254		445	Michael	Michael	Michael	NNP	PERSON	poss	false	0	0	c11	null	445	nmod:poss	(c11;ANIMATE;MALE),
+0	31	443	2254	2256	S	442	's	's	's	POS	O	possessive	false	-1	-1	c11	null	442	case	(c11;ANIMATE;MALE),
+0	31	444	2257	2267	S	445	graduation	graduation	graduation	NN	O	nn	false	-1	-1	null	null	445	compound	null
+0	31	445	2268	2273		441	party	party	party	NN	O	pobj	false	-1	-1	null	null	449	nmod:at	null
+0	31	446	2273	2274	S	449	,	,	,	,	O	punct	false	-1	-1	null	null	449	punct	null
+0	31	447	2275	2284	S	449	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	false	2	2	c2	null	449	nsubj	(c2;ANIMATE;FEMALE),
+0	31	448	2285	2287	S	449	is	is	be	VBZ	O	aux	false	-1	-1	null	null	449	aux	null
+0	31	449	2288	2295	S	-1	wearing	wearing	wear	VBG	O	null	false	-1	-1	null	null	-1	root	null
+0	31	450	2296	2301		452	Chloe	Chloe	Chloe	NNP	PERSON	poss	false	1	1	c5	null	452	nmod:poss	(c5;ANIMATE;FEMALE),
+0	31	451	2301	2303	S	450	's	's	's	POS	O	possessive	false	-1	-1	c5	null	450	case	(c5;ANIMATE;FEMALE),
+0	31	452	2304	2311	S	449	hairpin	hairpin	hairpin	NN	O	dobj	false	-1	-1	null	null	449	dobj	null
+0	31	453	2312	2314	S	449	in	in	in	IN	O	prep	false	-1	-1	null	null	455	case	null
+0	31	454	2315	2318	S	455	her	her	she	PRP$	O	poss	false	2	2	c2	null	455	nmod:poss	(c2;ANIMATE;FEMALE),
+0	31	455	2319	2323		453	hair	hair	hair	NN	O	pobj	false	-1	-1	null	null	452	nmod:in	null
+0	31	456	2323	2324	N	449	.	.	.	.	O	punct	false	-1	-1	null	null	449	punct	null

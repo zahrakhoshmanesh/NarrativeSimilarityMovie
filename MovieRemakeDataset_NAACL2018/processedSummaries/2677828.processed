@@ -1,0 +1,201 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	2	Sir	Sir	Sir	NNP	O	nn	false	-1	1	c1	c1	2	compound	(c1;ANIMATE;MALE),
+0	0	1	4	12	S	2	Geoffrey	Geoffrey	Geoffrey	NNP	PERSON	nn	false	-1	1	c1	c1	2	compound	(c1;ANIMATE;MALE),
+0	0	2	13	22	SS	4	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	nsubjpass	false	-1	1	c1	c1	4	nsubjpass	(c1;ANIMATE;MALE),
+0	0	3	24	26	S	4	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	4	auxpass	null
+0	0	4	27	36	S	-1	sentenced	sentenced	sentence	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	0	5	37	39	S	4	to	to	to	TO	O	prep	false	-1	-1	null	null	6	case	null
+0	0	6	40	45	S	5	death	death	death	NN	O	pobj	false	-1	-1	null	null	4	nmod:to	null
+0	0	7	46	49	S	4	for	for	for	IN	O	prep	false	-1	-1	null	null	9	case	null
+0	0	8	50	53	S	9	the	the	the	DT	O	det	false	-1	-1	c2	c2	9	det	(c2;INANIMATE;MALE),
+0	0	9	54	60	S	7	murder	murder	murder	NN	O	pobj	false	-1	-1	c2	c2	4	nmod:for	(c2;INANIMATE;MALE),
+0	0	10	61	63	S	9	of	of	of	IN	O	prep	false	-1	-1	c2	c2	13	case	(c2;INANIMATE;MALE),
+0	0	11	64	67	S	13	his	his	he	PRP$	O	poss	false	-1	1	c1,c2	c2	13	nmod:poss	(c1;ANIMATE;MALE),(c2;INANIMATE;MALE),
+0	0	12	68	75	S	13	brother	brother	brother	NN	O	nn	false	-1	-1	c2	c2	13	compound	(c2;INANIMATE;MALE),
+0	0	13	76	83		10	Michael	Michael	Michael	NNP	PERSON	pobj	false	-1	-1	c2	c2	9	nmod:of	(c2;INANIMATE;MALE),
+0	0	14	83	84	S	4	,	,	,	,	O	punct	false	-1	-1	c2	c2	13	punct	(c2;INANIMATE;MALE),
+0	0	15	85	86	S	16	a	a	a	DT	O	det	false	-1	-1	c2	c2	16	det	(c2;INANIMATE;MALE),
+0	0	16	87	92	S	14	crime	crime	crime	NN	O	dobj	false	-1	-1	c2	c2	13	appos	(c2;INANIMATE;MALE),
+0	0	17	93	95	S	20	he	he	he	PRP	O	nsubj	false	-1	1	c1,c2	c2	20	nsubj	(c1;ANIMATE;MALE),(c2;INANIMATE;MALE),
+0	0	18	96	99	S	20	did	did	do	VBD	O	aux	false	-1	-1	c2	c2	20	aux	(c2;INANIMATE;MALE),
+0	0	19	100	103	S	20	not	not	not	RB	O	neg	false	-1	-1	c2	c2	20	neg	(c2;INANIMATE;MALE),
+0	0	20	104	110		16	commit	commit	commit	VB	O	rcmod	false	-1	-1	c2	c2	16	acl:relcl	(c2;INANIMATE;MALE),
+0	0	21	110	111	S	4	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	22	112	115	S	24	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	-1	-1	c4	c4	24	compound	(c4;ANIMATE;MALE),
+0	1	23	116	121	S	24	Frank	Frank	Frank	NNP	PERSON	nn	false	-1	-1	c3,c4	c3,c4	24	compound	(c3;ANIMATE;MALE),(c4;ANIMATE;MALE),
+0	1	24	122	129		34	Griffin	Griffin	Griffin	NNP	PERSON	nsubj	false	-1	-1	c3,c4	c3,c4	34	nsubj	(c3;ANIMATE;MALE),(c4;ANIMATE;MALE),
+0	1	25	129	130	S	24	,	,	,	,	O	punct	false	-1	-1	null	null	24	punct	null
+0	1	26	131	134	S	27	the	the	the	DT	O	det	false	-1	-1	c3	null	27	det	(c3;ANIMATE;MALE),
+0	1	27	135	142	S	24	brother	brother	brother	NN	O	appos	false	-1	-1	c3	null	24	appos	(c3;ANIMATE;MALE),
+0	1	28	143	145	S	27	of	of	of	IN	O	prep	false	-1	-1	c3	null	32	case	(c3;ANIMATE;MALE),
+0	1	29	146	149	S	32	the	the	the	DT	O	det	false	-1	-1	c3	null	32	det	(c3;ANIMATE;MALE),
+0	1	30	150	158	S	32	original	original	original	JJ	O	amod	false	-1	-1	c3	null	32	amod	(c3;ANIMATE;MALE),
+0	1	31	159	168	S	32	invisible	invisible	invisible	JJ	O	amod	false	-1	-1	c3	null	32	amod	(c3;ANIMATE;MALE),
+0	1	32	169	172		28	man	man	man	NN	O	pobj	false	-1	-1	c3	null	27	nmod:of	(c3;ANIMATE;MALE),
+0	1	33	172	173	S	24	,	,	,	,	O	punct	false	-1	-1	null	null	24	punct	null
+0	1	34	174	181	S	-1	injects	injects	inject	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	35	182	185	S	36	the	the	the	DT	O	det	false	-1	-1	null	null	36	det	null
+0	1	36	186	194	S	34	prisoner	prisoner	prisoner	NN	O	dobj	false	-1	-1	null	null	34	dobj	null
+0	1	37	195	199	S	34	with	with	with	IN	O	prep	false	-1	-1	null	null	40	case	null
+0	1	38	200	202	S	40	an	an	a	DT	O	det	false	-1	-1	c5	c5	40	det	(c5;INANIMATE;NEUTRAL),
+0	1	39	203	215	S	40	invisibility	invisibility	invisibility	NN	O	nn	false	-1	-1	c5	c5	40	compound	(c5;INANIMATE;NEUTRAL),
+0	1	40	216	220		37	drug	drug	drug	NN	O	pobj	false	-1	-1	c5	c5	36	nmod:with	(c5;INANIMATE;NEUTRAL),
+0	1	41	220	221	S	34	.	.	.	.	O	punct	false	-1	-1	null	null	34	punct	null
+0	2	42	222	224	S	46	As	As	as	IN	O	mark	false	-1	-1	null	null	46	mark	null
+0	2	43	225	234		45	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	poss	false	1	1	c1	null	45	nmod:poss	(c1;ANIMATE;FEMALE),
+0	2	44	234	236	S	43	's	's	's	POS	O	possessive	false	-1	-1	c1	null	43	case	(c1;ANIMATE;FEMALE),
+0	2	45	237	246	S	46	execution	execution	execution	NN	O	nsubj	false	-1	-1	null	null	46	nsubj	null
+0	2	46	247	252		50	nears	nears	near	VBZ	O	advcl	false	-1	-1	null	null	50	advcl	null
+0	2	47	252	253	S	50	,	,	,	,	O	punct	false	-1	-1	null	null	50	punct	null
+0	2	48	254	256	S	50	he	he	he	PRP	O	nsubj	false	-1	1	c1	null	50	nsubj	(c1;ANIMATE;MALE),
+0	2	49	257	265	S	50	suddenly	suddenly	suddenly	RB	O	advmod	false	-1	-1	null	null	50	advmod	null
+0	2	50	266	274	S	-1	vanishes	vanishes	vanish	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	51	275	279	S	50	from	from	from	IN	O	prep	false	-1	-1	null	null	53	case	null
+0	2	52	280	283	S	53	his	his	he	PRP$	O	poss	false	-1	1	c1	null	53	nmod:poss	(c1;ANIMATE;MALE),
+0	2	53	284	288		51	cell	cell	cell	NN	O	pobj	false	-1	-1	null	null	50	nmod:from	null
+0	2	54	288	289	S	50	.	.	.	.	O	punct	false	-1	-1	null	null	50	punct	null
+0	3	55	290	299	S	56	Detective	Detective	detective	NN	O	nn	false	-1	-1	c6	c6	56	compound	(c6;ANIMATE;MALE),
+0	3	56	300	307	SS	61	Sampson	Sampson	sampson	NN	PERSON	nsubj	false	0	0	c6	c6	61	nsubj	(c6;ANIMATE;MALE),
+0	3	57	309	313	S	56	from	from	from	IN	O	prep	false	-1	-1	c6	c6	60	case	(c6;ANIMATE;MALE),
+0	3	58	314	317	S	60	the	the	the	DT	O	det	false	-1	-1	c6	c6	60	det	(c6;ANIMATE;MALE),
+0	3	59	318	326	S	60	Scotland	Scotland	Scotland	NNP	LOCATION	nn	false	-1	-1	c6	c6	60	compound	(c6;ANIMATE;MALE),
+0	3	60	327	331	S	57	Yard	Yard	Yard	NNP	O	pobj	false	-1	-1	c6	c6	56	nmod:from	(c6;ANIMATE;MALE),
+0	3	61	332	339	S	-1	guesses	guesses	guess	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	62	340	343	S	63	the	the	the	DT	O	det	false	-1	-1	null	null	63	det	null
+0	3	63	344	349	S	61	truth	truth	truth	NN	O	dobj	false	-1	-1	null	null	61	dobj	null
+0	3	64	350	355	S	66	while	while	while	IN	O	mark	false	-1	-1	null	null	74	mark	null
+0	3	65	356	365	S	66	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	nn	false	1	1	c1	null	66	compound	(c1;ANIMATE;FEMALE),
+0	3	66	366	374	S	61	searches	searches	search	NNS	O	advcl	false	-1	-1	null	null	74	nsubj	null
+0	3	67	375	378	S	66	for	for	for	IN	O	prep	false	-1	-1	null	null	70	case	null
+0	3	68	379	382	S	70	the	the	the	DT	O	det	false	-1	-1	null	null	70	det	null
+0	3	69	383	387	S	70	real	real	real	JJ	O	amod	false	-1	-1	null	null	70	amod	null
+0	3	70	388	396	S	67	murderer	murderer	murderer	NN	O	pobj	false	-1	-1	null	null	66	nmod:for	null
+0	3	71	397	403	S	74	before	before	before	IN	O	mark	false	-1	-1	null	null	73	case	null
+0	3	72	404	407	S	73	the	the	the	DT	O	det	false	-1	-1	c5	null	73	det	(c5;INANIMATE;NEUTRAL),
+0	3	73	408	412	S	74	drug	drug	drug	NN	O	nsubj	false	-1	-1	c5	null	70	nmod:before	(c5;INANIMATE;NEUTRAL),
+0	3	74	413	419	S	66	causes	causes	cause	VBZ	O	advcl	false	-1	-1	null	null	61	advcl	null
+0	3	75	420	423	S	74	him	him	he	PRP	O	dobj	false	-1	1	c1	null	74	dobj	(c1;ANIMATE;MALE),
+0	3	76	424	426	S	77	to	to	to	TO	O	aux	false	-1	-1	null	null	77	mark	null
+0	3	77	427	429	S	74	go	go	go	VB	O	xcomp	false	-1	-1	null	null	74	xcomp	null
+0	3	78	430	436		77	insane	insane	insane	JJ	O	acomp	false	-1	-1	null	null	77	xcomp	null
+0	3	79	436	437	S	61	.	.	.	.	O	punct	false	-1	-1	null	null	61	punct	null
+0	4	80	438	441	S	82	The	The	the	DT	O	det	false	-1	-1	null	null	82	det	null
+0	4	81	442	451	S	82	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	nn	false	1	1	c1	null	82	compound	(c1;ANIMATE;FEMALE),
+0	4	82	452	458	S	83	family	family	family	NN	O	nsubj	false	-1	-1	null	null	83	nsubj	null
+0	4	83	459	463	S	-1	owns	owns	own	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	84	464	465	S	86	a	a	a	DT	O	det	false	-1	-1	null	null	86	det	null
+0	4	85	466	472	S	86	mining	mining	mining	NN	O	nn	false	-1	-1	null	null	86	compound	null
+0	4	86	473	482		83	operation	operation	operation	NN	O	dobj	false	-1	-1	null	null	83	dobj	null
+0	4	87	482	483	S	83	.	.	.	.	O	punct	false	-1	-1	null	null	83	punct	null
+0	5	88	484	487	S	92	The	The	the	DT	O	det	false	-1	-1	c7	c7	92	det	(c7;ANIMATE;MALE),
+0	5	89	488	502	S	92	recently-hired	recently-hired	recently-hired	JJ	O	amod	false	-1	-1	c7	c7	92	amod	(c7;ANIMATE;MALE),
+0	5	90	503	511	S	92	employee	employee	employee	NN	O	nn	false	-1	-1	c7	c7	92	compound	(c7;ANIMATE;MALE),
+0	5	91	512	518	S	92	Willie	Willie	Willie	NNP	PERSON	nn	false	-1	-1	c7	c7	92	compound	(c7;ANIMATE;MALE),
+0	5	92	519	525	SS	94	Spears	Spears	Spears	NNP	PERSON	nsubjpass	false	-1	-1	c7	c7	94	nsubjpass	(c7;ANIMATE;MALE),
+0	5	93	527	529	S	94	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	94	auxpass	null
+0	5	94	530	538	S	-1	promoted	promoted	promote	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	5	95	539	545	S	94	within	within	within	IN	O	prep	false	-1	-1	null	null	97	case	null
+0	5	96	546	549	S	97	the	the	the	DT	O	det	false	-1	-1	null	null	97	det	null
+0	5	97	550	557		95	company	company	company	NN	O	pobj	false	-1	-1	null	null	94	nmod:within	null
+0	5	98	557	558	S	94	,	,	,	,	O	punct	false	-1	-1	null	null	94	punct	null
+0	5	99	559	567	S	94	stirring	stirring	stir	VBG	O	xcomp	false	-1	-1	null	null	94	xcomp	null
+0	5	100	568	577		102	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	poss	false	1	1	c1	null	102	nmod:poss	(c1;ANIMATE;FEMALE),
+0	5	101	577	579	S	100	's	's	's	POS	O	possessive	false	-1	-1	c1	null	100	case	(c1;ANIMATE;FEMALE),
+0	5	102	580	590		99	suspicions	suspicions	suspicion	NNS	O	dobj	false	-1	-1	null	null	99	dobj	null
+0	5	103	590	591	S	94	.	.	.	.	O	punct	false	-1	-1	null	null	94	punct	null
+0	6	104	592	597	S	115	After	After	after	IN	O	prep	false	-1	-1	null	null	105	mark	null
+0	6	105	598	605	S	104	forcing	forcing	force	VBG	O	pcomp	false	-1	-1	null	null	115	advcl	null
+0	6	106	606	611		108	Spear	Spear	Spear	NNP	O	poss	false	-1	-1	null	null	108	nmod:poss	null
+0	6	107	611	613	S	106	's	's	's	POS	O	possessive	false	-1	-1	null	null	106	case	null
+0	6	108	614	617	S	105	car	car	car	NN	O	dobj	false	-1	-1	null	null	105	dobj	null
+0	6	109	618	621	S	105	off	off	off	IN	O	prep	false	-1	-1	null	null	111	case	null
+0	6	110	622	625	S	111	the	the	the	DT	O	det	false	-1	-1	null	null	111	det	null
+0	6	111	626	630		109	road	road	road	NN	O	pobj	false	-1	-1	null	null	105	nmod:off	null
+0	6	112	630	631	S	115	,	,	,	,	O	punct	false	-1	-1	null	null	115	punct	null
+0	6	113	632	638	S	115	Spears	Spears	Spears	NNP	PERSON	nsubjpass	false	-1	-1	c7	null	115	nsubjpass	(c7;ANIMATE;FEMALE),
+0	6	114	639	641	S	115	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	115	auxpass	null
+0	6	115	642	648	S	-1	scared	scared	scare	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	6	116	649	653	S	115	into	into	into	IN	O	prep	false	-1	-1	null	null	117	mark	null
+0	6	117	654	663	S	116	revealing	revealing	reveal	VBG	O	pcomp	false	-1	-1	null	null	115	advcl	null
+0	6	118	664	668	S	128	that	that	that	IN	O	complm	false	-1	-1	null	null	128	mark	null
+0	6	119	669	676	S	120	Richard	Richard	Richard	NNP	PERSON	nn	false	-1	-1	c8	c8	120	compound	(c8;ANIMATE;MALE),
+0	6	120	677	681	S	128	Cobb	Cobb	Cobb	NNP	PERSON	nsubj	false	-1	-1	c8	c8	128	nsubj	(c8;ANIMATE;MALE),
+0	6	121	682	683	S	120	,	,	,	,	O	punct	false	-1	-1	null	null	120	punct	null
+0	6	122	684	693		124	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	poss	false	1	1	c1,c8	null	124	nmod:poss	(c1;ANIMATE;FEMALE),(c8;ANIMATE;MALE),
+0	6	123	693	695	S	122	's	's	's	POS	O	possessive	false	-1	-1	c1,c8	null	122	case	(c1;ANIMATE;FEMALE),(c8;ANIMATE;MALE),
+0	6	124	696	702		120	cousin	cousin	cousin	NN	O	appos	false	-1	-1	c8	null	120	appos	(c8;ANIMATE;MALE),
+0	6	125	702	703	S	120	,	,	,	,	O	punct	false	-1	-1	null	null	120	punct	null
+0	6	126	704	706	S	128	is	is	be	VBZ	O	cop	false	-1	-1	null	null	128	cop	null
+0	6	127	707	710	S	128	the	the	the	DT	O	det	false	-1	-1	c8	null	128	det	(c8;ANIMATE;MALE),
+0	6	128	711	719		117	murderer	murderer	murderer	NN	O	ccomp	false	-1	-1	c8	null	117	ccomp	(c8;ANIMATE;MALE),
+0	6	129	719	720	S	115	.	.	.	.	O	punct	false	-1	-1	null	null	115	punct	null
+0	7	130	721	726	S	-1	After	After	after	IN	O	null	false	-1	-1	null	null	132	case	null
+0	7	131	727	728	S	132	a	a	a	DT	O	det	false	-1	-1	null	null	132	det	null
+0	7	132	729	742		130	confrontation	confrontation	confrontation	NN	O	pobj	false	-1	-1	null	null	137	nmod:after	null
+0	7	133	742	743	S	132	,	,	,	,	O	punct	false	-1	-1	null	null	137	punct	null
+0	7	134	744	745	S	136	a	a	a	DT	O	det	false	-1	-1	null	null	136	det	null
+0	7	135	746	751	S	136	chase	chase	chase	JJ	O	amod	false	-1	-1	null	null	136	amod	null
+0	7	136	752	757	S	137	scene	scene	scene	NN	O	nsubj	false	-1	-1	null	null	137	nsubj	null
+0	7	137	758	764	S	132	ensues	ensues	ensue	VBZ	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	7	138	765	771	S	142	during	during	during	IN	O	rel	false	-1	-1	null	null	139	case	null
+0	7	139	772	777	S	138	which	which	which	WDT	O	pobj	false	-1	-1	null	null	142	nmod:during	null
+0	7	140	778	787	S	142	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	nsubjpass	false	1	1	c1	null	142	nsubjpass	(c1;ANIMATE;FEMALE),
+0	7	141	788	790	S	142	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	142	auxpass	null
+0	7	142	791	797	S	137	struck	struck	strike	VBN	O	ccomp	false	-1	-1	null	null	137	ccomp	null
+0	7	143	798	800	S	142	by	by	by	IN	O	prep	false	-1	-1	null	null	145	case	null
+0	7	144	801	802	S	145	a	a	a	DT	O	det	false	-1	-1	null	null	145	det	null
+0	7	145	803	809	S	143	bullet	bullet	bullet	NN	O	pobj	false	-1	-1	null	null	142	nmod:agent	null
+0	7	146	810	814	S	145	from	from	from	IN	O	prep	false	-1	-1	null	null	147	case	null
+0	7	147	815	822		146	Sampson	Sampson	Sampson	NNP	PERSON	pobj	false	0	0	c6	null	145	nmod:from	(c6;ANIMATE;MALE),
+0	7	148	822	823	S	130	.	.	.	.	O	punct	false	-1	-1	null	null	137	punct	null
+0	8	149	824	828	S	151	Cobb	Cobb	Cobb	NNP	PERSON	nsubjpass	false	-1	-1	c8	null	151	nsubjpass	(c8;ANIMATE;MALE),
+0	8	150	829	831	S	151	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	151	auxpass	null
+0	8	151	832	838	S	-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	8	152	839	846	S	151	falling	falling	fall	VBG	O	xcomp	false	-1	-1	null	null	151	xcomp	null
+0	8	153	847	851	S	152	from	from	from	IN	O	prep	false	-1	-1	null	null	156	case	null
+0	8	154	852	853	S	156	a	a	a	DT	O	det	false	-1	-1	null	null	156	det	null
+0	8	155	854	858	S	156	coal	coal	coal	NN	O	nn	false	-1	-1	null	null	156	compound	null
+0	8	156	859	864		153	wagon	wagon	wagon	NN	O	pobj	false	-1	-1	null	null	152	nmod:from	null
+0	8	157	864	865	S	151	,	,	,	,	O	punct	false	-1	-1	null	null	156	punct	null
+0	8	158	866	869	S	151	but	but	but	CC	O	cc	false	-1	-1	null	null	156	cc	null
+0	8	159	870	873	S	151	not	not	not	RB	O	conj	false	-1	-1	null	null	161	neg	null
+0	8	160	874	880	S	151	before	before	before	IN	O	prep	false	-1	-1	null	null	161	mark	null
+0	8	161	881	891	S	160	confessing	confessing	confess	VBG	O	pcomp	false	-1	-1	null	null	156	conj:but	null
+0	8	162	892	894	S	161	to	to	to	TO	O	prep	false	-1	-1	null	null	164	case	null
+0	8	163	895	898	S	164	the	the	the	DT	O	det	false	-1	-1	c2	null	164	det	(c2;INANIMATE;MALE),
+0	8	164	899	905		162	murder	murder	murder	NN	O	pobj	false	-1	-1	c2	null	161	nmod:to	(c2;INANIMATE;MALE),
+0	8	165	905	906	S	151	.	.	.	.	O	punct	false	-1	-1	null	null	151	punct	null
+0	9	166	907	916		175	Radcliffe	Radcliffe	Radcliffe	NNP	PERSON	nsubj	false	1	1	c1	null	175	nsubj	(c1;ANIMATE;FEMALE),
+0	9	167	916	917	S	175	,	,	,	,	O	punct	false	-1	-1	null	null	175	punct	null
+0	9	168	918	923	S	175	dying	dying	die	VBG	O	partmod	false	-1	-1	null	null	175	advcl	null
+0	9	169	924	928	S	168	from	from	from	IN	O	prep	false	-1	-1	null	null	171	case	null
+0	9	170	929	934	S	171	blood	blood	blood	NN	O	nn	false	-1	-1	null	null	171	compound	null
+0	9	171	935	939	S	169	loss	loss	loss	NN	O	pobj	false	-1	-1	null	null	168	nmod:from	null
+0	9	172	940	943	S	171	and	and	and	CC	O	cc	false	-1	-1	null	null	171	cc	null
+0	9	173	944	952		171	exposure	exposure	exposure	NN	O	conj	false	-1	-1	null	null	171	conj:and	null
+0	9	174	952	953	S	175	,	,	,	,	O	punct	false	-1	-1	null	null	175	punct	null
+0	9	175	954	959	S	-1	makes	makes	make	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	176	960	963	S	177	his	his	he	PRP$	O	poss	false	-1	1	c1	null	177	nmod:poss	(c1;ANIMATE;MALE),
+0	9	177	964	967	S	175	way	way	way	NN	O	dobj	false	-1	-1	null	null	175	dobj	null
+0	9	178	968	970	S	175	to	to	to	TO	O	prep	false	-1	-1	null	null	180	case	null
+0	9	179	971	974	S	180	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	-1	-1	c4	null	180	compound	(c4;ANIMATE;MALE),
+0	9	180	975	982		178	Griffin	Griffin	Griffin	NNP	PERSON	pobj	false	-1	-1	c4	null	175	nmod:to	(c4;ANIMATE;MALE),
+0	9	181	982	983	S	175	.	.	.	.	O	punct	false	-1	-1	null	null	175	punct	null
+0	10	182	984	985	S	183	A	A	a	DT	O	det	false	-1	-1	null	null	183	det	null
+0	10	183	986	997	S	186	transfusion	transfusion	transfusion	NN	O	nsubj	false	-1	-1	null	null	186	nsubj	null
+0	10	184	998	1000	S	183	of	of	of	IN	O	prep	false	-1	-1	null	null	185	case	null
+0	10	185	1001	1006	S	184	blood	blood	blood	NN	O	pobj	false	-1	-1	null	null	183	nmod:of	null
+0	10	186	1007	1012	S	-1	makes	makes	make	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	10	187	1013	1022	S	186	Radcliffe	Radcliffe	Radcliffe	NNP	MISC	dobj	false	-1	1	c1	null	188	nsubj	(c1;UNKNOWN;FEMALE),
+0	10	188	1023	1030		187	visible	visible	visible	JJ	O	amod	false	-1	-1	null	null	186	xcomp	null
+0	10	189	1030	1031	S	186	,	,	,	,	O	punct	false	-1	-1	null	null	186	punct	null
+0	10	190	1032	1040	S	186	allowing	allowing	allow	VBG	O	xcomp	false	-1	-1	null	null	186	xcomp	null
+0	10	191	1041	1044	S	192	the	the	the	DT	O	det	false	-1	-1	null	null	192	det	null
+0	10	192	1045	1051	S	194	doctor	doctor	doctor	NN	O	nsubj	false	-1	-1	null	null	190	dobj	null
+0	10	193	1052	1054	S	194	to	to	to	TO	O	aux	false	-1	-1	null	null	194	mark	null
+0	10	194	1055	1062	S	190	operate	operate	operate	VB	O	ccomp	false	-1	-1	null	null	192	acl	null
+0	10	195	1063	1066	S	194	and	and	and	CC	O	cc	false	-1	-1	null	null	194	cc	null
+0	10	196	1067	1071	S	194	save	save	save	VB	O	conj	false	-1	-1	null	null	194	conj:and	null
+0	10	197	1072	1075	S	198	his	his	he	PRP$	O	poss	false	-1	1	c1	null	198	nmod:poss	(c1;ANIMATE;MALE),
+0	10	198	1076	1080		196	life	life	life	NN	O	dobj	false	-1	-1	null	null	194	dobj	null
+0	10	199	1080	1081	N	186	.	.	.	.	O	punct	false	-1	-1	null	null	186	punct	null

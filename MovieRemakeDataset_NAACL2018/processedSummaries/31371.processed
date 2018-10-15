@@ -1,0 +1,902 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	1	S	1	A	A	a	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	2	6	S	5	gang	gang	gang	NN	O	nsubj	false	-1	-1	null	null	5	nsubj	null
+0	0	2	7	9	S	1	of	of	of	IN	O	prep	false	-1	-1	null	null	4	case	null
+0	0	3	10	19	S	2	marauding	marauding	maraud	VBG	O	pcomp	false	-1	-1	c1	c1	4	amod	(c1;ANIMATE;UNKNOWN),
+0	0	4	20	27	S	3	bandits	bandits	bandit	NNS	O	dobj	false	-1	-1	c1	c1	1	nmod:of	(c1;ANIMATE;UNKNOWN),
+0	0	5	28	38	S	-1	approaches	approaches	approach	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	6	39	40	S	9	a	a	a	DT	O	det	false	-1	-1	c2	c2	9	det	(c2;INANIMATE;NEUTRAL),
+0	0	7	41	49	S	9	mountain	mountain	mountain	NN	O	nn	false	-1	-1	c2	c2	9	compound	(c2;INANIMATE;NEUTRAL),
+0	0	8	50	57	S	9	farming	farming	farming	NN	O	nn	false	-1	-1	c2	c2	9	compound	(c2;INANIMATE;NEUTRAL),
+0	0	9	58	65		5	village	village	village	NN	O	dobj	false	-1	-1	c2	c2	5	dobj	(c2;INANIMATE;NEUTRAL),
+0	0	10	65	66	S	5	,	,	,	,	O	punct	false	-1	-1	null	null	5	punct	null
+0	0	11	67	70	S	5	but	but	but	CC	O	cc	false	-1	-1	null	null	5	cc	null
+0	0	12	71	76	S	13	their	their	they	PRP$	O	poss	false	-1	-1	c1,c3	c3	13	nmod:poss	(c1;ANIMATE;UNKNOWN),(c3;ANIMATE;MALE),
+0	0	13	77	82	S	14	chief	chief	chief	JJ	O	nsubj	false	-1	-1	c3	c3	14	nsubj	(c3;ANIMATE;MALE),
+0	0	14	83	93	S	5	recognizes	recognizes	recognize	VBZ	O	conj	false	-1	-1	null	null	5	conj:but	null
+0	0	15	94	98	S	17	they	they	they	PRP	O	nsubj	false	-1	-1	c3	null	17	nsubj	(c3;ANIMATE;UNKNOWN),
+0	0	16	99	103	S	17	have	have	have	VBP	O	aux	false	-1	-1	null	null	17	aux	null
+0	0	17	104	113	S	14	ransacked	ransacked	ransack	VBN	O	ccomp	false	-1	-1	null	null	14	ccomp	null
+0	0	18	114	118	S	19	this	this	this	DT	O	det	false	-1	-1	c2	null	19	det	(c2;INANIMATE;NEUTRAL),
+0	0	19	119	126	S	17	village	village	village	NN	O	dobj	false	-1	-1	c2	null	17	dobj	(c2;INANIMATE;NEUTRAL),
+0	0	20	127	133		17	before	before	before	RB	O	advmod	false	-1	-1	null	null	17	advmod	null
+0	0	21	133	134	S	5	,	,	,	,	O	punct	false	-1	-1	null	null	14	punct	null
+0	0	22	135	138	S	5	and	and	and	CC	O	cc	false	-1	-1	null	null	14	cc	null
+0	0	23	139	146	S	5	decides	decides	decide	VBZ	O	conj	false	-1	-1	null	null	14	conj:and	null
+0	0	24	147	149	S	25	it	it	it	PRP	O	nsubj	false	-1	-1	c2	null	25	nsubj	(c2;INANIMATE;NEUTRAL),
+0	0	25	150	152	S	23	is	is	be	VBZ	O	ccomp	false	-1	-1	null	null	23	ccomp	null
+0	0	26	153	157	S	25	best	best	best	RB	O	advmod	false	-1	-1	null	null	25	advmod	null
+0	0	27	158	160	S	28	to	to	to	TO	O	aux	false	-1	-1	null	null	28	mark	null
+0	0	28	161	166	S	25	spare	spare	spare	VB	O	xcomp	false	-1	-1	null	null	25	xcomp	null
+0	0	29	167	169	S	28	it	it	it	PRP	O	dobj	false	-1	-1	c2	null	28	dobj	(c2;INANIMATE;NEUTRAL),
+0	0	30	170	175	S	28	until	until	until	IN	O	prep	false	-1	-1	null	null	32	case	null
+0	0	31	176	179	S	32	the	the	the	DT	O	det	false	-1	-1	null	null	32	det	null
+0	0	32	180	187	S	30	harvest	harvest	harvest	NN	O	pobj	false	-1	-1	null	null	28	nmod:until	null
+0	0	33	188	190	S	32	in	in	in	IN	O	prep	false	-1	-1	null	null	35	case	null
+0	0	34	191	198	S	35	several	several	several	JJ	DURATION	amod	false	-1	-1	null	null	35	amod	null
+0	0	35	199	205		33	months	months	month	NNS	DURATION	pobj	false	-1	-1	null	null	32	nmod:in	null
+0	0	36	205	206	S	5	.	.	.	.	O	punct	false	-1	-1	null	null	5	punct	null
+0	1	37	207	208	S	38	A	A	a	DT	O	det	false	-1	-1	null	null	38	det	null
+0	1	38	209	217	S	39	villager	villager	villager	NN	O	nsubj	false	-1	-1	null	null	39	nsubj	null
+0	1	39	218	227	S	-1	overhears	overhears	overhear	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	40	228	232		39	this	this	this	DT	O	dobj	false	-1	-1	null	null	39	dobj	null
+0	1	41	232	233	S	39	.	.	.	.	O	punct	false	-1	-1	null	null	39	punct	null
+0	2	42	234	237	S	43	The	The	the	DT	O	det	false	-1	-1	c7	c7	43	det	(c7;ANIMATE;UNKNOWN),
+0	2	43	238	245	S	44	farmers	farmers	farmer	NNS	O	nsubj	false	-1	-1	c7	c7	44	nsubj	(c7;ANIMATE;UNKNOWN),
+0	2	44	246	248	S	-1	go	go	go	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	2	45	249	251	S	44	to	to	to	TO	O	prep	false	-1	-1	null	null	46	case	null
+0	2	46	252	257	S	47	their	their	they	PRP$	O	poss	false	-1	-1	c7	null	44	nmod:to	(c7;ANIMATE;UNKNOWN),
+0	2	47	258	263		45	elder	elder	elder	JJR	O	pobj	false	-1	-1	c9	null	44	dobj	(c9;ANIMATE;MALE),
+0	2	48	263	264	S	47	,	,	,	,	O	punct	false	-1	-1	null	null	47	punct	null
+0	2	49	265	268	S	50	who	who	who	WP	O	nsubj	false	-1	-1	null	null	50	nsubj	null
+0	2	50	269	277	S	47	declares	declares	declare	VBZ	O	rcmod	false	-1	-1	null	null	47	acl:relcl	null
+0	2	51	278	282	S	54	that	that	that	IN	O	complm	false	-1	-1	null	null	54	mark	null
+0	2	52	283	287	S	54	they	they	they	PRP	O	nsubj	false	-1	-1	c7	null	54	nsubj	(c7;ANIMATE;UNKNOWN),
+0	2	53	288	294	S	54	should	should	should	MD	O	aux	false	-1	-1	null	null	54	aux	null
+0	2	54	295	299	S	50	hire	hire	hire	VB	O	ccomp	false	-1	-1	null	null	50	ccomp	null
+0	2	55	300	307	S	54	samurai	samurai	samurai	NN	O	dobj	false	-1	-1	null	null	54	dobj	null
+0	2	56	308	310	S	57	to	to	to	TO	O	aux	false	-1	-1	null	null	57	mark	null
+0	2	57	311	315	S	55	help	help	help	VB	O	infmod	false	-1	-1	null	null	44	advcl	null
+0	2	58	316	322	S	57	defend	defend	defend	VB	O	ccomp	false	-1	-1	null	null	57	xcomp	null
+0	2	59	323	326	S	60	the	the	the	DT	O	det	false	-1	-1	c2	null	60	det	(c2;INANIMATE;NEUTRAL),
+0	2	60	327	334		58	village	village	village	NN	O	dobj	false	-1	-1	c2	null	58	dobj	(c2;INANIMATE;NEUTRAL),
+0	2	61	334	335	S	44	.	.	.	.	O	punct	false	-1	-1	null	null	44	punct	null
+0	3	62	336	341	S	64	Since	Since	since	IN	O	mark	false	-1	-1	null	null	64	mark	null
+0	3	63	342	346	S	64	they	they	they	PRP	O	nsubj	false	-1	-1	c7	null	64	nsubj	(c7;ANIMATE;UNKNOWN),
+0	3	64	347	351	S	-1	have	have	have	VBP	O	null	false	-1	-1	null	null	73	advcl	null
+0	3	65	352	359	S	64	nothing	nothing	nothing	NN	O	dobj	false	-1	-1	null	null	64	advmod	null
+0	3	66	360	362	S	67	to	to	to	TO	O	aux	false	-1	-1	null	null	67	mark	null
+0	3	67	363	368	S	65	offer	offer	offer	VB	O	infmod	false	-1	-1	null	null	64	xcomp	null
+0	3	68	369	372	S	67	but	but	but	CC	O	cc	false	-1	-1	null	null	69	case	null
+0	3	69	373	377		67	food	food	food	NN	O	conj	false	-1	-1	null	null	67	nmod:but	null
+0	3	70	377	378	S	69	,	,	,	,	O	punct	false	-1	-1	null	null	73	punct	null
+0	3	71	379	382	S	73	the	the	the	DT	O	det	false	-1	-1	c9	c9	72	det	(c9;ANIMATE;MALE),
+0	3	72	383	388	S	73	elder	elder	elder	JJR	O	amod	false	-1	-1	c9	c9	73	nsubj	(c9;ANIMATE;MALE),
+0	3	73	389	394	S	69	tells	tells	tell	VBZ	O	appos	false	-1	-1	null	null	-1	root	null
+0	3	74	395	399	S	73	them	them	they	PRP	O	dobj	false	-1	-1	c7	null	73	dobj	(c7;ANIMATE;UNKNOWN),
+0	3	75	400	402	S	77	to	to	to	TO	O	aux	false	-1	-1	null	null	77	mark	null
+0	3	76	403	404		77	"	``	``	``	O	punct	false	-1	-1	null	null	77	punct	null
+0	3	77	404	408	S	73	find	find	find	VB	O	xcomp	true	-1	-1	null	null	73	xcomp	null
+0	3	78	409	415	S	79	hungry	hungry	hungry	JJ	O	amod	true	-1	-1	null	null	79	amod	null
+0	3	79	416	423		77	samurai	samurai	samurai	NN	O	dobj	true	-1	-1	null	null	77	dobj	null
+0	3	80	423	424		64	.	.	.	.	O	punct	true	-1	-1	null	null	73	punct	null
+0	3	81	424	425	S	64	"	''	''	''	O	punct	true	-1	-1	null	null	73	punct	null
+0	4	82	426	433	S	83	Several	Several	several	JJ	O	amod	false	-1	-1	c10	c10	83	amod	(c10;ANIMATE;UNKNOWN),
+0	4	83	434	437	S	84	men	men	man	NNS	O	nsubj	false	-1	-1	c10	c10	84	nsubj	(c10;ANIMATE;UNKNOWN),
+0	4	84	438	440	S	-1	go	go	go	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	4	85	441	443	S	84	to	to	to	TO	O	prep	false	-1	-1	null	null	87	case	null
+0	4	86	444	447	S	87	the	the	the	DT	O	det	false	-1	-1	null	null	87	det	null
+0	4	87	448	452		85	city	city	city	NN	O	pobj	false	-1	-1	null	null	84	nmod:to	null
+0	4	88	452	453	S	84	,	,	,	,	O	punct	false	-1	-1	null	null	84	punct	null
+0	4	89	454	457	S	84	but	but	but	CC	O	cc	false	-1	-1	null	null	84	cc	null
+0	4	90	458	461	S	91	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	91	auxpass	null
+0	4	91	462	468	S	84	turned	turned	turn	VBN	O	conj	false	-1	-1	null	null	84	conj:but	null
+0	4	92	469	473	S	91	away	away	away	RP	O	prt	false	-1	-1	null	null	91	compound:prt	null
+0	4	93	474	476	S	91	by	by	by	IN	O	prep	false	-1	-1	null	null	95	case	null
+0	4	94	477	482	S	95	every	every	every	DT	O	det	false	-1	-1	null	null	95	det	null
+0	4	95	483	490	S	93	samurai	samurai	samurai	NN	O	pobj	false	-1	-1	null	null	91	nmod:agent	null
+0	4	96	491	495	S	97	they	they	they	PRP	O	nsubj	false	-1	-1	c10	null	97	nsubj	(c10;ANIMATE;UNKNOWN),
+0	4	97	496	499		95	ask	ask	ask	VBP	O	rcmod	false	-1	-1	null	null	95	acl:relcl	null
+0	4	98	499	500	S	84	.	.	.	.	O	punct	false	-1	-1	null	null	84	punct	null
+0	5	99	501	505	S	100	They	They	they	PRP	O	nsubj	false	-1	-1	c10	null	100	nsubj	(c10;ANIMATE;UNKNOWN),
+0	5	100	506	511	S	-1	watch	watch	watch	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	5	101	512	514	S	109	as	as	as	IN	O	mark	false	-1	-1	null	null	109	mark	null
+0	5	102	515	517	S	104	an	an	a	DT	O	det	false	-1	-1	c11,c11	null	104	det	(c11;ANIMATE;UNKNOWN),(c11;ANIMATE;UNKNOWN),
+0	5	103	518	529	S	104	experienced	experienced	experienced	JJ	O	amod	false	-1	-1	c11,c11	null	104	amod	(c11;ANIMATE;UNKNOWN),(c11;ANIMATE;UNKNOWN),
+0	5	104	530	537		109	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c11,c11	null	109	nsubj	(c11;ANIMATE;UNKNOWN),(c11;ANIMATE;UNKNOWN),
+0	5	105	537	538	S	104	,	,	,	,	O	punct	false	-1	-1	c11	null	104	punct	(c11;ANIMATE;UNKNOWN),
+0	5	106	539	545		104	Kambei	Kambei	Kambei	NNP	PERSON	appos	false	5	5	c11,c11	c11	104	appos	(c11;ANIMATE;UNKNOWN),(c11;ANIMATE;UNKNOWN),
+0	5	107	545	546	S	104	,	,	,	,	O	punct	false	-1	-1	null	null	104	punct	null
+0	5	108	547	553	S	109	deftly	deftly	deftly	RB	O	advmod	false	-1	-1	null	null	109	advmod	null
+0	5	109	554	561	S	100	rescues	rescues	rescue	VBZ	O	advcl	false	-1	-1	null	null	100	advcl	null
+0	5	110	562	563	S	112	a	a	a	DT	O	det	false	-1	-1	null	null	112	det	null
+0	5	111	564	569	S	112	young	young	young	JJ	O	amod	false	-1	-1	null	null	112	amod	null
+0	5	112	570	573	S	109	boy	boy	boy	NN	O	dobj	false	-1	-1	null	null	109	dobj	null
+0	5	113	574	579	S	114	taken	taken	take	VBN	O	amod	false	-1	-1	null	null	112	acl	null
+0	5	114	580	587	S	112	hostage	hostage	hostage	NN	O	dep	false	-1	-1	null	null	113	dobj	null
+0	5	115	588	590	S	114	by	by	by	IN	O	prep	false	-1	-1	null	null	117	case	null
+0	5	116	591	592	S	117	a	a	a	DT	O	det	false	-1	-1	null	null	117	det	null
+0	5	117	593	598		115	thief	thief	thief	NN	O	pobj	false	-1	-1	null	null	113	nmod:by	null
+0	5	118	598	599	S	100	.	.	.	.	O	punct	false	-1	-1	null	null	100	punct	null
+0	6	119	600	609		126	Impressed	Impressed	impress	VBN	O	ccomp	false	-1	-1	null	null	126	advcl	null
+0	6	120	609	610	S	126	,	,	,	,	O	punct	false	-1	-1	null	null	126	punct	null
+0	6	121	611	612	S	123	a	a	a	DT	O	det	false	-1	-1	c13	c13	123	det	(c13;ANIMATE;UNKNOWN),
+0	6	122	613	618	S	123	young	young	young	JJ	O	amod	false	-1	-1	c13	c13	123	amod	(c13;ANIMATE;UNKNOWN),
+0	6	123	619	626	S	126	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c13	c13	126	nsubj	(c13;ANIMATE;UNKNOWN),
+0	6	124	627	632	S	126	named	named	name	VBN	O	rel	false	-1	-1	c13	c13	123	acl	(c13;ANIMATE;UNKNOWN),
+0	6	125	633	643	S	126	Katsushirō	Katsushirō	Katsushirō	NNP	PERSON	nsubj	false	4	4	c12,c13	c12,c13	124	dobj	(c12;ANIMATE;UNKNOWN),(c13;ANIMATE;UNKNOWN),
+0	6	126	644	648	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	127	649	651	S	130	to	to	to	TO	O	aux	false	-1	-1	null	null	128	mark	null
+0	6	128	652	658	S	130	become	become	become	VB	O	cop	false	-1	-1	null	null	126	xcomp	null
+0	6	129	659	662	S	130	his	his	he	PRP$	O	poss	false	-1	-1	c13	null	130	nmod:poss	(c13;ANIMATE;MALE),
+0	6	130	663	671		126	disciple	disciple	disciple	NN	O	xcomp	false	-1	-1	null	null	128	xcomp	null
+0	6	131	671	672	S	126	.	.	.	.	O	punct	false	-1	-1	null	null	126	punct	null
+0	7	132	673	679	S	133	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	133	nsubj	(c11;ANIMATE;UNKNOWN),
+0	7	133	680	687	S	-1	insists	insists	insist	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	134	688	692	S	136	that	that	that	IN	O	complm	false	-1	-1	null	null	136	mark	null
+0	7	135	693	695	S	136	he	he	he	PRP	O	nsubj	false	-1	5	c11	null	136	nsubj	(c11;ANIMATE;MALE),
+0	7	136	696	700	S	133	walk	walk	walk	VBP	O	ccomp	false	-1	-1	null	null	133	ccomp	null
+0	7	137	701	705	S	136	with	with	with	IN	O	prep	false	-1	-1	null	null	138	case	null
+0	7	138	706	709	S	137	him	him	he	PRP	O	pobj	false	-1	5	c11	null	136	nmod:with	(c11;ANIMATE;MALE),
+0	7	139	710	712	S	136	as	as	as	IN	O	prep	false	-1	-1	null	null	141	case	null
+0	7	140	713	714	S	141	a	a	a	DT	O	det	false	-1	-1	null	null	141	det	null
+0	7	141	715	721		139	friend	friend	friend	NN	O	pobj	false	-1	-1	null	null	136	nmod:as	null
+0	7	142	721	722	S	133	.	.	.	.	O	punct	false	-1	-1	null	null	133	punct	null
+0	8	143	723	726	S	144	The	The	the	DT	O	det	false	-1	-1	c7	null	144	det	(c7;ANIMATE;UNKNOWN),
+0	8	144	727	734	S	146	farmers	farmers	farmer	NNS	O	nsubjpass	false	-1	-1	c7	null	146	nsubjpass	(c7;ANIMATE;UNKNOWN),
+0	8	145	735	738	S	146	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	146	auxpass	null
+0	8	146	739	748	S	-1	overjoyed	overjoyed	overjoy	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	8	147	749	753	S	149	when	when	when	WRB	O	advmod	false	-1	-1	null	null	149	advmod	null
+0	8	148	754	760	S	149	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	149	nsubj	(c11;ANIMATE;UNKNOWN),
+0	8	149	761	767	S	146	agrees	agrees	agree	VBZ	O	advcl	false	-1	-1	null	null	146	advcl	null
+0	8	150	768	770	S	151	to	to	to	TO	O	aux	false	-1	-1	null	null	151	mark	null
+0	8	151	771	775	S	149	help	help	help	VB	O	xcomp	false	-1	-1	null	null	149	xcomp	null
+0	8	152	776	780		151	them	them	they	PRP	O	dobj	false	-1	-1	c7	null	151	dobj	(c7;ANIMATE;UNKNOWN),
+0	8	153	780	781	S	146	.	.	.	.	O	punct	false	-1	-1	null	null	146	punct	null
+0	9	154	782	786	S	160	With	With	with	IN	O	prep	false	-1	-1	null	null	157	case	null
+0	9	155	787	797		157	Katsushirō	Katsushirō	Katsushirō	NNP	PERSON	poss	false	4	4	c12	null	157	nmod:poss	(c12;ANIMATE;UNKNOWN),
+0	9	156	797	799	S	155	's	's	's	POS	O	possessive	false	-1	-1	c12	null	155	case	(c12;ANIMATE;UNKNOWN),
+0	9	157	800	810		154	assistance	assistance	assistance	NN	O	pobj	false	-1	-1	null	null	160	nmod:with	null
+0	9	158	810	811	S	160	,	,	,	,	O	punct	false	-1	-1	null	null	160	punct	null
+0	9	159	812	814	S	160	he	he	he	PRP	O	nsubj	false	-1	-1	c12	null	160	nsubj	(c12;ANIMATE;MALE),
+0	9	160	815	823	S	-1	recruits	recruits	recruit	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	161	824	828	S	164	four	four	four	CD	NUMBER	num	false	-1	-1	null	null	160	dobj	null
+0	9	162	829	833	S	161	more	more	more	JJR	O	quantmod	false	-1	-1	null	null	161	advmod	null
+0	9	163	834	844	S	164	masterless	masterless	masterless	JJ	O	amod	false	-1	-1	null	null	164	amod	null
+0	9	164	845	852		160	samurai	samurai	samurai	NN	O	dobj	false	-1	-1	null	null	161	dep	null
+0	9	165	852	853	S	164	:	:	:	:	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	166	854	861	S	167	Gorobei	Gorobei	Gorobei	NNP	PERSON	nn	false	-1	-1	c14	c14	167	compound	(c14;ANIMATE;MALE),
+0	9	167	862	870		164	Katayama	Katayama	Katayama	NNP	PERSON	dep	false	-1	-1	c14	c14	161	conj:and	(c14;ANIMATE;MALE),
+0	9	168	870	871	S	167	,	,	,	,	O	punct	false	-1	-1	null	null	167	punct	null
+0	9	169	872	878	S	167	clever	clever	clever	JJ	O	conj	false	-1	-1	null	null	172	dep	null
+0	9	170	879	882	S	169	and	and	and	CC	O	cc	false	-1	-1	null	null	172	cc	null
+0	9	171	883	887	S	169	good	good	good	JJ	O	conj	false	-1	-1	null	null	172	conj:and	null
+0	9	172	888	895		169	natured	natured	natured	JJ	O	conj	false	-1	-1	null	null	167	amod	null
+0	9	173	895	896	S	167	;	;	;	:	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	174	897	905		167	Heihachi	Heihachi	Heihachi	NNP	LOCATION	conj	false	-1	-1	c17,c17	c17	161	conj:and	(c17;ANIMATE;MALE),(c17;ANIMATE;MALE),
+0	9	175	905	906	S	174	,	,	,	,	O	punct	false	-1	-1	c17	null	174	punct	(c17;ANIMATE;MALE),
+0	9	176	907	908	S	178	a	a	a	DT	O	det	false	-1	-1	c17	null	178	det	(c17;ANIMATE;MALE),
+0	9	177	909	921	S	178	good-humored	good-humored	good-humored	JJ	O	amod	false	-1	-1	c17	null	178	amod	(c17;ANIMATE;MALE),
+0	9	178	922	929	S	174	samurai	samurai	samurai	NN	O	appos	false	-1	-1	c17	null	174	appos	(c17;ANIMATE;MALE),
+0	9	179	930	934	S	178	with	with	with	IN	O	prep	false	-1	-1	c17	null	181	case	(c17;ANIMATE;MALE),
+0	9	180	935	943	S	181	mediocre	mediocre	mediocre	JJ	O	amod	false	-1	-1	c17	null	181	amod	(c17;ANIMATE;MALE),
+0	9	181	944	957		179	swordsmanship	swordsmanship	swordsmanship	NN	O	pobj	false	-1	-1	c17	null	178	nmod:with	(c17;ANIMATE;MALE),
+0	9	182	957	958	S	167	;	;	;	:	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	183	959	969		167	Shichirōji	Shichirōji	Shichirōji	NNP	PERSON	conj	false	3	3	c15	c15	161	conj:and	(c15;ANIMATE;UNKNOWN),
+0	9	184	969	970	S	183	,	,	,	,	O	punct	false	-1	-1	null	null	183	punct	null
+0	9	185	971	973	S	187	an	an	a	DT	O	det	false	-1	-1	null	null	187	det	null
+0	9	186	974	977	S	187	old	old	old	JJ	O	amod	false	-1	-1	null	null	187	amod	null
+0	9	187	978	984	S	183	friend	friend	friend	NN	O	appos	false	-1	-1	null	null	183	appos	null
+0	9	188	985	987	S	187	of	of	of	IN	O	prep	false	-1	-1	null	null	189	case	null
+0	9	189	988	994		188	Kambei	Kambei	Kambei	NNP	PERSON	pobj	false	5	5	c11	null	187	nmod:'s	(c11;ANIMATE;UNKNOWN),
+0	9	190	994	996		189	's	's	's	POS	O	possessive	false	-1	-1	c11	null	189	case	(c11;ANIMATE;UNKNOWN),
+0	9	191	996	997	S	167	;	;	;	:	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	192	998	1001	S	167	and	and	and	CC	O	cc	false	-1	-1	null	null	161	cc	null
+0	9	193	1002	1007		167	Kyūzō	Kyūzō	Kyūzō	NNP	PERSON	conj	false	0	0	c16	c16	161	conj:and	(c16;ANIMATE;UNKNOWN),
+0	9	194	1007	1008	S	167	,	,	,	,	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	195	1009	1010	S	198	a	a	a	DT	O	det	false	-1	-1	null	null	198	det	null
+0	9	196	1011	1019	S	198	taciturn	taciturn	taciturn	JJ	O	amod	false	-1	-1	null	null	198	amod	null
+0	9	197	1020	1026	S	198	master	master	master	NN	O	nn	false	-1	-1	null	null	198	compound	null
+0	9	198	1027	1036		167	swordsman	swordsman	swordsman	NN	O	appos	false	-1	-1	null	null	161	appos	null
+0	9	199	1036	1037	S	160	.	.	.	.	O	punct	false	-1	-1	null	null	160	punct	null
+0	10	200	1038	1046	S	203	Although	Although	although	IN	O	mark	false	-1	-1	null	null	203	mark	null
+0	10	201	1047	1053	S	203	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	203	nsubj	(c11;ANIMATE;UNKNOWN),
+0	10	202	1054	1057	S	203	had	had	have	VBD	O	aux	false	-1	-1	null	null	203	aux	null
+0	10	203	1058	1064	S	213	judged	judged	judge	VBN	O	advcl	false	-1	-1	null	null	213	advcl	null
+0	10	204	1065	1069	S	209	that	that	that	IN	O	complm	false	-1	-1	null	null	209	mark	null
+0	10	205	1070	1075	S	206	seven	seven	seven	CD	NUMBER	num	false	-1	-1	c18	c18	206	nummod	(c18;INANIMATE;UNKNOWN),
+0	10	206	1076	1083	S	209	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	null	null	209	nsubj	null
+0	10	207	1084	1089	S	209	would	would	would	MD	O	aux	false	-1	-1	null	null	209	aux	null
+0	10	208	1090	1092	S	209	be	be	be	VB	O	cop	false	-1	-1	null	null	209	cop	null
+0	10	209	1093	1102		203	necessary	necessary	necessary	JJ	O	ccomp	false	-1	-1	null	null	203	ccomp	null
+0	10	210	1102	1103	S	213	,	,	,	,	O	punct	false	-1	-1	null	null	213	punct	null
+0	10	211	1104	1108	S	213	time	time	time	NN	O	nsubj	false	-1	-1	null	null	213	nsubj	null
+0	10	212	1109	1111	S	213	is	is	be	VBZ	O	aux	false	-1	-1	null	null	213	aux	null
+0	10	213	1112	1119	S	-1	running	running	run	VBG	O	null	false	-1	-1	null	null	-1	root	null
+0	10	214	1120	1125		213	short	short	short	RB	O	advmod	false	-1	-1	null	null	213	advmod	null
+0	10	215	1125	1126	S	213	.	.	.	.	O	punct	false	-1	-1	null	null	213	punct	null
+0	11	216	1127	1130	S	217	The	The	the	DT	O	det	false	-1	-1	c19	c19	217	det	(c19;ANIMATE;UNKNOWN),
+0	11	217	1131	1140	S	218	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c19	c19	218	nsubj	(c19;ANIMATE;UNKNOWN),
+0	11	218	1141	1144	S	230	beg	beg	beg	VBP	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	11	219	1145	1148	S	221	him	him	he	PRP	O	nsubj	false	-1	5	c11	null	218	dobj	(c11;ANIMATE;MALE),
+0	11	220	1149	1151	S	221	to	to	to	TO	O	aux	false	-1	-1	null	null	221	mark	null
+0	11	221	1152	1156	S	218	take	take	take	VB	O	xcomp	false	-1	-1	null	null	218	xcomp	null
+0	11	222	1157	1167	S	221	Katsushirō	Katsushirō	Katsushirō	NNP	LOCATION	dobj	false	-1	-1	c12	null	221	dobj	(c12;ANIMATE;UNKNOWN),
+0	11	223	1168	1171		218	and	and	and	CC	O	cc	false	-1	-1	null	null	218	cc	null
+0	11	224	1171	1172	S	218	,	,	,	,	O	punct	false	-1	-1	null	null	218	punct	null
+0	11	225	1173	1178	S	218	after	after	after	IN	O	prep	false	-1	-1	null	null	227	case	null
+0	11	226	1179	1183	S	227	some	some	some	DT	O	det	false	-1	-1	c20	c20	227	det	(c20;UNKNOWN;MALE),
+0	11	227	1184	1192		225	prodding	prodding	prodding	NN	O	pobj	false	-1	-1	c20	c20	230	nmod:after	(c20;UNKNOWN;MALE),
+0	11	228	1192	1193	S	230	,	,	,	,	O	punct	false	-1	-1	null	null	230	punct	null
+0	11	229	1194	1196	S	230	he	he	he	PRP	O	nsubj	false	-1	-1	c20	null	230	nsubj	(c20;ANIMATE;MALE),
+0	11	230	1197	1203		-1	agrees	agrees	agree	VBZ	O	null	false	-1	-1	null	null	218	conj:and	null
+0	11	231	1203	1204	S	230	.	.	.	.	O	punct	false	-1	-1	null	null	218	punct	null
+0	12	232	1205	1208	S	234	The	The	the	DT	O	det	false	-1	-1	c21	null	234	det	(c21;UNKNOWN;UNKNOWN),
+0	12	233	1209	1217	S	234	clownish	clownish	clownish	JJ	O	amod	false	-1	-1	c21	null	234	amod	(c21;UNKNOWN;UNKNOWN),
+0	12	234	1218	1227		241	Kikuchiyo	Kikuchiyo	Kikuchiyo	NNP	PERSON	nsubj	false	2	2	c21	null	241	nsubj	(c21;UNKNOWN;UNKNOWN),
+0	12	235	1227	1228	S	234	,	,	,	,	O	punct	false	-1	-1	null	null	234	punct	null
+0	12	236	1229	1233	S	239	whom	whom	whom	WP	O	dobj	false	-1	-1	null	null	239	dobj	null
+0	12	237	1234	1240	S	239	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	239	nsubj	(c11;ANIMATE;UNKNOWN),
+0	12	238	1241	1244	S	239	had	had	have	VBD	O	aux	false	-1	-1	null	null	239	aux	null
+0	12	239	1245	1253		234	rejected	rejected	reject	VBN	O	rcmod	false	-1	-1	null	null	234	acl:relcl	null
+0	12	240	1253	1254	S	234	,	,	,	,	O	punct	false	-1	-1	null	null	234	punct	null
+0	12	241	1255	1262	S	-1	follows	follows	follow	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	12	242	1263	1267		241	them	them	they	PRP	O	dobj	false	-1	-1	c19	null	241	dobj	(c19;ANIMATE;UNKNOWN),
+0	12	243	1267	1268	S	241	,	,	,	,	O	punct	false	-1	-1	null	null	241	punct	null
+0	12	244	1269	1277	S	241	ignoring	ignoring	ignore	VBG	O	xcomp	false	-1	-1	null	null	241	advcl	null
+0	12	245	1278	1283	S	246	their	their	they	PRP$	O	poss	false	-1	-1	c19	null	246	nmod:poss	(c19;ANIMATE;UNKNOWN),
+0	12	246	1284	1292	S	244	attempts	attempts	attempt	NNS	O	dobj	false	-1	-1	null	null	244	dobj	null
+0	12	247	1293	1295	S	248	to	to	to	TO	O	aux	false	-1	-1	null	null	248	mark	null
+0	12	248	1296	1301	S	246	drive	drive	drive	VB	O	infmod	false	-1	-1	null	null	244	advcl	null
+0	12	249	1302	1305	S	248	him	him	he	PRP	O	dobj	false	-1	2	c21	null	248	dobj	(c21;ANIMATE;MALE),
+0	12	250	1306	1310		248	away	away	away	RB	O	advmod	false	-1	-1	null	null	248	advmod	null
+0	12	251	1310	1311	S	241	.	.	.	.	O	punct	false	-1	-1	null	null	241	punct	null
+0	13	252	1312	1316	S	255	When	When	when	WRB	O	advmod	false	-1	-1	null	null	255	advmod	null
+0	13	253	1317	1320	S	254	the	the	the	DT	O	det	false	-1	-1	c22	c22	254	det	(c22;ANIMATE;UNKNOWN),
+0	13	254	1321	1328	S	255	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c22	c22	255	nsubj	(c22;ANIMATE;UNKNOWN),
+0	13	255	1329	1335		259	arrive	arrive	arrive	VBP	O	dep	false	-1	-1	null	null	259	advcl	null
+0	13	256	1335	1336	S	259	,	,	,	,	O	punct	false	-1	-1	null	null	259	punct	null
+0	13	257	1337	1340	S	258	the	the	the	DT	O	det	false	-1	-1	c19	null	258	det	(c19;ANIMATE;UNKNOWN),
+0	13	258	1341	1350	S	259	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c19	null	259	nsubj	(c19;ANIMATE;UNKNOWN),
+0	13	259	1351	1356	S	-1	cower	cower	cower	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	13	260	1357	1359	S	259	in	in	in	IN	O	prep	false	-1	-1	null	null	262	case	null
+0	13	261	1360	1365	S	262	their	their	they	PRP$	O	poss	false	-1	-1	c19	null	262	nmod:poss	(c19;ANIMATE;UNKNOWN),
+0	13	262	1366	1371		260	homes	homes	home	NNS	O	pobj	false	-1	-1	null	null	259	nmod:in	null
+0	13	263	1371	1372	S	259	.	.	.	.	O	punct	false	-1	-1	null	null	259	punct	null
+0	14	264	1373	1376	S	265	The	The	the	DT	O	det	false	-1	-1	c22	null	265	det	(c22;ANIMATE;UNKNOWN),
+0	14	265	1377	1384	S	267	samurai	samurai	samurai	NN	O	nsubjpass	false	-1	-1	c22	null	266	nsubj	(c22;ANIMATE;UNKNOWN),
+0	14	266	1385	1389	S	267	feel	feel	feel	VBP	O	aux	false	-1	-1	null	null	-1	root	null
+0	14	267	1390	1398	S	-1	insulted	insulted	insult	VBN	O	null	false	-1	-1	null	null	266	dep	null
+0	14	268	1399	1401	S	267	by	by	by	IN	O	prep	false	-1	-1	null	null	271	case	null
+0	14	269	1402	1407	S	271	their	their	they	PRP$	O	poss	false	-1	-1	c19	null	271	nmod:poss	(c19;ANIMATE;UNKNOWN),
+0	14	270	1408	1412	S	271	cold	cold	cold	JJ	O	amod	false	-1	-1	null	null	271	amod	null
+0	14	271	1413	1422		268	reception	reception	reception	NN	O	pobj	false	-1	-1	null	null	267	nmod:by	null
+0	14	272	1422	1423	S	267	.	.	.	.	O	punct	false	-1	-1	null	null	266	punct	null
+0	15	273	1424	1432		278	Suddenly	Suddenly	suddenly	RB	O	advmod	false	-1	-1	null	null	278	advmod	null
+0	15	274	1432	1433	S	278	,	,	,	,	O	punct	false	-1	-1	null	null	278	punct	null
+0	15	275	1434	1437	S	276	the	the	the	DT	O	det	false	-1	-1	null	null	276	det	null
+0	15	276	1438	1443	S	278	alarm	alarm	alarm	NN	O	nsubjpass	false	-1	-1	null	null	278	nsubjpass	null
+0	15	277	1444	1446	S	278	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	278	auxpass	null
+0	15	278	1447	1453		-1	raised	raised	raise	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	15	279	1453	1454	S	278	;	;	;	:	O	punct	false	-1	-1	null	null	278	punct	null
+0	15	280	1455	1458	S	281	the	the	the	DT	O	det	false	-1	-1	c19,c19	null	281	det	(c19;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	15	281	1459	1468		290	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c19,c19	null	290	nsubj	(c19;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	15	282	1468	1469	S	281	,	,	,	,	O	punct	false	-1	-1	c19	null	281	punct	(c19;ANIMATE;UNKNOWN),
+0	15	283	1470	1477	S	281	fearing	fearing	fear	VBG	O	partmod	false	-1	-1	c19	null	281	acl	(c19;ANIMATE;UNKNOWN),
+0	15	284	1478	1482	S	288	that	that	that	IN	O	complm	false	-1	-1	c19	null	288	mark	(c19;ANIMATE;UNKNOWN),
+0	15	285	1483	1486	S	286	the	the	the	DT	O	det	false	-1	-1	c1,c19	null	286	det	(c1;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	15	286	1487	1494	S	288	bandits	bandits	bandit	NNS	O	nsubj	false	-1	-1	c1,c19	null	288	nsubj	(c1;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	15	287	1495	1499	S	288	have	have	have	VBP	O	aux	false	-1	-1	c19	null	288	aux	(c19;ANIMATE;UNKNOWN),
+0	15	288	1500	1508		283	returned	returned	return	VBN	O	ccomp	false	-1	-1	c19	null	283	ccomp	(c19;ANIMATE;UNKNOWN),
+0	15	289	1508	1509	S	281	,	,	,	,	O	punct	false	-1	-1	null	null	281	punct	null
+0	15	290	1510	1513	S	278	beg	beg	beg	VBP	O	parataxis	false	-1	-1	null	null	278	parataxis	null
+0	15	291	1514	1517	S	293	the	the	the	DT	O	det	false	-1	-1	null	null	293	det	null
+0	15	292	1518	1521	S	293	new	new	new	JJ	O	amod	false	-1	-1	null	null	293	amod	null
+0	15	293	1522	1530	S	290	arrivals	arrivals	arrival	NNS	O	dobj	false	-1	-1	null	null	290	dobj	null
+0	15	294	1531	1533	S	295	to	to	to	TO	O	aux	false	-1	-1	null	null	295	mark	null
+0	15	295	1534	1541	S	290	protect	protect	protect	VB	O	xcomp	false	-1	-1	null	null	290	xcomp	null
+0	15	296	1542	1546		295	them	them	they	PRP	O	dobj	false	-1	-1	c19	null	295	dobj	(c19;ANIMATE;UNKNOWN),
+0	15	297	1546	1547	S	278	.	.	.	.	O	punct	false	-1	-1	null	null	278	punct	null
+0	16	298	1548	1557		306	Kikuchiyo	Kikuchiyo	Kikuchiyo	NNP	PERSON	nsubj	false	2	2	c21,c21	c21	306	nsubj	(c21;ANIMATE;UNKNOWN),(c21;ANIMATE;UNKNOWN),
+0	16	299	1557	1558	S	298	,	,	,	,	O	punct	false	-1	-1	c21	c21	298	punct	(c21;ANIMATE;UNKNOWN),
+0	16	300	1559	1562	S	301	who	who	who	WP	O	nsubj	false	-1	-1	c21	c21	301	nsubj	(c21;ANIMATE;UNKNOWN),
+0	16	301	1563	1569	S	298	raised	raised	raise	VBD	O	rcmod	false	-1	-1	c21	c21	298	acl:relcl	(c21;ANIMATE;UNKNOWN),
+0	16	302	1570	1573	S	304	the	the	the	DT	O	det	false	-1	-1	c21	c21	304	det	(c21;ANIMATE;UNKNOWN),
+0	16	303	1574	1579	S	304	false	false	false	JJ	O	amod	false	-1	-1	c21	c21	304	amod	(c21;ANIMATE;UNKNOWN),
+0	16	304	1580	1585		301	alarm	alarm	alarm	NN	O	dobj	false	-1	-1	c21	c21	301	dobj	(c21;ANIMATE;UNKNOWN),
+0	16	305	1585	1586	S	298	,	,	,	,	O	punct	false	-1	-1	null	null	298	punct	null
+0	16	306	1587	1594	S	-1	rebukes	rebukes	rebuke	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	16	307	1595	1598	S	308	the	the	the	DT	O	det	false	-1	-1	c23	c23	308	det	(c23;ANIMATE;UNKNOWN),
+0	16	308	1599	1608	S	306	villagers	villagers	villager	NNS	O	dobj	false	-1	-1	c23	c23	306	dobj	(c23;ANIMATE;UNKNOWN),
+0	16	309	1609	1612	S	308	for	for	for	IN	O	prep	false	-1	-1	c23	c23	312	case	(c23;ANIMATE;UNKNOWN),
+0	16	310	1613	1618	S	312	their	their	they	PRP$	O	poss	false	-1	-1	c19,c23	c23	312	nmod:poss	(c19;ANIMATE;UNKNOWN),(c23;ANIMATE;UNKNOWN),
+0	16	311	1619	1623	S	312	poor	poor	poor	JJ	O	amod	false	-1	-1	c23	c23	312	amod	(c23;ANIMATE;UNKNOWN),
+0	16	312	1624	1632		309	behavior	behavior	behavior	NN	O	pobj	false	-1	-1	c23	c23	308	nmod:for	(c23;ANIMATE;UNKNOWN),
+0	16	313	1632	1633	S	306	.	.	.	.	O	punct	false	-1	-1	null	null	306	punct	null
+0	17	314	1634	1637	S	315	The	The	the	DT	O	det	false	-1	-1	c22	null	315	det	(c22;ANIMATE;UNKNOWN),
+0	17	315	1638	1645	S	316	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c22	null	316	nsubj	(c22;ANIMATE;UNKNOWN),
+0	17	316	1646	1652	S	-1	accept	accept	accept	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	17	317	1653	1656		316	him	him	he	PRP	O	dobj	false	-1	-1	c22	null	316	dobj	(c22;ANIMATE;MALE),
+0	17	318	1656	1657	S	316	,	,	,	,	O	punct	false	-1	-1	null	null	316	punct	null
+0	17	319	1658	1666	S	316	bringing	bringing	bring	VBG	O	xcomp	false	-1	-1	null	null	316	advcl	null
+0	17	320	1667	1672	S	321	their	their	they	PRP$	O	poss	false	-1	-1	c23	null	321	nmod:poss	(c23;ANIMATE;UNKNOWN),
+0	17	321	1673	1679	S	319	number	number	number	NN	O	dobj	false	-1	-1	null	null	319	dobj	null
+0	17	322	1680	1682	S	319	to	to	to	TO	O	prep	false	-1	-1	null	null	323	case	null
+0	17	323	1683	1688		322	seven	seven	seven	CD	NUMBER	pobj	false	-1	-1	c18	null	319	nmod:to	(c18;INANIMATE;UNKNOWN),
+0	17	324	1688	1689	S	316	.	.	.	.	O	punct	false	-1	-1	null	null	316	punct	null
+0	18	325	1690	1693	S	326	The	The	the	DT	O	det	false	-1	-1	c19	null	326	det	(c19;ANIMATE;UNKNOWN),
+0	18	326	1694	1703	S	327	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c19	null	327	nsubj	(c19;ANIMATE;UNKNOWN),
+0	18	327	1704	1709	S	-1	offer	offer	offer	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	18	328	1710	1715	S	329	white	white	white	JJ	O	amod	false	-1	-1	null	null	329	amod	null
+0	18	329	1716	1720	S	327	rice	rice	rice	NN	O	dobj	false	-1	-1	null	null	327	dobj	null
+0	18	330	1721	1723	S	327	to	to	to	TO	O	prep	false	-1	-1	null	null	332	case	null
+0	18	331	1724	1727	S	332	the	the	the	DT	O	det	false	-1	-1	c22,c22	null	332	det	(c22;ANIMATE;UNKNOWN),(c22;ANIMATE;UNKNOWN),
+0	18	332	1728	1735		330	samurai	samurai	samurai	NN	O	pobj	false	-1	-1	c22,c22	null	327	nmod:to	(c22;ANIMATE;UNKNOWN),(c22;ANIMATE;UNKNOWN),
+0	18	333	1735	1736	S	327	,	,	,	,	O	punct	false	-1	-1	c22	null	332	punct	(c22;ANIMATE;UNKNOWN),
+0	18	334	1737	1740	S	335	the	the	the	DT	O	det	false	-1	-1	c22	null	335	det	(c22;ANIMATE;UNKNOWN),
+0	18	335	1741	1745	S	327	best	best	best	JJS	O	dobj	false	-1	-1	c22	null	332	appos	(c22;ANIMATE;UNKNOWN),
+0	18	336	1746	1750	S	337	they	they	they	PRP	O	nsubj	false	-1	-1	c19,c22	null	337	nsubj	(c19;ANIMATE;UNKNOWN),(c22;ANIMATE;UNKNOWN),
+0	18	337	1751	1755		335	have	have	have	VBP	O	rcmod	false	-1	-1	c22	null	335	acl:relcl	(c22;ANIMATE;UNKNOWN),
+0	18	338	1755	1756	S	327	,	,	,	,	O	punct	false	-1	-1	null	null	327	punct	null
+0	18	339	1757	1762	S	341	while	while	while	IN	O	mark	false	-1	-1	null	null	341	mark	null
+0	18	340	1763	1767	S	341	they	they	they	PRP	O	nsubj	false	-1	-1	c19	null	341	nsubj	(c19;ANIMATE;UNKNOWN),
+0	18	341	1768	1771	S	327	eat	eat	eat	VBP	O	advcl	false	-1	-1	null	null	327	advcl	null
+0	18	342	1772	1778		341	millet	millet	millet	JJ	O	acomp	false	-1	-1	null	null	341	xcomp	null
+0	18	343	1778	1779	S	327	.	.	.	.	O	punct	false	-1	-1	null	null	327	punct	null
+0	19	344	1780	1782	S	346	As	As	as	IN	O	mark	false	-1	-1	null	null	346	mark	null
+0	19	345	1783	1787	S	346	they	they	they	PRP	O	nsubj	false	-1	-1	c19	null	346	nsubj	(c19;ANIMATE;UNKNOWN),
+0	19	346	1788	1795		352	prepare	prepare	prepare	VBP	O	advcl	false	-1	-1	null	null	352	advcl	null
+0	19	347	1795	1796	S	352	,	,	,	,	O	punct	false	-1	-1	null	null	352	punct	null
+0	19	348	1797	1800	S	350	the	the	the	DT	O	det	false	-1	-1	null	null	350	det	null
+0	19	349	1801	1804	S	350	two	two	two	CD	NUMBER	num	false	-1	-1	c24	c24	350	nummod	(c24;INANIMATE;UNKNOWN),
+0	19	350	1805	1811	S	352	groups	groups	group	NNS	O	nsubj	false	-1	-1	null	null	352	nsubj	null
+0	19	351	1812	1818	S	352	slowly	slowly	slowly	RB	O	advmod	false	-1	-1	null	null	352	advmod	null
+0	19	352	1819	1823	S	-1	come	come	come	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	19	353	1824	1826	S	354	to	to	to	TO	O	aux	false	-1	-1	null	null	354	mark	null
+0	19	354	1827	1832	S	352	trust	trust	trust	VB	O	xcomp	false	-1	-1	null	null	352	xcomp	null
+0	19	355	1833	1837	S	356	each	each	each	DT	O	det	false	-1	-1	null	null	356	det	null
+0	19	356	1838	1843		354	other	other	other	JJ	O	dobj	false	-1	-1	null	null	354	dobj	null
+0	19	357	1843	1844	S	352	.	.	.	.	O	punct	false	-1	-1	null	null	352	punct	null
+0	20	358	1845	1852		379	However	However	however	RB	O	advmod	false	-1	-1	null	null	378	advmod	null
+0	20	359	1852	1853	S	379	,	,	,	,	O	punct	false	-1	-1	null	null	378	punct	null
+0	20	360	1854	1858	S	363	when	when	when	WRB	O	advmod	false	-1	-1	null	null	363	advmod	null
+0	20	361	1859	1862	S	362	the	the	the	DT	O	det	false	-1	-1	c22	null	362	det	(c22;ANIMATE;UNKNOWN),
+0	20	362	1863	1870	S	363	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c22	null	363	nsubj	(c22;ANIMATE;UNKNOWN),
+0	20	363	1871	1879	S	379	discover	discover	discover	VBP	O	dep	false	-1	-1	null	null	378	advcl	null
+0	20	364	1880	1884	S	368	that	that	that	IN	O	complm	false	-1	-1	null	null	368	mark	null
+0	20	365	1885	1888	S	366	the	the	the	DT	O	det	false	-1	-1	c19	null	366	det	(c19;ANIMATE;UNKNOWN),
+0	20	366	1889	1898	S	368	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c19	null	368	nsubj	(c19;ANIMATE;UNKNOWN),
+0	20	367	1899	1903	S	368	have	have	have	VBP	O	aux	false	-1	-1	null	null	368	aux	null
+0	20	368	1904	1912	S	363	murdered	murdered	murder	VBN	O	ccomp	false	-1	-1	null	null	363	ccomp	null
+0	20	369	1913	1916	S	368	and	and	and	CC	O	cc	false	-1	-1	null	null	368	cc	null
+0	20	370	1917	1923	S	368	robbed	robbed	rob	VBN	O	conj	false	-1	-1	null	null	368	conj:and	null
+0	20	371	1924	1931	S	370	fleeing	fleeing	flee	VBG	O	dep	false	-1	-1	null	null	368	xcomp	null
+0	20	372	1932	1939	S	371	samurai	samurai	samurai	NN	O	dobj	false	-1	-1	null	null	371	dobj	null
+0	20	373	1940	1942	S	371	in	in	in	IN	O	prep	false	-1	-1	null	null	375	case	null
+0	20	374	1943	1946	S	375	the	the	the	DT	DATE	det	false	-1	-1	null	null	375	det	null
+0	20	375	1947	1951		373	past	past	past	NN	DATE	pobj	false	-1	-1	null	null	371	nmod:in	null
+0	20	376	1951	1952	S	379	,	,	,	,	O	punct	false	-1	-1	null	null	378	punct	null
+0	20	377	1953	1957	S	379	they	they	they	PRP	O	nsubj	false	-1	-1	c19	null	378	nsubj	(c19;ANIMATE;UNKNOWN),
+0	20	378	1958	1964	S	379	become	become	become	VBP	O	cop	false	-1	-1	null	null	-1	root	null
+0	20	379	1965	1970		-1	angry	angry	angry	JJ	O	null	false	-1	-1	null	null	378	xcomp	null
+0	20	380	1970	1971	S	379	.	.	.	.	O	punct	false	-1	-1	null	null	378	punct	null
+0	21	381	1972	1981	S	382	Kikuchiyo	Kikuchiyo	Kikuchiyo	NNP	PERSON	nsubj	false	2	2	c21	null	382	nsubj	(c21;ANIMATE;UNKNOWN),
+0	21	382	1982	1992	S	-1	castigates	castigates	castigate	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	21	383	1993	1996	S	384	his	his	he	PRP$	O	poss	false	-1	2	c21	null	384	nmod:poss	(c21;ANIMATE;MALE),
+0	21	384	1997	2005	S	382	comrades	comrades	comrade	NNS	O	dobj	false	-1	-1	null	null	382	dobj	null
+0	21	385	2006	2009	S	382	for	for	for	IN	O	prep	false	-1	-1	null	null	386	mark	null
+0	21	386	2010	2018	S	385	ignoring	ignoring	ignore	VBG	O	pcomp	false	-1	-1	null	null	382	advcl	null
+0	21	387	2019	2022	S	388	the	the	the	DT	O	det	false	-1	-1	null	null	388	det	null
+0	21	388	2023	2032	S	386	hardships	hardships	hardship	NNS	O	dobj	false	-1	-1	null	null	386	dobj	null
+0	21	389	2033	2037	S	392	that	that	that	IN	O	complm	false	-1	-1	null	null	392	mark	null
+0	21	390	2038	2041	S	391	the	the	the	DT	O	det	false	-1	-1	c7	null	391	det	(c7;ANIMATE;UNKNOWN),
+0	21	391	2042	2049	S	392	farmers	farmers	farmer	NNS	O	nsubj	false	-1	-1	c7	null	392	nsubj	(c7;ANIMATE;UNKNOWN),
+0	21	392	2050	2054	S	388	have	have	have	VBP	O	ccomp	false	-1	-1	null	null	386	ccomp	null
+0	21	393	2055	2057	S	394	to	to	to	TO	O	aux	false	-1	-1	null	null	394	mark	null
+0	21	394	2058	2066	S	392	overcome	overcome	overcome	VB	O	xcomp	false	-1	-1	null	null	392	xcomp	null
+0	21	395	2067	2069	S	396	to	to	to	TO	O	aux	false	-1	-1	null	null	396	mark	null
+0	21	396	2070	2077		394	survive	survive	survive	VB	O	xcomp	false	-1	-1	null	null	394	xcomp	null
+0	21	397	2077	2078	S	396	,	,	,	,	O	punct	false	-1	-1	null	null	382	punct	null
+0	21	398	2079	2088	S	396	including	including	include	VBG	O	prep	false	-1	-1	null	null	399	case	null
+0	21	399	2089	2099	S	398	harassment	harassment	harassment	NN	O	pobj	false	-1	-1	null	null	382	nmod:including	null
+0	21	400	2100	2104	S	399	from	from	from	IN	O	prep	false	-1	-1	null	null	403	case	null
+0	21	401	2105	2108	S	403	the	the	the	DT	O	det	false	-1	-1	null	null	403	det	null
+0	21	402	2109	2116	S	403	warrior	warrior	warrior	NN	O	nn	false	-1	-1	null	null	403	compound	null
+0	21	403	2117	2122		400	class	class	class	NN	O	pobj	false	-1	-1	null	null	399	nmod:from	null
+0	21	404	2122	2123	S	382	.	.	.	.	O	punct	false	-1	-1	null	null	382	punct	null
+0	22	405	2124	2128	S	406	This	This	this	DT	O	nsubj	false	-1	-1	c25	c25	406	nsubj	(c25;UNKNOWN;NEUTRAL),
+0	22	406	2129	2136	S	-1	reveals	reveals	reveal	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	22	407	2137	2140	S	408	his	his	he	PRP$	O	poss	false	-1	2	c21	null	408	nmod:poss	(c21;ANIMATE;MALE),
+0	22	408	2141	2148	S	406	origins	origins	origin	NNS	O	dobj	false	-1	-1	null	null	406	dobj	null
+0	22	409	2149	2151	S	408	as	as	as	IN	O	prep	false	-1	-1	null	null	413	case	null
+0	22	410	2152	2153	S	411	a	a	a	DT	O	det	false	-1	-1	null	null	411	det	null
+0	22	411	2154	2160		413	farmer	farmer	farmer	NN	O	poss	false	-1	-1	null	null	413	nmod:poss	null
+0	22	412	2160	2162	S	411	's	's	's	POS	O	possessive	false	-1	-1	null	null	411	case	null
+0	22	413	2163	2166	S	409	son	son	son	NN	O	pobj	false	-1	-1	null	null	406	nmod:as	null
+0	22	414	2167	2169	S	413	to	to	to	TO	O	prep	false	-1	-1	null	null	415	case	null
+0	22	415	2170	2176		414	Kambei	Kambei	Kambei	NNP	PERSON	pobj	false	5	5	c11	null	413	nmod:to	(c11;ANIMATE;UNKNOWN),
+0	22	416	2176	2177	S	406	.	.	.	.	O	punct	false	-1	-1	null	null	406	punct	null
+0	23	417	2178	2181	S	418	The	The	the	DT	O	det	false	-1	-1	null	null	418	det	null
+0	23	418	2182	2187	S	421	anger	anger	anger	NN	O	tmod	false	-1	-1	null	null	421	nsubj	null
+0	23	419	2188	2191	S	420	the	the	the	DT	O	det	false	-1	-1	c22	null	420	det	(c22;ANIMATE;UNKNOWN),
+0	23	420	2192	2199	S	421	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	c22	null	418	dep	(c22;ANIMATE;UNKNOWN),
+0	23	421	2200	2204	S	-1	felt	felt	feel	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	23	422	2205	2210	S	421	turns	turns	turn	NNS	O	dobj	false	-1	-1	null	null	421	dobj	null
+0	23	423	2211	2213	S	421	to	to	to	TO	O	prep	false	-1	-1	null	null	424	case	null
+0	23	424	2214	2219		423	shame	shame	shame	NN	O	pobj	false	-1	-1	null	null	421	nmod:to	null
+0	23	425	2219	2220	S	421	.	.	.	.	O	punct	false	-1	-1	null	null	421	punct	null
+0	24	426	2221	2225	S	427	They	They	they	PRP	O	nsubj	false	-1	-1	c25	null	427	nsubj	(c25;ANIMATE;UNKNOWN),
+0	24	427	2226	2235	S	-1	construct	construct	construct	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	24	428	2236	2250	S	427	fortifications	fortifications	fortification	NNS	O	dobj	false	-1	-1	null	null	427	dobj	null
+0	24	429	2251	2254	S	427	and	and	and	CC	O	cc	false	-1	-1	null	null	427	cc	null
+0	24	430	2255	2260	S	427	train	train	train	VB	O	conj	false	-1	-1	null	null	427	conj:and	null
+0	24	431	2261	2264	S	432	the	the	the	DT	O	det	false	-1	-1	c7	null	432	det	(c7;ANIMATE;UNKNOWN),
+0	24	432	2265	2272	S	430	farmers	farmers	farmer	NNS	O	dobj	false	-1	-1	c7	null	430	dobj	(c7;ANIMATE;UNKNOWN),
+0	24	433	2273	2276	S	430	for	for	for	IN	O	prep	false	-1	-1	null	null	434	case	null
+0	24	434	2277	2283		433	battle	battle	battle	NN	O	pobj	false	-1	-1	null	null	430	nmod:for	null
+0	24	435	2283	2284	S	427	.	.	.	.	O	punct	false	-1	-1	null	null	427	punct	null
+0	25	436	2285	2295		442	Katsushirō	Katsushirō	Katsushirō	NNP	PERSON	nsubj	false	4	4	c12,c12	null	442	nsubj	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	25	437	2295	2296	S	436	,	,	,	,	O	punct	false	-1	-1	c12	null	436	punct	(c12;ANIMATE;UNKNOWN),
+0	25	438	2297	2300	S	440	the	the	the	DT	O	det	false	-1	-1	c12,c12	null	440	det	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	25	439	2301	2309	S	440	youngest	youngest	youngest	JJS	O	amod	false	-1	-1	c12,c12	null	440	amod	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	25	440	2310	2317		436	samurai	samurai	samurai	NN	O	appos	false	-1	-1	c12,c12	null	436	appos	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	25	441	2317	2318	S	436	,	,	,	,	O	punct	false	-1	-1	null	null	436	punct	null
+0	25	442	2319	2325	S	-1	begins	begins	begin	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	25	443	2326	2327	S	444	a	a	a	DT	O	det	false	-1	-1	null	null	444	det	null
+0	25	444	2328	2340	S	442	relationship	relationship	relationship	NN	O	dobj	false	-1	-1	null	null	442	dobj	null
+0	25	445	2341	2345	S	444	with	with	with	IN	O	prep	false	-1	-1	null	null	446	case	null
+0	25	446	2346	2351		445	Shino	Shino	Shino	NNP	PERSON	pobj	false	-1	-1	c26	c26	442	nmod:with	(c26;ANIMATE;FEMALE),
+0	25	447	2351	2352	S	446	,	,	,	,	O	punct	false	-1	-1	null	null	446	punct	null
+0	25	448	2353	2356	S	451	who	who	who	WP	O	nsubjpass	false	-1	-1	null	null	451	nsubjpass	null
+0	25	449	2357	2360	S	451	had	had	have	VBD	O	aux	false	-1	-1	null	null	451	aux	null
+0	25	450	2361	2365	S	451	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	451	auxpass	null
+0	25	451	2366	2372	S	446	forced	forced	force	VBN	O	rcmod	false	-1	-1	null	null	446	acl:relcl	null
+0	25	452	2373	2375	S	453	to	to	to	TO	O	aux	false	-1	-1	null	null	453	mark	null
+0	25	453	2376	2386	S	451	masquerade	masquerade	masquerade	VB	O	xcomp	false	-1	-1	null	null	451	xcomp	null
+0	25	454	2387	2389	S	453	as	as	as	IN	O	prep	false	-1	-1	null	null	456	case	null
+0	25	455	2390	2391	S	456	a	a	a	DT	O	det	false	-1	-1	null	null	456	det	null
+0	25	456	2392	2395	S	454	boy	boy	boy	NN	O	pobj	false	-1	-1	null	null	453	nmod:as	null
+0	25	457	2396	2398	S	456	by	by	by	IN	O	prep	false	-1	-1	null	null	459	case	null
+0	25	458	2399	2402	S	459	her	her	she	PRP$	O	poss	false	-1	-1	c26	null	459	nmod:poss	(c26;ANIMATE;FEMALE),
+0	25	459	2403	2409	S	457	father	father	father	NN	O	pobj	false	-1	-1	null	null	453	nmod:by	null
+0	25	460	2410	2412	S	461	to	to	to	TO	O	aux	false	-1	-1	null	null	461	mark	null
+0	25	461	2413	2420	S	456	protect	protect	protect	VB	O	infmod	false	-1	-1	null	null	459	acl	null
+0	25	462	2421	2424	S	461	her	her	she	PRP$	O	dobj	false	-1	-1	c26	null	461	dobj	(c26;ANIMATE;FEMALE),
+0	25	463	2425	2429	S	461	from	from	from	IN	O	prep	false	-1	-1	null	null	467	case	null
+0	25	464	2430	2433	S	467	the	the	the	DT	O	det	false	-1	-1	null	null	467	det	null
+0	25	465	2434	2444	S	466	supposedly	supposedly	supposedly	RB	O	advmod	false	-1	-1	null	null	466	advmod	null
+0	25	466	2445	2452	S	467	lustful	lustful	lustful	JJ	O	amod	false	-1	-1	null	null	467	amod	null
+0	25	467	2453	2460		463	samurai	samurai	samurai	NN	O	pobj	false	-1	-1	null	null	461	nmod:from	null
+0	25	468	2460	2461	S	442	.	.	.	.	O	punct	false	-1	-1	null	null	442	punct	null
+0	26	469	2462	2464	S	481	As	As	as	IN	O	prep	false	-1	-1	null	null	471	case	null
+0	26	470	2465	2468	S	471	the	the	the	DT	O	det	false	-1	-1	null	null	471	det	null
+0	26	471	2469	2473	S	469	time	time	time	NN	O	pobj	false	-1	-1	null	null	481	nmod:as	null
+0	26	472	2474	2477	S	471	for	for	for	IN	O	prep	false	-1	-1	null	null	475	case	null
+0	26	473	2478	2481	S	475	the	the	the	DT	O	det	false	-1	-1	null	null	475	det	null
+0	26	474	2482	2486	S	475	raid	raid	raid	NN	O	nn	false	-1	-1	null	null	475	compound	null
+0	26	475	2487	2497		472	approaches	approaches	approach	NNS	O	pobj	false	-1	-1	null	null	471	nmod:for	null
+0	26	476	2497	2498	S	481	,	,	,	,	O	punct	false	-1	-1	null	null	481	punct	null
+0	26	477	2499	2502	S	479	two	two	two	CD	NUMBER	num	false	-1	-1	c24	null	479	nummod	(c24;INANIMATE;UNKNOWN),
+0	26	478	2503	2509	S	479	bandit	bandit	bandit	NN	O	nn	false	-1	-1	null	null	479	compound	null
+0	26	479	2510	2516	S	481	scouts	scouts	scout	NNS	O	nsubjpass	false	-1	-1	null	null	481	nsubjpass	null
+0	26	480	2517	2520	S	481	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	481	auxpass	null
+0	26	481	2521	2527		-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	26	482	2527	2528	S	481	,	,	,	,	O	punct	false	-1	-1	null	null	481	punct	null
+0	26	483	2529	2534	S	486	while	while	while	IN	O	mark	false	-1	-1	null	null	486	mark	null
+0	26	484	2535	2542	S	486	another	another	another	DT	O	nsubjpass	false	-1	-1	c27	c27	486	nsubjpass	(c27;UNKNOWN;UNKNOWN),
+0	26	485	2543	2545	S	486	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	486	auxpass	null
+0	26	486	2546	2554	S	481	captured	captured	capture	VBN	O	advcl	false	-1	-1	null	null	481	advcl	null
+0	26	487	2555	2558	S	486	and	and	and	CC	O	cc	false	-1	-1	null	null	486	cc	null
+0	26	488	2559	2565	S	486	forced	forced	force	VBN	O	conj	false	-1	-1	null	null	486	conj:and	null
+0	26	489	2566	2568	S	490	to	to	to	TO	O	aux	false	-1	-1	null	null	490	mark	null
+0	26	490	2569	2575	S	488	reveal	reveal	reveal	VB	O	xcomp	false	-1	-1	null	null	486	xcomp	null
+0	26	491	2576	2579	S	492	the	the	the	DT	O	det	false	-1	-1	null	null	492	det	null
+0	26	492	2580	2588	S	490	location	location	location	NN	O	dobj	false	-1	-1	null	null	490	dobj	null
+0	26	493	2589	2591	S	492	of	of	of	IN	O	prep	false	-1	-1	null	null	495	case	null
+0	26	494	2592	2597	S	495	their	their	they	PRP$	O	poss	false	-1	-1	c27	null	495	nmod:poss	(c27;ANIMATE;UNKNOWN),
+0	26	495	2598	2602		493	camp	camp	camp	NN	O	pobj	false	-1	-1	null	null	492	nmod:of	null
+0	26	496	2602	2603	S	481	.	.	.	.	O	punct	false	-1	-1	null	null	481	punct	null
+0	27	497	2604	2609	S	-1	Three	Three	three	CD	NUMBER	null	false	-1	-1	c28	c28	-1	root	(c28;INANIMATE;UNKNOWN),
+0	27	498	2610	2612	S	497	of	of	of	IN	O	prep	false	-1	-1	c28	c28	500	case	(c28;INANIMATE;UNKNOWN),
+0	27	499	2613	2616	S	500	the	the	the	DT	O	det	false	-1	-1	c28	c28	500	det	(c28;INANIMATE;UNKNOWN),
+0	27	500	2617	2624		498	samurai	samurai	samurai	NN	O	pobj	false	-1	-1	c28	c28	497	nmod:of	(c28;INANIMATE;UNKNOWN),
+0	27	501	2624	2625	S	500	,	,	,	,	O	punct	false	-1	-1	c28	c28	500	punct	(c28;INANIMATE;UNKNOWN),
+0	27	502	2626	2632	S	500	guided	guided	guide	VBN	O	partmod	false	-1	-1	c28	c28	500	acl	(c28;INANIMATE;UNKNOWN),
+0	27	503	2633	2635	S	502	by	by	by	IN	O	prep	false	-1	-1	c28	c28	504	case	(c28;INANIMATE;UNKNOWN),
+0	27	504	2636	2643		503	Rikichi	Rikichi	Rikichi	NNP	PERSON	pobj	false	1	1	c28,c29,c29	c28,c29	502	nmod:by	(c28;INANIMATE;UNKNOWN),(c29;ANIMATE;UNKNOWN),(c29;ANIMATE;UNKNOWN),
+0	27	505	2643	2644	S	497	,	,	,	,	O	punct	false	-1	-1	c28,c29	c28,c29	504	punct	(c28;INANIMATE;UNKNOWN),(c29;ANIMATE;UNKNOWN),
+0	27	506	2645	2651	S	507	strike	strike	strike	NN	O	dep	false	-1	-1	c28,c29	c28,c29	504	appos	(c28;INANIMATE;UNKNOWN),(c29;ANIMATE;UNKNOWN),
+0	27	507	2652	2664		497	preemptively	preemptively	preemptively	RB	O	advmod	false	-1	-1	c28	c28	502	advmod	(c28;INANIMATE;UNKNOWN),
+0	27	508	2664	2665	S	497	.	.	.	.	O	punct	false	-1	-1	c28	c28	497	punct	(c28;INANIMATE;UNKNOWN),
+0	28	509	2666	2670	S	510	Many	Many	many	JJ	O	amod	false	-1	-1	c30	c30	510	amod	(c30;ANIMATE;UNKNOWN),
+0	28	510	2671	2678	S	512	bandits	bandits	bandit	NNS	O	nsubjpass	false	-1	-1	c30	c30	512	nsubjpass	(c30;ANIMATE;UNKNOWN),
+0	28	511	2679	2682	S	512	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	512	auxpass	null
+0	28	512	2683	2689		-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	28	513	2689	2690	S	512	,	,	,	,	O	punct	false	-1	-1	null	null	512	punct	null
+0	28	514	2691	2694	S	512	but	but	but	CC	O	cc	false	-1	-1	null	null	512	cc	null
+0	28	515	2695	2703	S	517	Heihachi	Heihachi	Heihachi	NNP	PERSON	nsubjpass	false	-1	-1	c17	null	517	nsubjpass	(c17;ANIMATE;MALE),
+0	28	516	2704	2706	S	517	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	517	auxpass	null
+0	28	517	2707	2712	S	512	slain	slain	slay	VBN	O	conj	false	-1	-1	null	null	512	conj:but	null
+0	28	518	2713	2715	S	517	by	by	by	IN	O	prep	false	-1	-1	null	null	519	case	null
+0	28	519	2716	2723		518	gunfire	gunfire	gunfire	NN	O	pobj	false	-1	-1	null	null	517	nmod:agent	null
+0	28	520	2723	2724	S	512	.	.	.	.	O	punct	false	-1	-1	null	null	512	punct	null
+0	29	521	2725	2729	S	524	When	When	when	WRB	O	advmod	false	-1	-1	null	null	524	advmod	null
+0	29	522	2730	2731	S	523	a	a	a	DT	O	det	false	-1	-1	c31	c31	523	det	(c31;ANIMATE;FEMALE),
+0	29	523	2732	2737	S	524	woman	woman	woman	NN	O	nsubj	false	-1	-1	c31	c31	524	nsubj	(c31;ANIMATE;FEMALE),
+0	29	524	2738	2745	S	533	emerges	emerges	emerge	VBZ	O	dep	false	-1	-1	null	null	533	advcl	null
+0	29	525	2746	2750	S	524	from	from	from	IN	O	prep	false	-1	-1	null	null	530	case	null
+0	29	526	2751	2754	S	527	the	the	the	DT	O	det	false	-1	-1	c30	null	527	det	(c30;ANIMATE;UNKNOWN),
+0	29	527	2755	2762		530	bandits	bandits	bandit	NNS	O	poss	false	-1	-1	c30	null	530	nmod:poss	(c30;ANIMATE;UNKNOWN),
+0	29	528	2762	2763	S	527	'	'	'	POS	O	possessive	false	-1	-1	c30	null	527	case	(c30;ANIMATE;UNKNOWN),
+0	29	529	2764	2771	S	530	burning	burning	burning	NN	O	nn	false	-1	-1	null	null	530	compound	null
+0	29	530	2772	2777		525	house	house	house	NN	O	pobj	false	-1	-1	null	null	524	nmod:from	null
+0	29	531	2777	2778	S	533	,	,	,	,	O	punct	false	-1	-1	null	null	533	punct	null
+0	29	532	2779	2782	S	533	she	she	she	PRP	O	nsubj	false	-1	-1	c31	null	533	nsubj	(c31;ANIMATE;FEMALE),
+0	29	533	2783	2787	S	-1	sees	sees	see	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	29	534	2788	2795	S	533	Rikichi	Rikichi	Rikichi	NNP	PERSON	dobj	false	1	1	c29	null	533	dobj	(c29;ANIMATE;UNKNOWN),
+0	29	535	2796	2799	S	533	and	and	and	CC	O	cc	false	-1	-1	null	null	533	cc	null
+0	29	536	2800	2804	S	538	runs	runs	run	VBZ	O	dep	false	-1	-1	null	null	533	conj:and	null
+0	29	537	2805	2809	S	538	back	back	back	RB	O	advmod	false	-1	-1	null	null	538	advmod	null
+0	29	538	2810	2816	S	533	inside	inside	inside	JJ	O	conj	false	-1	-1	null	null	536	dobj	null
+0	29	539	2817	2819	S	540	to	to	to	TO	O	aux	false	-1	-1	null	null	540	mark	null
+0	29	540	2820	2826	S	538	perish	perish	perish	VB	O	xcomp	false	-1	-1	null	null	536	advcl	null
+0	29	541	2827	2829	S	540	in	in	in	IN	O	prep	false	-1	-1	null	null	543	case	null
+0	29	542	2830	2833	S	543	the	the	the	DT	O	det	false	-1	-1	null	null	543	det	null
+0	29	543	2834	2840		541	flames	flames	flame	NNS	O	pobj	false	-1	-1	null	null	540	nmod:in	null
+0	29	544	2840	2841	S	533	.	.	.	.	O	punct	false	-1	-1	null	null	533	punct	null
+0	30	545	2842	2849	S	546	Rikichi	Rikichi	Rikichi	NNP	PERSON	nsubj	false	1	1	c29	null	546	nsubj	(c29;ANIMATE;UNKNOWN),
+0	30	546	2850	2857	S	-1	reveals	reveals	reveal	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	30	547	2858	2862	S	551	that	that	that	IN	O	complm	false	-1	-1	null	null	551	mark	null
+0	30	548	2863	2867	S	551	this	this	this	DT	O	nsubj	false	-1	-1	c32	c32	551	nsubj	(c32;UNKNOWN;NEUTRAL),
+0	30	549	2868	2871	S	551	was	was	be	VBD	O	cop	false	-1	-1	null	null	551	cop	null
+0	30	550	2872	2875	S	551	his	his	he	PRP$	O	poss	false	-1	1	c29	null	551	nmod:poss	(c29;ANIMATE;MALE),
+0	30	551	2876	2880		546	wife	wife	wife	NN	O	ccomp	false	-1	-1	null	null	546	ccomp	null
+0	30	552	2880	2881	S	551	,	,	,	,	O	punct	false	-1	-1	null	null	551	punct	null
+0	30	553	2882	2885	S	556	who	who	who	WP	O	nsubj	false	-1	-1	null	null	556	nsubjpass	null
+0	30	554	2886	2889	S	556	had	had	have	VBD	O	aux	false	-1	-1	null	null	556	aux	null
+0	30	555	2890	2894	S	556	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	556	auxpass	null
+0	30	556	2895	2904	S	551	kidnapped	kidnapped	kidnap	VBN	O	rcmod	false	-1	-1	null	null	551	acl:relcl	null
+0	30	557	2905	2908	S	556	and	and	and	CC	O	cc	false	-1	-1	null	null	556	cc	null
+0	30	558	2909	2916		556	defiled	defiled	defile	VBN	O	conj	false	-1	-1	null	null	556	conj:and	null
+0	30	559	2916	2917	S	546	.	.	.	.	O	punct	false	-1	-1	null	null	546	punct	null
+0	31	560	2918	2922	S	563	When	When	when	WRB	O	advmod	false	-1	-1	null	null	563	advmod	null
+0	31	561	2923	2926	S	563	the	the	the	DT	O	det	false	-1	-1	null	null	563	det	null
+0	31	562	2927	2934	S	563	bandits	bandits	bandit	NNS	O	nn	false	-1	-1	null	null	563	compound	null
+0	31	563	2935	2941		567	attack	attack	attack	NN	O	dep	false	-1	-1	null	null	567	advcl	null
+0	31	564	2941	2942	S	567	,	,	,	,	O	punct	false	-1	-1	null	null	567	punct	null
+0	31	565	2943	2947	S	567	they	they	they	PRP	O	nsubjpass	false	-1	-1	c32	null	567	nsubjpass	(c32;ANIMATE;UNKNOWN),
+0	31	566	2948	2951	S	567	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	567	auxpass	null
+0	31	567	2952	2962	S	-1	confounded	confounded	confound	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	31	568	2963	2965	S	567	by	by	by	IN	O	prep	false	-1	-1	null	null	571	case	null
+0	31	569	2966	2969	S	571	the	the	the	DT	O	det	false	-1	-1	c33	c33	571	det	(c33;INANIMATE;UNKNOWN),
+0	31	570	2970	2973	S	571	new	new	new	JJ	O	amod	false	-1	-1	c33	c33	571	amod	(c33;INANIMATE;UNKNOWN),
+0	31	571	2974	2988		568	fortifications	fortifications	fortification	NNS	O	pobj	false	-1	-1	c33	c33	567	nmod:agent	(c33;INANIMATE;UNKNOWN),
+0	31	572	2988	2989	S	567	.	.	.	.	O	punct	false	-1	-1	null	null	567	punct	null
+0	32	573	2990	2997	S	575	Several	Several	several	JJ	O	nsubjpass	false	-1	-1	c34	c34	575	nsubjpass	(c34;ANIMATE;UNKNOWN),
+0	32	574	2998	3001	S	575	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	575	auxpass	null
+0	32	575	3002	3008	S	-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	32	576	3009	3019	S	575	attempting	attempting	attempt	VBG	O	xcomp	false	-1	-1	null	null	575	xcomp	null
+0	32	577	3020	3022	S	578	to	to	to	TO	O	aux	false	-1	-1	null	null	578	mark	null
+0	32	578	3023	3028	S	576	scale	scale	scale	VB	O	xcomp	false	-1	-1	null	null	576	xcomp	null
+0	32	579	3029	3032	S	580	the	the	the	DT	O	det	false	-1	-1	null	null	580	det	null
+0	32	580	3033	3043	S	578	barricades	barricades	barricade	NNS	O	dobj	false	-1	-1	null	null	578	dobj	null
+0	32	581	3044	3046	S	578	or	or	or	CC	O	cc	false	-1	-1	null	null	578	cc	null
+0	32	582	3047	3052	S	578	cross	cross	cross	VB	O	conj	false	-1	-1	null	null	578	conj:or	null
+0	32	583	3053	3056	S	584	the	the	the	DT	O	det	false	-1	-1	null	null	584	det	null
+0	32	584	3057	3062		578	moats	moats	moat	NNS	O	dobj	false	-1	-1	null	null	582	dobj	null
+0	32	585	3062	3063	S	575	.	.	.	.	O	punct	false	-1	-1	null	null	575	punct	null
+0	33	586	3064	3071		589	However	However	however	RB	O	advmod	false	-1	-1	null	null	589	advmod	null
+0	33	587	3071	3072	S	589	,	,	,	,	O	punct	false	-1	-1	null	null	589	punct	null
+0	33	588	3073	3077	S	589	they	they	they	PRP	O	nsubj	false	-1	-1	c34	null	589	nsubj	(c34;ANIMATE;UNKNOWN),
+0	33	589	3078	3085	S	-1	possess	possess	possess	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	33	590	3086	3091	S	592	three	three	three	CD	NUMBER	num	false	-1	-1	c28	null	592	nummod	(c28;INANIMATE;UNKNOWN),
+0	33	591	3092	3101	S	592	dangerous	dangerous	dangerous	JJ	O	amod	false	-1	-1	null	null	592	amod	null
+0	33	592	3102	3109		589	muskets	muskets	musket	NNS	O	dobj	false	-1	-1	null	null	589	dobj	null
+0	33	593	3109	3110	S	589	.	.	.	.	O	punct	false	-1	-1	null	null	589	punct	null
+0	34	594	3111	3116	S	595	Kyūzō	Kyūzō	Kyūzō	NNP	PERSON	nsubj	false	0	0	c16	null	595	nsubj	(c16;ANIMATE;UNKNOWN),
+0	34	595	3117	3121	S	-1	sets	sets	set	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	34	596	3122	3125	S	595	out	out	out	RP	O	prt	false	-1	-1	null	null	595	compound:prt	null
+0	34	597	3126	3128	S	595	on	on	on	IN	O	prep	false	-1	-1	null	null	599	case	null
+0	34	598	3129	3132	S	599	his	his	he	PRP$	O	poss	false	-1	0	c16	null	599	nmod:poss	(c16;ANIMATE;MALE),
+0	34	599	3133	3136	S	597	own	own	own	JJ	O	pobj	false	-1	-1	null	null	595	nmod:on	null
+0	34	600	3137	3140	S	595	and	and	and	CC	O	cc	false	-1	-1	null	null	599	cc	null
+0	34	601	3141	3148	S	595	returns	returns	return	NNS	O	conj	false	-1	-1	null	null	599	conj:and	null
+0	34	602	3149	3153	S	601	with	with	with	IN	O	prep	false	-1	-1	null	null	604	case	null
+0	34	603	3154	3155	S	604	a	a	a	DT	O	det	false	-1	-1	null	null	604	det	null
+0	34	604	3156	3162		602	musket	musket	musket	NN	O	pobj	false	-1	-1	null	null	595	nmod:with	null
+0	34	605	3162	3163	S	595	.	.	.	.	O	punct	false	-1	-1	null	null	595	punct	null
+0	35	606	3164	3165	S	608	A	A	a	DT	O	det	false	-1	-1	c35	c35	608	det	(c35;ANIMATE;UNKNOWN),
+0	35	607	3166	3173	S	608	jealous	jealous	jealous	JJ	O	amod	false	-1	-1	c35	c35	608	amod	(c35;ANIMATE;UNKNOWN),
+0	35	608	3174	3183	S	610	Kikuchiyo	Kikuchiyo	kikuchiyo	NN	PERSON	nsubj	false	2	2	c35	c35	610	nsubj	(c35;ANIMATE;UNKNOWN),
+0	35	609	3184	3189	S	610	later	later	later	RB	O	advmod	false	-1	-1	null	null	610	advmod	null
+0	35	610	3190	3198	S	-1	abandons	abandons	abandon	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	35	611	3199	3202	S	612	his	his	he	PRP$	O	poss	false	-1	-1	c35,c36	c36	612	nmod:poss	(c35;ANIMATE;MALE),(c36;INANIMATE;UNKNOWN),
+0	35	612	3203	3207	S	610	post	post	post	NN	O	dobj	false	-1	-1	c36	c36	623	nsubj	(c36;INANIMATE;UNKNOWN),
+0	35	613	3208	3210	S	614	to	to	to	TO	O	aux	false	-1	-1	c36	c36	614	mark	(c36;INANIMATE;UNKNOWN),
+0	35	614	3211	3214	S	612	get	get	get	VB	O	infmod	false	-1	-1	c36	c36	612	acl	(c36;INANIMATE;UNKNOWN),
+0	35	615	3215	3222	S	616	another	another	another	DT	O	det	false	-1	-1	c36	c36	616	det	(c36;INANIMATE;UNKNOWN),
+0	35	616	3223	3229		614	musket	musket	musket	NN	O	dobj	false	-1	-1	c36	c36	614	dobj	(c36;INANIMATE;UNKNOWN),
+0	35	617	3229	3230	S	610	,	,	,	,	O	punct	false	-1	-1	c36	c36	614	punct	(c36;INANIMATE;UNKNOWN),
+0	35	618	3231	3238	S	610	leaving	leaving	leave	VBG	O	xcomp	false	-1	-1	c36	c36	614	advcl	(c36;INANIMATE;UNKNOWN),
+0	35	619	3239	3242	S	620	his	his	he	PRP$	O	poss	false	-1	-1	c35,c36	c36	620	nmod:poss	(c35;ANIMATE;MALE),(c36;INANIMATE;UNKNOWN),
+0	35	620	3243	3253	S	618	contingent	contingent	contingent	NN	O	dobj	false	-1	-1	c36	c36	618	dobj	(c36;INANIMATE;UNKNOWN),
+0	35	621	3254	3256	S	620	of	of	of	IN	O	prep	false	-1	-1	c36	c36	622	case	(c36;INANIMATE;UNKNOWN),
+0	35	622	3257	3264	S	623	farmers	farmers	farmer	NNS	O	nsubj	false	-1	-1	c7,c36	c36	620	nmod:of	(c7;ANIMATE;UNKNOWN),(c36;INANIMATE;UNKNOWN),
+0	35	623	3265	3275		621	leaderless	leaderless	leaderless	VBP	O	pcomp	false	-1	-1	null	null	610	ccomp	null
+0	35	624	3275	3276	S	610	.	.	.	.	O	punct	false	-1	-1	null	null	610	punct	null
+0	36	625	3277	3285	S	627	Although	Although	although	IN	O	mark	false	-1	-1	null	null	627	mark	null
+0	36	626	3286	3288	S	627	he	he	he	PRP	O	nsubj	false	-1	-1	c35	null	627	nsubj	(c35;ANIMATE;MALE),
+0	36	627	3289	3297		631	succeeds	succeeds	succeed	VBZ	O	advcl	false	-1	-1	null	null	631	advcl	null
+0	36	628	3297	3298	S	631	,	,	,	,	O	punct	false	-1	-1	null	null	631	punct	null
+0	36	629	3299	3302	S	630	the	the	the	DT	O	det	false	-1	-1	c1	null	630	det	(c1;ANIMATE;UNKNOWN),
+0	36	630	3303	3310	S	631	bandits	bandits	bandit	NNS	O	nsubj	false	-1	-1	c1	null	631	nsubj	(c1;ANIMATE;UNKNOWN),
+0	36	631	3311	3317	S	-1	attack	attack	attack	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	36	632	3318	3321	S	633	his	his	he	PRP$	O	poss	false	-1	-1	c35,c36	null	633	nmod:poss	(c35;ANIMATE;MALE),(c36;INANIMATE;UNKNOWN),
+0	36	633	3322	3326		635	post	post	post	NN	O	nsubj	false	-1	-1	c36	null	631	dobj	(c36;INANIMATE;UNKNOWN),
+0	36	634	3326	3327	S	633	,	,	,	,	O	punct	false	-1	-1	null	null	633	punct	null
+0	36	635	3328	3340	S	631	overwhelming	overwhelming	overwhelming	JJ	O	ccomp	false	-1	-1	null	null	633	amod	null
+0	36	636	3341	3344	S	635	and	and	and	CC	O	cc	false	-1	-1	null	null	635	cc	null
+0	36	637	3345	3352	S	635	killing	killing	kill	VBG	O	conj	false	-1	-1	null	null	635	conj:and	null
+0	36	638	3353	3357	S	637	some	some	some	DT	O	dobj	false	-1	-1	null	null	637	dobj	null
+0	36	639	3358	3360	S	638	of	of	of	IN	O	prep	false	-1	-1	null	null	641	case	null
+0	36	640	3361	3364	S	641	the	the	the	DT	O	det	false	-1	-1	c7	null	641	det	(c7;ANIMATE;UNKNOWN),
+0	36	641	3365	3372		639	farmers	farmers	farmer	NNS	O	pobj	false	-1	-1	c7	null	638	nmod:of	(c7;ANIMATE;UNKNOWN),
+0	36	642	3372	3373	S	631	.	.	.	.	O	punct	false	-1	-1	null	null	631	punct	null
+0	37	643	3374	3380	S	645	Kambei	Kambei	Kambei	NNP	PERSON	nsubjpass	false	5	5	c11	null	645	nsubjpass	(c11;ANIMATE;UNKNOWN),
+0	37	644	3381	3383	S	645	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	645	auxpass	null
+0	37	645	3384	3390	S	-1	forced	forced	force	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	37	646	3391	3393	S	647	to	to	to	TO	O	aux	false	-1	-1	null	null	647	mark	null
+0	37	647	3394	3398	S	645	send	send	send	VB	O	xcomp	false	-1	-1	null	null	645	xcomp	null
+0	37	648	3399	3413		647	reinforcements	reinforcements	reinforcement	NNS	O	dobj	false	-1	-1	null	null	647	dobj	null
+0	37	649	3413	3414	S	645	,	,	,	,	O	punct	false	-1	-1	null	null	645	punct	null
+0	37	650	3415	3422	S	645	leaving	leaving	leave	VBG	O	xcomp	false	-1	-1	null	null	645	xcomp	null
+0	37	651	3423	3426	S	653	the	the	the	DT	O	det	false	-1	-1	null	null	653	det	null
+0	37	652	3427	3431	S	653	main	main	main	JJ	O	amod	false	-1	-1	null	null	653	amod	null
+0	37	653	3432	3436	S	654	post	post	post	NN	O	nsubj	false	-1	-1	null	null	654	nsubj	null
+0	37	654	3437	3448	S	650	undermanned	undermanned	underman	VBD	O	ccomp	false	-1	-1	null	null	650	ccomp	null
+0	37	655	3449	3453	S	659	when	when	when	WRB	O	advmod	false	-1	-1	null	null	659	advmod	null
+0	37	656	3454	3457	S	658	the	the	the	DT	O	det	false	-1	-1	c37	c37	658	det	(c37;ANIMATE;MALE),
+0	37	657	3458	3464	S	658	bandit	bandit	bandit	NN	O	nn	false	-1	-1	c37	c37	658	compound	(c37;ANIMATE;MALE),
+0	37	658	3465	3470	S	659	chief	chief	chief	NN	O	nsubj	false	-1	-1	c37	c37	659	nsubj	(c37;ANIMATE;MALE),
+0	37	659	3471	3476	S	654	leads	leads	lead	VBZ	O	advcl	false	-1	-1	null	null	654	advcl	null
+0	37	660	3477	3478	S	661	a	a	a	DT	O	det	false	-1	-1	null	null	661	det	null
+0	37	661	3479	3485	S	659	charge	charge	charge	NN	O	dobj	false	-1	-1	null	null	659	dobj	null
+0	37	662	3486	3493	S	661	against	against	against	IN	O	prep	false	-1	-1	null	null	664	case	null
+0	37	663	3494	3498	S	664	this	this	this	DT	O	det	false	-1	-1	null	null	664	det	null
+0	37	664	3499	3507		662	position	position	position	NN	O	pobj	false	-1	-1	null	null	661	nmod:against	null
+0	37	665	3507	3508	S	645	.	.	.	.	O	punct	false	-1	-1	null	null	645	punct	null
+0	38	666	3509	3517	S	669	Although	Although	although	IN	O	mark	false	-1	-1	null	null	669	mark	null
+0	38	667	3518	3522	S	669	they	they	they	PRP	O	nsubjpass	false	-1	-1	c1	null	669	nsubjpass	(c1;ANIMATE;UNKNOWN),
+0	38	668	3523	3526	S	669	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	669	auxpass	null
+0	38	669	3527	3535		673	repelled	repelled	repel	VBN	O	advcl	false	-1	-1	null	null	673	advcl	null
+0	38	670	3535	3536	S	673	,	,	,	,	O	punct	false	-1	-1	null	null	673	punct	null
+0	38	671	3537	3544	S	673	Gorobei	Gorobei	Gorobei	NNP	PERSON	nsubjpass	false	-1	-1	c14	null	673	nsubjpass	(c14;ANIMATE;UNKNOWN),
+0	38	672	3545	3547	S	673	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	673	auxpass	null
+0	38	673	3548	3552	S	-1	shot	shot	shoot	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	38	674	3553	3556	S	673	and	and	and	CC	O	cc	false	-1	-1	null	null	673	cc	null
+0	38	675	3557	3563		673	killed	killed	kill	VBN	O	conj	false	-1	-1	null	null	673	conj:and	null
+0	38	676	3563	3564	S	673	.	.	.	.	O	punct	false	-1	-1	null	null	673	punct	null
+0	39	677	3565	3570	S	680	Yohei	Yohei	Yohei	NNP	PERSON	nsubjpass	false	-1	-1	null	null	680	nsubjpass	null
+0	39	678	3571	3573	S	680	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	680	auxpass	null
+0	39	679	3574	3578	S	680	also	also	also	RB	O	advmod	false	-1	-1	null	null	680	advmod	null
+0	39	680	3579	3584		-1	slain	slain	slay	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	39	681	3584	3585	S	680	.	.	.	.	O	punct	false	-1	-1	null	null	680	punct	null
+0	40	682	3586	3592		684	Kambei	Kambei	Kambei	NNP	PERSON	poss	false	5	5	c11	null	684	nmod:poss	(c11;ANIMATE;UNKNOWN),
+0	40	683	3592	3594	S	682	's	's	's	POS	O	possessive	false	-1	-1	c11	null	682	case	(c11;ANIMATE;UNKNOWN),
+0	40	684	3595	3604	S	685	stratagem	stratagem	stratagem	NN	O	nsubj	false	-1	-1	null	null	685	nsubj	null
+0	40	685	3605	3607	S	-1	is	is	be	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	40	686	3608	3610	S	687	to	to	to	TO	O	aux	false	-1	-1	null	null	687	mark	null
+0	40	687	3611	3616	S	685	allow	allow	allow	VB	O	xcomp	false	-1	-1	null	null	685	xcomp	null
+0	40	688	3617	3620	S	689	one	one	one	CD	NUMBER	num	false	-1	-1	null	null	689	nummod	null
+0	40	689	3621	3627	S	691	bandit	bandit	bandit	NN	O	nsubj	false	-1	-1	null	null	687	dobj	null
+0	40	690	3628	3630	S	691	to	to	to	TO	O	aux	false	-1	-1	null	null	691	mark	null
+0	40	691	3631	3636	S	687	enter	enter	enter	VB	O	xcomp	false	-1	-1	null	null	687	xcomp	null
+0	40	692	3637	3644	S	691	through	through	through	IN	O	prep	false	-1	-1	null	null	694	case	null
+0	40	693	3645	3646	S	694	a	a	a	DT	O	det	false	-1	-1	null	null	694	det	null
+0	40	694	3647	3650	S	692	gap	gap	gap	NN	O	pobj	false	-1	-1	null	null	691	nmod:through	null
+0	40	695	3651	3653	S	694	in	in	in	IN	O	prep	false	-1	-1	null	null	697	case	null
+0	40	696	3654	3657	S	697	the	the	the	DT	O	det	false	-1	-1	c33	null	697	det	(c33;INANIMATE;UNKNOWN),
+0	40	697	3658	3672		695	fortifications	fortifications	fortification	NNS	O	pobj	false	-1	-1	c33	null	694	nmod:in	(c33;INANIMATE;UNKNOWN),
+0	40	698	3672	3673	S	685	,	,	,	,	O	punct	false	-1	-1	null	null	691	punct	null
+0	40	699	3674	3679	S	685	block	block	block	VBP	O	conj	false	-1	-1	null	null	691	conj:and	null
+0	40	700	3680	3683	S	701	the	the	the	DT	O	det	false	-1	-1	null	null	701	det	null
+0	40	701	3684	3688	S	699	rest	rest	rest	NN	O	dobj	false	-1	-1	null	null	699	dobj	null
+0	40	702	3689	3693	S	699	with	with	with	IN	O	prep	false	-1	-1	null	null	705	case	null
+0	40	703	3694	3695	S	705	a	a	a	DT	O	det	false	-1	-1	null	null	705	det	null
+0	40	704	3696	3697		705	"	``	``	``	O	punct	false	-1	-1	null	null	705	punct	null
+0	40	705	3697	3701		702	wall	wall	wall	NN	O	pobj	true	-1	-1	null	null	699	nmod:with	null
+0	40	706	3701	3702	S	705	"	''	''	''	O	punct	true	-1	-1	null	null	705	punct	null
+0	40	707	3703	3705	S	705	of	of	of	IN	O	prep	false	-1	-1	null	null	708	case	null
+0	40	708	3706	3712		707	spears	spears	spear	NNS	O	pobj	false	-1	-1	null	null	705	nmod:of	null
+0	40	709	3712	3713	S	699	,	,	,	,	O	punct	false	-1	-1	null	null	691	punct	null
+0	40	710	3714	3717	S	699	and	and	and	CC	O	cc	false	-1	-1	null	null	691	cc	null
+0	40	711	3718	3722	S	699	kill	kill	kill	VB	O	conj	false	-1	-1	null	null	691	conj:and	null
+0	40	712	3723	3726	S	714	the	the	the	DT	O	det	false	-1	-1	null	null	714	det	null
+0	40	713	3727	3731	S	714	lone	lone	lone	JJ	O	amod	false	-1	-1	null	null	714	amod	null
+0	40	714	3732	3737		711	enemy	enemy	enemy	NN	O	dobj	false	-1	-1	null	null	711	dobj	null
+0	40	715	3737	3738	S	685	.	.	.	.	O	punct	false	-1	-1	null	null	685	punct	null
+0	41	716	3739	3743	S	717	This	This	this	DT	O	nsubj	false	-1	-1	c38	c38	717	nsubj	(c38;UNKNOWN;NEUTRAL),
+0	41	717	3744	3752	S	-1	succeeds	succeeds	succeed	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	41	718	3753	3760	S	719	several	several	several	JJ	O	amod	false	-1	-1	null	null	719	amod	null
+0	41	719	3761	3766		717	times	times	time	NNS	O	dobj	false	-1	-1	null	null	717	dobj	null
+0	41	720	3766	3767	S	717	.	.	.	.	O	punct	false	-1	-1	null	null	717	punct	null
+0	42	721	3768	3770	S	727	On	On	on	IN	O	prep	false	-1	-1	null	null	724	case	null
+0	42	722	3771	3774	S	724	the	the	the	DT	DATE	det	false	-1	-1	null	null	724	det	null
+0	42	723	3775	3781	S	724	second	second	second	JJ	DATE	amod	false	-1	-1	null	null	724	amod	null
+0	42	724	3782	3787		721	night	night	night	NN	DATE	pobj	false	-1	-1	null	null	727	nmod:on	null
+0	42	725	3787	3788	S	727	,	,	,	,	O	punct	false	-1	-1	null	null	727	punct	null
+0	42	726	3789	3795	S	727	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	727	nsubj	(c11;ANIMATE;UNKNOWN),
+0	42	727	3796	3805	S	-1	instructs	instructs	instruct	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	42	728	3806	3810	S	727	them	them	they	PRP	O	dobj	false	-1	-1	c38	null	727	dobj	(c38;ANIMATE;UNKNOWN),
+0	42	729	3811	3813	S	730	to	to	to	TO	O	aux	false	-1	-1	null	null	730	mark	null
+0	42	730	3814	3821	S	727	prepare	prepare	prepare	VB	O	xcomp	false	-1	-1	null	null	727	xcomp	null
+0	42	731	3822	3825	S	730	for	for	for	IN	O	prep	false	-1	-1	null	null	736	case	null
+0	42	732	3826	3827	S	736	a	a	a	DT	O	det	false	-1	-1	c39	c39	736	det	(c39;INANIMATE;UNKNOWN),
+0	42	733	3828	3833		736	final	final	final	JJ	O	amod	false	-1	-1	c39	c39	736	amod	(c39;INANIMATE;UNKNOWN),
+0	42	734	3833	3834	S	736	,	,	,	,	O	punct	false	-1	-1	c39	c39	736	punct	(c39;INANIMATE;UNKNOWN),
+0	42	735	3835	3843	S	736	decisive	decisive	decisive	JJ	O	amod	false	-1	-1	c39	c39	736	amod	(c39;INANIMATE;UNKNOWN),
+0	42	736	3844	3850		731	battle	battle	battle	NN	O	pobj	false	-1	-1	c39	c39	730	nmod:for	(c39;INANIMATE;UNKNOWN),
+0	42	737	3850	3851	S	727	.	.	.	.	O	punct	false	-1	-1	null	null	727	punct	null
+0	43	738	3852	3856	S	747	When	When	when	WRB	O	advmod	false	-1	-1	null	null	747	advmod	null
+0	43	739	3857	3864	S	740	morning	morning	morning	NN	TIME	nn	false	-1	-1	null	null	740	compound	null
+0	43	740	3865	3871		747	breaks	breaks	break	NNS	O	nsubj	false	-1	-1	null	null	747	nsubj	null
+0	43	741	3871	3872	S	740	,	,	,	,	O	punct	false	-1	-1	null	null	740	punct	null
+0	43	742	3873	3879	S	743	Kambei	Kambei	kambei	FW	PERSON	nn	false	5	5	null	null	740	appos	null
+0	43	743	3880	3886	S	740	orders	orders	order	NNS	O	conj	false	-1	-1	null	null	742	dep	null
+0	43	744	3887	3890	S	745	his	his	he	PRP$	O	poss	false	-1	5	c11	null	745	nmod:poss	(c11;ANIMATE;MALE),
+0	43	745	3891	3897	S	743	forces	forces	force	NNS	O	dobj	false	-1	-1	null	null	742	dep	null
+0	43	746	3898	3900	S	747	to	to	to	TO	O	aux	false	-1	-1	null	null	747	mark	null
+0	43	747	3901	3906	S	-1	allow	allow	allow	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	43	748	3907	3910	S	750	the	the	the	DT	O	det	false	-1	-1	null	null	750	det	null
+0	43	749	3911	3920	S	750	remaining	remaining	remain	VBG	O	amod	false	-1	-1	null	null	750	amod	null
+0	43	750	3921	3928	S	751	bandits	bandits	bandit	NNS	O	nsubj	false	-1	-1	null	null	747	dobj	null
+0	43	751	3929	3931		747	in	in	in	IN	O	xcomp	false	-1	-1	null	null	747	nmod	null
+0	43	752	3931	3932	S	747	.	.	.	.	O	punct	false	-1	-1	null	null	747	punct	null
+0	44	753	3933	3937	S	758	Most	Most	most	JJS	O	nsubjpass	false	-1	-1	null	null	758	nsubjpass	null
+0	44	754	3938	3940	S	753	of	of	of	IN	O	prep	false	-1	-1	null	null	756	case	null
+0	44	755	3941	3944	S	756	the	the	the	DT	O	det	false	-1	-1	c40	c40	756	det	(c40;ANIMATE;UNKNOWN),
+0	44	756	3945	3954	S	754	attackers	attackers	attacker	NNS	O	pobj	false	-1	-1	c40	c40	753	nmod:of	(c40;ANIMATE;UNKNOWN),
+0	44	757	3955	3958	S	758	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	758	auxpass	null
+0	44	758	3959	3965		-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	44	759	3965	3966	S	758	,	,	,	,	O	punct	false	-1	-1	null	null	758	punct	null
+0	44	760	3967	3970	S	758	but	but	but	CC	O	cc	false	-1	-1	null	null	758	cc	null
+0	44	761	3971	3976	S	762	their	their	they	PRP$	O	poss	false	-1	-1	c40,c41	c41	762	nmod:poss	(c40;ANIMATE;UNKNOWN),(c41;ANIMATE;MALE),
+0	44	762	3977	3983	S	763	leader	leader	leader	NN	O	nsubj	false	-1	-1	c41	c41	763	nsubj	(c41;ANIMATE;MALE),
+0	44	763	3984	3989	S	758	takes	takes	take	VBZ	O	conj	false	-1	-1	null	null	758	conj:but	null
+0	44	764	3990	3996	S	763	refuge	refuge	refuge	NN	O	dobj	false	-1	-1	null	null	768	nsubj	null
+0	44	765	3997	3999	S	763	in	in	in	IN	O	prep	false	-1	-1	null	null	767	case	null
+0	44	766	4000	4001	S	767	a	a	a	DT	O	det	false	-1	-1	c42	c42	767	det	(c42;INANIMATE;NEUTRAL),
+0	44	767	4002	4005	S	765	hut	hut	hut	NN	O	pobj	false	-1	-1	c42	c42	764	nmod:in	(c42;INANIMATE;NEUTRAL),
+0	44	768	4006	4012		767	unseen	unseen	unseen	JJ	O	amod	false	-1	-1	null	null	763	xcomp	null
+0	44	769	4012	4013	S	758	.	.	.	.	O	punct	false	-1	-1	null	null	758	punct	null
+0	45	770	4014	4016	S	780	In	In	in	IN	O	prep	false	-1	-1	null	null	773	mark	null
+0	45	771	4017	4021	S	773	what	what	what	WP	O	nsubjpass	false	-1	-1	null	null	773	nsubjpass	null
+0	45	772	4022	4024	S	773	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	773	auxpass	null
+0	45	773	4025	4034	S	770	portrayed	portrayed	portray	VBN	O	pcomp	false	-1	-1	null	null	780	advcl	null
+0	45	774	4035	4037	S	773	as	as	as	IN	O	prep	false	-1	-1	null	null	777	case	null
+0	45	775	4038	4039	S	777	a	a	a	DT	O	det	false	-1	-1	null	null	777	det	null
+0	45	776	4040	4052	S	777	dishonorable	dishonorable	dishonorable	JJ	O	amod	false	-1	-1	null	null	777	amod	null
+0	45	777	4053	4056		774	act	act	act	NN	O	pobj	false	-1	-1	null	null	773	nmod:as	null
+0	45	778	4056	4057	S	780	,	,	,	,	O	punct	false	-1	-1	null	null	780	punct	null
+0	45	779	4058	4060	S	780	he	he	he	PRP	O	nsubj	false	-1	-1	c41	null	780	nsubj	(c41;ANIMATE;MALE),
+0	45	780	4061	4067	S	-1	shoots	shoots	shoot	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	45	781	4068	4073	S	780	Kyūzō	Kyūzō	Kyūzō	NNP	PERSON	dobj	false	0	0	null	null	780	dobj	null
+0	45	782	4074	4078	S	780	from	from	from	IN	O	prep	false	-1	-1	null	null	784	case	null
+0	45	783	4079	4082	S	784	the	the	the	DT	O	det	false	-1	-1	c42	null	784	det	(c42;INANIMATE;NEUTRAL),
+0	45	784	4083	4086		782	hut	hut	hut	NN	O	pobj	false	-1	-1	c42	null	781	nmod:from	(c42;INANIMATE;NEUTRAL),
+0	45	785	4086	4087	S	780	,	,	,	,	O	punct	false	-1	-1	null	null	780	punct	null
+0	45	786	4088	4095	S	780	killing	killing	kill	VBG	O	xcomp	false	-1	-1	null	null	780	advcl	null
+0	45	787	4096	4099		786	him	him	he	PRP	O	dobj	false	-1	-1	c41	null	786	dobj	(c41;ANIMATE;MALE),
+0	45	788	4099	4100	S	780	.	.	.	.	O	punct	false	-1	-1	null	null	780	punct	null
+0	46	789	4101	4102	S	791	A	A	a	DT	O	det	false	-1	-1	c43	c43	791	det	(c43;ANIMATE;UNKNOWN),
+0	46	790	4103	4113	S	791	despondent	despondent	despondent	JJ	O	amod	false	-1	-1	c43	c43	791	amod	(c43;ANIMATE;UNKNOWN),
+0	46	791	4114	4124	S	792	Katsushirō	Katsushirō	Katsushirō	NNP	PERSON	nsubj	false	4	4	c43	c43	792	nsubj	(c43;ANIMATE;UNKNOWN),
+0	46	792	4125	4130	S	-1	seeks	seeks	seek	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	46	793	4131	4133	S	794	to	to	to	TO	O	aux	false	-1	-1	null	null	794	mark	null
+0	46	794	4134	4140	S	792	avenge	avenge	avenge	VB	O	xcomp	false	-1	-1	null	null	792	xcomp	null
+0	46	795	4141	4144	S	796	his	his	he	PRP$	O	poss	false	-1	-1	c43	null	796	nmod:poss	(c43;ANIMATE;MALE),
+0	46	796	4145	4149		794	hero	hero	hero	NN	O	dobj	false	-1	-1	null	null	794	dobj	null
+0	46	797	4149	4150	S	792	,	,	,	,	O	punct	false	-1	-1	null	null	792	punct	null
+0	46	798	4151	4154	S	792	but	but	but	CC	O	cc	false	-1	-1	null	null	792	cc	null
+0	46	799	4155	4157	S	802	an	an	a	DT	O	det	false	-1	-1	null	null	801	det	null
+0	46	800	4158	4165	S	802	enraged	enraged	enraged	JJ	O	amod	false	-1	-1	null	null	801	amod	null
+0	46	801	4166	4175	S	802	Kikuchiyo	Kikuchiyo	kikuchiyo	NN	PERSON	nn	false	2	2	null	null	792	conj:but	null
+0	46	802	4176	4183	S	810	charges	charges	charge	NNS	O	nsubj	false	-1	-1	null	null	801	dobj	null
+0	46	803	4184	4189	S	802	ahead	ahead	ahead	RB	O	advmod	false	-1	-1	null	null	805	advmod	null
+0	46	804	4190	4192	S	803	of	of	of	IN	O	dep	false	-1	-1	null	null	805	case	null
+0	46	805	4193	4196		804	him	him	he	PRP	O	pobj	false	-1	-1	c43	null	802	nmod:of	(c43;ANIMATE;MALE),
+0	46	806	4196	4197	S	802	,	,	,	,	O	punct	false	-1	-1	null	null	802	punct	null
+0	46	807	4198	4202	S	810	only	only	only	RB	O	advmod	false	-1	-1	null	null	802	advmod	null
+0	46	808	4203	4205	S	810	to	to	to	TO	O	aux	false	-1	-1	null	null	810	mark	null
+0	46	809	4206	4208	S	810	be	be	be	VB	O	auxpass	false	-1	-1	null	null	810	auxpass	null
+0	46	810	4209	4213	S	792	shot	shot	shoot	VBN	O	conj	false	-1	-1	null	null	801	advcl	null
+0	46	811	4214	4221		810	himself	himself	himself	PRP	O	dobj	false	-1	-1	c43	null	810	dobj	(c43;ANIMATE;MALE),
+0	46	812	4221	4222	S	792	.	.	.	.	O	punct	false	-1	-1	null	null	792	punct	null
+0	47	813	4223	4232	S	814	Kikuchiyo	Kikuchiyo	Kikuchiyo	NNP	PERSON	nsubj	false	2	2	c21	null	814	nsubj	(c21;ANIMATE;UNKNOWN),
+0	47	814	4233	4238	S	-1	kills	kills	kill	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	47	815	4239	4242	S	817	the	the	the	DT	O	det	false	-1	-1	c37	null	817	det	(c37;ANIMATE;MALE),
+0	47	816	4243	4249	S	817	bandit	bandit	bandit	NN	O	nn	false	-1	-1	c37	null	817	compound	(c37;ANIMATE;MALE),
+0	47	817	4250	4255	S	814	chief	chief	chief	NN	O	dobj	false	-1	-1	c37	null	814	dobj	(c37;ANIMATE;MALE),
+0	47	818	4256	4262	S	814	before	before	before	IN	O	prep	false	-1	-1	null	null	819	case	null
+0	47	819	4263	4268		818	dying	dying	die	VBG	O	pcomp	false	-1	-1	c44	c44	814	nmod:before	(c44;UNKNOWN;NEUTRAL),
+0	47	820	4268	4269	S	814	.	.	.	.	O	punct	false	-1	-1	null	null	814	punct	null
+0	48	821	4270	4276	S	825	Kambei	Kambei	Kambei	NNP	PERSON	nsubj	false	5	5	c11	null	825	nsubj	(c11;ANIMATE;UNKNOWN),
+0	48	822	4277	4280	S	821	and	and	and	CC	O	cc	false	-1	-1	null	null	821	cc	null
+0	48	823	4281	4291	S	821	Shichirōji	Shichirōji	Shichirōji	NNP	PERSON	conj	false	3	3	c15	null	821	conj:and	(c15;ANIMATE;UNKNOWN),
+0	48	824	4292	4297	S	825	sadly	sadly	sadly	RB	O	advmod	false	-1	-1	null	null	825	advmod	null
+0	48	825	4298	4305	S	-1	observe	observe	observe	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	48	826	4306	4307		825	"	``	``	``	O	punct	false	-1	-1	null	null	829	punct	null
+0	48	827	4307	4309		829	we	we	we	PRP	O	nsubj	true	-1	-1	c44	null	829	nsubj	(c44;ANIMATE;UNKNOWN),
+0	48	828	4309	4312	S	829	've	've	have	VBP	O	aux	true	-1	-1	null	null	829	aux	null
+0	48	829	4313	4321	S	825	survived	survived	survive	VBN	O	ccomp	true	-1	-1	null	null	825	ccomp	null
+0	48	830	4322	4326	S	831	once	once	once	RB	DATE	advmod	true	-1	-1	null	null	831	advmod	null
+0	48	831	4327	4332		829	again	again	again	RB	O	advmod	true	-1	-1	null	null	829	advmod	null
+0	48	832	4332	4333		829	"	''	''	''	O	punct	true	-1	-1	null	null	829	punct	null
+0	48	833	4333	4334	S	825	.	.	.	.	O	punct	false	-1	-1	null	null	825	punct	null
+0	49	834	4335	4344		840	Afterward	Afterward	afterward	RB	O	advmod	false	-1	-1	null	null	840	advmod	null
+0	49	835	4344	4345	S	840	,	,	,	,	O	punct	false	-1	-1	null	null	840	punct	null
+0	49	836	4346	4349	S	839	the	the	the	DT	O	det	false	-1	-1	null	null	837	det	null
+0	49	837	4350	4355	S	839	three	three	three	CD	NUMBER	num	false	-1	-1	null	null	840	nsubj	null
+0	49	838	4356	4365	S	839	surviving	surviving	survive	VBG	O	amod	false	-1	-1	null	null	837	acl	null
+0	49	839	4366	4373	S	840	samurai	samurai	samurai	NN	O	nsubj	false	-1	-1	null	null	838	dobj	null
+0	49	840	4374	4379	S	-1	watch	watch	watch	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	49	841	4380	4383	S	842	the	the	the	DT	O	det	false	-1	-1	c45	c45	842	det	(c45;ANIMATE;UNKNOWN),
+0	49	842	4384	4393	S	844	villagers	villagers	villager	NNS	O	nsubj	false	-1	-1	c45	c45	840	dobj	(c45;ANIMATE;UNKNOWN),
+0	49	843	4394	4401	S	844	happily	happily	happily	RB	O	advmod	false	-1	-1	c45	c45	844	advmod	(c45;ANIMATE;UNKNOWN),
+0	49	844	4402	4410	S	840	planting	planting	plant	VBG	O	ccomp	false	-1	-1	c45	c45	842	acl	(c45;ANIMATE;UNKNOWN),
+0	49	845	4411	4414	S	847	the	the	the	DT	O	det	false	-1	-1	c45	c45	847	det	(c45;ANIMATE;UNKNOWN),
+0	49	846	4415	4419	S	847	next	next	next	JJ	O	amod	false	-1	-1	c45	c45	847	amod	(c45;ANIMATE;UNKNOWN),
+0	49	847	4420	4424		844	crop	crop	crop	NN	O	dobj	false	-1	-1	c45	c45	844	dobj	(c45;ANIMATE;UNKNOWN),
+0	49	848	4424	4425	S	840	.	.	.	.	O	punct	false	-1	-1	null	null	840	punct	null
+0	50	849	4426	4430	S	850	They	They	they	PRP	O	nsubj	false	-1	-1	c45	null	850	nsubj	(c45;ANIMATE;UNKNOWN),
+0	50	850	4431	4438	S	-1	reflect	reflect	reflect	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	50	851	4439	4441	S	850	on	on	on	IN	O	prep	false	-1	-1	null	null	853	case	null
+0	50	852	4442	4445	S	853	the	the	the	DT	O	det	false	-1	-1	null	null	853	det	null
+0	50	853	4446	4458	S	851	relationship	relationship	relationship	NN	O	pobj	false	-1	-1	null	null	850	nmod:on	null
+0	50	854	4459	4466	S	853	between	between	between	IN	O	prep	false	-1	-1	null	null	859	case	null
+0	50	855	4467	4470	S	856	the	the	the	DT	O	det	false	-1	-1	null	null	859	det	null
+0	50	856	4471	4478	S	854	warrior	warrior	warrior	NN	O	pobj	false	-1	-1	null	null	859	compound	null
+0	50	857	4479	4482	S	856	and	and	and	CC	O	cc	false	-1	-1	null	null	856	cc	null
+0	50	858	4483	4490	S	859	farming	farming	farming	NN	O	nn	false	-1	-1	null	null	856	conj:and	null
+0	50	859	4491	4498		856	classes	classes	class	NNS	O	conj	false	-1	-1	null	null	853	nmod:between	null
+0	50	860	4498	4499	S	850	:	:	:	:	O	punct	false	-1	-1	null	null	850	punct	null
+0	50	861	4500	4506	S	864	though	though	though	IN	O	mark	false	-1	-1	null	null	864	mark	null
+0	50	862	4507	4511	S	864	they	they	they	PRP	O	nsubj	false	-1	-1	c45	null	864	nsubj	(c45;ANIMATE;UNKNOWN),
+0	50	863	4512	4516	S	864	have	have	have	VBP	O	aux	false	-1	-1	null	null	864	aux	null
+0	50	864	4517	4520	S	870	won	won	win	VBN	O	advcl	false	-1	-1	null	null	870	advcl	null
+0	50	865	4521	4524	S	866	the	the	the	DT	O	det	false	-1	-1	c39	null	866	det	(c39;INANIMATE;UNKNOWN),
+0	50	866	4525	4531		864	battle	battle	battle	NN	O	dobj	false	-1	-1	c39	null	864	dobj	(c39;INANIMATE;UNKNOWN),
+0	50	867	4531	4532	S	870	,	,	,	,	O	punct	false	-1	-1	null	null	870	punct	null
+0	50	868	4533	4537	S	870	they	they	they	PRP	O	nsubj	false	-1	-1	c45	null	870	nsubj	(c45;ANIMATE;UNKNOWN),
+0	50	869	4538	4542	S	870	have	have	have	VBP	O	aux	false	-1	-1	null	null	870	aux	null
+0	50	870	4543	4547	S	850	lost	lost	lose	VBN	O	parataxis	false	-1	-1	null	null	850	parataxis	null
+0	50	871	4548	4553	S	872	their	their	they	PRP$	O	poss	false	-1	-1	c4,c45	c4	872	nmod:poss	(c4;ANIMATE;UNKNOWN),(c45;ANIMATE;UNKNOWN),
+0	50	872	4554	4561	S	870	friends	friends	friend	NNS	O	dobj	false	-1	-1	c4	c4	870	dobj	(c4;ANIMATE;UNKNOWN),
+0	50	873	4562	4566	S	870	with	with	with	IN	O	prep	false	-1	-1	null	null	874	case	null
+0	50	874	4567	4573	S	873	little	little	little	JJ	O	pobj	false	-1	-1	null	null	870	nmod:with	null
+0	50	875	4574	4576	S	876	to	to	to	TO	O	aux	false	-1	-1	null	null	876	mark	null
+0	50	876	4577	4581	S	870	show	show	show	VB	O	xcomp	false	-1	-1	null	null	870	advcl	null
+0	50	877	4582	4585	S	876	for	for	for	IN	O	prep	false	-1	-1	null	null	878	case	null
+0	50	878	4586	4588		877	it	it	it	PRP	O	pobj	false	-1	-1	c39	null	876	nmod:for	(c39;INANIMATE;NEUTRAL),
+0	50	879	4588	4589	S	850	.	.	.	.	O	punct	false	-1	-1	null	null	850	punct	null
+0	51	880	4590	4591		888	"	``	``	``	O	punct	false	-1	-1	c5	c5	881	punct	(c5;UNKNOWN;MALE),
+0	51	881	4591	4596	S	884	Again	Again	again	RB	O	advmod	true	-1	-1	c5,c6	c5	-1	root	(c5;UNKNOWN;MALE),(c6;UNKNOWN;MALE),
+0	51	882	4597	4599	S	884	we	we	we	PRP	O	nsubjpass	true	-1	-1	c4,c5,c6	c5	884	nsubjpass	(c4;ANIMATE;UNKNOWN),(c5;UNKNOWN;MALE),(c6;UNKNOWN;MALE),
+0	51	883	4600	4603	S	884	are	are	be	VBP	O	auxpass	true	-1	-1	c5,c6	c5	884	auxpass	(c5;UNKNOWN;MALE),(c6;UNKNOWN;MALE),
+0	51	884	4604	4612		888	defeated	defeated	defeat	VBN	O	amod	true	-1	-1	c5,c6	c5	881	acl:relcl	(c5;UNKNOWN;MALE),(c6;UNKNOWN;MALE),
+0	51	885	4612	4613		888	,	,	,	,	O	punct	true	-1	-1	c5	c5	881	punct	(c5;UNKNOWN;MALE),
+0	51	886	4613	4614	S	888	"	''	''	''	O	punct	true	-1	-1	c5	c5	881	punct	(c5;UNKNOWN;MALE),
+0	51	887	4615	4621	S	888	Kambei	Kambei	Kambei	NNP	PERSON	nn	false	5	5	c5,c6	c5,c6	881	dep	(c5;UNKNOWN;MALE),(c6;ANIMATE;UNKNOWN),
+0	51	888	4622	4627		-1	muses	muses	muse	NNS	O	null	false	-1	-1	c5,c6	c5,c6	887	dep	(c5;UNKNOWN;MALE),(c6;ANIMATE;UNKNOWN),
+0	51	889	4627	4628	S	888	.	.	.	.	O	punct	false	-1	-1	null	null	881	punct	null
+0	52	890	4629	4630		895	"	``	``	``	O	punct	false	-1	-1	null	null	895	punct	null
+0	52	891	4630	4633	S	892	The	The	the	DT	O	det	true	-1	-1	c8	c8	892	det	(c8;ANIMATE;UNKNOWN),
+0	52	892	4634	4641	S	895	winners	winners	winner	NNS	O	nsubj	true	-1	-1	c8	c8	895	nsubj	(c8;ANIMATE;UNKNOWN),
+0	52	893	4642	4645	S	895	are	are	be	VBP	O	cop	true	-1	-1	null	null	895	cop	null
+0	52	894	4646	4651	S	895	those	those	those	DT	O	det	true	-1	-1	c8	null	895	det	(c8;ANIMATE;UNKNOWN),
+0	52	895	4652	4659		-1	farmers	farmers	farmer	NNS	O	null	true	-1	-1	c8	null	-1	root	(c8;ANIMATE;UNKNOWN),
+0	52	896	4659	4660	S	895	.	.	.	.	O	punct	true	-1	-1	null	null	895	punct	null
+0	53	897	4661	4664	S	898	Not	Not	not	RB	O	neg	true	-1	-1	null	null	898	neg	null
+0	53	898	4665	4667		-1	us	us	we	PRP	O	null	true	-1	-1	c5	null	-1	root	(c5;ANIMATE;UNKNOWN),
+0	53	899	4667	4668		898	.	.	.	.	O	punct	true	-1	-1	null	null	898	punct	null
+0	53	900	4668	4669	N	898	"	''	''	''	O	punct	true	-1	-1	null	null	898	punct	null

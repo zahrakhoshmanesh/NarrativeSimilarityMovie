@@ -1,0 +1,81 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	7	S	3	British	British	british	JJ	MISC	amod	false	-1	-1	c1	c1	1	amod	(c1;ANIMATE;FEMALE),
+0	0	1	8	16	S	3	newlywed	newlywed	newlywed	JJ	O	amod	false	-1	-1	c1	c1	3	amod	(c1;ANIMATE;FEMALE),
+0	0	2	17	23	S	3	Regina	Regina	Regina	NNP	PERSON	nn	false	-1	-1	c1	c1	3	compound	(c1;ANIMATE;FEMALE),
+0	0	3	24	31	S	4	Lambert	Lambert	Lambert	NNP	PERSON	nsubj	false	-1	-1	c1	c1	4	nsubj	(c1;ANIMATE;FEMALE),
+0	0	4	32	37	S	-1	lives	lives	live	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	5	38	40	S	4	in	in	in	IN	O	prep	false	-1	-1	null	null	6	case	null
+0	0	6	41	46	S	5	Paris	Paris	Paris	NNP	LOCATION	pobj	false	-1	-1	null	null	4	nmod:in	null
+0	0	7	47	51	S	4	with	with	with	IN	O	prep	false	-1	-1	null	null	9	case	null
+0	0	8	52	55	S	9	her	her	she	PRP$	O	poss	false	-1	0	c1,c2,c2	null	9	nmod:poss	(c1;ANIMATE;FEMALE),(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	0	9	56	63		7	husband	husband	husband	NN	O	pobj	false	-1	-1	c2,c2	null	4	nmod:with	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	0	10	63	64	S	9	,	,	,	,	O	punct	false	-1	-1	c2	null	9	punct	(c2;ANIMATE;MALE),
+0	0	11	65	72		9	Charlie	Charlie	Charlie	NNP	PERSON	appos	false	0	0	c2,c2	null	9	appos	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	0	12	72	73	S	4	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	13	74	77	S	14	She	She	she	PRP	O	nsubj	false	-1	-1	c1	null	14	nsubj	(c1;ANIMATE;FEMALE),
+0	1	14	78	85	S	-1	returns	returns	return	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	15	86	90	S	14	home	home	home	NN	O	advmod	false	-1	-1	null	null	14	dobj	null
+0	1	16	91	100	S	14	following	following	follow	VBG	O	prep	false	-1	-1	null	null	19	case	null
+0	1	17	101	102	S	19	a	a	a	DT	O	det	false	-1	-1	null	null	19	det	null
+0	1	18	103	108	S	19	short	short	short	JJ	O	amod	false	-1	-1	null	null	19	amod	null
+0	1	19	109	117		16	vacation	vacation	vacation	NN	O	pobj	false	-1	-1	null	null	15	nmod:following	null
+0	1	20	117	118	S	19	,	,	,	,	O	punct	false	-1	-1	null	null	19	punct	null
+0	1	21	119	129	S	19	determined	determined	determine	VBN	O	partmod	false	-1	-1	null	null	19	acl	null
+0	1	22	130	132	S	21	to	to	to	TO	O	prep	false	-1	-1	null	null	24	case	null
+0	1	23	133	140	S	24	divorce	divorce	divorce	NN	O	nn	false	-1	-1	c2	null	24	compound	(c2;ANIMATE;MALE),
+0	1	24	141	148		22	Charlie	Charlie	Charlie	NNP	PERSON	pobj	false	0	0	c2,c2	null	21	nmod:to	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	1	25	148	149	S	14	,	,	,	,	O	punct	false	-1	-1	null	null	21	punct	null
+0	1	26	150	154	S	28	only	only	only	RB	O	advmod	false	-1	-1	null	null	28	advmod	null
+0	1	27	155	157	S	28	to	to	to	TO	O	aux	false	-1	-1	null	null	28	mark	null
+0	1	28	158	166	S	14	discover	discover	discover	VB	O	xcomp	false	-1	-1	null	null	21	xcomp	null
+0	1	29	167	172	S	30	their	their	they	PRP$	O	poss	false	-1	-1	null	null	30	nmod:poss	null
+0	1	30	173	182	S	28	apartment	apartment	apartment	NN	O	dobj	false	-1	-1	null	null	33	nsubjpass	null
+0	1	31	183	186	S	33	has	has	have	VBZ	O	aux	false	-1	-1	null	null	33	aux	null
+0	1	32	187	191	S	33	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	33	auxpass	null
+0	1	33	192	200	S	28	stripped	stripped	strip	VBN	O	dep	false	-1	-1	null	null	28	ccomp	null
+0	1	34	201	205	S	33	bare	bare	bare	JJ	O	dep	false	-1	-1	null	null	33	xcomp	null
+0	1	35	206	209	S	33	and	and	and	CC	O	cc	false	-1	-1	null	null	33	cc	null
+0	1	36	210	214	S	41	that	that	that	IN	O	complm	false	-1	-1	null	null	41	mark	null
+0	1	37	215	218	S	38	her	her	she	PRP$	O	poss	false	-1	0	c1,c2	null	38	nmod:poss	(c1;ANIMATE;FEMALE),(c2;ANIMATE;MALE),
+0	1	38	219	226	S	41	husband	husband	husband	NN	O	nsubjpass	false	-1	-1	c2	null	41	nsubjpass	(c2;ANIMATE;MALE),
+0	1	39	227	230	S	41	has	has	have	VBZ	O	aux	false	-1	-1	null	null	41	aux	null
+0	1	40	231	235	S	41	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	41	auxpass	null
+0	1	41	236	244		33	murdered	murdered	murder	VBN	O	conj	false	-1	-1	null	null	33	conj:and	null
+0	1	42	244	245	S	14	.	.	.	.	O	punct	false	-1	-1	null	null	14	punct	null
+0	2	43	246	252	S	46	Regina	Regina	Regina	NNP	PERSON	nsubjpass	false	-1	-1	c1	null	46	nsubjpass	(c1;ANIMATE;FEMALE),
+0	2	44	253	255	S	46	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	46	auxpass	null
+0	2	45	256	260	S	46	soon	soon	soon	RB	O	advmod	false	-1	-1	null	null	46	advmod	null
+0	2	46	261	269	S	-1	reunited	reunited	reunite	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	2	47	270	274	S	46	with	with	with	IN	O	prep	false	-1	-1	null	null	50	case	null
+0	2	48	275	276	S	50	a	a	a	DT	O	det	false	-1	-1	c3	c3	50	det	(c3;ANIMATE;MALE),
+0	2	49	277	287	S	50	mysterious	mysterious	mysterious	JJ	O	amod	false	-1	-1	c3	c3	50	amod	(c3;ANIMATE;MALE),
+0	2	50	288	296	S	47	stranger	stranger	stranger	NN	O	pobj	false	-1	-1	c3	c3	46	nmod:with	(c3;ANIMATE;MALE),
+0	2	51	297	300	S	52	she	she	she	PRP	O	nsubj	false	-1	-1	c1,c3	c3	52	nsubj	(c1;ANIMATE;FEMALE),(c3;ANIMATE;MALE),
+0	2	52	301	304	S	50	met	met	meet	VBD	O	rcmod	false	-1	-1	c3	c3	50	acl:relcl	(c3;ANIMATE;MALE),
+0	2	53	305	307	S	52	on	on	on	IN	O	prep	false	-1	-1	c3	c3	55	case	(c3;ANIMATE;MALE),
+0	2	54	308	311	S	55	her	her	she	PRP$	O	poss	false	-1	-1	c1,c3	c3	55	nmod:poss	(c1;ANIMATE;FEMALE),(c3;ANIMATE;MALE),
+0	2	55	312	319		53	holiday	holiday	holiday	NN	O	pobj	false	-1	-1	c3	c3	52	nmod:on	(c3;ANIMATE;MALE),
+0	2	56	319	320	S	46	.	.	.	.	O	punct	false	-1	-1	null	null	46	punct	null
+0	3	57	321	323	S	58	He	He	he	PRP	O	nsubj	false	-1	-1	c3	null	58	nsubj	(c3;ANIMATE;MALE),
+0	3	58	324	329	S	-1	helps	helps	help	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	59	330	333	S	60	her	her	she	PRP$	O	poss	false	-1	-1	c1	null	60	nmod:poss	(c1;ANIMATE;FEMALE),
+0	3	60	334	339	S	58	piece	piece	piece	NN	O	dobj	false	-1	-1	null	null	58	dobj	null
+0	3	61	340	348	S	60	together	together	together	RB	O	advmod	false	-1	-1	null	null	58	advmod	null
+0	3	62	349	352	S	63	the	the	the	DT	O	det	false	-1	-1	null	null	63	det	null
+0	3	63	353	358	S	60	truth	truth	truth	NN	O	conj	false	-1	-1	null	null	61	nmod:npmod	null
+0	3	64	359	364	S	63	about	about	about	IN	O	prep	false	-1	-1	null	null	67	case	null
+0	3	65	365	368	S	67	the	the	the	DT	O	det	false	-1	-1	c2	c2	67	det	(c2;ANIMATE;MALE),
+0	3	66	369	377	S	67	deceased	deceased	deceased	JJ	O	amod	false	-1	-1	c2	c2	67	amod	(c2;ANIMATE;MALE),
+0	3	67	378	385	S	64	Charlie	Charlie	Charlie	NNP	PERSON	pobj	false	0	0	c2,c2	c2	61	nmod:about	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	3	68	386	389	S	58	and	and	and	CC	O	cc	false	-1	-1	null	null	58	cc	null
+0	3	69	390	394	S	58	deal	deal	deal	VB	O	conj	false	-1	-1	null	null	58	conj:and	null
+0	3	70	395	399	S	69	with	with	with	IN	O	prep	false	-1	-1	null	null	73	case	null
+0	3	71	400	405	S	73	three	three	three	CD	NUMBER	num	false	-1	-1	null	null	73	nummod	null
+0	3	72	406	414	S	73	menacing	menacing	menacing	JJ	O	amod	false	-1	-1	null	null	73	amod	null
+0	3	73	415	421	S	70	people	people	people	NNS	O	pobj	false	-1	-1	null	null	69	nmod:with	null
+0	3	74	422	425	S	77	who	who	who	WP	O	nsubj	false	-1	-1	null	null	77	nsubj	null
+0	3	75	426	429	S	77	are	are	be	VBP	O	aux	false	-1	-1	null	null	77	aux	null
+0	3	76	430	433	S	77	now	now	now	RB	DATE	advmod	false	-1	-1	null	null	77	advmod	null
+0	3	77	434	443	S	73	following	following	follow	VBG	O	rcmod	false	-1	-1	null	null	73	acl:relcl	null
+0	3	78	444	447		77	her	her	she	PRP	O	dobj	false	-1	-1	c1	null	77	dobj	(c1;ANIMATE;FEMALE),
+0	3	79	447	448	N	58	.	.	.	.	O	punct	false	-1	-1	null	null	58	punct	null

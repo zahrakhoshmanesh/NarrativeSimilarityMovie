@@ -1,0 +1,106 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	The	The	the	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	4	9	S	2	story	story	story	NN	O	nsubj	false	-1	-1	null	null	2	nsubj	null
+0	0	2	10	20	S	-1	introduces	introduces	introduce	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	3	21	26	S	2	André	André	André	NNP	PERSON	dobj	false	0	0	c1,c1	c1	2	dobj	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	4	27	28	S	3	,	,	,	,	O	punct	false	-1	-1	c1	c1	3	punct	(c1;ANIMATE;MALE),
+0	0	5	29	30	S	6	a	a	a	DT	O	det	false	-1	-1	c1	c1	6	det	(c1;ANIMATE;MALE),
+0	0	6	31	40	S	3	Frenchman	Frenchman	frenchman	NN	MISC	appos	false	-1	-1	c1	c1	3	appos	(c1;ANIMATE;MALE),
+0	0	7	41	44	S	9	who	who	who	WP	O	nsubjpass	false	-1	-1	c1	c1	9	nsubjpass	(c1;ANIMATE;MALE),
+0	0	8	45	47	S	9	is	is	be	VBZ	O	auxpass	false	-1	-1	c1	c1	9	auxpass	(c1;ANIMATE;MALE),
+0	0	9	48	56	S	6	divorced	divorced	divorce	VBN	O	rcmod	false	-1	-1	c1	c1	6	acl:relcl	(c1;ANIMATE;MALE),
+0	0	10	57	61	S	9	from	from	from	IN	O	prep	false	-1	-1	c1	c1	12	case	(c1;ANIMATE;MALE),
+0	0	11	62	65	S	12	his	his	he	PRP$	O	poss	false	0	0	c1,c1	c1	12	nmod:poss	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	12	66	70		10	wife	wife	wife	NN	O	pobj	false	-1	-1	c1	c1	9	nmod:from	(c1;ANIMATE;MALE),
+0	0	13	70	71	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	14	72	74	S	15	He	He	he	PRP	O	nsubj	false	0	0	c1	null	15	nsubj	(c1;ANIMATE;MALE),
+0	1	15	75	80	S	-1	takes	takes	take	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	16	81	84	S	19	his	his	he	PRP$	O	poss	false	0	0	c1,c2,c2	null	19	nmod:poss	(c1;ANIMATE;MALE),(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	1	17	85	94	S	19	beautiful	beautiful	beautiful	JJ	O	amod	false	-1	-1	c2,c2	null	19	amod	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	1	18	95	102	S	19	teenage	teenage	teenage	JJ	O	amod	false	-1	-1	c2,c2	null	19	amod	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	1	19	103	111		15	daughter	daughter	daughter	NN	O	dobj	false	-1	-1	c2,c2	null	15	dobj	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	1	20	111	112	S	15	,	,	,	,	O	punct	false	-1	-1	c2	null	19	punct	(c2;ANIMATE;FEMALE),
+0	1	21	113	122	S	15	Véronique	Véronique	Véronique	NNP	PERSON	dobj	false	-1	-1	c2,c2	c2	19	appos	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	1	22	123	124	S	23	,	,	,	,	O	punct	false	-1	-1	null	null	19	punct	null
+0	1	23	125	127	S	21	on	on	on	IN	O	dep	false	-1	-1	null	null	24	case	null
+0	1	24	128	136	S	23	vacation	vacation	vacation	NN	O	pobj	false	-1	-1	null	null	19	nmod:on	null
+0	1	25	137	139	S	23	to	to	to	TO	O	dep	false	-1	-1	null	null	28	case	null
+0	1	26	140	141	S	28	a	a	a	DT	O	det	false	-1	-1	null	null	28	det	null
+0	1	27	142	150	S	28	paradise	paradise	paradise	NN	O	nn	false	-1	-1	null	null	28	compound	null
+0	1	28	151	157	S	25	island	island	island	NN	O	pobj	false	-1	-1	null	null	15	nmod:to	null
+0	1	29	158	162	S	28	with	with	with	IN	O	prep	false	-1	-1	null	null	30	case	null
+0	1	30	163	166		29	him	him	he	PRP	O	pobj	false	0	0	c1	null	28	nmod:with	(c1;ANIMATE;MALE),
+0	1	31	166	167	S	15	.	.	.	.	O	punct	false	-1	-1	null	null	15	punct	null
+0	2	32	168	171	S	34	She	She	she	PRP	O	nsubj	false	-1	-1	c2	null	34	nsubj	(c2;ANIMATE;FEMALE),
+0	2	33	172	174	S	34	is	is	be	VBZ	O	cop	false	-1	-1	null	null	34	cop	null
+0	2	34	175	184	S	55	desperate	desperate	desperate	JJ	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	2	35	185	187	S	36	to	to	to	TO	O	aux	false	-1	-1	null	null	36	mark	null
+0	2	36	188	194	S	34	appear	appear	appear	VB	O	xcomp	false	-1	-1	null	null	34	xcomp	null
+0	2	37	195	197	S	36	as	as	as	IN	O	prep	false	-1	-1	null	null	39	case	null
+0	2	38	198	199	S	39	a	a	a	DT	O	det	false	-1	-1	c3	c3	39	det	(c3;ANIMATE;UNKNOWN),
+0	2	39	200	205	S	37	woman	woman	woman	NN	O	pobj	false	-1	-1	c3	c3	36	nmod:as	(c3;ANIMATE;UNKNOWN),
+0	2	40	206	209	S	39	and	and	and	CC	O	cc	false	-1	-1	c3	c3	39	cc	(c3;ANIMATE;UNKNOWN),
+0	2	41	210	213	S	39	not	not	not	RB	O	conj	false	-1	-1	c3	c3	43	neg	(c3;ANIMATE;UNKNOWN),
+0	2	42	214	215	S	43	a	a	a	DT	O	det	false	-1	-1	c3	c3	43	det	(c3;ANIMATE;UNKNOWN),
+0	2	43	216	220		39	girl	girl	girl	NN	O	dep	false	-1	-1	c3	c3	39	conj:and	(c3;ANIMATE;UNKNOWN),
+0	2	44	220	221	S	43	,	,	,	,	O	punct	false	-1	-1	null	null	34	punct	null
+0	2	45	222	224	S	43	so	so	so	RB	O	advmod	false	-1	-1	null	null	34	advmod	null
+0	2	46	225	227	S	49	in	in	in	IN	O	mark	false	-1	-1	null	null	49	mark	null
+0	2	47	228	233	S	49	order	order	order	NN	O	dep	false	-1	-1	null	null	46	mwe	null
+0	2	48	234	236	S	49	to	to	to	TO	O	aux	false	-1	-1	null	null	49	mark	null
+0	2	49	237	244	S	43	impress	impress	impress	VB	O	purpcl	false	-1	-1	null	null	55	advcl	null
+0	2	50	245	246	S	52	a	a	a	DT	O	det	false	-1	-1	null	null	52	det	null
+0	2	51	247	252	S	52	local	local	local	JJ	O	amod	false	-1	-1	null	null	52	amod	null
+0	2	52	253	256		49	boy	boy	boy	NN	O	dobj	false	-1	-1	null	null	49	dobj	null
+0	2	53	256	257	S	55	,	,	,	,	O	punct	false	-1	-1	null	null	55	punct	null
+0	2	54	258	261	S	55	she	she	she	PRP	O	nsubj	false	-1	-1	c2	null	55	nsubj	(c2;ANIMATE;FEMALE),
+0	2	55	262	267	S	-1	makes	makes	make	VBZ	O	null	false	-1	-1	null	null	34	parataxis	null
+0	2	56	268	270	S	55	up	up	up	RP	O	prt	false	-1	-1	null	null	55	compound:prt	null
+0	2	57	271	275	S	64	more	more	more	RBR	O	dep	false	-1	-1	null	null	60	advmod	null
+0	2	58	276	279	S	57	and	and	and	CC	O	cc	false	-1	-1	null	null	57	cc	null
+0	2	59	280	284	S	60	more	more	more	RBR	O	advmod	false	-1	-1	null	null	57	conj:and	null
+0	2	60	285	296		57	fascinating	fascinating	fascinating	JJ	O	conj	false	-1	-1	null	null	64	amod	null
+0	2	61	296	297	S	64	,	,	,	,	O	punct	false	-1	-1	null	null	60	punct	null
+0	2	62	298	301	S	63	yet	yet	yet	RB	O	advmod	false	-1	-1	null	null	63	advmod	null
+0	2	63	302	312	S	64	intriguing	intriguing	intriguing	JJ	O	amod	false	-1	-1	null	null	60	dep	null
+0	2	64	313	320		55	stories	stories	story	NNS	O	dobj	false	-1	-1	null	null	55	dobj	null
+0	2	65	320	321	S	64	,	,	,	,	O	punct	false	-1	-1	null	null	64	punct	null
+0	2	66	322	330	S	64	starting	starting	start	VBG	O	partmod	false	-1	-1	null	null	64	acl	null
+0	2	67	331	335	S	66	with	with	with	IN	O	prep	false	-1	-1	null	null	68	case	null
+0	2	68	336	341	S	71	André	André	André	NNP	PERSON	nsubj	false	0	0	c1	null	66	nmod:with	(c1;ANIMATE;MALE),
+0	2	69	342	347	S	71	being	being	be	VBG	O	cop	false	-1	-1	null	null	71	cop	null
+0	2	70	348	351	S	71	her	her	she	PRP$	O	poss	false	-1	-1	c2	null	71	nmod:poss	(c2;ANIMATE;FEMALE),
+0	2	71	352	357	S	67	lover	lover	lover	NN	O	pcomp	false	-1	-1	null	null	66	advcl	null
+0	2	72	358	359	S	71	-	-	-	:	O	punct	false	-1	-1	null	null	71	punct	null
+0	2	73	360	361	S	75	a	a	a	DT	O	det	false	-1	-1	null	null	74	det	null
+0	2	74	362	367	S	75	sugar	sugar	sugar	NN	O	nn	false	-1	-1	null	null	71	dep	null
+0	2	75	368	373		71	Daddy	Daddy	Daddy	NNP	O	dep	false	-1	-1	null	null	74	appos	null
+0	2	76	373	374	S	55	.	.	.	.	O	punct	false	-1	-1	null	null	34	punct	null
+0	3	77	375	380	S	79	André	André	André	NNP	PERSON	nsubj	false	0	0	c1	null	79	nsubj	(c1;ANIMATE;MALE),
+0	3	78	381	383	S	79	is	is	be	VBZ	O	cop	false	-1	-1	null	null	79	cop	null
+0	3	79	384	393	S	96	desperate	desperate	desperate	JJ	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	3	80	394	396	S	81	to	to	to	TO	O	aux	false	-1	-1	null	null	81	mark	null
+0	3	81	397	401	S	79	make	make	make	VB	O	xcomp	false	-1	-1	null	null	79	xcomp	null
+0	3	82	402	411	S	83	Véronique	Véronique	Véronique	NNP	O	nsubj	false	-1	-1	c2	null	83	nsubj	(c2;ANIMATE;FEMALE),
+0	3	83	412	417	S	81	happy	happy	happy	JJ	O	xcomp	false	-1	-1	null	null	81	xcomp	null
+0	3	84	418	421	S	79	and	and	and	CC	O	cc	false	-1	-1	null	null	79	cc	null
+0	3	85	422	424	S	86	so	so	so	RB	O	advmod	false	-1	-1	null	null	86	advmod	null
+0	3	86	425	430	S	79	plays	plays	play	VBZ	O	conj	false	-1	-1	null	null	79	conj:and	null
+0	3	87	431	436	S	86	along	along	along	IN	O	prep	false	-1	-1	null	null	91	case	null
+0	3	88	437	441	S	87	with	with	with	IN	O	dep	false	-1	-1	null	null	87	mwe	null
+0	3	89	442	445	S	91	her	her	she	PRP$	O	poss	false	-1	-1	c2,c4	c4	91	nmod:poss	(c2;ANIMATE;FEMALE),(c4;INANIMATE;UNKNOWN),
+0	3	90	446	455	S	91	elaborate	elaborate	elaborate	JJ	O	amod	false	-1	-1	c4	c4	91	amod	(c4;INANIMATE;UNKNOWN),
+0	3	91	456	461		88	games	games	game	NNS	O	pobj	false	-1	-1	c4	c4	86	nmod:along_with	(c4;INANIMATE;UNKNOWN),
+0	3	92	461	462	S	96	,	,	,	,	O	punct	false	-1	-1	null	null	91	punct	null
+0	3	93	463	466	S	94	the	the	the	DT	O	det	false	-1	-1	c4	null	94	det	(c4;INANIMATE;UNKNOWN),
+0	3	94	467	474	S	96	stories	stories	story	NNS	O	dep	false	-1	-1	c4	null	91	appos	(c4;INANIMATE;UNKNOWN),
+0	3	95	475	479	S	96	they	they	they	PRP	O	nsubj	false	-1	-1	c3,c4	null	96	nsubj	(c3;ANIMATE;UNKNOWN),(c4;INANIMATE;UNKNOWN),
+0	3	96	480	484	S	103	make	make	make	VBP	O	ccomp	false	-1	-1	c4	null	94	acl:relcl	(c4;INANIMATE;UNKNOWN),
+0	3	97	485	487	S	96	up	up	up	RP	O	prt	false	-1	-1	c4	null	96	compound:prt	(c4;INANIMATE;UNKNOWN),
+0	3	98	488	491	S	100	get	get	get	VB	O	dep	false	-1	-1	c4	null	96	ccomp	(c4;INANIMATE;UNKNOWN),
+0	3	99	492	504	S	100	increasingly	increasingly	increasingly	RB	O	advmod	false	-1	-1	c4	null	100	advmod	(c4;INANIMATE;UNKNOWN),
+0	3	100	505	512		96	bizarre	bizarre	bizarre	JJ	O	xcomp	false	-1	-1	c4	null	98	xcomp	(c4;INANIMATE;UNKNOWN),
+0	3	101	512	513	S	103	,	,	,	,	O	punct	false	-1	-1	c4	null	100	punct	(c4;INANIMATE;UNKNOWN),
+0	3	102	514	521	S	103	funnily	funnily	funnily	RB	O	advmod	false	-1	-1	c4	null	103	advmod	(c4;INANIMATE;UNKNOWN),
+0	3	103	522	532		-1	consistent	consistent	consistent	JJ	O	null	false	-1	-1	c4	null	100	dep	(c4;INANIMATE;UNKNOWN),
+0	3	104	532	533	N	103	.	.	.	.	O	punct	false	-1	-1	null	null	79	punct	null

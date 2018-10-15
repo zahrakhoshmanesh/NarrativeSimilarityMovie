@@ -1,0 +1,101 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	5	S	1	Larry	Larry	Larry	NNP	PERSON	nn	false	-1	0	c1,c3	c1,c3	1	compound	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	1	6	10	S	-1	Todd	Todd	Todd	NNP	PERSON	null	false	-1	0	c1,c3	c1,c3	-1	root	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	2	11	12	S	1	,	,	,	,	O	punct	false	-1	-1	c3	c3	1	punct	(c3;ANIMATE;UNKNOWN),
+0	0	3	13	16	S	1	and	and	and	CC	O	cc	false	-1	-1	c3	c3	1	cc	(c3;ANIMATE;UNKNOWN),
+0	0	4	17	22	S	5	Myron	Myron	Myron	NNP	PERSON	nn	false	-1	-1	c2,c3	c2,c3	5	compound	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	5	23	28	S	1	Mertz	Mertz	Mertz	NNP	PERSON	conj	false	-1	-1	c2,c3	c2,c3	1	conj:and	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	6	29	30	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	7	31	36	S	8	cross	cross	cross	JJ	O	amod	false	-1	-1	c4	c4	8	amod	(c4;INANIMATE;UNKNOWN),
+0	0	8	37	42	S	1	paths	paths	path	NNS	O	appos	false	-1	-1	c4	c4	1	appos	(c4;INANIMATE;UNKNOWN),
+0	0	9	43	47	S	8	with	with	with	IN	O	prep	false	-1	-1	c4	c4	11	case	(c4;INANIMATE;UNKNOWN),
+0	0	10	48	49	S	11	a	a	a	DT	O	det	false	-1	-1	c4	c4	11	det	(c4;INANIMATE;UNKNOWN),
+0	0	11	50	58	S	9	gangster	gangster	gangster	NN	O	pobj	false	-1	-1	c4	c4	8	nmod:with	(c4;INANIMATE;UNKNOWN),
+0	0	12	59	64	S	11	named	named	name	VBN	O	partmod	false	-1	-1	c4	c4	11	acl	(c4;INANIMATE;UNKNOWN),
+0	0	13	65	66		14	"	``	``	``	O	punct	false	-1	-1	c4	c4	14	punct	(c4;INANIMATE;UNKNOWN),
+0	0	14	66	72		12	Shorty	Shorty	Shorty	NNP	O	dep	true	-1	-1	c4,c5	c4,c5	12	xcomp	(c4;INANIMATE;UNKNOWN),(c5;ANIMATE;MALE),
+0	0	15	72	73	S	14	"	''	''	''	O	punct	true	-1	-1	c4	c4	14	punct	(c4;INANIMATE;UNKNOWN),
+0	0	16	74	78	S	18	when	when	when	WRB	O	advmod	false	-1	-1	c4	c4	18	advmod	(c4;INANIMATE;UNKNOWN),
+0	0	17	79	84	S	18	Larry	Larry	Larry	NNP	PERSON	nsubj	false	0	0	c1,c4	c4	18	nsubj	(c1;ANIMATE;MALE),(c4;INANIMATE;UNKNOWN),
+0	0	18	85	89	S	14	hits	hits	hit	VBZ	O	dep	false	-1	-1	c4	c4	8	acl:relcl	(c4;INANIMATE;UNKNOWN),
+0	0	19	90	92	S	18	on	on	on	IN	O	prep	false	-1	-1	c4	c4	22	case	(c4;INANIMATE;UNKNOWN),
+0	0	20	93	99		22	Shorty	Shorty	Shorty	NNP	O	poss	false	-1	-1	c4,c5	c4	22	nmod:poss	(c4;INANIMATE;UNKNOWN),(c5;ANIMATE;MALE),
+0	0	21	99	101	S	20	's	's	's	POS	O	possessive	false	-1	-1	c4,c5	c4	20	case	(c4;INANIMATE;UNKNOWN),(c5;ANIMATE;MALE),
+0	0	22	102	106		19	girl	girl	girl	NN	O	pobj	false	-1	-1	c4	c4	18	nmod:on	(c4;INANIMATE;UNKNOWN),
+0	0	23	106	107	S	1	.	.	.	.	O	punct	false	-1	-1	null	null	1	punct	null
+0	1	24	108	113	S	30	After	After	after	IN	O	prep	false	-1	-1	null	null	25	mark	null
+0	1	25	114	121	S	24	fleeing	fleeing	flee	VBG	O	pcomp	false	-1	-1	null	null	30	advcl	null
+0	1	26	122	126	S	25	from	from	from	IN	O	prep	false	-1	-1	null	null	27	case	null
+0	1	27	127	133		26	Shorty	Shorty	Shorty	NNP	O	pobj	false	-1	-1	c5	null	25	nmod:from	(c5;ANIMATE;MALE),
+0	1	28	133	134	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	30	punct	null
+0	1	29	135	139	S	30	they	they	they	PRP	O	nsubj	false	-1	-1	c3	null	30	nsubj	(c3;ANIMATE;UNKNOWN),
+0	1	30	140	144	S	-1	meet	meet	meet	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	1	31	145	147	S	32	an	an	a	DT	O	det	false	-1	-1	c6	c6	32	det	(c6;ANIMATE;FEMALE),
+0	1	32	148	155	SS	30	heiress	heiress	heiress	NN	O	dobj	false	-1	-1	c6	c6	30	dobj	(c6;ANIMATE;FEMALE),
+0	1	33	157	160	S	35	who	who	who	WP	O	nsubj	false	-1	-1	c6	c6	35	nsubj	(c6;ANIMATE;FEMALE),
+0	1	34	161	163	S	35	is	is	be	VBZ	O	aux	false	-1	-1	c6	c6	35	aux	(c6;ANIMATE;FEMALE),
+0	1	35	164	171	S	32	sailing	sailing	sail	VBG	O	rcmod	false	-1	-1	c6	c6	32	acl:relcl	(c6;ANIMATE;FEMALE),
+0	1	36	172	175	S	35	for	for	for	IN	O	prep	false	-1	-1	c6	c6	37	case	(c6;ANIMATE;FEMALE),
+0	1	37	176	180		36	Cuba	Cuba	Cuba	NNP	LOCATION	pobj	false	-1	-1	c6	c6	35	nmod:for	(c6;ANIMATE;FEMALE),
+0	1	38	180	181	S	30	.	.	.	.	O	punct	false	-1	-1	null	null	30	punct	null
+0	2	39	182	185	S	41	One	One	one	CD	NUMBER	num	false	-1	-1	null	null	41	nummod	null
+0	2	40	186	197	S	41	unexplained	unexplained	unexplained	JJ	O	amod	false	-1	-1	null	null	41	amod	null
+0	2	41	198	204	S	45	murder	murder	murder	NN	O	dep	false	-1	-1	null	null	45	nmod:npmod	null
+0	2	42	205	208	S	41	and	and	and	CC	O	cc	false	-1	-1	null	null	41	cc	null
+0	2	43	209	220	S	44	threatening	threatening	threatening	JJ	O	amod	false	-1	-1	null	null	44	amod	null
+0	2	44	221	225	S	41	note	note	note	NN	O	conj	false	-1	-1	null	null	41	conj:and	null
+0	2	45	226	231		50	later	later	later	RB	O	advmod	false	-1	-1	null	null	50	advmod	null
+0	2	46	231	232	S	50	,	,	,	,	O	punct	false	-1	-1	null	null	50	punct	null
+0	2	47	233	238	S	50	Larry	Larry	Larry	NNP	PERSON	nsubj	false	0	0	c1,c3	null	50	nsubj	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	2	48	239	242	S	47	and	and	and	CC	O	cc	false	-1	-1	c3	null	47	cc	(c3;ANIMATE;UNKNOWN),
+0	2	49	243	248	S	47	Myron	Myron	Myron	NNP	PERSON	conj	false	-1	-1	c2,c3	null	47	conj:and	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	2	50	249	253	S	-1	sail	sail	sail	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	2	51	254	258	S	50	with	with	with	IN	O	prep	false	-1	-1	null	null	52	case	null
+0	2	52	259	262	S	51	her	her	she	PRP	O	pobj	false	-1	-1	c6	null	50	nmod:with	(c6;ANIMATE;FEMALE),
+0	2	53	263	265	S	52	to	to	to	TO	O	prep	false	-1	-1	null	null	55	case	null
+0	2	54	266	269	S	55	the	the	the	DT	O	det	false	-1	-1	c7	c7	55	det	(c7;INANIMATE;NEUTRAL),
+0	2	55	270	276		53	island	island	island	NN	O	pobj	false	-1	-1	c7	c7	50	nmod:to	(c7;INANIMATE;NEUTRAL),
+0	2	56	276	277	S	50	.	.	.	.	O	punct	false	-1	-1	null	null	50	punct	null
+0	3	57	278	282	S	60	Once	Once	once	RB	DATE	advmod	false	-1	-1	null	null	58	dep	null
+0	3	58	283	288	S	60	there	there	there	EX	O	expl	false	-1	-1	c8	c8	-1	root	(c8;UNKNOWN;UNKNOWN),
+0	3	59	289	293	S	60	they	they	they	PRP	O	nsubj	false	-1	-1	c3,c8	c8	60	nsubj	(c3;ANIMATE;UNKNOWN),(c8;UNKNOWN;UNKNOWN),
+0	3	60	294	299	S	-1	cross	cross	cross	VBP	O	null	false	-1	-1	c8	c8	58	acl:relcl	(c8;UNKNOWN;UNKNOWN),
+0	3	61	300	305	S	60	paths	paths	path	NNS	O	dobj	false	-1	-1	c4,c8	c8	60	dobj	(c4;INANIMATE;UNKNOWN),(c8;UNKNOWN;UNKNOWN),
+0	3	62	306	310	S	61	with	with	with	IN	O	prep	false	-1	-1	c8	c8	64	case	(c8;UNKNOWN;UNKNOWN),
+0	3	63	311	312	S	64	a	a	a	DT	O	det	false	-1	-1	c8	c8	64	det	(c8;UNKNOWN;UNKNOWN),
+0	3	64	313	319	S	62	zombie	zombie	zombie	NN	O	pobj	false	-1	-1	c8	c8	60	nmod:with	(c8;UNKNOWN;UNKNOWN),
+0	3	65	320	323	S	64	and	and	and	CC	O	cc	false	-1	-1	c8	c8	64	cc	(c8;UNKNOWN;UNKNOWN),
+0	3	66	324	329	S	68	other	other	other	JJ	O	amod	false	-1	-1	c8	c8	68	amod	(c8;UNKNOWN;UNKNOWN),
+0	3	67	330	340	S	68	mysterious	mysterious	mysterious	JJ	O	amod	false	-1	-1	c8	c8	68	amod	(c8;UNKNOWN;UNKNOWN),
+0	3	68	341	351		64	happenings	happenings	happening	NNS	O	conj	false	-1	-1	c8	c8	64	conj:and	(c8;UNKNOWN;UNKNOWN),
+0	3	69	351	352	S	60	.	.	.	.	O	punct	false	-1	-1	null	null	58	punct	null
+0	4	70	353	363		73	Eventually	Eventually	eventually	RB	O	advmod	false	-1	-1	null	null	73	advmod	null
+0	4	71	363	364	S	73	,	,	,	,	O	punct	false	-1	-1	null	null	73	punct	null
+0	4	72	365	369	S	73	they	they	they	PRP	O	nsubj	false	-1	-1	c8	null	73	nsubj	(c8;ANIMATE;UNKNOWN),
+0	4	73	370	378	S	-1	discover	discover	discover	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	4	74	379	382	S	75	the	the	the	DT	O	det	false	-1	-1	c9	c9	75	det	(c9;ANIMATE;MALE),
+0	4	75	383	389	S	73	person	person	person	NN	O	dobj	false	-1	-1	c9	c9	73	dobj	(c9;ANIMATE;MALE),
+0	4	76	390	396	S	75	behind	behind	behind	IN	O	prep	false	-1	-1	null	null	78	case	null
+0	4	77	397	400	S	78	the	the	the	DT	O	det	false	-1	-1	null	null	78	det	null
+0	4	78	401	408	S	76	mystery	mystery	mystery	NN	O	pobj	false	-1	-1	null	null	73	nmod:behind	null
+0	4	79	409	412	S	73	and	and	and	CC	O	cc	false	-1	-1	null	null	73	cc	null
+0	4	80	413	416	S	73	rid	rid	rid	VB	O	conj	false	-1	-1	null	null	73	conj:and	null
+0	4	81	417	420	S	82	the	the	the	DT	O	det	false	-1	-1	c7	null	82	det	(c7;INANIMATE;NEUTRAL),
+0	4	82	421	427	S	80	island	island	island	NN	O	dobj	false	-1	-1	c7	null	80	dobj	(c7;INANIMATE;NEUTRAL),
+0	4	83	428	430	S	82	of	of	of	IN	O	prep	false	-1	-1	c7	null	84	case	(c7;INANIMATE;NEUTRAL),
+0	4	84	431	434		83	him	him	he	PRP	O	pobj	false	-1	-1	c7,c9	null	82	nmod:of	(c7;INANIMATE;NEUTRAL),(c9;ANIMATE;MALE),
+0	4	85	434	435	S	73	.	.	.	.	O	punct	false	-1	-1	null	null	73	punct	null
+0	5	86	436	439	S	87	The	The	the	DT	O	det	false	-1	-1	null	null	87	det	null
+0	5	87	440	445	S	88	movie	movie	movie	NN	O	nsubj	false	-1	-1	null	null	88	nsubj	null
+0	5	88	446	450	S	-1	ends	ends	end	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	89	451	455	S	88	with	with	with	IN	O	prep	false	-1	-1	null	null	92	case	null
+0	5	90	456	457	S	92	a	a	a	DT	O	det	false	-1	-1	null	null	92	det	null
+0	5	91	458	463	S	92	cameo	cameo	cameo	NN	O	nn	false	-1	-1	null	null	92	compound	null
+0	5	92	464	474	S	89	appearance	appearance	appearance	NN	O	pobj	false	-1	-1	null	null	88	nmod:with	null
+0	5	93	475	477	S	92	by	by	by	IN	O	prep	false	-1	-1	null	null	95	case	null
+0	5	94	478	482	S	95	Bing	Bing	Bing	NNP	PERSON	nn	false	-1	-1	null	null	95	compound	null
+0	5	95	483	489	S	93	Crosby	Crosby	Crosby	NNP	PERSON	pobj	false	-1	-1	null	null	88	nmod:by	null
+0	5	96	490	493	S	95	and	and	and	CC	O	cc	false	-1	-1	null	null	95	cc	null
+0	5	97	494	497	S	98	Bob	Bob	Bob	NNP	PERSON	nn	false	-1	-1	null	null	98	compound	null
+0	5	98	498	502		95	Hope	Hope	Hope	NNP	PERSON	conj	false	-1	-1	null	null	95	conj:and	null
+0	5	99	502	503	N	88	.	.	.	.	O	punct	false	-1	-1	null	null	88	punct	null

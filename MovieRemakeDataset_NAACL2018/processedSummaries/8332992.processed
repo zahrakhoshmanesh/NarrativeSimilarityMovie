@@ -1,0 +1,582 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	2	S	1	An	An	a	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	3	13	S	6	underworld	underworld	underworld	NN	O	nsubj	false	-1	-1	null	null	2	nsubj	null
+0	0	2	14	17	S	1	don	don	don	VB	O	prep	false	-1	-1	null	null	-1	root	null
+0	0	3	18	23	S	4	David	David	David	NNP	PERSON	nn	false	-1	4	c2	c2	4	compound	(c2;ANIMATE;MALE),
+0	0	4	24	29	S	2	Billa	Billa	Billa	NNP	PERSON	dobj	false	-1	4	c2	c2	14	nsubj	(c2;ANIMATE;MALE),
+0	0	5	30	31	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	4	punct	null
+0	0	6	32	40	S	14	featured	featured	feature	VBD	O	ccomp	false	-1	-1	null	null	4	acl	null
+0	0	7	41	43	S	6	on	on	on	IN	O	prep	false	-1	-1	null	null	11	case	null
+0	0	8	44	52		11	Interpol	Interpol	Interpol	NNP	ORGANIZATION	poss	false	6	6	c3	c3	11	nmod:poss	(c3;INANIMATE;NEUTRAL),
+0	0	9	52	54	S	8	’s	's	's	POS	O	possessive	false	-1	-1	c3	c3	8	case	(c3;INANIMATE;NEUTRAL),
+0	0	10	55	63	S	11	criminal	criminal	criminal	JJ	O	amod	false	-1	-1	null	null	11	amod	null
+0	0	11	64	68		7	list	list	list	NN	O	pobj	false	-1	-1	null	null	6	nmod:on	null
+0	0	12	68	69	S	14	,	,	,	,	O	punct	false	-1	-1	null	null	4	punct	null
+0	0	13	70	72	S	14	is	is	be	VBZ	O	aux	false	-1	-1	null	null	14	aux	null
+0	0	14	73	79	S	-1	hiding	hiding	hide	VBG	O	null	false	-1	-1	null	null	2	ccomp	null
+0	0	15	80	83	S	14	and	and	and	CC	O	cc	false	-1	-1	null	null	14	cc	null
+0	0	16	84	93	S	14	operating	operating	operate	VBG	O	conj	false	-1	-1	null	null	14	conj:and	null
+0	0	17	94	97	S	16	out	out	out	IN	O	prep	false	-1	-1	null	null	19	case	null
+0	0	18	98	100	S	17	of	of	of	IN	O	dep	false	-1	-1	null	null	17	mwe	null
+0	0	19	101	109		18	Malaysia	Malaysia	Malaysia	NNP	LOCATION	pobj	false	-1	-1	null	null	14	nmod:out_of	null
+0	0	20	109	110	S	14	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	21	111	114	S	22	DSP	DSP	DSP	NNP	O	nn	false	-1	-1	c4	c4	22	compound	(c4;INANIMATE;MALE),
+0	1	22	115	126	SS	24	Jayaprakash	Jayaprakash	Jayaprakash	NNP	PERSON	nsubj	false	1	1	c4	c4	24	nsubj	(c4;INANIMATE;MALE),
+0	1	23	128	131	S	24	has	has	have	VBZ	O	aux	false	-1	-1	null	null	24	aux	null
+0	1	24	132	137	S	-1	spent	spent	spend	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	1	25	138	141	S	28	the	the	the	DT	DURATION	det	false	-1	-1	null	null	28	det	null
+0	1	26	142	146	S	28	last	last	last	JJ	DURATION	amod	false	-1	-1	null	null	28	amod	null
+0	1	27	147	150	S	28	few	few	few	JJ	DURATION	amod	false	-1	-1	null	null	28	amod	null
+0	1	28	151	156	S	24	years	years	year	NNS	DURATION	tmod	false	-1	-1	null	null	24	nmod:tmod	null
+0	1	29	157	164	S	24	looking	looking	look	VBG	O	xcomp	false	-1	-1	null	null	24	ccomp	null
+0	1	30	165	168	S	29	for	for	for	IN	O	prep	false	-1	-1	null	null	31	case	null
+0	1	31	169	174		30	Billa	Billa	Billa	NNP	ORGANIZATION	pobj	false	4	4	c2	null	29	nmod:for	(c2;INANIMATE;MALE),
+0	1	32	174	175	S	29	,	,	,	,	O	punct	false	-1	-1	null	null	29	punct	null
+0	1	33	176	183	S	29	leaving	leaving	leave	VBG	O	xcomp	false	-1	-1	null	null	29	dep	null
+0	1	34	184	190	S	33	behind	behind	behind	IN	O	prep	false	-1	-1	null	null	36	case	null
+0	1	35	191	192	S	36	a	a	a	DT	O	det	false	-1	-1	null	null	36	det	null
+0	1	36	193	197	S	34	life	life	life	NN	O	pobj	false	-1	-1	null	null	33	nmod:behind	null
+0	1	37	198	200	S	36	in	in	in	IN	O	prep	false	-1	-1	null	null	38	case	null
+0	1	38	201	206		37	India	India	India	NNP	LOCATION	pobj	false	-1	-1	null	null	36	nmod:in	null
+0	1	39	206	207	S	24	.	.	.	.	O	punct	false	-1	-1	null	null	24	punct	null
+0	2	40	208	214	S	-1	During	During	during	IN	O	null	false	-1	-1	null	null	42	case	null
+0	2	41	215	216	S	42	a	a	a	DT	O	det	false	-1	-1	null	null	42	det	null
+0	2	42	217	222	S	40	chase	chase	chase	NN	O	pobj	false	-1	-1	null	null	49	nmod:during	null
+0	2	43	223	227	S	42	with	with	with	IN	O	prep	false	-1	-1	null	null	45	case	null
+0	2	44	228	231	S	45	the	the	the	DT	O	det	false	-1	-1	c5	c5	45	det	(c5;ANIMATE;UNKNOWN),
+0	2	45	232	238	S	43	police	police	police	NN	O	pobj	false	-1	-1	c5	c5	42	nmod:with	(c5;ANIMATE;UNKNOWN),
+0	2	46	239	244	S	49	Billa	Billa	Billa	NNP	ORGANIZATION	nsubjpass	false	4	4	c2	null	49	nsubjpass	(c2;INANIMATE;MALE),
+0	2	47	245	247	S	49	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	49	auxpass	null
+0	2	48	248	256	S	49	severely	severely	severely	RB	O	advmod	false	-1	-1	null	null	49	advmod	null
+0	2	49	257	264	S	45	wounded	wounded	wound	VBN	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	2	50	265	270	S	49	after	after	after	IN	O	prep	false	-1	-1	null	null	52	case	null
+0	2	51	271	273	S	52	an	an	a	DT	O	det	false	-1	-1	null	null	52	det	null
+0	2	52	274	282	S	50	accident	accident	accident	NN	O	pobj	false	-1	-1	null	null	49	nmod:after	null
+0	2	53	283	286	S	40	and	and	and	CC	O	cc	false	-1	-1	null	null	49	cc	null
+0	2	54	287	291	S	40	dies	dies	die	VBZ	O	conj	false	-1	-1	null	null	49	conj:and	null
+0	2	55	292	294	S	54	in	in	in	IN	O	prep	false	-1	-1	null	null	59	case	null
+0	2	56	295	300	S	55	front	front	front	NN	O	pobj	false	-1	-1	null	null	55	mwe	null
+0	2	57	301	303	S	56	of	of	of	IN	O	prep	false	-1	-1	null	null	55	mwe	null
+0	2	58	304	307	S	59	the	the	the	DT	O	det	false	-1	-1	c4	null	59	det	(c4;INANIMATE;NEUTRAL),
+0	2	59	308	311		57	DSP	DSP	DSP	NNP	O	pobj	false	-1	-1	c4	null	54	nmod:in_front_of	(c4;INANIMATE;NEUTRAL),
+0	2	60	311	312	S	40	.	.	.	.	O	punct	false	-1	-1	null	null	49	punct	null
+0	3	61	313	316	S	62	The	The	the	DT	O	det	false	-1	-1	c4	null	62	det	(c4;INANIMATE;NEUTRAL),
+0	3	62	317	320	S	65	DSP	DSP	DSP	NNP	ORGANIZATION	nsubj	false	0	0	c4	null	65	nsubj	(c4;INANIMATE;NEUTRAL),
+0	3	63	321	325	S	65	then	then	then	RB	O	advmod	false	-1	-1	null	null	65	advmod	null
+0	3	64	326	334	S	65	secretly	secretly	secretly	RB	O	advmod	false	-1	-1	null	null	65	advmod	null
+0	3	65	335	340	S	-1	holds	holds	hold	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	66	341	342	S	67	a	a	a	DT	O	det	false	-1	-1	null	null	67	det	null
+0	3	67	343	349	S	65	burial	burial	burial	NN	O	dobj	false	-1	-1	null	null	65	dobj	null
+0	3	68	350	352	S	67	of	of	of	IN	O	prep	false	-1	-1	null	null	69	case	null
+0	3	69	353	358		68	Billa	Billa	Billa	NNP	ORGANIZATION	pobj	false	4	4	c2	null	67	nmod:of	(c2;INANIMATE;MALE),
+0	3	70	358	359	S	65	.	.	.	.	O	punct	false	-1	-1	null	null	65	punct	null
+0	4	71	360	368	S	73	Interpol	Interpol	Interpol	NNP	ORGANIZATION	nn	false	6	6	c3	null	77	compound	(c3;INANIMATE;NEUTRAL),
+0	4	72	369	376	S	73	officer	officer	officer	NN	O	nn	false	-1	-1	null	null	77	compound	null
+0	4	73	377	386	S	79	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	nsubjpass	false	2	2	c7	null	77	compound	(c7;ANIMATE;UNKNOWN),
+0	4	74	387	388		79	(	-LRB-	-lrb-	-LRB-	O	dep	false	-1	-1	null	null	77	punct	null
+0	4	75	388	389		79	[	-LSB-	-lsb-	-LRB-	O	punct	false	-1	-1	null	null	77	punct	null
+0	4	76	389	390		77	[	-LSB-	-lsb-	-LRB-	O	amod	false	-1	-1	null	null	77	punct	null
+0	4	77	390	396	SS	79	Rahman	Rahman	Rahman	NNP	PERSON	nsubjpass	false	-1	-1	null	null	79	nsubjpass	null
+0	4	78	398	400	S	79	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	79	auxpass	null
+0	4	79	401	409	S	-1	assigned	assigned	assign	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	4	80	410	412	S	81	to	to	to	TO	O	aux	false	-1	-1	null	null	81	mark	null
+0	4	81	413	417	S	79	work	work	work	VB	O	xcomp	false	-1	-1	null	null	79	xcomp	null
+0	4	82	418	422	S	81	with	with	with	IN	O	prep	false	-1	-1	null	null	84	case	null
+0	4	83	423	426	S	84	DSP	DSP	DSP	NNP	ORGANIZATION	nn	false	-1	-1	c4	null	84	compound	(c4;INANIMATE;MALE),
+0	4	84	427	438	S	82	Jayaprakash	Jayaprakash	Jayaprakash	NNP	ORGANIZATION	pobj	false	-1	-1	c4	null	81	nmod:with	(c4;INANIMATE;MALE),
+0	4	85	439	441	S	86	to	to	to	TO	O	aux	false	-1	-1	null	null	86	mark	null
+0	4	86	442	449	S	81	capture	capture	capture	VB	O	xcomp	false	-1	-1	null	null	81	xcomp	null
+0	4	87	450	457	S	88	elusive	elusive	elusive	JJ	O	amod	false	-1	-1	null	null	86	xcomp	null
+0	4	88	458	463	S	86	Billa	Billa	Billa	NNP	ORGANIZATION	dobj	false	4	4	null	null	91	nsubj	null
+0	4	89	464	466	S	91	as	as	as	IN	O	mark	false	-1	-1	null	null	90	case	null
+0	4	90	467	473	S	91	no-one	no-one	no-one	JJ	O	nsubj	false	-1	-1	null	null	88	nmod:as	null
+0	4	91	474	479	S	86	knows	knows	know	VBZ	O	advcl	false	-1	-1	null	null	87	ccomp	null
+0	4	92	480	482	S	91	of	of	of	IN	O	prep	false	-1	-1	null	null	95	case	null
+0	4	93	483	488		95	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c8	c8	95	nmod:poss	(c2;INANIMATE;MALE),(c8;INANIMATE;UNKNOWN),
+0	4	94	488	490	S	93	's	's	's	POS	O	possessive	false	-1	-1	c2,c8	c8	93	case	(c2;INANIMATE;MALE),(c8;INANIMATE;UNKNOWN),
+0	4	95	491	496		92	death	death	death	NN	O	pobj	false	-1	-1	c8	c8	91	nmod:of	(c8;INANIMATE;UNKNOWN),
+0	4	96	496	497	S	79	.	.	.	.	O	punct	false	-1	-1	null	null	79	punct	null
+0	5	97	498	501	S	98	DSP	DSP	DSP	NNP	O	nn	false	-1	-1	c4	null	98	compound	(c4;ANIMATE;NEUTRAL),
+0	5	98	502	513	S	99	Jayaprakash	Jayaprakash	Jayaprakash	NNP	PERSON	nsubj	false	1	1	c4	null	99	nsubj	(c4;ANIMATE;NEUTRAL),
+0	5	99	514	519	S	-1	keeps	keeps	keep	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	100	520	523	S	101	the	the	the	DT	O	det	false	-1	-1	c8	null	101	det	(c8;INANIMATE;UNKNOWN),
+0	5	101	524	529	S	99	death	death	death	NN	O	dobj	false	-1	-1	c8	null	99	dobj	(c8;INANIMATE;UNKNOWN),
+0	5	102	530	532	S	101	of	of	of	IN	O	prep	false	-1	-1	c8	null	103	case	(c8;INANIMATE;UNKNOWN),
+0	5	103	533	538	S	102	Billa	Billa	Billa	NNP	ORGANIZATION	pobj	false	4	4	c2,c8	null	101	nmod:of	(c2;INANIMATE;MALE),(c8;INANIMATE;UNKNOWN),
+0	5	104	539	541	S	99	as	as	as	IN	O	prep	false	-1	-1	null	null	106	case	null
+0	5	105	542	543	S	106	a	a	a	DT	O	det	false	-1	-1	null	null	106	det	null
+0	5	106	544	550	S	104	secret	secret	secret	NN	O	pobj	false	-1	-1	null	null	99	nmod:as	null
+0	5	107	551	555	S	108	even	even	even	RB	O	dep	false	-1	-1	null	null	111	advmod	null
+0	5	108	556	560	S	106	from	from	from	IN	O	prep	false	-1	-1	null	null	111	case	null
+0	5	109	561	564	S	111	his	his	he	PRP$	O	poss	false	-1	-1	c4	null	111	nmod:poss	(c4;ANIMATE;MALE),
+0	5	110	565	571	S	111	fellow	fellow	fellow	JJ	O	amod	false	-1	-1	null	null	111	amod	null
+0	5	111	572	580		108	officers	officers	officer	NNS	O	pobj	false	-1	-1	null	null	106	nmod:from	null
+0	5	112	580	581	S	99	,	,	,	,	O	punct	false	-1	-1	null	null	99	punct	null
+0	5	113	582	585	S	99	and	and	and	CC	O	cc	false	-1	-1	null	null	99	cc	null
+0	5	114	586	592	S	99	tracks	tracks	track	VBZ	O	conj	false	-1	-1	null	null	99	conj:and	null
+0	5	115	593	597	S	114	down	down	down	RP	O	prt	false	-1	-1	null	null	114	compound:prt	null
+0	5	116	598	599	S	114	a	a	a	DT	O	dobj	false	-1	-1	null	null	117	det	null
+0	5	117	600	610	S	116	look-alike	look-alike	look-alike	JJ	O	amod	false	-1	-1	null	null	114	dobj	null
+0	5	118	611	617	S	117	called	called	call	VBN	O	partmod	false	-1	-1	null	null	117	acl	null
+0	5	119	618	626	S	120	Saravana	Saravana	Saravana	NNP	PERSON	nn	false	-1	-1	c9	c9	120	compound	(c9;ANIMATE;UNKNOWN),
+0	5	120	627	631	S	118	Velu	Velu	Velu	NNP	PERSON	dep	false	-1	-1	c9	c9	118	dobj	(c9;ANIMATE;UNKNOWN),
+0	5	121	632	633	S	116	,	,	,	,	O	punct	false	-1	-1	null	null	120	punct	null
+0	5	122	634	635	S	124	a	a	a	DT	O	det	false	-1	-1	c9	null	124	det	(c9;ANIMATE;UNKNOWN),
+0	5	123	636	641	S	124	lowly	lowly	lowly	JJ	O	amod	false	-1	-1	c9	null	124	amod	(c9;ANIMATE;UNKNOWN),
+0	5	124	642	653		116	pick-pocket	pick-pocket	pick-pocket	NN	O	appos	false	-1	-1	c9	null	120	appos	(c9;ANIMATE;UNKNOWN),
+0	5	125	653	654	S	99	.	.	.	.	O	punct	false	-1	-1	null	null	99	punct	null
+0	6	126	655	657	S	127	He	He	he	PRP	O	nsubj	false	-1	-1	c4	null	127	nsubj	(c4;ANIMATE;MALE),
+0	6	127	658	662	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	128	663	667	S	130	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	127	dobj	(c9;ANIMATE;UNKNOWN),
+0	6	129	668	670	S	130	to	to	to	TO	O	aux	false	-1	-1	null	null	130	mark	null
+0	6	130	671	681	S	127	infiltrate	infiltrate	infiltrate	VB	O	ccomp	false	-1	-1	null	null	127	xcomp	null
+0	6	131	682	687		133	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c11	c11	133	nmod:poss	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	6	132	687	689	S	131	's	's	's	POS	O	possessive	false	-1	-1	c2,c11	c11	131	case	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	6	133	690	694	S	130	gang	gang	gang	NN	O	dobj	false	-1	-1	c11	c11	130	dobj	(c11;ANIMATE;NEUTRAL),
+0	6	134	695	697	S	130	by	by	by	IN	O	prep	false	-1	-1	null	null	135	mark	null
+0	6	135	698	708	S	134	pretending	pretending	pretend	VBG	O	pcomp	false	-1	-1	null	null	130	advcl	null
+0	6	136	709	711	S	138	to	to	to	TO	O	aux	false	-1	-1	null	null	138	mark	null
+0	6	137	712	714	S	138	be	be	be	VB	O	cop	false	-1	-1	null	null	138	cop	null
+0	6	138	715	720		135	Billa	Billa	Billa	NNP	LOCATION	xcomp	false	-1	4	c2	null	135	xcomp	(c2;INANIMATE;MALE),
+0	6	139	720	721	S	127	.	.	.	.	O	punct	false	-1	-1	null	null	127	punct	null
+0	7	140	722	724	S	144	In	In	in	IN	O	prep	false	-1	-1	null	null	141	case	null
+0	7	141	725	731	S	140	return	return	return	NN	O	pobj	false	-1	-1	null	null	144	nmod:in	null
+0	7	142	732	734	S	144	he	he	he	PRP	O	nsubj	false	-1	-1	c4	null	144	nsubj	(c4;ANIMATE;MALE),
+0	7	143	735	739	S	144	will	will	will	MD	O	aux	false	-1	-1	null	null	144	aux	null
+0	7	144	740	744	S	-1	make	make	make	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	7	145	745	749	S	144	sure	sure	sure	JJ	O	acomp	false	-1	-1	null	null	144	xcomp	null
+0	7	146	750	754	S	154	that	that	that	IN	O	complm	false	-1	-1	null	null	154	mark	null
+0	7	147	755	758	S	148	the	the	the	DT	O	det	false	-1	-1	c12,c12	null	148	det	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	7	148	759	764	S	154	child	child	child	NN	O	nsubj	false	-1	-1	c12,c12	null	154	nsubj	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	7	149	765	769	S	150	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9,c12,c12	null	150	nsubj	(c9;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	7	150	770	777		148	adopted	adopted	adopt	VBD	O	rcmod	false	-1	-1	c12,c12	null	148	acl:relcl	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	7	151	777	778	S	148	,	,	,	,	O	punct	false	-1	-1	c12	null	148	punct	(c12;ANIMATE;UNKNOWN),
+0	7	152	779	784		148	Karan	Karan	Karan	NNP	PERSON	appos	false	3	3	c12,c12	c12	148	appos	(c12;ANIMATE;UNKNOWN),(c12;ANIMATE;UNKNOWN),
+0	7	153	784	785	S	148	,	,	,	,	O	punct	false	-1	-1	null	null	148	punct	null
+0	7	154	786	790	S	145	gets	gets	get	VBZ	O	ccomp	false	-1	-1	null	null	144	ccomp	null
+0	7	155	791	792	S	157	a	a	a	DT	O	det	false	-1	-1	null	null	157	det	null
+0	7	156	793	799	S	157	proper	proper	proper	JJ	O	amod	false	-1	-1	null	null	157	amod	null
+0	7	157	800	809		154	education	education	education	NN	O	dobj	false	-1	-1	null	null	154	dobj	null
+0	7	158	809	810	S	144	.	.	.	.	O	punct	false	-1	-1	null	null	144	punct	null
+0	8	159	811	814	S	162	The	The	the	DT	O	det	false	-1	-1	null	null	161	det	null
+0	8	160	815	818	S	162	DSP	DSP	DSP	NNP	ORGANIZATION	nn	false	0	0	c4	null	161	compound	(c4;INANIMATE;NEUTRAL),
+0	8	161	819	825	S	162	trains	trains	train	NNS	O	nn	false	-1	-1	null	null	-1	root	null
+0	8	162	826	830	S	-1	Velu	Velu	Velu	NNP	PERSON	null	false	8	8	c9	null	161	dep	(c9;ANIMATE;UNKNOWN),
+0	8	163	831	834	S	162	and	and	and	CC	O	cc	false	-1	-1	null	null	162	cc	null
+0	8	164	835	840	S	162	sends	sends	send	VBZ	O	conj	false	-1	-1	null	null	162	conj:and	null
+0	8	165	841	844	S	164	him	him	he	PRP	O	dobj	false	3	3	c4	null	164	dobj	(c4;ANIMATE;MALE),
+0	8	166	845	849	S	164	back	back	back	RB	O	advmod	false	-1	-1	null	null	164	advmod	null
+0	8	167	850	852	S	166	to	to	to	TO	O	dep	false	-1	-1	null	null	170	case	null
+0	8	168	853	858		170	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c11	null	170	nmod:poss	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	8	169	858	860	S	168	's	's	's	POS	O	possessive	false	-1	-1	c2,c11	null	168	case	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	8	170	861	865	S	167	gang	gang	gang	NN	O	pobj	false	-1	-1	c11	null	161	nmod:to	(c11;ANIMATE;NEUTRAL),
+0	8	171	866	868	S	164	as	as	as	IN	O	prep	false	-1	-1	null	null	173	case	null
+0	8	172	869	870	S	173	a	a	a	DT	O	det	false	-1	-1	null	null	173	det	null
+0	8	173	871	877	S	171	person	person	person	NN	O	pobj	false	-1	-1	null	null	161	nmod:as	null
+0	8	174	878	881	S	176	who	who	who	WP	O	nsubj	false	-1	-1	null	null	176	nsubj	null
+0	8	175	882	885	S	176	has	has	have	VBZ	O	aux	false	-1	-1	null	null	176	aux	null
+0	8	176	886	890	S	173	lost	lost	lose	VBN	O	rcmod	false	-1	-1	null	null	173	acl:relcl	null
+0	8	177	891	894	S	178	his	his	he	PRP$	O	poss	false	3	3	c4	null	178	nmod:poss	(c4;ANIMATE;MALE),
+0	8	178	895	901		176	memory	memory	memory	NN	O	dobj	false	-1	-1	null	null	176	dobj	null
+0	8	179	901	902	S	162	.	.	.	.	O	punct	false	-1	-1	null	null	161	punct	null
+0	9	180	903	909	S	182	Slowly	Slowly	slowly	RB	O	advmod	false	-1	-1	null	null	182	advmod	null
+0	9	181	910	914	S	182	Velu	Velu	velu	NN	PERSON	nsubj	false	8	8	null	null	182	nsubj	null
+0	9	182	915	921	S	-1	starts	starts	start	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	183	922	924	S	184	to	to	to	TO	O	aux	false	-1	-1	null	null	184	mark	null
+0	9	184	925	930	S	182	learn	learn	learn	VB	O	xcomp	false	-1	-1	null	null	182	xcomp	null
+0	9	185	931	936	S	184	about	about	about	IN	O	prep	false	-1	-1	null	null	188	case	null
+0	9	186	937	942		188	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c11	null	188	nmod:poss	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	9	187	942	944	S	186	's	's	's	POS	O	possessive	false	-1	-1	c2,c11	null	186	case	(c2;INANIMATE;MALE),(c11;ANIMATE;NEUTRAL),
+0	9	188	945	949	S	185	gang	gang	gang	NN	O	pobj	false	-1	-1	c11	null	184	nmod:about	(c11;ANIMATE;NEUTRAL),
+0	9	189	950	953	S	182	and	and	and	CC	O	cc	false	-1	-1	null	null	182	cc	null
+0	9	190	954	958	S	191	even	even	even	RB	O	advmod	false	-1	-1	null	null	191	advmod	null
+0	9	191	959	965	S	182	speaks	speaks	speak	VBZ	O	conj	false	-1	-1	null	null	182	conj:and	null
+0	9	192	966	968	S	191	to	to	to	TO	O	prep	false	-1	-1	null	null	193	case	null
+0	9	193	969	976		192	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	9	9	c13	null	191	nmod:to	(c13;ANIMATE;MALE),
+0	9	194	976	977	S	193	,	,	,	,	O	punct	false	-1	-1	null	null	193	punct	null
+0	9	195	978	983		197	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c13	null	197	nmod:poss	(c2;INANIMATE;MALE),(c13;ANIMATE;MALE),
+0	9	196	983	985	S	195	's	's	's	POS	O	possessive	false	-1	-1	c2,c13	null	195	case	(c2;INANIMATE;MALE),(c13;ANIMATE;MALE),
+0	9	197	986	990		193	boss	boss	boss	NN	O	appos	false	-1	-1	c13	null	193	appos	(c13;ANIMATE;MALE),
+0	9	198	990	991	S	191	,	,	,	,	O	punct	false	-1	-1	null	null	193	punct	null
+0	9	199	992	994	S	191	on	on	on	IN	O	prep	false	-1	-1	null	null	201	case	null
+0	9	200	995	998	S	201	the	the	the	DT	O	det	false	-1	-1	null	null	201	det	null
+0	9	201	999	1004		199	phone	phone	phone	NN	O	pobj	false	-1	-1	null	null	191	nmod:on	null
+0	9	202	1004	1005	S	182	.	.	.	.	O	punct	false	-1	-1	null	null	182	punct	null
+0	10	203	1006	1010	S	204	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	204	nsubj	(c9;ANIMATE;UNKNOWN),
+0	10	204	1011	1019	S	-1	provides	provides	provide	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	10	205	1020	1021	S	207	a	a	a	DT	O	det	false	-1	-1	null	null	207	det	null
+0	10	206	1022	1025	S	207	pen	pen	pen	NN	O	nn	false	-1	-1	null	null	207	compound	null
+0	10	207	1026	1031	S	204	drive	drive	drive	NN	O	dobj	false	-1	-1	null	null	204	dobj	null
+0	10	208	1032	1036	S	204	with	with	with	IN	O	prep	false	-1	-1	null	null	211	case	null
+0	10	209	1037	1040	S	211	the	the	the	DT	O	det	false	-1	-1	null	null	211	det	null
+0	10	210	1041	1047	S	211	secret	secret	secret	JJ	O	amod	false	-1	-1	null	null	211	amod	null
+0	10	211	1048	1059	S	208	information	information	information	NN	O	pobj	false	-1	-1	null	null	207	nmod:with	null
+0	10	212	1060	1062	S	211	of	of	of	IN	O	prep	false	-1	-1	null	null	215	case	null
+0	10	213	1063	1066	S	215	the	the	the	DT	O	det	false	-1	-1	null	null	215	det	null
+0	10	214	1067	1072	S	215	crime	crime	crime	NN	O	nn	false	-1	-1	null	null	215	compound	null
+0	10	215	1073	1080	S	212	network	network	network	NN	O	pobj	false	-1	-1	null	null	211	nmod:of	null
+0	10	216	1081	1083	S	211	to	to	to	TO	O	prep	false	-1	-1	null	null	218	case	null
+0	10	217	1084	1087	S	218	the	the	the	DT	O	det	false	-1	-1	c4	null	218	det	(c4;INANIMATE;NEUTRAL),
+0	10	218	1088	1091		216	DSP	DSP	DSP	NNP	ORGANIZATION	pobj	false	0	0	c4,c4	null	204	nmod:to	(c4;INANIMATE;NEUTRAL),(c4;INANIMATE;NEUTRAL),
+0	10	219	1091	1092	S	204	,	,	,	,	O	punct	false	-1	-1	null	null	204	punct	null
+0	10	220	1093	1096	S	204	but	but	but	CC	O	cc	false	-1	-1	null	null	204	cc	null
+0	10	221	1097	1099	S	223	he	he	he	PRP	O	nsubj	false	9	9	c9	null	223	nsubj	(c9;ANIMATE;MALE),
+0	10	222	1100	1102	S	223	is	is	be	VBZ	O	aux	false	-1	-1	null	null	223	aux	null
+0	10	223	1103	1108	S	204	about	about	about	IN	O	conj	false	-1	-1	null	null	204	conj:but	null
+0	10	224	1109	1111	S	226	to	to	to	TO	O	aux	false	-1	-1	null	null	226	mark	null
+0	10	225	1112	1114	S	226	be	be	be	VB	O	auxpass	false	-1	-1	null	null	226	auxpass	null
+0	10	226	1115	1121	S	223	killed	killed	kill	VBN	O	xcomp	false	-1	-1	null	null	223	xcomp	null
+0	10	227	1122	1124	S	226	by	by	by	IN	O	prep	false	-1	-1	null	null	228	case	null
+0	10	228	1125	1130	SS	227	Sasha	Sasha	Sasha	NNP	PERSON	pobj	false	5	5	c14	c14	226	nmod:agent	(c14;ANIMATE;UNKNOWN),
+0	10	229	1132	1139	S	240	because	because	because	IN	O	mark	false	-1	-1	null	null	240	mark	null
+0	10	230	1140	1143	S	232	her	her	she	PRP$	O	poss	false	-1	5	c14	null	232	nmod:poss	(c14;ANIMATE;FEMALE),
+0	10	231	1144	1151	S	232	brother	brother	brother	NN	O	nn	false	-1	-1	null	null	232	compound	null
+0	10	232	1152	1158	S	240	Rajesh	Rajesh	Rajesh	NNP	PERSON	nsubjpass	false	-1	-1	null	null	240	nsubjpass	null
+0	10	233	1159	1161	S	234	as	as	as	RB	O	dep	false	-1	-1	null	null	232	cc	null
+0	10	234	1162	1166	S	232	well	well	well	RB	O	cc	false	-1	-1	null	null	233	mwe	null
+0	10	235	1167	1169	S	234	as	as	as	IN	O	dep	false	-1	-1	null	null	233	mwe	null
+0	10	236	1170	1173	S	237	his	his	he	PRP$	O	poss	false	-1	-1	c9	null	237	nmod:poss	(c9;ANIMATE;MALE),
+0	10	237	1174	1181	S	232	fiancee	fiancee	fiancee	NN	O	conj	false	-1	-1	null	null	232	conj:and	null
+0	10	238	1182	1186	SS	237	Rhea	Rhea	Rhea	NNP	PERSON	dep	false	-1	-1	null	null	237	appos	null
+0	10	239	1188	1192	S	240	were	were	be	VBD	O	auxpass	false	-1	-1	null	null	240	auxpass	null
+0	10	240	1193	1199	S	223	killed	killed	kill	VBN	O	advcl	false	-1	-1	null	null	226	advcl	null
+0	10	241	1200	1202	S	240	by	by	by	IN	O	prep	false	-1	-1	null	null	242	case	null
+0	10	242	1203	1208		241	Billa	Billa	Billa	NNP	ORGANIZATION	pobj	false	4	4	c2	null	240	nmod:agent	(c2;ANIMATE;MALE),
+0	10	243	1208	1209	S	204	.	.	.	.	O	punct	false	-1	-1	null	null	204	punct	null
+0	11	244	1210	1212	S	250	At	At	at	IN	O	prep	false	-1	-1	null	null	246	case	null
+0	11	245	1213	1217	S	246	this	this	this	DT	O	det	false	-1	-1	null	null	246	det	null
+0	11	246	1218	1226		244	juncture	juncture	juncture	NN	O	pobj	false	-1	-1	null	null	250	nmod:at	null
+0	11	247	1226	1227	S	250	,	,	,	,	O	punct	false	-1	-1	null	null	250	punct	null
+0	11	248	1228	1231	S	249	the	the	the	DT	O	det	false	-1	-1	c4	null	249	det	(c4;INANIMATE;NEUTRAL),
+0	11	249	1232	1235	S	250	DSP	DSP	DSP	NNP	ORGANIZATION	nsubj	false	0	0	c4	null	250	nsubj	(c4;INANIMATE;NEUTRAL),
+0	11	250	1236	1243	S	-1	arrives	arrives	arrive	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	11	251	1244	1247	S	250	and	and	and	CC	O	cc	false	-1	-1	null	null	250	cc	null
+0	11	252	1248	1253	S	250	tells	tells	tell	VBZ	O	conj	false	-1	-1	null	null	250	conj:and	null
+0	11	253	1254	1257	S	257	her	her	she	PRP$	O	poss	false	-1	5	c14	null	250	dobj	(c14;ANIMATE;FEMALE),
+0	11	254	1258	1262	S	257	that	that	that	IN	O	complm	false	-1	-1	null	null	257	mark	null
+0	11	255	1263	1265	S	257	he	he	he	PRP	O	nsubj	false	-1	-1	c4	null	257	nsubj	(c4;ANIMATE;MALE),
+0	11	256	1266	1268	S	257	is	is	be	VBZ	O	cop	false	-1	-1	null	null	257	cop	null
+0	11	257	1269	1273	S	252	Velu	Velu	Velu	NNP	PERSON	dobj	false	8	8	c9,c9	null	250	ccomp	(c9;ANIMATE;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	11	258	1274	1277	S	250	and	and	and	CC	O	cc	false	-1	-1	c9	null	257	cc	(c9;ANIMATE;UNKNOWN),
+0	11	259	1278	1281	S	260	not	not	not	RB	O	neg	false	-1	-1	c9	null	260	neg	(c9;ANIMATE;UNKNOWN),
+0	11	260	1282	1287		250	Billa	Billa	Billa	NNP	ORGANIZATION	conj	false	4	4	c2,c9	null	257	conj:and	(c2;INANIMATE;MALE),(c9;ANIMATE;UNKNOWN),
+0	11	261	1287	1288	S	250	.	.	.	.	O	punct	false	-1	-1	null	null	250	punct	null
+0	12	262	1289	1294	S	288	Later	Later	later	RB	O	advmod	false	-1	-1	null	null	265	advmod	null
+0	12	263	1295	1301	S	288	before	before	before	IN	O	dep	false	-1	-1	null	null	265	case	null
+0	12	264	1302	1303	S	265	a	a	a	DT	O	det	false	-1	-1	c15	c15	265	det	(c15;ANIMATE;NEUTRAL),
+0	12	265	1304	1309		288	party	party	party	NN	O	nsubj	false	-1	-1	c15	c15	269	nmod:before	(c15;ANIMATE;NEUTRAL),
+0	12	266	1309	1310	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	269	punct	null
+0	12	267	1311	1315	S	269	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	269	nsubj	(c9;ANIMATE;UNKNOWN),
+0	12	268	1316	1324	S	269	secretly	secretly	secretly	RB	O	advmod	false	-1	-1	null	null	269	advmod	null
+0	12	269	1325	1333	S	265	provides	provides	provide	VBZ	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	12	270	1334	1345	S	269	information	information	information	NN	O	dobj	false	-1	-1	null	null	269	dobj	null
+0	12	271	1346	1348	S	269	to	to	to	TO	O	prep	false	-1	-1	null	null	273	case	null
+0	12	272	1349	1352	S	273	the	the	the	DT	O	det	false	-1	-1	null	null	273	det	null
+0	12	273	1353	1356	S	271	DSP	DSP	DSP	NNP	ORGANIZATION	pobj	false	0	0	null	null	269	nmod:to	null
+0	12	274	1357	1362	S	269	about	about	about	IN	O	prep	false	-1	-1	null	null	276	case	null
+0	12	275	1363	1364	S	276	a	a	a	DT	O	det	false	-1	-1	null	null	276	det	null
+0	12	276	1365	1372	S	274	meeting	meeting	meeting	NN	O	pobj	false	-1	-1	null	null	273	nmod:about	null
+0	12	277	1373	1375	S	276	of	of	of	IN	O	prep	false	-1	-1	null	null	280	case	null
+0	12	278	1376	1381		280	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2	null	280	nmod:poss	(c2;INANIMATE;MALE),
+0	12	279	1381	1383	S	278	's	's	's	POS	O	possessive	false	-1	-1	c2	null	278	case	(c2;INANIMATE;MALE),
+0	12	280	1384	1391	S	277	network	network	network	NN	O	pobj	false	-1	-1	null	null	276	nmod:of	null
+0	12	281	1392	1395	S	276	and	and	and	CC	O	cc	false	-1	-1	null	null	269	cc	null
+0	12	282	1396	1400	S	276	C.J.	C.J.	C.J.	NNP	PERSON	conj	false	-1	-1	c16,c17	c16,c17	288	nsubj	(c16;UNKNOWN;UNKNOWN),(c17;UNKNOWN;UNKNOWN),
+0	12	283	1401	1402	S	276	,	,	,	,	O	punct	false	-1	-1	c16	c16	282	punct	(c16;UNKNOWN;UNKNOWN),
+0	12	284	1403	1408		286	Billa	Billa	Billa	NNP	ORGANIZATION	poss	false	4	4	c2,c16,c17	c16	286	nmod:poss	(c2;INANIMATE;MALE),(c16;UNKNOWN;UNKNOWN),(c17;ANIMATE;FEMALE),
+0	12	285	1408	1410	S	284	's	's	's	POS	O	possessive	false	-1	-1	c2,c16,c17	c16	284	case	(c2;INANIMATE;MALE),(c16;UNKNOWN;UNKNOWN),(c17;ANIMATE;FEMALE),
+0	12	286	1411	1421		276	girlfriend	girlfriend	girlfriend	NN	O	appos	false	-1	-1	c16,c17	c16	282	appos	(c16;UNKNOWN;UNKNOWN),(c17;ANIMATE;FEMALE),
+0	12	287	1421	1422	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	282	punct	null
+0	12	288	1423	1432	S	-1	overhears	overhears	overhear	VBZ	O	null	false	-1	-1	null	null	269	conj:and	null
+0	12	289	1433	1436	S	290	his	his	he	PRP$	O	poss	false	-1	-1	c16	null	290	nmod:poss	(c16;ANIMATE;MALE),
+0	12	290	1437	1449		288	conversation	conversation	conversation	NN	O	dobj	false	-1	-1	null	null	288	dobj	null
+0	12	291	1449	1450	S	288	.	.	.	.	O	punct	false	-1	-1	null	null	269	punct	null
+0	13	292	1451	1454	S	293	She	She	she	PRP	O	nsubj	false	-1	-1	c17	null	293	nsubj	(c17;ANIMATE;FEMALE),
+0	13	293	1455	1465	S	-1	challenges	challenges	challenge	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	13	294	1466	1470	S	293	Velu	Velu	Velu	NNP	PERSON	dobj	false	8	8	c9	null	293	dobj	(c9;ANIMATE;UNKNOWN),
+0	13	295	1471	1474	S	293	but	but	but	CC	O	cc	false	-1	-1	null	null	293	cc	null
+0	13	296	1475	1477	S	302	in	in	in	IN	O	prep	false	-1	-1	null	null	298	case	null
+0	13	297	1478	1481	S	298	the	the	the	DT	O	det	false	-1	-1	null	null	298	det	null
+0	13	298	1482	1487		296	fight	fight	fight	NN	O	pobj	false	-1	-1	null	null	302	nmod:in	null
+0	13	299	1487	1488	S	302	,	,	,	,	O	punct	false	-1	-1	null	null	302	punct	null
+0	13	300	1489	1491	S	302	he	he	he	PRP	O	nsubj	false	-1	-1	c9	null	302	nsubj	(c9;ANIMATE;MALE),
+0	13	301	1492	1504	S	302	accidentally	accidentally	accidentally	RB	O	advmod	false	-1	-1	null	null	302	advmod	null
+0	13	302	1505	1510	S	293	kills	kills	kill	VBZ	O	conj	false	-1	-1	null	null	293	conj:but	null
+0	13	303	1511	1514		302	her	her	she	PRP	O	dobj	false	-1	-1	c17	null	302	dobj	(c17;ANIMATE;FEMALE),
+0	13	304	1514	1515	S	293	.	.	.	.	O	punct	false	-1	-1	null	null	293	punct	null
+0	14	305	1516	1517	S	306	A	A	a	DT	O	det	false	-1	-1	null	null	306	det	null
+0	14	306	1518	1526	S	307	shootout	shootout	shootout	NN	O	nsubj	false	-1	-1	null	null	307	nsubj	null
+0	14	307	1527	1533	S	-1	occurs	occurs	occur	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	14	308	1534	1536	S	307	at	at	at	IN	O	prep	false	-1	-1	null	null	310	case	null
+0	14	309	1537	1540	S	310	the	the	the	DT	O	det	false	-1	-1	c15	null	310	det	(c15;ANIMATE;NEUTRAL),
+0	14	310	1541	1546	S	308	party	party	party	NN	O	pobj	false	-1	-1	c15	null	307	nmod:at	(c15;ANIMATE;NEUTRAL),
+0	14	311	1547	1550	S	310	and	and	and	CC	O	cc	false	-1	-1	null	null	307	cc	null
+0	14	312	1551	1554	S	313	the	the	the	DT	O	det	false	-1	-1	c4	null	313	det	(c4;INANIMATE;NEUTRAL),
+0	14	313	1555	1558	S	316	DSP	DSP	DSP	NNP	ORGANIZATION	nsubjpass	false	0	0	c4	null	316	nsubjpass	(c4;INANIMATE;NEUTRAL),
+0	14	314	1559	1561	S	316	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	316	auxpass	null
+0	14	315	1562	1570	S	316	secretly	secretly	secretly	RB	O	advmod	false	-1	-1	null	null	316	advmod	null
+0	14	316	1571	1577	S	310	killed	killed	kill	VBN	O	conj	false	-1	-1	null	null	307	conj:and	null
+0	14	317	1578	1580	S	316	by	by	by	IN	O	prep	false	-1	-1	null	null	318	case	null
+0	14	318	1581	1588		317	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	9	9	c13	null	316	nmod:agent	(c13;ANIMATE;MALE),
+0	14	319	1588	1589	S	316	,	,	,	,	O	punct	false	-1	-1	null	null	316	punct	null
+0	14	320	1590	1597	S	316	leaving	leaving	leave	VBG	O	xcomp	false	-1	-1	null	null	316	xcomp	null
+0	14	321	1598	1601	S	322	his	his	he	PRP$	O	poss	false	9	9	c4,c18	c18	322	nmod:poss	(c4;ANIMATE;MALE),(c18;INANIMATE;UNKNOWN),
+0	14	322	1602	1605	S	320	gun	gun	gun	NN	O	dobj	false	-1	-1	c18	c18	320	dobj	(c18;INANIMATE;UNKNOWN),
+0	14	323	1606	1612		320	behind	behind	behind	IN	O	dep	false	-1	-1	null	null	320	nmod	null
+0	14	324	1612	1613	S	307	.	.	.	.	O	punct	false	-1	-1	null	null	307	punct	null
+0	15	325	1614	1618	S	326	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	326	nsubj	(c9;ANIMATE;UNKNOWN),
+0	15	326	1619	1624	S	-1	finds	finds	find	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	15	327	1625	1628	S	328	the	the	the	DT	O	det	false	-1	-1	c4	null	328	det	(c4;INANIMATE;NEUTRAL),
+0	15	328	1629	1632		330	DSP	DSP	DSP	NNP	ORGANIZATION	poss	false	0	0	c4	null	330	nmod:poss	(c4;INANIMATE;NEUTRAL),
+0	15	329	1632	1634	S	328	's	's	's	POS	O	possessive	false	-1	-1	c4	null	328	case	(c4;INANIMATE;NEUTRAL),
+0	15	330	1635	1639	S	326	body	body	body	NN	O	dobj	false	-1	-1	null	null	326	dobj	null
+0	15	331	1640	1643	S	330	and	and	and	CC	O	cc	false	-1	-1	null	null	330	cc	null
+0	15	332	1644	1647	S	333	the	the	the	DT	O	det	false	-1	-1	c18	null	333	det	(c18;INANIMATE;UNKNOWN),
+0	15	333	1648	1651		330	gun	gun	gun	NN	O	conj	false	-1	-1	c18	null	330	conj:and	(c18;INANIMATE;UNKNOWN),
+0	15	334	1651	1652	S	326	,	,	,	,	O	punct	false	-1	-1	null	null	326	punct	null
+0	15	335	1653	1656	S	326	but	but	but	CC	O	cc	false	-1	-1	null	null	326	cc	null
+0	15	336	1657	1659	S	337	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	337	auxpass	null
+0	15	337	1660	1665	S	326	taken	taken	take	VBN	O	conj	false	-1	-1	null	null	326	conj:but	null
+0	15	338	1666	1670	S	337	into	into	into	IN	O	prep	false	-1	-1	null	null	340	case	null
+0	15	339	1671	1674	S	340	the	the	the	DT	O	det	false	-1	-1	null	null	340	det	null
+0	15	340	1675	1682	S	338	custody	custody	custody	NN	O	pobj	false	-1	-1	null	null	337	nmod:into	null
+0	15	341	1683	1685	S	340	of	of	of	IN	O	prep	false	-1	-1	null	null	344	case	null
+0	15	342	1686	1689	S	344	the	the	the	DT	O	det	false	-1	-1	null	null	344	det	null
+0	15	343	1690	1696	S	344	police	police	police	NN	O	nn	false	-1	-1	null	null	344	compound	null
+0	15	344	1697	1701		341	team	team	team	NN	O	pobj	false	-1	-1	null	null	340	nmod:of	null
+0	15	345	1701	1702	S	337	,	,	,	,	O	punct	false	-1	-1	null	null	340	punct	null
+0	15	346	1703	1706	S	347	now	now	now	RB	DATE	advmod	false	-1	-1	null	null	347	advmod	null
+0	15	347	1707	1713	S	337	headed	headed	head	VBN	O	ccomp	false	-1	-1	null	null	340	acl	null
+0	15	348	1714	1716	S	347	by	by	by	IN	O	prep	false	-1	-1	null	null	351	case	null
+0	15	349	1717	1725	S	351	Interpol	Interpol	Interpol	NNP	ORGANIZATION	nn	false	6	6	c3,c7	c7	351	compound	(c3;INANIMATE;NEUTRAL),(c7;ANIMATE;MALE),
+0	15	350	1726	1733	S	351	Officer	Officer	Officer	NNP	O	nn	false	-1	2	c7	c7	351	compound	(c7;ANIMATE;MALE),
+0	15	351	1734	1743		348	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	pobj	false	2	2	c7	c7	347	nmod:by	(c7;ANIMATE;MALE),
+0	15	352	1743	1744	S	326	.	.	.	.	O	punct	false	-1	-1	null	null	326	punct	null
+0	16	353	1745	1747	S	354	He	He	he	PRP	O	nsubj	false	-1	-1	c9	null	354	nsubj	(c9;ANIMATE;MALE),
+0	16	354	1748	1754	S	-1	argues	argues	argue	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	16	355	1755	1761	S	354	during	during	during	IN	O	prep	false	-1	-1	null	null	356	case	null
+0	16	356	1762	1775	S	355	interrogation	interrogation	interrogation	NN	O	pobj	false	-1	-1	null	null	354	nmod:during	null
+0	16	357	1776	1780	S	360	that	that	that	IN	O	complm	false	-1	-1	null	null	360	mark	null
+0	16	358	1781	1783	S	360	he	he	he	PRP	O	nsubj	false	-1	-1	c9	null	360	nsubj	(c9;ANIMATE;MALE),
+0	16	359	1784	1786	S	360	is	is	be	VBZ	O	cop	false	-1	-1	null	null	360	cop	null
+0	16	360	1787	1791	S	354	Velu	Velu	Velu	NNP	PERSON	ccomp	false	8	8	c9,c9	null	354	ccomp	(c9;ANIMATE;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	16	361	1792	1795	S	360	and	and	and	CC	O	cc	false	-1	-1	c9	null	360	cc	(c9;ANIMATE;UNKNOWN),
+0	16	362	1796	1799	S	363	not	not	not	RB	O	neg	false	-1	-1	c9	null	363	neg	(c9;ANIMATE;UNKNOWN),
+0	16	363	1800	1805	S	360	Billa	Billa	Billa	NNP	ORGANIZATION	conj	false	4	4	c9	null	360	conj:and	(c9;ANIMATE;UNKNOWN),
+0	16	364	1806	1808	S	360	to	to	to	TO	O	prep	false	-1	-1	c9	null	365	case	(c9;ANIMATE;UNKNOWN),
+0	16	365	1809	1818		364	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	pobj	false	2	2	c7,c9	null	363	nmod:to	(c7;ANIMATE;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	16	366	1818	1819	S	354	.	.	.	.	O	punct	false	-1	-1	null	null	354	punct	null
+0	17	367	1820	1824	S	368	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	368	nsubj	(c9;ANIMATE;UNKNOWN),
+0	17	368	1825	1833	S	-1	mentions	mentions	mention	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	17	369	1834	1835	S	370	a	a	a	DT	O	det	false	-1	-1	null	null	370	det	null
+0	17	370	1836	1841	S	368	piece	piece	piece	NN	O	dobj	false	-1	-1	null	null	368	dobj	null
+0	17	371	1842	1844	S	370	of	of	of	IN	O	prep	false	-1	-1	null	null	372	case	null
+0	17	372	1845	1853	S	371	evidence	evidence	evidence	NN	O	pobj	false	-1	-1	null	null	370	nmod:of	null
+0	17	373	1854	1855	S	370	–	--	--	:	O	punct	false	-1	-1	null	null	370	punct	null
+0	17	374	1856	1859	S	376	the	the	the	DT	O	det	false	-1	-1	c19	c19	376	det	(c19;INANIMATE;NEUTRAL),
+0	17	375	1860	1863	S	376	pen	pen	pen	NN	O	nn	false	-1	-1	c19	c19	376	compound	(c19;INANIMATE;NEUTRAL),
+0	17	376	1864	1869	S	387	drive	drive	drive	NN	O	nsubj	false	-1	-1	c19	c19	370	dep	(c19;INANIMATE;NEUTRAL),
+0	17	377	1870	1875	S	379	which	which	which	WDT	O	nsubj	false	-1	-1	c19	c19	379	nsubj	(c19;INANIMATE;NEUTRAL),
+0	17	378	1876	1879	S	379	may	may	may	MD	O	aux	false	-1	-1	c19	c19	379	aux	(c19;INANIMATE;NEUTRAL),
+0	17	379	1880	1885	S	376	prove	prove	prove	VB	O	rcmod	false	-1	-1	c19	c19	376	acl:relcl	(c19;INANIMATE;NEUTRAL),
+0	17	380	1886	1889	S	381	his	his	he	PRP$	O	poss	false	-1	-1	c1,c9,c19	c1,c19	381	nmod:poss	(c1;INANIMATE;UNKNOWN),(c9;ANIMATE;MALE),(c19;INANIMATE;NEUTRAL),
+0	17	381	1890	1899	S	379	innocence	innocence	innocence	NN	O	dobj	false	-1	-1	c1,c19	c1,c19	379	dobj	(c1;INANIMATE;UNKNOWN),(c19;INANIMATE;NEUTRAL),
+0	17	382	1900	1903	S	381	but	but	but	CC	O	cc	false	-1	-1	null	null	368	cc	null
+0	17	383	1904	1907	S	385	the	the	the	DT	O	det	false	-1	-1	c19	null	385	det	(c19;INANIMATE;NEUTRAL),
+0	17	384	1908	1911	S	385	pen	pen	pen	NN	O	nn	false	-1	-1	c19	null	385	compound	(c19;INANIMATE;NEUTRAL),
+0	17	385	1912	1917	S	381	drive	drive	drive	NN	O	conj	false	-1	-1	c19	null	386	nsubj	(c19;INANIMATE;NEUTRAL),
+0	17	386	1918	1920	S	387	is	is	be	VBZ	O	cop	false	-1	-1	null	null	368	conj:but	null
+0	17	387	1921	1928	S	370	nowhere	nowhere	nowhere	RB	O	rcmod	false	-1	-1	null	null	386	advmod	null
+0	17	388	1929	1931	S	390	to	to	to	TO	O	aux	false	-1	-1	null	null	390	mark	null
+0	17	389	1932	1934	S	390	be	be	be	VB	O	auxpass	false	-1	-1	null	null	390	auxpass	null
+0	17	390	1935	1940		387	found	found	find	VBN	O	xcomp	false	-1	-1	null	null	386	xcomp	null
+0	17	391	1940	1941	S	368	.	.	.	.	O	punct	false	-1	-1	null	null	368	punct	null
+0	18	392	1942	1948	S	399	Unable	Unable	unable	JJ	O	ccomp	false	-1	-1	null	null	399	ccomp	null
+0	18	393	1949	1951	S	394	to	to	to	TO	O	aux	false	-1	-1	null	null	394	mark	null
+0	18	394	1952	1957	S	392	prove	prove	prove	VB	O	xcomp	false	-1	-1	null	null	392	xcomp	null
+0	18	395	1958	1961	S	396	his	his	he	PRP$	O	poss	false	-1	-1	c1,c9	null	396	nmod:poss	(c1;INANIMATE;UNKNOWN),(c9;ANIMATE;MALE),
+0	18	396	1962	1971		394	innocence	innocence	innocence	NN	O	dobj	false	-1	-1	c1	null	394	dobj	(c1;INANIMATE;UNKNOWN),
+0	18	397	1971	1972	S	399	,	,	,	,	O	punct	false	-1	-1	null	null	399	punct	null
+0	18	398	1973	1975	S	399	he	he	he	PRP	O	nsubj	false	-1	-1	c9	null	399	nsubj	(c9;ANIMATE;MALE),
+0	18	399	1976	1983	S	-1	escapes	escapes	escape	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	18	400	1984	1988	S	399	from	from	from	IN	O	prep	false	-1	-1	null	null	403	case	null
+0	18	401	1989	1990	S	403	a	a	a	DT	O	det	false	-1	-1	null	null	403	det	null
+0	18	402	1991	1997	S	403	police	police	police	NN	O	nn	false	-1	-1	null	null	403	compound	null
+0	18	403	1998	2001		400	van	van	van	NN	O	pobj	false	-1	-1	null	null	399	nmod:from	null
+0	18	404	2001	2002	S	399	.	.	.	.	O	punct	false	-1	-1	null	null	399	punct	null
+0	19	405	2003	2005	S	406	He	He	he	PRP	O	nsubj	false	-1	-1	c9	null	406	nsubj	(c9;ANIMATE;MALE),
+0	19	406	2006	2012	S	-1	phones	phones	phone	NNS	O	null	false	-1	-1	null	null	-1	root	null
+0	19	407	2013	2022	S	406	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	dobj	false	2	2	c7	null	406	dep	(c7;ANIMATE;UNKNOWN),
+0	19	408	2023	2026	S	406	and	and	and	CC	O	cc	false	-1	-1	null	null	407	cc	null
+0	19	409	2027	2030	S	410	ask	ask	ask	VB	O	dep	false	-1	-1	null	null	407	conj:and	null
+0	19	410	2031	2034	S	406	him	him	he	PRP	O	conj	false	-1	2	c7	null	409	dobj	(c7;ANIMATE;MALE),
+0	19	411	2035	2037	S	412	to	to	to	TO	O	aux	false	-1	-1	null	null	412	mark	null
+0	19	412	2038	2042	S	410	meet	meet	meet	VB	O	xcomp	false	-1	-1	null	null	409	xcomp	null
+0	19	413	2043	2045	S	412	at	at	at	IN	O	prep	false	-1	-1	null	null	416	case	null
+0	19	414	2046	2049	S	416	the	the	the	DT	O	det	false	-1	-1	null	null	416	det	null
+0	19	415	2050	2054	S	416	Aero	Aero	Aero	NNP	O	nn	false	-1	-1	null	null	416	compound	null
+0	19	416	2055	2061		413	bridge	bridge	bridge	NN	O	pobj	false	-1	-1	null	null	412	nmod:at	null
+0	19	417	2061	2062	S	406	.	.	.	.	O	punct	false	-1	-1	null	null	406	punct	null
+0	20	418	2063	2067	S	421	Here	Here	here	RB	O	advmod	false	-1	-1	null	null	421	advmod	null
+0	20	419	2068	2070	S	421	it	it	it	PRP	O	nsubjpass	false	-1	-1	null	null	421	nsubjpass	null
+0	20	420	2071	2073	S	421	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	421	auxpass	null
+0	20	421	2074	2082	S	-1	revealed	revealed	reveal	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	20	422	2083	2087	S	425	that	that	that	IN	O	complm	false	-1	-1	null	null	425	mark	null
+0	20	423	2088	2097	S	425	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	nsubj	false	2	2	c7	null	425	nsubj	(c7;ANIMATE;UNKNOWN),
+0	20	424	2098	2100	S	425	is	is	be	VBZ	O	cop	false	-1	-1	null	null	425	cop	null
+0	20	425	2101	2105	S	421	none	none	none	NN	O	ccomp	false	-1	-1	null	null	421	ccomp	null
+0	20	426	2106	2111	S	425	other	other	other	JJ	O	amod	false	-1	-1	null	null	425	amod	null
+0	20	427	2112	2116	S	426	than	than	than	IN	O	prep	false	-1	-1	null	null	432	case	null
+0	20	428	2117	2120	S	432	the	the	the	DT	O	det	false	-1	-1	c13	c13	432	det	(c13;ANIMATE;MALE),
+0	20	429	2121	2131	S	432	Underworld	Underworld	Underworld	NNP	O	nn	false	-1	-1	c13	c13	432	compound	(c13;ANIMATE;MALE),
+0	20	430	2132	2137	S	432	Crime	Crime	Crime	NNP	O	nn	false	-1	-1	c13	c13	432	compound	(c13;ANIMATE;MALE),
+0	20	431	2138	2141	S	432	Don	Don	Don	NNP	PERSON	nn	false	-1	-1	c13,c13	c13	432	compound	(c13;ANIMATE;MALE),(c13;ANIMATE;MALE),
+0	20	432	2142	2149	S	427	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	-1	-1	c13,c13	c13	425	nmod:than	(c13;ANIMATE;MALE),(c13;ANIMATE;MALE),
+0	20	433	2150	2153	S	425	and	and	and	CC	O	cc	false	-1	-1	null	null	421	cc	null
+0	20	434	2154	2156	S	437	he	he	he	PRP	O	nsubj	false	-1	2	c7	null	437	nsubj	(c7;ANIMATE;MALE),
+0	20	435	2157	2159	S	437	is	is	be	VBZ	O	cop	false	-1	-1	null	null	437	cop	null
+0	20	436	2160	2163	S	437	the	the	the	DT	O	det	false	-1	-1	null	null	437	det	null
+0	20	437	2164	2167	S	425	one	one	one	NN	NUMBER	conj	false	-1	-1	null	null	421	conj:and	null
+0	20	438	2168	2171	S	439	who	who	who	WP	O	nsubj	false	-1	-1	null	null	439	nsubj	null
+0	20	439	2172	2178	S	437	killed	killed	kill	VBD	O	rcmod	false	-1	-1	null	null	437	acl:relcl	null
+0	20	440	2179	2189		439	Jayprakash	Jayprakash	Jayprakash	NNP	PERSON	dobj	false	-1	-1	null	null	439	dobj	null
+0	20	441	2189	2190	S	421	.	.	.	.	O	punct	false	-1	-1	null	null	421	punct	null
+0	21	442	2191	2198	S	444	Officer	Officer	Officer	NNP	O	nn	false	-1	-1	c6	c6	444	compound	(c6;ANIMATE;MALE),
+0	21	443	2199	2203	S	444	Anil	Anil	Anil	NNP	PERSON	nn	false	-1	-1	c6	c6	444	compound	(c6;ANIMATE;MALE),
+0	21	444	2204	2209	S	446	Menon	Menon	Menon	NNP	PERSON	nsubj	false	-1	-1	c6	c6	446	nsubj	(c6;ANIMATE;MALE),
+0	21	445	2210	2220	S	446	apparently	apparently	apparently	RB	O	advmod	false	-1	-1	null	null	446	advmod	null
+0	21	446	2221	2224	S	-1	had	had	have	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	21	447	2225	2228	S	449	the	the	the	DT	O	det	false	-1	-1	c19	null	449	det	(c19;INANIMATE;NEUTRAL),
+0	21	448	2229	2232	S	449	pen	pen	pen	NN	O	nn	false	-1	-1	c19	null	449	compound	(c19;INANIMATE;NEUTRAL),
+0	21	449	2233	2238	S	446	drive	drive	drive	NN	O	dobj	false	-1	-1	c19	null	446	dobj	(c19;INANIMATE;NEUTRAL),
+0	21	450	2239	2242	S	451	all	all	all	DT	O	dep	false	-1	-1	null	null	446	advmod	null
+0	21	451	2243	2248	S	449	along	along	along	IN	O	advmod	false	-1	-1	null	null	450	case	null
+0	21	452	2249	2252	S	446	and	and	and	CC	O	cc	false	-1	-1	null	null	446	cc	null
+0	21	453	2253	2260	S	446	strikes	strikes	strike	VBZ	O	conj	false	-1	-1	null	null	446	conj:and	null
+0	21	454	2261	2262	S	455	a	a	a	DT	O	det	false	-1	-1	null	null	455	det	null
+0	21	455	2263	2267	S	453	deal	deal	deal	NN	O	dobj	false	-1	-1	null	null	453	dobj	null
+0	21	456	2268	2272	S	455	with	with	with	IN	O	prep	false	-1	-1	null	null	457	case	null
+0	21	457	2273	2277	S	456	Velu	Velu	Velu	NNP	PERSON	pobj	false	8	8	c9	null	455	nmod:with	(c9;ANIMATE;UNKNOWN),
+0	21	458	2278	2280	S	459	to	to	to	TO	O	aux	false	-1	-1	null	null	459	mark	null
+0	21	459	2281	2284	S	455	get	get	get	VB	O	infmod	false	-1	-1	null	null	453	advcl	null
+0	21	460	2285	2289	S	459	hold	hold	hold	NN	O	dobj	false	-1	-1	null	null	459	dobj	null
+0	21	461	2290	2292	S	460	of	of	of	IN	O	prep	false	-1	-1	null	null	462	case	null
+0	21	462	2293	2300		461	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	9	9	c13	null	460	nmod:of	(c13;ANIMATE;MALE),
+0	21	463	2300	2301	S	446	.	.	.	.	O	punct	false	-1	-1	null	null	446	punct	null
+0	22	464	2302	2311		471	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	false	-1	-1	null	null	471	advmod	null
+0	22	465	2311	2312	S	471	,	,	,	,	O	punct	false	-1	-1	null	null	471	punct	null
+0	22	466	2313	2318	S	471	Sasha	Sasha	Sasha	NNP	PERSON	nsubj	false	5	5	c14	null	471	nsubjpass	(c14;ANIMATE;UNKNOWN),
+0	22	467	2319	2322	S	466	and	and	and	CC	O	cc	false	-1	-1	null	null	466	cc	null
+0	22	468	2323	2328	S	466	Karan	Karan	Karan	NNP	PERSON	conj	false	3	3	c12	null	466	conj:and	(c12;ANIMATE;UNKNOWN),
+0	22	469	2329	2333	S	471	have	have	have	VBP	O	aux	false	-1	-1	null	null	471	aux	null
+0	22	470	2334	2338	S	471	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	471	auxpass	null
+0	22	471	2339	2348	S	-1	kidnapped	kidnapped	kidnap	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	22	472	2349	2351	S	471	by	by	by	IN	O	prep	false	-1	-1	null	null	473	case	null
+0	22	473	2352	2359	S	472	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	9	9	c13	null	471	nmod:agent	(c13;ANIMATE;MALE),
+0	22	474	2360	2363	S	471	and	and	and	CC	O	cc	false	-1	-1	null	null	471	cc	null
+0	22	475	2364	2369	S	471	wants	wants	want	VBZ	O	conj	false	-1	-1	null	null	471	conj:and	null
+0	22	476	2370	2373	S	478	the	the	the	DT	O	det	false	-1	-1	c19	null	478	det	(c19;INANIMATE;NEUTRAL),
+0	22	477	2374	2377	S	478	pen	pen	pen	NN	O	nn	false	-1	-1	c19	null	478	compound	(c19;INANIMATE;NEUTRAL),
+0	22	478	2378	2383	S	475	drive	drive	drive	NN	O	dobj	false	-1	-1	c19	null	475	dobj	(c19;INANIMATE;NEUTRAL),
+0	22	479	2384	2386	S	478	in	in	in	IN	O	prep	false	-1	-1	null	null	480	case	null
+0	22	480	2387	2393	S	479	return	return	return	NN	O	pobj	false	-1	-1	null	null	475	nmod:in	null
+0	22	481	2394	2397	S	480	for	for	for	IN	O	prep	false	-1	-1	null	null	482	case	null
+0	22	482	2398	2400		481	it	it	it	PRP	O	pobj	false	-1	-1	c19	null	480	nmod:for	(c19;INANIMATE;NEUTRAL),
+0	22	483	2400	2401	S	471	.	.	.	.	O	punct	false	-1	-1	null	null	471	punct	null
+0	23	484	2402	2406	S	485	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	c9	null	485	nsubj	(c9;ANIMATE;UNKNOWN),
+0	23	485	2407	2412	S	-1	meets	meets	meet	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	23	486	2413	2420	S	485	Ranjith	Ranjith	Ranjith	NNP	PERSON	dobj	false	7	7	c10	c10	485	dobj	(c10;ANIMATE;MALE),
+0	23	487	2421	2424	S	485	and	and	and	CC	O	cc	false	-1	-1	null	null	485	cc	null
+0	23	488	2425	2430	S	485	gives	gives	give	VBZ	O	conj	false	-1	-1	null	null	485	conj:and	null
+0	23	489	2431	2434	S	488	him	him	he	PRP	O	iobj	false	7	7	c9	null	488	iobj	(c9;ANIMATE;MALE),
+0	23	490	2435	2436	S	493	a	a	a	DT	DURATION	det	false	-1	-1	null	null	493	det	null
+0	23	491	2437	2443	S	493	second	second	second	JJ	DURATION	amod	false	-1	-1	null	null	493	amod	null
+0	23	492	2444	2447	S	493	pen	pen	pen	NN	O	nn	false	-1	-1	null	null	493	compound	null
+0	23	493	2448	2453	S	488	drive	drive	drive	NN	O	dobj	false	-1	-1	null	null	488	dobj	null
+0	23	494	2454	2458	S	488	with	with	with	IN	O	prep	false	-1	-1	null	null	497	case	null
+0	23	495	2459	2462	S	497	the	the	the	DT	O	det	false	-1	-1	null	null	497	det	null
+0	23	496	2463	2467	S	497	same	same	same	JJ	O	amod	false	-1	-1	null	null	497	amod	null
+0	23	497	2468	2472		494	data	data	datum	NNS	O	pobj	false	-1	-1	null	null	493	nmod:with	null
+0	23	498	2472	2473	S	485	,	,	,	,	O	punct	false	-1	-1	null	null	485	punct	null
+0	23	499	2474	2477	S	485	but	but	but	CC	O	cc	false	-1	-1	null	null	485	cc	null
+0	23	500	2478	2487		485	corrupted	corrupted	corrupt	VBD	O	conj	false	-1	-1	null	null	485	conj:and	null
+0	23	501	2487	2488	S	485	.	.	.	.	O	punct	false	-1	-1	null	null	485	punct	null
+0	24	502	2489	2493	S	504	When	When	when	WRB	O	advmod	false	-1	-1	null	null	504	advmod	null
+0	24	503	2494	2501	S	504	Ranjith	Ranjith	Ranjith	NNP	PERSON	nsubj	false	7	7	c10	null	504	nsubj	(c10;ANIMATE;MALE),
+0	24	504	2502	2507	S	-1	tries	tries	try	VBZ	O	null	false	-1	-1	null	null	511	advcl	null
+0	24	505	2508	2510	S	506	to	to	to	TO	O	aux	false	-1	-1	null	null	506	mark	null
+0	24	506	2511	2515	S	504	kill	kill	kill	VB	O	xcomp	false	-1	-1	null	null	504	xcomp	null
+0	24	507	2516	2520		506	Velu	Velu	Velu	NNP	PERSON	dobj	false	8	8	c9	null	506	dobj	(c9;ANIMATE;UNKNOWN),
+0	24	508	2520	2521	S	507	,	,	,	,	O	punct	false	-1	-1	null	null	511	punct	null
+0	24	509	2522	2523	S	510	a	a	a	DT	O	det	false	-1	-1	null	null	510	det	null
+0	24	510	2524	2531	S	507	scuffle	scuffle	scuffle	NN	O	appos	false	-1	-1	null	null	511	nsubj	null
+0	24	511	2532	2538	S	512	ensues	ensues	ensue	VBZ	O	aux	false	-1	-1	null	null	-1	root	null
+0	24	512	2539	2545	S	504	making	making	make	VBG	O	xcomp	false	-1	-1	null	null	511	xcomp	null
+0	24	513	2546	2553	S	514	Ranjith	Ranjith	Ranjith	NNP	PERSON	nsubj	false	7	7	c10	null	514	nsubj	(c10;ANIMATE;MALE),
+0	24	514	2554	2558	S	512	fall	fall	fall	VB	O	xcomp	false	-1	-1	null	null	512	ccomp	null
+0	24	515	2559	2563	S	514	from	from	from	IN	O	prep	false	-1	-1	null	null	517	case	null
+0	24	516	2564	2567	S	517	the	the	the	DT	O	det	false	-1	-1	null	null	517	det	null
+0	24	517	2568	2571		515	top	top	top	NN	O	pobj	false	-1	-1	null	null	514	nmod:from	null
+0	24	518	2571	2572	S	504	.	.	.	.	O	punct	false	-1	-1	null	null	511	punct	null
+0	25	519	2573	2575	S	-1	In	In	in	IN	O	null	false	-1	-1	null	null	522	case	null
+0	25	520	2576	2577	S	522	a	a	a	DT	O	det	false	-1	-1	null	null	522	det	null
+0	25	521	2578	2583	S	522	final	final	final	JJ	O	amod	false	-1	-1	null	null	522	amod	null
+0	25	522	2584	2597		519	confrontation	confrontation	confrontation	NN	O	pobj	false	-1	-1	null	null	525	nmod:in	null
+0	25	523	2597	2598	S	519	,	,	,	,	O	punct	false	-1	-1	null	null	525	punct	null
+0	25	524	2599	2606	S	525	Jagdish	Jagdish	Jagdish	NNP	PERSON	nn	false	9	9	c13	null	525	compound	(c13;ANIMATE;MALE),
+0	25	525	2607	2613	S	523	fights	fights	fight	NNS	O	dobj	false	-1	-1	null	null	-1	root	null
+0	25	526	2614	2618	S	525	with	with	with	IN	O	prep	false	-1	-1	null	null	527	case	null
+0	25	527	2619	2623		526	Velu	Velu	Velu	NNP	PERSON	pobj	false	8	8	c9	null	525	nmod:with	(c9;ANIMATE;UNKNOWN),
+0	25	528	2623	2624	S	519	.	.	.	.	O	punct	false	-1	-1	null	null	525	punct	null
+0	26	529	2625	2632	S	533	Jagdish	Jagdish	Jagdish	NNP	PERSON	nsubj	false	9	9	c13	null	543	nsubjpass	(c13;ANIMATE;MALE),
+0	26	530	2633	2639	S	529	posing	posing	pose	VBG	O	partmod	false	-1	-1	c13	null	529	acl	(c13;ANIMATE;MALE),
+0	26	531	2640	2642	S	530	as	as	as	IN	O	prep	false	-1	-1	c13	null	533	mark	(c13;ANIMATE;MALE),
+0	26	532	2643	2652	S	531	Gokulnath	Gokulnath	Gokulnath	NNP	PERSON	pobj	false	2	2	c7,c13	null	533	nsubj	(c7;ANIMATE;UNKNOWN),(c13;ANIMATE;MALE),
+0	26	533	2653	2657	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	c13	null	530	advcl	(c13;ANIMATE;MALE),
+0	26	534	2658	2661	S	535	the	the	the	DT	O	det	false	-1	-1	c13	null	535	det	(c13;ANIMATE;MALE),
+0	26	535	2662	2668	S	533	police	police	police	NN	O	dobj	false	-1	-1	c13	null	533	dobj	(c13;ANIMATE;MALE),
+0	26	536	2669	2671	S	537	to	to	to	TO	O	aux	false	-1	-1	c13	null	537	mark	(c13;ANIMATE;MALE),
+0	26	537	2672	2678	S	535	arrest	arrest	arrest	VB	O	infmod	false	-1	-1	c13	null	535	acl	(c13;ANIMATE;MALE),
+0	26	538	2679	2683	S	537	Velu	Velu	Velu	NNP	PERSON	dobj	false	8	8	c9,c13	null	537	dobj	(c9;ANIMATE;UNKNOWN),(c13;ANIMATE;MALE),
+0	26	539	2684	2686	S	537	as	as	as	IN	O	prep	false	-1	-1	c9,c13	null	540	case	(c9;ANIMATE;UNKNOWN),(c13;ANIMATE;MALE),
+0	26	540	2687	2692	S	539	Billa	Billa	Billa	NNP	ORGANIZATION	pobj	false	4	4	c2,c9,c13	null	538	nmod:as	(c2;INANIMATE;MALE),(c9;ANIMATE;UNKNOWN),(c13;ANIMATE;MALE),
+0	26	541	2693	2696	S	533	but	but	but	CC	O	cc	false	-1	-1	null	null	543	cc	null
+0	26	542	2697	2701	S	543	gets	gets	get	VBZ	O	auxpass	false	-1	-1	null	null	543	auxpass	null
+0	26	543	2702	2706	S	533	shot	shot	shoot	VBN	O	conj	false	-1	-1	null	null	-1	root	null
+0	26	544	2707	2709	S	543	by	by	by	IN	O	prep	false	-1	-1	null	null	546	case	null
+0	26	545	2710	2713	S	546	the	the	the	DT	O	det	false	-1	-1	null	null	546	det	null
+0	26	546	2714	2719	S	544	squad	squad	squad	NN	O	pobj	false	-1	-1	null	null	543	nmod:agent	null
+0	26	547	2720	2722	S	546	of	of	of	IN	O	prep	false	-1	-1	null	null	548	case	null
+0	26	548	2723	2729	S	547	police	police	police	NN	O	pobj	false	-1	-1	null	null	546	nmod:of	null
+0	26	549	2730	2733	S	533	and	and	and	CC	O	cc	false	-1	-1	null	null	543	cc	null
+0	26	550	2734	2738	S	533	dies	dies	die	VBZ	O	conj	false	-1	-1	null	null	543	conj:but	null
+0	26	551	2739	2741	S	555	as	as	as	IN	O	mark	false	-1	-1	null	null	555	mark	null
+0	26	552	2742	2745	S	553	the	the	the	DT	O	det	false	-1	-1	c5	null	553	det	(c5;ANIMATE;UNKNOWN),
+0	26	553	2746	2752	S	555	police	police	police	NNS	O	nsubj	false	-1	-1	c5	null	555	nsubj	(c5;ANIMATE;UNKNOWN),
+0	26	554	2753	2757	S	555	have	have	have	VBP	O	aux	false	-1	-1	null	null	555	aux	null
+0	26	555	2758	2763	S	550	wired	wired	wire	VBN	O	advcl	false	-1	-1	null	null	550	advcl	null
+0	26	556	2764	2767	S	558	the	the	the	DT	O	det	false	-1	-1	null	null	558	det	null
+0	26	557	2768	2774	S	558	entire	entire	entire	JJ	O	amod	false	-1	-1	null	null	558	amod	null
+0	26	558	2775	2787	S	555	conversation	conversation	conversation	NN	O	dobj	false	-1	-1	null	null	555	dobj	null
+0	26	559	2788	2795	S	558	between	between	between	IN	O	prep	false	-1	-1	null	null	560	case	null
+0	26	560	2796	2803	S	559	Jagdish	Jagdish	Jagdish	NNP	PERSON	pobj	false	9	9	c9,c13	null	558	nmod:between	(c9;ANIMATE;UNKNOWN),(c13;ANIMATE;MALE),
+0	26	561	2804	2807	S	560	and	and	and	CC	O	cc	false	-1	-1	c9	null	560	cc	(c9;ANIMATE;UNKNOWN),
+0	26	562	2808	2812		560	Velu	Velu	Velu	NNP	PERSON	conj	false	8	8	c9,c9	null	560	conj:and	(c9;ANIMATE;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	26	563	2812	2813	S	555	,	,	,	,	O	punct	false	-1	-1	null	null	555	punct	null
+0	26	564	2814	2818	S	565	thus	thus	thus	RB	O	advmod	false	-1	-1	null	null	565	advmod	null
+0	26	565	2819	2826	S	555	proving	proving	prove	VBG	O	xcomp	false	-1	-1	null	null	555	advcl	null
+0	26	566	2827	2830	S	567	his	his	he	PRP$	O	poss	false	9	9	c1,c5	null	567	nmod:poss	(c1;INANIMATE;UNKNOWN),(c5;ANIMATE;MALE),
+0	26	567	2831	2840		565	innocence	innocence	innocence	NN	O	dobj	false	-1	-1	c1	null	565	dobj	(c1;INANIMATE;UNKNOWN),
+0	26	568	2840	2841	S	533	.	.	.	.	O	punct	false	-1	-1	null	null	543	punct	null
+0	27	569	2842	2846	S	571	Velu	Velu	Velu	NNP	PERSON	nsubj	false	8	8	null	null	-1	root	null
+0	27	570	2847	2854	S	571	finally	finally	finally	RB	O	advmod	false	-1	-1	null	null	571	advmod	null
+0	27	571	2855	2860	S	-1	hands	hands	hand	NNS	O	null	false	-1	-1	null	null	569	dep	null
+0	27	572	2861	2865	S	571	over	over	over	IN	O	prep	false	-1	-1	null	null	576	case	null
+0	27	573	2866	2869	S	576	the	the	the	DT	O	det	false	-1	-1	null	null	576	det	null
+0	27	574	2870	2878	S	576	original	original	original	JJ	O	amod	false	-1	-1	null	null	576	amod	null
+0	27	575	2879	2882	S	576	pen	pen	pen	NN	O	nn	false	-1	-1	null	null	576	compound	null
+0	27	576	2883	2888	S	572	drive	drive	drive	NN	O	pobj	false	-1	-1	null	null	571	nmod:over	null
+0	27	577	2889	2891	S	576	to	to	to	TO	O	prep	false	-1	-1	null	null	579	case	null
+0	27	578	2892	2899	S	579	Officer	Officer	Officer	NNP	O	nn	false	-1	-1	c6	null	579	compound	(c6;ANIMATE;MALE),
+0	27	579	2900	2905		577	Menon	Menon	Menon	NNP	PERSON	pobj	false	-1	-1	c6	null	576	nmod:to	(c6;ANIMATE;MALE),
+0	27	580	2905	2906	N	571	.	.	.	.	O	punct	false	-1	-1	null	null	569	punct	null

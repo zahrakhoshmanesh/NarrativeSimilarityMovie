@@ -1,0 +1,365 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	The	The	the	DT	O	det	false	-1	-1	c2	c2	1	det	(c2;INANIMATE;NEUTRAL),
+0	0	1	4	9	S	2	movie	movie	movie	NN	O	nsubj	false	-1	-1	c2	c2	2	nsubj	(c2;INANIMATE;NEUTRAL),
+0	0	2	10	16	S	-1	begins	begins	begin	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	3	17	19	S	6	as	as	as	IN	O	mark	false	-1	-1	null	null	10	mark	null
+0	0	4	20	27	S	5	Chicago	Chicago	Chicago	NNP	LOCATION	nn	false	-1	-1	null	null	5	compound	null
+0	0	5	28	33	S	6	Bears	Bears	Bears	NNPS	O	nsubj	false	-1	-1	null	null	10	nsubj	null
+0	0	6	34	41	S	19	running	running	run	VBG	O	nsubjpass	false	-1	-1	null	null	5	acl	null
+0	0	7	42	46	S	6	back	back	back	RB	O	advmod	false	-1	-1	null	null	6	compound:prt	null
+0	0	8	47	51	S	9	Gale	Gale	Gale	NNP	PERSON	nn	false	-1	2	c1	c1	9	compound	(c1;ANIMATE;MALE),
+0	0	9	52	58	SS	10	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	-1	2	c1	c1	6	dobj	(c1;ANIMATE;MALE),
+0	0	10	60	67	S	6	arrives	arrives	arrive	VBZ	O	ccomp	false	-1	-1	null	null	2	advcl	null
+0	0	11	68	70	S	10	to	to	to	TO	O	prep	false	-1	-1	null	null	13	case	null
+0	0	12	71	75	S	13	team	team	team	NN	O	nn	false	-1	-1	null	null	13	compound	null
+0	0	13	76	84	S	11	practice	practice	practice	NN	O	pobj	false	-1	-1	null	null	10	nmod:to	null
+0	0	14	85	87	S	10	as	as	as	IN	O	prep	false	-1	-1	null	null	19	mark	null
+0	0	15	88	90	S	17	an	an	a	DT	O	det	false	-1	-1	null	null	17	det	null
+0	0	16	91	97	S	17	errant	errant	errant	JJ	O	amod	false	-1	-1	null	null	17	amod	null
+0	0	17	98	102	S	14	punt	punt	punt	NN	O	pobj	false	-1	-1	null	null	19	nsubjpass	null
+0	0	18	103	106	S	19	was	was	be	VBD	O	auxpass	false	-1	-1	null	null	19	auxpass	null
+0	0	19	107	111	S	2	sent	sent	send	VBN	O	ccomp	false	-1	-1	null	null	10	advcl	null
+0	0	20	112	114	S	19	to	to	to	TO	O	prep	false	-1	-1	null	null	21	case	null
+0	0	21	115	121		20	Sayers	Sayers	Sayers	NNP	PERSON	pobj	false	2	2	c1	null	19	nmod:to	(c1;ANIMATE;MALE),
+0	0	22	121	122	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	23	123	130	S	27	Running	Running	run	VBG	O	csubj	false	-1	-1	null	null	27	dep	null
+0	1	24	131	135	S	23	back	back	back	RB	O	advmod	false	-1	-1	null	null	23	advmod	null
+0	1	25	136	141	S	26	Brian	Brian	Brian	NNP	PERSON	nn	false	-1	0	c3	c3	26	compound	(c3;ANIMATE;MALE),
+0	1	26	142	149	SS	23	Piccolo	Piccolo	Piccolo	NNP	PERSON	dobj	false	-1	0	c3	c3	27	nsubj	(c3;ANIMATE;MALE),
+0	1	27	151	156	S	-1	comes	comes	come	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	28	157	159	S	27	by	by	by	IN	O	advmod	false	-1	-1	null	null	30	case	null
+0	1	29	160	162	S	30	to	to	to	TO	O	aux	false	-1	-1	null	null	30	mark	null
+0	1	30	163	171	S	27	retrieve	retrieve	retrieve	VB	O	xcomp	false	-1	-1	null	null	27	nmod:by	null
+0	1	31	172	175	S	32	the	the	the	DT	O	det	false	-1	-1	c4	c4	32	det	(c4;INANIMATE;NEUTRAL),
+0	1	32	176	180		30	ball	ball	ball	NN	O	dobj	false	-1	-1	c4	c4	30	dobj	(c4;INANIMATE;NEUTRAL),
+0	1	33	180	181	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	30	punct	null
+0	1	34	182	184	S	30	as	as	as	IN	O	prep	false	-1	-1	null	null	36	mark	null
+0	1	35	185	191	S	34	Sayers	Sayers	Sayers	NNP	PERSON	pobj	false	2	2	c1	null	36	nsubj	(c1;ANIMATE;MALE),
+0	1	36	192	197	S	27	flips	flips	flip	VBZ	O	ccomp	false	-1	-1	null	null	30	dep	null
+0	1	37	198	201	S	38	the	the	the	DT	O	det	false	-1	-1	c4	null	38	det	(c4;INANIMATE;NEUTRAL),
+0	1	38	202	206	S	36	ball	ball	ball	NN	O	dobj	false	-1	-1	c4	null	36	dobj	(c4;INANIMATE;NEUTRAL),
+0	1	39	207	209	S	36	to	to	to	TO	O	prep	false	-1	-1	null	null	40	case	null
+0	1	40	210	213		39	him	him	he	PRP	O	pobj	false	2	2	c1	null	36	nmod:to	(c1;ANIMATE;MALE),
+0	1	41	213	214	S	27	.	.	.	.	O	punct	false	-1	-1	null	null	27	punct	null
+0	2	42	215	221	S	44	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	44	nsubj	(c1;ANIMATE;MALE),
+0	2	43	222	232	S	44	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	44	advmod	null
+0	2	44	233	238	S	-1	heads	heads	head	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	45	239	243	S	44	into	into	into	IN	O	prep	false	-1	-1	null	null	48	case	null
+0	2	46	244	247	S	48	the	the	the	DT	O	det	false	-1	-1	null	null	48	det	null
+0	2	47	248	252	S	48	team	team	team	NN	O	nn	false	-1	-1	null	null	48	compound	null
+0	2	48	253	265	S	45	headquarters	headquarters	headquarters	NN	O	pobj	false	-1	-1	null	null	44	nmod:into	null
+0	2	49	266	268	S	50	to	to	to	TO	O	aux	false	-1	-1	null	null	50	mark	null
+0	2	50	269	273	S	44	meet	meet	meet	VB	O	xcomp	false	-1	-1	null	null	44	xcomp	null
+0	2	51	274	278	S	50	with	with	with	IN	O	prep	false	-1	-1	null	null	54	case	null
+0	2	52	279	284	S	54	coach	coach	coach	NN	O	nn	false	-1	-1	c5	null	54	compound	(c5;ANIMATE;MALE),
+0	2	53	285	291	S	54	George	George	George	NNP	PERSON	nn	false	-1	-1	c5	null	54	compound	(c5;ANIMATE;MALE),
+0	2	54	292	297		51	Halas	Halas	Halas	NNP	PERSON	pobj	false	-1	-1	c5	null	50	nmod:with	(c5;ANIMATE;MALE),
+0	2	55	297	298	S	44	.	.	.	.	O	punct	false	-1	-1	null	null	44	punct	null
+0	3	56	299	305	S	60	During	During	during	IN	O	prep	false	-1	-1	null	null	57	case	null
+0	3	57	306	314		56	practice	practice	practice	NN	O	pobj	false	-1	-1	null	null	60	nmod:during	null
+0	3	58	314	315	S	60	,	,	,	,	O	punct	false	-1	-1	null	null	60	punct	null
+0	3	59	316	323	S	60	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	60	nsubj	(c3;ANIMATE;MALE),
+0	3	60	324	333		-1	struggled	struggled	struggle	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	3	61	333	334	S	60	,	,	,	,	O	punct	false	-1	-1	null	null	60	punct	null
+0	3	62	335	343	S	60	compared	compared	compare	VBN	O	prep	false	-1	-1	null	null	64	case	null
+0	3	63	344	346	S	62	to	to	to	TO	O	dep	false	-1	-1	null	null	62	mwe	null
+0	3	64	347	353		63	Sayers	Sayers	Sayers	NNP	PERSON	pobj	false	2	2	c1,c1	null	60	advcl	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	3	65	353	354	S	64	,	,	,	,	O	punct	false	-1	-1	c1	null	64	punct	(c1;ANIMATE;MALE),
+0	3	66	355	358	S	68	who	who	who	WP	O	nsubj	false	-1	-1	c1	null	68	nsubj	(c1;ANIMATE;MALE),
+0	3	67	359	363	S	68	also	also	also	RB	O	advmod	false	-1	-1	c1	null	68	advmod	(c1;ANIMATE;MALE),
+0	3	68	364	371	S	64	pranked	pranked	prank	VBD	O	rcmod	false	-1	-1	c1	null	64	acl:relcl	(c1;ANIMATE;MALE),
+0	3	69	372	375	S	68	him	him	he	PRP	O	dobj	false	2	2	c1,c3	null	68	dobj	(c1;ANIMATE;MALE),(c3;ANIMATE;MALE),
+0	3	70	376	378	S	68	by	by	by	IN	O	prep	false	-1	-1	c1	null	71	mark	(c1;ANIMATE;MALE),
+0	3	71	379	386	S	70	placing	placing	place	VBG	O	pcomp	false	-1	-1	c1	null	68	advcl	(c1;ANIMATE;MALE),
+0	3	72	387	393	S	73	mashed	mashed	mashed	JJ	O	amod	false	-1	-1	c1	null	73	amod	(c1;ANIMATE;MALE),
+0	3	73	394	402	S	71	potatoes	potatoes	potato	NNS	O	dobj	false	-1	-1	c1	null	71	dobj	(c1;ANIMATE;MALE),
+0	3	74	403	405	S	71	on	on	on	IN	O	prep	false	-1	-1	c1	null	76	case	(c1;ANIMATE;MALE),
+0	3	75	406	409	S	76	his	his	he	PRP$	O	poss	false	2	2	c1,c3	null	76	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;MALE),
+0	3	76	410	414	S	74	seat	seat	seat	NN	O	pobj	false	-1	-1	c1	null	71	nmod:on	(c1;ANIMATE;MALE),
+0	3	77	415	420	S	80	while	while	while	IN	O	mark	false	-1	-1	c1	null	80	mark	(c1;ANIMATE;MALE),
+0	3	78	421	428	S	80	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c1,c3	null	80	nsubj	(c1;ANIMATE;MALE),(c3;ANIMATE;MALE),
+0	3	79	429	432	S	80	was	was	be	VBD	O	aux	false	-1	-1	c1	null	80	aux	(c1;ANIMATE;MALE),
+0	3	80	433	440	S	71	singing	singing	sing	VBG	O	advcl	false	-1	-1	c1	null	71	advcl	(c1;ANIMATE;MALE),
+0	3	81	441	444	S	83	his	his	he	PRP$	O	poss	false	0	0	c1,c3	null	83	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;MALE),
+0	3	82	445	449	S	83	alma	alma	alma	JJ	O	amod	false	-1	-1	c1	null	83	amod	(c1;ANIMATE;MALE),
+0	3	83	450	455		86	mater	mater	mater	NN	O	poss	false	-1	-1	c1	null	86	nmod:poss	(c1;ANIMATE;MALE),
+0	3	84	455	457	S	83	's	's	's	POS	O	possessive	false	-1	-1	c1	null	83	case	(c1;ANIMATE;MALE),
+0	3	85	458	463	S	86	fight	fight	fight	NN	O	nn	false	-1	-1	c1	null	86	compound	(c1;ANIMATE;MALE),
+0	3	86	464	468		80	song	song	song	NN	O	dobj	false	-1	-1	c1	null	80	dobj	(c1;ANIMATE;MALE),
+0	3	87	468	469	S	60	.	.	.	.	O	punct	false	-1	-1	null	null	60	punct	null
+0	4	88	470	480		94	Afterwards	Afterwards	afterwards	RB	O	advmod	false	-1	-1	null	null	94	advmod	null
+0	4	89	480	481	S	94	,	,	,	,	O	punct	false	-1	-1	null	null	94	punct	null
+0	4	90	482	488	S	94	Sayers	Sayers	Sayers	NNP	PERSON	nsubjpass	false	2	2	c1	null	94	nsubjpass	(c1;ANIMATE;MALE),
+0	4	91	489	492	S	90	and	and	and	CC	O	cc	false	-1	-1	null	null	90	cc	null
+0	4	92	493	500	S	90	Piccolo	Piccolo	Piccolo	NNP	PERSON	conj	false	0	0	c3	null	90	conj:and	(c3;ANIMATE;MALE),
+0	4	93	501	505	S	94	were	were	be	VBD	O	auxpass	false	-1	-1	null	null	94	auxpass	null
+0	4	94	506	512	S	-1	placed	placed	place	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	4	95	513	517	S	94	into	into	into	IN	O	prep	false	-1	-1	null	null	98	case	null
+0	4	96	518	521	S	98	the	the	the	DT	O	det	false	-1	-1	c6	c6	98	det	(c6;INANIMATE;NEUTRAL),
+0	4	97	522	526	S	98	same	same	same	JJ	O	amod	false	-1	-1	c6	c6	98	amod	(c6;INANIMATE;NEUTRAL),
+0	4	98	527	531		95	room	room	room	NN	O	pobj	false	-1	-1	c6	c6	94	nmod:into	(c6;INANIMATE;NEUTRAL),
+0	4	99	531	532	S	94	,	,	,	,	O	punct	false	-1	-1	null	null	98	punct	null
+0	4	100	533	534	S	102	a	a	a	DT	O	det	false	-1	-1	c6	null	102	det	(c6;INANIMATE;NEUTRAL),
+0	4	101	535	539	S	102	rare	rare	rare	JJ	O	amod	false	-1	-1	c6	null	102	amod	(c6;INANIMATE;NEUTRAL),
+0	4	102	540	544	S	94	sign	sign	sign	NN	O	dobj	false	-1	-1	c6	null	98	appos	(c6;INANIMATE;NEUTRAL),
+0	4	103	545	551	S	102	during	during	during	IN	O	prep	false	-1	-1	null	null	105	case	null
+0	4	104	552	556	S	105	this	this	this	DT	O	det	false	-1	-1	null	null	105	det	null
+0	4	105	557	561		103	time	time	time	NN	O	pobj	false	-1	-1	null	null	94	nmod:during	null
+0	4	106	561	562	S	94	.	.	.	.	O	punct	false	-1	-1	null	null	94	punct	null
+0	5	107	563	573		119	Eventually	Eventually	eventually	RB	O	advmod	false	-1	-1	null	null	119	advmod	null
+0	5	108	573	574	S	119	,	,	,	,	O	punct	false	-1	-1	null	null	119	punct	null
+0	5	109	575	577	S	119	in	in	in	IN	O	prep	false	-1	-1	null	null	111	case	null
+0	5	110	578	579	S	111	a	a	a	DT	O	det	false	-1	-1	null	null	111	det	null
+0	5	111	580	584	S	109	game	game	game	NN	O	pobj	false	-1	-1	null	null	119	nmod:in	null
+0	5	112	585	592	S	111	against	against	against	IN	O	prep	false	-1	-1	null	null	116	case	null
+0	5	113	593	596	S	116	the	the	the	DT	O	det	false	-1	-1	null	null	116	det	null
+0	5	114	597	600	S	116	San	San	San	NNP	LOCATION	nn	false	-1	-1	null	null	116	compound	null
+0	5	115	601	610	S	116	Francisco	Francisco	Francisco	NNP	LOCATION	nn	false	-1	-1	null	null	116	compound	null
+0	5	116	611	616		112	49ers	49ers	49ers	NNPS	O	pobj	false	-1	-1	null	null	111	nmod:against	null
+0	5	117	616	617	S	119	,	,	,	,	O	punct	false	-1	-1	null	null	119	punct	null
+0	5	118	618	624	S	119	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	119	nsubj	(c1;ANIMATE;MALE),
+0	5	119	625	633		-1	excelled	excelled	excel	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	5	120	633	634	S	119	,	,	,	,	O	punct	false	-1	-1	null	null	119	punct	null
+0	5	121	635	640	S	123	until	until	until	IN	O	mark	false	-1	-1	null	null	123	mark	null
+0	5	122	641	643	S	123	he	he	he	PRP	O	nsubj	false	2	2	c1	null	123	nsubj	(c1;ANIMATE;MALE),
+0	5	123	644	651	S	119	injured	injured	injure	VBD	O	advcl	false	-1	-1	null	null	119	advcl	null
+0	5	124	652	655	S	125	his	his	he	PRP$	O	poss	false	2	2	c1,c7	c7	125	nmod:poss	(c1;ANIMATE;MALE),(c7;INANIMATE;MALE),
+0	5	125	656	660		123	knee	knee	knee	NN	O	dobj	false	-1	-1	c7	c7	123	dobj	(c7;INANIMATE;MALE),
+0	5	126	660	661	S	119	.	.	.	.	O	punct	false	-1	-1	null	null	119	punct	null
+0	6	127	662	664	S	128	To	To	to	TO	O	aux	false	-1	-1	null	null	128	mark	null
+0	6	128	665	668	S	135	aid	aid	aid	VB	O	dep	false	-1	-1	null	null	135	advcl	null
+0	6	129	669	671	S	128	in	in	in	IN	O	prep	false	-1	-1	null	null	132	case	null
+0	6	130	672	678		132	Sayers	Sayers	Sayers	NNP	PERSON	poss	false	2	2	c1	null	132	nmod:poss	(c1;ANIMATE;MALE),
+0	6	131	678	680	S	130	's	's	's	POS	O	possessive	false	-1	-1	c1	null	130	case	(c1;ANIMATE;MALE),
+0	6	132	681	689		129	recovery	recovery	recovery	NN	O	pobj	false	-1	-1	null	null	128	nmod:in	null
+0	6	133	689	690	S	135	,	,	,	,	O	punct	false	-1	-1	null	null	135	punct	null
+0	6	134	691	698	S	135	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	135	nsubj	(c3;ANIMATE;MALE),
+0	6	135	699	705	S	-1	brings	brings	bring	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	136	706	707	S	138	a	a	a	DT	O	det	false	-1	-1	null	null	138	det	null
+0	6	137	708	714	S	138	weight	weight	weight	NN	O	nn	false	-1	-1	null	null	138	compound	null
+0	6	138	715	722	S	135	machine	machine	machine	NN	O	dobj	false	-1	-1	null	null	135	dobj	null
+0	6	139	723	725	S	140	to	to	to	TO	O	aux	false	-1	-1	null	null	140	mark	null
+0	6	140	726	729	S	138	aid	aid	aid	VB	O	infmod	false	-1	-1	null	null	135	xcomp	null
+0	6	141	730	732	S	140	in	in	in	IN	O	prep	false	-1	-1	null	null	142	mark	null
+0	6	142	733	740	S	141	working	working	work	VBG	O	pcomp	false	-1	-1	null	null	140	advcl	null
+0	6	143	741	744	S	144	his	his	he	PRP$	O	poss	false	0	0	c1,c7	null	144	nmod:poss	(c1;ANIMATE;MALE),(c7;INANIMATE;MALE),
+0	6	144	745	749		142	knee	knee	knee	NN	O	dobj	false	-1	-1	c7	null	142	dobj	(c7;INANIMATE;MALE),
+0	6	145	749	750	S	135	.	.	.	.	O	punct	false	-1	-1	null	null	135	punct	null
+0	7	146	751	753	S	152	In	In	in	IN	O	prep	false	-1	-1	null	null	149	case	null
+0	7	147	754	760		149	Sayers	Sayers	Sayers	NNP	PERSON	poss	false	2	2	c1	null	149	nmod:poss	(c1;ANIMATE;MALE),
+0	7	148	760	762	S	147	's	's	's	POS	O	possessive	false	-1	-1	c1	null	147	case	(c1;ANIMATE;MALE),
+0	7	149	763	768		146	place	place	place	NN	O	pobj	false	-1	-1	null	null	152	nmod:in	null
+0	7	150	768	769	S	152	,	,	,	,	O	punct	false	-1	-1	null	null	152	punct	null
+0	7	151	770	777	S	152	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	152	nsubj	(c3;ANIMATE;MALE),
+0	7	152	778	784	S	-1	rushed	rushed	rush	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	7	153	785	788	S	152	for	for	for	IN	O	prep	false	-1	-1	null	null	159	mark	null
+0	7	154	789	792	S	155	160	160	160	CD	NUMBER	num	false	-1	-1	null	null	155	nummod	null
+0	7	155	793	798	S	153	yards	yards	yard	NNS	O	pobj	false	-1	-1	null	null	159	nsubj	null
+0	7	156	799	801	S	155	in	in	in	IN	O	prep	false	-1	-1	null	null	158	case	null
+0	7	157	802	803	S	158	a	a	a	DT	O	dep	false	-1	-1	null	null	158	det	null
+0	7	158	804	809	S	156	17-16	17-16	17-16	CD	NUMBER	pobj	false	-1	-1	null	null	155	nmod:in	null
+0	7	159	810	813	S	152	win	win	win	VBP	O	dep	false	-1	-1	null	null	152	advcl	null
+0	7	160	814	818	S	159	over	over	over	IN	O	prep	false	-1	-1	null	null	164	case	null
+0	7	161	819	822	S	164	the	the	the	DT	O	det	false	-1	-1	null	null	164	det	null
+0	7	162	823	826	S	164	Los	Los	Los	NNP	ORGANIZATION	nn	false	-1	-1	null	null	164	compound	null
+0	7	163	827	834	S	164	Angeles	Angeles	Angeles	NNP	ORGANIZATION	nn	false	-1	-1	null	null	164	compound	null
+0	7	164	835	839		160	Rams	Rams	Rams	NNPS	ORGANIZATION	pobj	false	-1	-1	null	null	159	nmod:over	null
+0	7	165	839	840	S	159	,	,	,	,	O	punct	false	-1	-1	null	null	159	punct	null
+0	7	166	841	844	S	159	and	and	and	CC	O	cc	false	-1	-1	null	null	159	cc	null
+0	7	167	845	848	S	168	was	was	be	VBD	O	auxpass	false	-1	-1	null	null	168	auxpass	null
+0	7	168	849	854	S	159	given	given	give	VBN	O	conj	false	-1	-1	null	null	159	conj:and	null
+0	7	169	855	858	S	171	the	the	the	DT	O	det	false	-1	-1	c8	c8	171	det	(c8;INANIMATE;NEUTRAL),
+0	7	170	859	863	S	171	game	game	game	NN	O	nn	false	-1	-1	c8	c8	171	compound	(c8;INANIMATE;NEUTRAL),
+0	7	171	864	868		168	ball	ball	ball	NN	O	dobj	false	-1	-1	c8	c8	168	dobj	(c8;INANIMATE;NEUTRAL),
+0	7	172	868	869	S	152	.	.	.	.	O	punct	false	-1	-1	null	null	152	punct	null
+0	8	173	870	877	S	175	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	175	nsubj	(c3;ANIMATE;MALE),
+0	8	174	878	883	S	175	later	later	later	RB	O	advmod	false	-1	-1	null	null	175	advmod	null
+0	8	175	884	894	S	-1	challenged	challenged	challenge	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	8	176	895	901	S	175	Sayers	Sayers	Sayers	NNP	PERSON	dobj	false	2	2	c1	null	175	dobj	(c1;ANIMATE;MALE),
+0	8	177	902	904	S	175	to	to	to	TO	O	prep	false	-1	-1	null	null	180	case	null
+0	8	178	905	906	S	180	a	a	a	DT	O	det	false	-1	-1	null	null	180	det	null
+0	8	179	907	914	S	180	running	running	run	VBG	O	amod	false	-1	-1	null	null	180	amod	null
+0	8	180	915	919	S	177	race	race	race	NN	O	pobj	false	-1	-1	null	null	175	nmod:to	null
+0	8	181	920	926	S	180	across	across	across	IN	O	prep	false	-1	-1	null	null	183	case	null
+0	8	182	927	930	S	183	the	the	the	DT	O	det	false	-1	-1	c9	c9	183	det	(c9;INANIMATE;UNKNOWN),
+0	8	183	931	935		181	park	park	park	NN	O	pobj	false	-1	-1	c9	c9	180	nmod:across	(c9;INANIMATE;UNKNOWN),
+0	8	184	935	936	S	183	,	,	,	,	O	punct	false	-1	-1	null	null	183	punct	null
+0	8	185	937	942	S	188	where	where	where	WRB	O	advmod	false	-1	-1	null	null	188	advmod	null
+0	8	186	943	949	S	188	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	188	nsubj	(c1;ANIMATE;MALE),
+0	8	187	950	955	S	188	later	later	later	RB	O	advmod	false	-1	-1	null	null	188	advmod	null
+0	8	188	956	964		183	stumbled	stumbled	stumble	VBD	O	rcmod	false	-1	-1	null	null	183	acl:relcl	null
+0	8	189	964	965	S	175	.	.	.	.	O	punct	false	-1	-1	null	null	175	punct	null
+0	9	190	966	968	S	195	In	In	in	IN	O	prep	false	-1	-1	null	null	192	case	null
+0	9	191	969	974	S	192	their	their	they	PRP$	O	poss	false	-1	-1	c6,c10	c10	192	nmod:poss	(c6;INANIMATE;NEUTRAL),(c10;ANIMATE;UNKNOWN),
+0	9	192	975	979		190	room	room	room	NN	O	pobj	false	-1	-1	c6	null	195	nmod:in	(c6;INANIMATE;NEUTRAL),
+0	9	193	979	980	S	195	,	,	,	,	O	punct	false	-1	-1	null	null	195	punct	null
+0	9	194	981	986	S	195	Halas	Halas	Halas	NNP	PERSON	nsubj	false	1	1	c5	null	195	nsubj	(c5;ANIMATE;MALE),
+0	9	195	987	993	S	-1	handed	handed	hand	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	9	196	994	1001	S	200	Piccolo	Piccolo	Piccolo	NNP	PERSON	nn	false	0	0	c3	null	195	iobj	(c3;ANIMATE;MALE),
+0	9	197	1002	1005	S	200	the	the	the	DT	O	det	false	-1	-1	null	null	200	det	null
+0	9	198	1006	1014	S	200	starting	starting	start	VBG	O	amod	false	-1	-1	null	null	200	amod	null
+0	9	199	1015	1023	S	200	fullback	fullback	fullback	NN	O	nn	false	-1	-1	null	null	200	compound	null
+0	9	200	1024	1032		195	position	position	position	NN	O	dobj	false	-1	-1	null	null	195	dobj	null
+0	9	201	1032	1033	S	195	,	,	,	,	O	punct	false	-1	-1	null	null	195	punct	null
+0	9	202	1034	1037	S	195	and	and	and	CC	O	cc	false	-1	-1	null	null	195	cc	null
+0	9	203	1038	1042	S	204	both	both	both	DT	O	preconj	false	-1	-1	c11	c11	204	cc:preconj	(c11;ANIMATE;UNKNOWN),
+0	9	204	1043	1050	S	209	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3,c11	c11	209	nsubj	(c3;ANIMATE;MALE),(c11;ANIMATE;UNKNOWN),
+0	9	205	1051	1054	S	204	and	and	and	CC	O	cc	false	-1	-1	c11	c11	204	cc	(c11;ANIMATE;UNKNOWN),
+0	9	206	1055	1061	S	204	Sayers	Sayers	Sayers	NNP	PERSON	conj	false	2	2	c1,c11	c11	204	conj:and	(c1;ANIMATE;MALE),(c11;ANIMATE;UNKNOWN),
+0	9	207	1062	1067	S	209	would	would	would	MD	O	aux	false	-1	-1	null	null	209	aux	null
+0	9	208	1068	1078	S	209	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	209	advmod	null
+0	9	209	1079	1084	S	195	excel	excel	excel	VB	O	conj	false	-1	-1	null	null	195	conj:and	null
+0	9	210	1085	1087	S	209	in	in	in	IN	O	prep	false	-1	-1	null	null	211	case	null
+0	9	211	1088	1093	S	210	games	games	game	NNS	O	pobj	false	-1	-1	null	null	209	nmod:in	null
+0	9	212	1094	1101	S	211	against	against	against	IN	O	prep	false	-1	-1	null	null	213	case	null
+0	9	213	1102	1107	S	212	teams	teams	team	NNS	O	pobj	false	-1	-1	null	null	211	nmod:against	null
+0	9	214	1108	1112	S	213	like	like	like	IN	O	prep	false	-1	-1	null	null	217	case	null
+0	9	215	1113	1116	S	217	the	the	the	DT	O	det	false	-1	-1	null	null	217	det	null
+0	9	216	1117	1127	S	217	Pittsburgh	Pittsburgh	Pittsburgh	NNP	ORGANIZATION	nn	false	-1	-1	null	null	217	compound	null
+0	9	217	1128	1136		214	Steelers	Steelers	Steelers	NNPS	ORGANIZATION	pobj	false	-1	-1	null	null	213	nmod:like	null
+0	9	218	1136	1137	S	195	.	.	.	.	O	punct	false	-1	-1	null	null	195	punct	null
+0	10	219	1138	1145		227	However	However	however	RB	O	advmod	false	-1	-1	null	null	227	advmod	null
+0	10	220	1145	1146	S	227	,	,	,	,	O	punct	false	-1	-1	null	null	227	punct	null
+0	10	221	1147	1149	S	227	in	in	in	IN	O	prep	false	-1	-1	null	null	224	case	null
+0	10	222	1150	1151	S	224	a	a	a	DT	O	det	false	-1	-1	null	null	224	det	null
+0	10	223	1152	1161	S	224	different	different	different	JJ	O	amod	false	-1	-1	null	null	224	amod	null
+0	10	224	1162	1166		221	game	game	game	NN	O	pobj	false	-1	-1	null	null	227	nmod:in	null
+0	10	225	1166	1167	S	227	,	,	,	,	O	punct	false	-1	-1	null	null	227	punct	null
+0	10	226	1168	1175	S	227	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	227	nsubj	(c3;ANIMATE;MALE),
+0	10	227	1176	1183	S	-1	started	started	start	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	10	228	1184	1186	S	229	to	to	to	TO	O	aux	false	-1	-1	null	null	229	mark	null
+0	10	229	1187	1191	S	227	show	show	show	VB	O	xcomp	false	-1	-1	null	null	227	xcomp	null
+0	10	230	1192	1197	S	229	signs	signs	sign	NNS	O	dobj	false	-1	-1	null	null	229	dobj	null
+0	10	231	1198	1200	S	230	of	of	of	IN	O	prep	false	-1	-1	null	null	233	case	null
+0	10	232	1201	1202	S	233	a	a	a	DT	O	det	false	-1	-1	null	null	233	det	null
+0	10	233	1203	1210	S	231	decline	decline	decline	NN	O	pobj	false	-1	-1	null	null	230	nmod:of	null
+0	10	234	1211	1213	S	233	in	in	in	IN	O	prep	false	-1	-1	null	null	235	case	null
+0	10	235	1214	1225		234	performance	performance	performance	NN	O	pobj	false	-1	-1	null	null	233	nmod:in	null
+0	10	236	1225	1226	S	227	.	.	.	.	O	punct	false	-1	-1	null	null	227	punct	null
+0	11	237	1227	1237		244	Eventually	Eventually	eventually	RB	O	advmod	false	-1	-1	null	null	244	advmod	null
+0	11	238	1237	1238	S	244	,	,	,	,	O	punct	false	-1	-1	null	null	244	punct	null
+0	11	239	1239	1245	S	244	before	before	before	IN	O	prep	false	-1	-1	null	null	241	case	null
+0	11	240	1246	1247	S	241	a	a	a	DT	O	det	false	-1	-1	null	null	241	det	null
+0	11	241	1248	1252		239	loss	loss	loss	NN	O	pobj	false	-1	-1	null	null	244	nmod:before	null
+0	11	242	1252	1253	S	244	,	,	,	,	O	punct	false	-1	-1	null	null	244	punct	null
+0	11	243	1254	1259	S	244	Halas	Halas	Halas	NNP	PERSON	nsubj	false	1	1	c5	null	244	nsubj	(c5;ANIMATE;MALE),
+0	11	244	1260	1268	S	-1	revealed	revealed	reveal	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	11	245	1269	1271	S	244	to	to	to	TO	O	prep	false	-1	-1	null	null	246	case	null
+0	11	246	1272	1278	S	245	Sayers	Sayers	Sayers	NNP	PERSON	pobj	false	2	2	c1	null	244	nmod:to	(c1;ANIMATE;MALE),
+0	11	247	1279	1283	S	249	that	that	that	IN	O	complm	false	-1	-1	null	null	249	mark	null
+0	11	248	1284	1291	S	249	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	249	nsubj	(c3;ANIMATE;MALE),
+0	11	249	1292	1295	S	246	has	has	have	VBZ	O	ccomp	false	-1	-1	null	null	244	ccomp	null
+0	11	250	1296	1302		249	cancer	cancer	cancer	NN	O	dobj	false	-1	-1	null	null	249	dobj	null
+0	11	251	1302	1303	S	244	.	.	.	.	O	punct	false	-1	-1	null	null	244	punct	null
+0	12	252	1304	1306	S	261	In	In	in	IN	O	prep	false	-1	-1	null	null	255	case	null
+0	12	253	1307	1309	S	255	an	an	a	DT	O	det	false	-1	-1	c12	c12	255	det	(c12;INANIMATE;UNKNOWN),
+0	12	254	1310	1319	S	255	emotional	emotional	emotional	JJ	O	amod	false	-1	-1	c12	c12	255	amod	(c12;INANIMATE;UNKNOWN),
+0	12	255	1320	1326	S	252	speech	speech	speech	NN	O	pobj	false	-1	-1	c12	c12	261	nmod:in	(c12;INANIMATE;UNKNOWN),
+0	12	256	1327	1329	S	255	to	to	to	TO	O	prep	false	-1	-1	c12	c12	258	case	(c12;INANIMATE;UNKNOWN),
+0	12	257	1330	1333	S	258	the	the	the	DT	O	det	false	-1	-1	c12	c12	258	det	(c12;INANIMATE;UNKNOWN),
+0	12	258	1334	1338		256	team	team	team	NN	O	pobj	false	-1	-1	c12	c12	255	nmod:to	(c12;INANIMATE;UNKNOWN),
+0	12	259	1338	1339	S	261	,	,	,	,	O	punct	false	-1	-1	null	null	261	punct	null
+0	12	260	1340	1346	S	261	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	261	nsubj	(c1;ANIMATE;MALE),
+0	12	261	1347	1353	S	-1	stated	stated	state	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	12	262	1354	1358	S	265	that	that	that	IN	O	complm	false	-1	-1	null	null	265	mark	null
+0	12	263	1359	1363	S	265	they	they	they	PRP	O	nsubj	false	-1	-1	c10	null	265	nsubj	(c10;ANIMATE;UNKNOWN),
+0	12	264	1364	1368	S	265	will	will	will	MD	O	aux	false	-1	-1	null	null	265	aux	null
+0	12	265	1369	1373	S	261	give	give	give	VB	O	ccomp	false	-1	-1	null	null	261	ccomp	null
+0	12	266	1374	1381	S	265	Piccolo	Piccolo	Piccolo	NNP	PERSON	iobj	false	0	0	c3	null	265	iobj	(c3;INANIMATE;MALE),
+0	12	267	1382	1385	S	269	the	the	the	DT	O	det	false	-1	-1	c8	null	269	det	(c8;INANIMATE;NEUTRAL),
+0	12	268	1386	1390	S	269	game	game	game	NN	O	nn	false	-1	-1	c8	null	269	compound	(c8;INANIMATE;NEUTRAL),
+0	12	269	1391	1395		265	ball	ball	ball	NN	O	dobj	false	-1	-1	c8	null	265	dobj	(c8;INANIMATE;NEUTRAL),
+0	12	270	1395	1396	S	261	.	.	.	.	O	punct	false	-1	-1	null	null	261	punct	null
+0	13	271	1397	1402	S	281	After	After	after	IN	O	prep	false	-1	-1	null	null	273	case	null
+0	13	272	1403	1404	S	273	a	a	a	DT	O	det	false	-1	-1	null	null	273	det	null
+0	13	273	1405	1409	S	271	game	game	game	NN	O	pobj	false	-1	-1	null	null	281	nmod:after	null
+0	13	274	1410	1417	S	273	against	against	against	IN	O	prep	false	-1	-1	null	null	278	case	null
+0	13	275	1418	1421	S	278	the	the	the	DT	O	det	false	-1	-1	null	null	278	det	null
+0	13	276	1422	1425	S	278	St.	St.	St.	NNP	ORGANIZATION	nn	false	-1	-1	null	null	278	compound	null
+0	13	277	1426	1431	S	278	Louis	Louis	Louis	NNP	ORGANIZATION	nn	false	-1	-1	null	null	278	compound	null
+0	13	278	1432	1441		274	Cardinals	Cardinals	Cardinals	NNPS	ORGANIZATION	pobj	false	-1	-1	null	null	273	nmod:against	null
+0	13	279	1441	1442	S	281	,	,	,	,	O	punct	false	-1	-1	null	null	281	punct	null
+0	13	280	1443	1449	S	281	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	281	nsubj	(c1;ANIMATE;MALE),
+0	13	281	1450	1457	S	-1	visited	visited	visit	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	13	282	1458	1465		284	Piccolo	Piccolo	Piccolo	NNP	PERSON	poss	false	0	0	c3,c13	c13	284	nmod:poss	(c3;ANIMATE;MALE),(c13;ANIMATE;FEMALE),
+0	13	283	1465	1467	S	282	's	's	's	POS	O	possessive	false	-1	-1	c3,c13	c13	282	case	(c3;ANIMATE;MALE),(c13;ANIMATE;FEMALE),
+0	13	284	1468	1472		281	wife	wife	wife	NN	O	dobj	false	-1	-1	c13	c13	281	dobj	(c13;ANIMATE;FEMALE),
+0	13	285	1472	1473	S	284	,	,	,	,	O	punct	false	-1	-1	null	null	284	punct	null
+0	13	286	1474	1477	S	287	who	who	who	WP	O	nsubj	false	-1	-1	null	null	287	nsubj	null
+0	13	287	1478	1484	S	284	stated	stated	state	VBD	O	rcmod	false	-1	-1	null	null	284	acl:relcl	null
+0	13	288	1485	1489	S	290	that	that	that	IN	O	complm	false	-1	-1	null	null	290	mark	null
+0	13	289	1490	1497	S	290	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	290	nsubj	(c3;ANIMATE;MALE),
+0	13	290	1498	1501	S	287	has	has	have	VBZ	O	ccomp	false	-1	-1	null	null	287	ccomp	null
+0	13	291	1502	1503	S	292	a	a	a	DT	O	det	false	-1	-1	null	null	292	det	null
+0	13	292	1504	1509		290	tumor	tumor	tumor	NN	O	dobj	false	-1	-1	null	null	290	dobj	null
+0	13	293	1509	1510	S	281	.	.	.	.	O	punct	false	-1	-1	null	null	281	punct	null
+0	14	294	1511	1516	S	297	After	After	after	IN	O	mark	false	-1	-1	null	null	297	mark	null
+0	14	295	1517	1519	S	297	he	he	he	PRP	O	nsubjpass	false	0	0	c1	null	297	nsubjpass	(c1;ANIMATE;MALE),
+0	14	296	1520	1523	S	297	was	was	be	VBD	O	auxpass	false	-1	-1	null	null	297	auxpass	null
+0	14	297	1524	1531	S	308	awarded	awarded	award	VBN	O	advcl	false	-1	-1	null	null	308	advcl	null
+0	14	298	1532	1535	S	301	the	the	the	DT	O	det	false	-1	-1	c5	c5	301	det	(c5;ANIMATE;MALE),
+0	14	299	1536	1542	S	301	George	George	George	NNP	PERSON	nn	false	-1	-1	c5	c5	301	compound	(c5;ANIMATE;MALE),
+0	14	300	1543	1545	S	301	S.	S.	S.	NNP	PERSON	nn	false	-1	-1	c5	c5	301	compound	(c5;ANIMATE;MALE),
+0	14	301	1546	1551	S	305	Halas	Halas	Halas	NNP	PERSON	nn	false	-1	-1	c5	c5	302	nsubj	(c5;ANIMATE;MALE),
+0	14	302	1552	1556	S	305	Most	Most	most	JJS	O	amod	false	-1	-1	null	null	297	xcomp	null
+0	14	303	1557	1567	S	305	Courageous	Courageous	courageous	JJ	O	amod	false	-1	-1	null	null	305	amod	null
+0	14	304	1568	1574	S	305	Player	Player	Player	NNP	O	nn	false	-1	-1	null	null	305	compound	null
+0	14	305	1575	1580		297	Award	Award	award	NN	O	dobj	false	-1	-1	null	null	302	dep	null
+0	14	306	1580	1581	S	308	,	,	,	,	O	punct	false	-1	-1	null	null	308	punct	null
+0	14	307	1582	1588	S	308	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	308	nsubj	(c1;ANIMATE;MALE),
+0	14	308	1589	1598	S	-1	dedicated	dedicated	dedicate	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	14	309	1599	1602	S	310	his	his	he	PRP$	O	poss	false	2	2	c1,c12	null	310	nmod:poss	(c1;ANIMATE;MALE),(c12;INANIMATE;UNKNOWN),
+0	14	310	1603	1609	S	308	speech	speech	speech	NN	O	dobj	false	-1	-1	c12	null	308	dobj	(c12;INANIMATE;UNKNOWN),
+0	14	311	1610	1612	S	308	to	to	to	TO	O	prep	false	-1	-1	null	null	312	case	null
+0	14	312	1613	1620		311	Piccolo	Piccolo	Piccolo	NNP	LOCATION	pobj	false	-1	0	c3	null	308	nmod:to	(c3;INANIMATE;MALE),
+0	14	313	1620	1621	S	308	.	.	.	.	O	punct	false	-1	-1	null	null	308	punct	null
+0	15	314	1622	1624	S	319	In	In	in	IN	O	prep	false	-1	-1	null	null	316	case	null
+0	15	315	1625	1626	S	316	a	a	a	DT	O	det	false	-1	-1	null	null	316	det	null
+0	15	316	1627	1631		314	call	call	call	NN	O	pobj	false	-1	-1	null	null	319	nmod:in	null
+0	15	317	1631	1632	S	319	,	,	,	,	O	punct	false	-1	-1	null	null	319	punct	null
+0	15	318	1633	1639	S	319	Sayers	Sayers	Sayers	NNP	PERSON	nsubj	false	2	2	c1	null	319	nsubj	(c1;ANIMATE;MALE),
+0	15	319	1640	1649	S	-1	mentioned	mentioned	mention	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	15	320	1650	1654	S	322	that	that	that	IN	O	complm	false	-1	-1	null	null	322	mark	null
+0	15	321	1655	1657	S	322	he	he	he	PRP	O	nsubj	false	2	2	c1	null	322	nsubj	(c1;ANIMATE;MALE),
+0	15	322	1658	1662	S	319	gave	gave	give	VBD	O	ccomp	false	-1	-1	null	null	319	ccomp	null
+0	15	323	1663	1670	S	322	Piccolo	Piccolo	Piccolo	NNP	PERSON	iobj	false	0	0	c3	null	322	iobj	(c3;ANIMATE;MALE),
+0	15	324	1671	1672	S	325	a	a	a	DT	O	det	false	-1	-1	null	null	325	det	null
+0	15	325	1673	1677	S	322	pint	pint	pint	NN	O	dobj	false	-1	-1	null	null	322	dobj	null
+0	15	326	1678	1680	S	325	of	of	of	IN	O	prep	false	-1	-1	null	null	327	case	null
+0	15	327	1681	1686	S	326	blood	blood	blood	NN	O	pobj	false	-1	-1	null	null	325	nmod:of	null
+0	15	328	1687	1689	S	329	to	to	to	TO	O	aux	false	-1	-1	null	null	329	mark	null
+0	15	329	1690	1693	S	327	aid	aid	aid	VB	O	infmod	false	-1	-1	null	null	327	acl	null
+0	15	330	1694	1697		329	him	him	he	PRP	O	dobj	false	2	2	c1	null	329	dobj	(c1;ANIMATE;MALE),
+0	15	331	1697	1698	S	325	,	,	,	,	O	punct	false	-1	-1	null	null	325	punct	null
+0	15	332	1699	1702	S	333	who	who	who	WP	O	nsubj	false	-1	-1	null	null	336	nsubj	null
+0	15	333	1703	1706	S	325	was	was	be	VBD	O	rcmod	false	-1	-1	null	null	336	cop	null
+0	15	334	1707	1709	S	333	in	in	in	IN	O	prep	false	-1	-1	null	null	336	case	null
+0	15	335	1710	1718	S	336	critical	critical	critical	JJ	O	amod	false	-1	-1	null	null	336	amod	null
+0	15	336	1719	1728		334	condition	condition	condition	NN	O	pobj	false	-1	-1	null	null	325	acl:relcl	null
+0	15	337	1728	1729	S	319	.	.	.	.	O	punct	false	-1	-1	null	null	319	punct	null
+0	16	338	1730	1737	S	340	Piccolo	Piccolo	Piccolo	NNP	PERSON	nsubj	false	0	0	c3	null	340	nsubj	(c3;ANIMATE;MALE),
+0	16	339	1738	1743	S	340	would	would	would	MD	O	aux	false	-1	-1	null	null	340	aux	null
+0	16	340	1744	1747	S	-1	die	die	die	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	16	341	1748	1752	S	340	with	with	with	IN	O	prep	false	-1	-1	null	null	343	case	null
+0	16	342	1753	1756	S	343	his	his	he	PRP$	O	poss	false	0	0	c3,c13	null	343	nmod:poss	(c3;ANIMATE;MALE),(c13;ANIMATE;FEMALE),
+0	16	343	1757	1761	S	341	wife	wife	wife	NN	O	pobj	false	-1	-1	c13	null	340	nmod:with	(c13;ANIMATE;FEMALE),
+0	16	344	1762	1764	S	343	by	by	by	IN	O	prep	false	-1	-1	null	null	346	case	null
+0	16	345	1765	1768	S	346	his	his	he	PRP$	O	poss	false	0	0	c3	null	346	nmod:poss	(c3;ANIMATE;MALE),
+0	16	346	1769	1773		344	side	side	side	NN	O	pobj	false	-1	-1	null	null	340	nmod:by	null
+0	16	347	1773	1774	S	340	,	,	,	,	O	punct	false	-1	-1	null	null	340	punct	null
+0	16	348	1775	1778	S	340	and	and	and	CC	O	cc	false	-1	-1	null	null	340	cc	null
+0	16	349	1779	1782	S	350	the	the	the	DT	O	det	false	-1	-1	c2	null	350	det	(c2;INANIMATE;NEUTRAL),
+0	16	350	1783	1788	S	351	movie	movie	movie	NN	O	nsubj	false	-1	-1	c2	null	351	nsubj	(c2;INANIMATE;NEUTRAL),
+0	16	351	1789	1793	S	340	ends	ends	end	VBZ	O	conj	false	-1	-1	null	null	340	conj:and	null
+0	16	352	1794	1798	S	351	with	with	with	IN	O	prep	false	-1	-1	null	null	359	mark	null
+0	16	353	1799	1800	S	354	a	a	a	DT	O	det	false	-1	-1	null	null	354	det	null
+0	16	354	1801	1810	S	352	flashback	flashback	flashback	NN	O	pobj	false	-1	-1	null	null	359	nsubj	null
+0	16	355	1811	1813	S	354	of	of	of	IN	O	prep	false	-1	-1	null	null	356	case	null
+0	16	356	1814	1821	S	355	Piccolo	Piccolo	Piccolo	NNP	LOCATION	pobj	false	-1	0	c3,c11	null	354	nmod:of	(c3;INANIMATE;MALE),(c11;INANIMATE;UNKNOWN),
+0	16	357	1822	1825	S	356	and	and	and	CC	O	cc	false	-1	-1	c11	null	356	cc	(c11;INANIMATE;UNKNOWN),
+0	16	358	1826	1832	S	356	Sayers	Sayers	Sayers	NNP	PERSON	conj	false	2	2	c1,c11	null	356	conj:and	(c1;ANIMATE;MALE),(c11;INANIMATE;UNKNOWN),
+0	16	359	1833	1840	S	356	running	running	run	VBG	O	amod	false	-1	-1	null	null	351	advcl	null
+0	16	360	1841	1848	S	354	through	through	through	IN	O	prep	false	-1	-1	null	null	362	case	null
+0	16	361	1849	1852	S	362	the	the	the	DT	O	det	false	-1	-1	c9	null	362	det	(c9;INANIMATE;UNKNOWN),
+0	16	362	1853	1857		360	park	park	park	NN	O	pobj	false	-1	-1	c9	null	359	nmod:through	(c9;INANIMATE;UNKNOWN),
+0	16	363	1857	1858	N	340	.	.	.	.	O	punct	false	-1	-1	null	null	340	punct	null

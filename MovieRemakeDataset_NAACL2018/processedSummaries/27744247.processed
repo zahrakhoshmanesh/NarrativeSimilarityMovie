@@ -1,0 +1,70 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	4	SS	10	Nick	Nick	Nick	NNP	PERSON	nsubj	false	0	0	c1,c2	c1,c2	4	nsubj	(c1;ANIMATE;MALE),(c2;ANIMATE;UNKNOWN),
+0	0	1	6	9	S	0	and	and	and	CC	O	cc	false	-1	-1	c2	c2	0	cc	(c2;ANIMATE;UNKNOWN),
+0	0	2	10	17	SS	0	Charlie	Charlie	Charlie	NNP	PERSON	conj	false	-1	-1	c2	c2	0	conj:and	(c2;ANIMATE;UNKNOWN),
+0	0	3	19	22	S	10	are	are	be	VBP	O	cop	false	-1	-1	null	null	4	cop	null
+0	0	4	23	26	S	10	two	two	two	CD	NUMBER	num	false	-1	-1	null	null	-1	root	null
+0	0	5	27	32	S	10	suave	suave	suave	JJ	O	amod	false	-1	-1	null	null	10	amod	null
+0	0	6	33	36	S	5	but	but	but	CC	O	cc	false	-1	-1	null	null	5	cc	null
+0	0	7	37	40	S	5	low	low	low	JJ	O	conj	false	-1	-1	null	null	5	conj:but	null
+0	0	8	41	46	S	10	class	class	class	NN	O	nn	false	-1	-1	null	null	10	compound	null
+0	0	9	47	52	S	10	jewel	jewel	jewel	NN	O	nn	false	-1	-1	null	null	10	compound	null
+0	0	10	53	60		-1	thieves	thieves	thief	NNS	O	null	false	-1	-1	null	null	4	dep	null
+0	0	11	60	61	S	10	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	12	62	66	S	13	They	They	they	PRP	O	nsubj	false	-1	-1	c2	null	13	nsubj	(c2;ANIMATE;UNKNOWN),
+0	1	13	67	72	S	-1	spend	spend	spend	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	1	14	73	77	S	13	time	time	time	NN	O	dobj	false	-1	-1	null	null	13	dobj	null
+0	1	15	78	87	S	14	preparing	preparing	prepare	VBG	O	dep	false	-1	-1	null	null	14	acl	null
+0	1	16	88	90	S	17	to	to	to	TO	O	aux	false	-1	-1	null	null	17	mark	null
+0	1	17	91	94	S	15	rob	rob	rob	VB	O	xcomp	false	-1	-1	null	null	15	xcomp	null
+0	1	18	95	96	S	21	a	a	a	DT	O	det	false	-1	-1	c3	c3	21	det	(c3;INANIMATE;NEUTRAL),
+0	1	19	97	104	S	21	Florida	Florida	Florida	NNP	LOCATION	nn	false	-1	-1	c3	c3	21	compound	(c3;INANIMATE;NEUTRAL),
+0	1	20	105	112	S	21	jewelry	jewelry	jewelry	NN	O	nn	false	-1	-1	c3	c3	21	compound	(c3;INANIMATE;NEUTRAL),
+0	1	21	113	118	S	17	store	store	store	NN	O	dobj	false	-1	-1	c3	c3	17	dobj	(c3;INANIMATE;NEUTRAL),
+0	1	22	119	126	S	21	managed	managed	manage	VBN	O	partmod	false	-1	-1	c3	c3	21	acl	(c3;INANIMATE;NEUTRAL),
+0	1	23	127	129	S	22	by	by	by	IN	O	prep	false	-1	-1	c3	c3	24	case	(c3;INANIMATE;NEUTRAL),
+0	1	24	130	136	S	23	Edward	Edward	Edward	NNP	PERSON	pobj	false	-1	-1	c3	c3	22	nmod:by	(c3;INANIMATE;NEUTRAL),
+0	1	25	137	138	S	13	.	.	.	.	O	punct	false	-1	-1	null	null	13	punct	null
+0	2	26	139	143	S	28	They	They	they	PRP	O	nsubj	false	-1	-1	c2	null	28	nsubj	(c2;ANIMATE;UNKNOWN),
+0	2	27	144	156	S	28	meticulously	meticulously	meticulously	RB	O	advmod	false	-1	-1	null	null	28	advmod	null
+0	2	28	157	165	S	-1	pre-plan	pre-plan	pre-plan	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	2	29	166	171	S	30	their	their	they	PRP$	O	poss	false	-1	-1	c2	null	30	nmod:poss	(c2;ANIMATE;UNKNOWN),
+0	2	30	172	177		28	heist	heist	heist	NN	O	dobj	false	-1	-1	null	null	28	dobj	null
+0	2	31	177	178	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	30	punct	null
+0	2	32	179	184	S	33	which	which	which	WDT	O	nsubj	false	-1	-1	null	null	33	nsubj	null
+0	2	33	185	193	S	30	includes	includes	include	VBZ	O	rcmod	false	-1	-1	null	null	30	acl:relcl	null
+0	2	34	194	199	S	35	false	false	false	JJ	O	amod	false	-1	-1	null	null	35	amod	null
+0	2	35	200	210	S	33	identities	identities	identity	NNS	O	dobj	false	-1	-1	null	null	33	dobj	null
+0	2	36	211	214	S	35	and	and	and	CC	O	cc	false	-1	-1	null	null	35	cc	null
+0	2	37	215	223		35	costumes	costumes	costume	NNS	O	conj	false	-1	-1	null	null	35	conj:and	null
+0	2	38	223	224	S	28	.	.	.	.	O	punct	false	-1	-1	null	null	28	punct	null
+0	3	39	225	231	S	44	During	During	during	IN	O	prep	false	-1	-1	null	null	41	case	null
+0	3	40	232	237	S	41	their	their	they	PRP$	O	poss	false	-1	-1	c2	null	41	nmod:poss	(c2;ANIMATE;UNKNOWN),
+0	3	41	238	246		39	planning	planning	planning	NN	O	pobj	false	-1	-1	null	null	44	nmod:during	null
+0	3	42	246	247	S	44	,	,	,	,	O	punct	false	-1	-1	null	null	44	punct	null
+0	3	43	248	252	S	44	Nick	Nick	Nick	NNP	PERSON	nsubj	false	0	0	c1	null	44	nsubj	(c1;ANIMATE;MALE),
+0	3	44	253	259	S	-1	starts	starts	start	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	45	260	262	S	46	to	to	to	TO	O	aux	false	-1	-1	null	null	46	mark	null
+0	3	46	263	267	S	44	fall	fall	fall	VB	O	xcomp	false	-1	-1	null	null	44	xcomp	null
+0	3	47	268	271	S	46	for	for	for	IN	O	prep	false	-1	-1	null	null	48	case	null
+0	3	48	272	281	S	47	Caroliine	Caroliine	Caroliine	NNP	PERSON	pobj	false	-1	-1	null	null	46	nmod:for	null
+0	3	49	282	283	S	48	,	,	,	,	O	punct	false	-1	-1	null	null	48	punct	null
+0	3	50	284	287	S	51	who	who	who	WP	O	nsubj	false	-1	-1	null	null	51	nsubj	null
+0	3	51	288	292	S	48	owns	owns	own	VBZ	O	rcmod	false	-1	-1	null	null	48	acl:relcl	null
+0	3	52	293	295	S	54	an	an	a	DT	O	det	false	-1	-1	null	null	54	det	null
+0	3	53	296	303	S	54	antique	antique	antique	JJ	O	amod	false	-1	-1	null	null	54	amod	null
+0	3	54	304	308	S	51	shop	shop	shop	NN	O	dobj	false	-1	-1	null	null	51	dobj	null
+0	3	55	309	313	S	56	next	next	next	IN	O	dep	false	-1	-1	null	null	59	case	null
+0	3	56	314	316	S	51	to	to	to	TO	O	prep	false	-1	-1	null	null	55	mwe	null
+0	3	57	317	320	S	59	the	the	the	DT	O	det	false	-1	-1	c3	null	59	det	(c3;INANIMATE;NEUTRAL),
+0	3	58	321	328	S	59	jewelry	jewelry	jewelry	NN	O	nn	false	-1	-1	c3	null	59	compound	(c3;INANIMATE;NEUTRAL),
+0	3	59	329	334		56	store	store	store	NN	O	pobj	false	-1	-1	c3	null	51	nmod:next_to	(c3;INANIMATE;NEUTRAL),
+0	3	60	334	335	S	59	,	,	,	,	O	punct	false	-1	-1	null	null	59	punct	null
+0	3	61	336	341	S	62	which	which	which	WDT	O	nsubj	false	-1	-1	null	null	62	nsubj	null
+0	3	62	342	351	S	59	threatens	threatens	threaten	VBZ	O	rcmod	false	-1	-1	null	null	59	acl:relcl	null
+0	3	63	352	357	S	67	their	their	they	PRP$	O	poss	false	-1	-1	c2	null	67	nmod:poss	(c2;ANIMATE;UNKNOWN),
+0	3	64	358	359		67	"	``	``	``	O	punct	false	-1	-1	null	null	67	punct	null
+0	3	65	359	366		67	perfect	perfect	perfect	JJ	O	amod	true	-1	-1	null	null	67	amod	null
+0	3	66	366	367	S	67	"	''	''	''	O	punct	true	-1	-1	null	null	67	punct	null
+0	3	67	368	373		62	crime	crime	crime	NN	O	dobj	false	-1	-1	null	null	62	dobj	null
+0	3	68	373	374	N	44	.	.	.	.	O	punct	false	-1	-1	null	null	44	punct	null

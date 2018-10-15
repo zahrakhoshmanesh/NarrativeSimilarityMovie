@@ -1,0 +1,233 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	The	The	the	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	4	8	S	2	film	film	film	NN	O	nsubj	false	-1	-1	null	null	2	nsubj	null
+0	0	2	9	16	S	-1	follows	follows	follow	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	3	17	20	S	4	Fei	Fei	Fei	NNP	PERSON	nn	false	-1	-1	null	null	4	compound	null
+0	0	4	21	23		6	Mu	Mu	Mu	NNP	PERSON	poss	false	-1	-1	null	null	2	dobj	null
+0	0	5	23	25	S	4	's	's	's	POS	O	possessive	false	-1	-1	null	null	4	case	null
+0	0	6	26	34	S	2	original	original	original	JJ	O	dobj	false	-1	-1	null	null	4	amod	null
+0	0	7	35	41	S	8	fairly	fairly	fairly	RB	O	advmod	false	-1	-1	null	null	8	advmod	null
+0	0	8	42	49		6	closely	closely	closely	RB	O	advmod	false	-1	-1	null	null	2	advmod	null
+0	0	9	49	50	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	10	51	56	S	11	Zhang	Zhang	Zhang	NNP	PERSON	nn	false	-1	2	c2	c2	11	compound	(c2;ANIMATE;MALE),
+0	1	11	57	64	S	17	Zhichen	Zhichen	Zhichen	NNP	PERSON	nsubj	false	-1	2	c2	c2	17	nsubj	(c2;ANIMATE;MALE),
+0	1	12	65	66	S	11	,	,	,	,	O	punct	false	-1	-1	null	null	11	punct	null
+0	1	13	67	68	S	15	a	a	a	DT	O	det	false	-1	-1	c2	null	15	det	(c2;ANIMATE;MALE),
+0	1	14	69	73	S	15	city	city	city	NN	O	nn	false	-1	-1	c2	null	15	compound	(c2;ANIMATE;MALE),
+0	1	15	74	80		11	doctor	doctor	doctor	NN	O	appos	false	-1	-1	c2	null	11	appos	(c2;ANIMATE;MALE),
+0	1	16	80	81	S	11	,	,	,	,	O	punct	false	-1	-1	null	null	11	punct	null
+0	1	17	82	87	S	-1	comes	comes	come	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	18	88	90	S	19	to	to	to	TO	O	aux	false	-1	-1	null	null	19	mark	null
+0	1	19	91	96	S	17	visit	visit	visit	VB	O	xcomp	false	-1	-1	null	null	17	xcomp	null
+0	1	20	97	100	S	22	his	his	he	PRP$	O	poss	false	-1	2	c2,c3	c3	22	nmod:poss	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	1	21	101	104	S	22	old	old	old	JJ	O	amod	false	-1	-1	c3	c3	22	amod	(c3;ANIMATE;UNKNOWN),
+0	1	22	105	111	S	19	friend	friend	friend	NN	O	dobj	false	-1	-1	c3	c3	19	dobj	(c3;ANIMATE;UNKNOWN),
+0	1	23	112	116	S	22	from	from	from	IN	O	prep	false	-1	-1	null	null	26	case	null
+0	1	24	117	123	S	23	school	school	school	NN	O	pobj	false	-1	-1	c4	c4	26	compound	(c4;ANIMATE;MALE),
+0	1	25	124	127	S	26	Dai	Dai	Dai	NNP	PERSON	nn	false	-1	-1	c4	c4	26	compound	(c4;ANIMATE;MALE),
+0	1	26	128	133	SS	23	Liyan	Liyan	Liyan	NNP	PERSON	tmod	false	-1	-1	c4	c4	19	nmod:from	(c4;ANIMATE;MALE),
+0	1	27	135	142	S	28	shortly	shortly	shortly	RB	O	dep	false	-1	-1	null	null	35	advmod	null
+0	1	28	143	148	S	26	after	after	after	IN	O	prep	false	-1	-1	null	null	35	mark	null
+0	1	29	149	152	S	30	the	the	the	DT	O	det	false	-1	-1	c5	null	30	det	(c5;INANIMATE;NEUTRAL),
+0	1	30	153	156	S	28	war	war	war	NN	O	pobj	false	-1	-1	c5	null	35	nsubj	(c5;INANIMATE;NEUTRAL),
+0	1	31	157	164	S	35	against	against	against	IN	O	mark	false	-1	-1	c5	null	33	case	(c5;INANIMATE;NEUTRAL),
+0	1	32	165	168	S	33	the	the	the	DT	O	det	false	-1	-1	c5	null	33	det	(c5;INANIMATE;NEUTRAL),
+0	1	33	169	177	S	35	Japanese	Japanese	Japanese	NNP	MISC	nsubj	false	-1	-1	c5	null	30	nmod:against	(c5;INANIMATE;NEUTRAL),
+0	1	34	178	181	S	35	has	has	have	VBZ	O	aux	false	-1	-1	null	null	35	aux	null
+0	1	35	182	187		30	ended	ended	end	VBN	O	dep	false	-1	-1	null	null	19	advcl	null
+0	1	36	187	188	S	17	.	.	.	.	O	punct	false	-1	-1	null	null	17	punct	null
+0	2	37	189	192	S	39	Dai	Dai	Dai	NNP	PERSON	nsubj	false	3	3	c4	null	39	nsubj	(c4;ANIMATE;MALE),
+0	2	38	193	195	S	39	is	is	be	VBZ	O	cop	false	-1	-1	null	null	39	cop	null
+0	2	39	196	202	S	-1	sickly	sickly	sickly	JJ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	40	203	211	S	42	although	although	although	IN	O	mark	false	-1	-1	null	null	42	mark	null
+0	2	41	212	217	S	42	Zhang	Zhang	Zhang	NNP	PERSON	nsubj	false	2	2	c2	null	42	nsubj	(c2;ANIMATE;MALE),
+0	2	42	218	226	S	39	suspects	suspects	suspect	VBZ	O	advcl	false	-1	-1	null	null	39	advcl	null
+0	2	43	227	229	S	48	it	it	it	PRP	O	nsubj	false	-1	-1	c5	null	42	dobj	(c5;INANIMATE;NEUTRAL),
+0	2	44	230	232	S	48	to	to	to	TO	O	aux	false	-1	-1	null	null	48	mark	null
+0	2	45	233	235	S	48	be	be	be	VB	O	cop	false	-1	-1	null	null	48	cop	null
+0	2	46	236	242	S	48	mainly	mainly	mainly	RB	O	advmod	false	-1	-1	c5	c5	48	advmod	(c5;INANIMATE;NEUTRAL),
+0	2	47	243	244	S	48	a	a	a	DT	O	det	false	-1	-1	c5	c5	48	det	(c5;INANIMATE;NEUTRAL),
+0	2	48	245	249	S	42	case	case	case	NN	O	ccomp	false	-1	-1	c5	c5	42	xcomp	(c5;INANIMATE;NEUTRAL),
+0	2	49	250	252	S	48	of	of	of	IN	O	prep	false	-1	-1	c5	c5	50	case	(c5;INANIMATE;NEUTRAL),
+0	2	50	253	265		49	hypochondria	hypochondria	hypochondria	NN	O	pobj	false	-1	-1	c5	c5	48	nmod:of	(c5;INANIMATE;NEUTRAL),
+0	2	51	265	266	S	39	.	.	.	.	O	punct	false	-1	-1	null	null	39	punct	null
+0	3	52	267	272	S	53	While	While	while	IN	O	mark	false	-1	-1	null	null	53	mark	null
+0	3	53	273	281		56	visiting	visiting	visit	VBG	O	advcl	false	-1	-1	null	null	56	advcl	null
+0	3	54	281	282	S	56	,	,	,	,	O	punct	false	-1	-1	null	null	56	punct	null
+0	3	55	283	285	S	56	he	he	he	PRP	O	nsubj	false	2	2	c4	null	56	nsubj	(c4;ANIMATE;MALE),
+0	3	56	286	291	S	-1	meets	meets	meet	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	57	292	297		59	Liyan	Liyan	Liyan	NNP	PERSON	poss	false	1	1	c4,c7	c7	59	nmod:poss	(c4;ANIMATE;MALE),(c7;ANIMATE;FEMALE),
+0	3	58	297	299	S	57	's	's	's	POS	O	possessive	false	-1	-1	c4,c7	c7	57	case	(c4;ANIMATE;MALE),(c7;ANIMATE;FEMALE),
+0	3	59	300	304		56	wife	wife	wife	NN	O	dobj	false	-1	-1	c7	c7	56	dobj	(c7;ANIMATE;FEMALE),
+0	3	60	304	305	S	59	,	,	,	,	O	punct	false	-1	-1	null	null	59	punct	null
+0	3	61	306	311	SS	59	Yuwen	Yuwen	Yuwen	NNP	PERSON	appos	false	0	0	c6	c6	59	conj:and	(c6;ANIMATE;FEMALE),
+0	3	62	313	316	S	61	and	and	and	CC	O	cc	false	-1	-1	null	null	59	cc	null
+0	3	63	317	322		69	Liyan	Liyan	Liyan	NNP	PERSON	poss	false	1	1	c4	null	67	nmod:poss	(c4;ANIMATE;MALE),
+0	3	64	322	324	S	63	's	's	's	POS	O	possessive	false	-1	-1	c4	null	63	case	(c4;ANIMATE;MALE),
+0	3	65	325	330	S	69	young	young	young	JJ	O	amod	false	-1	-1	null	null	67	amod	null
+0	3	66	331	338	S	69	teenage	teenage	teenage	JJ	O	amod	false	-1	-1	null	null	67	amod	null
+0	3	67	339	345	S	69	sister	sister	sister	NN	O	nn	false	-1	-1	null	null	59	conj:and	null
+0	3	68	346	349	S	69	Dai	Dai	Dai	NNP	PERSON	nn	false	3	3	c4	null	69	compound	(c4;ANIMATE;MALE),
+0	3	69	350	353	S	61	Xiu	Xiu	Xiu	NNP	PERSON	conj	false	3	3	c4	null	67	dep	(c4;ANIMATE;MALE),
+0	3	70	354	355	S	56	.	.	.	.	O	punct	false	-1	-1	null	null	56	punct	null
+0	4	71	356	361	S	75	Zhang	Zhang	Zhang	NNP	PERSON	nsubj	false	2	2	c2	null	75	nsubj	(c2;ANIMATE;MALE),
+0	4	72	362	365	S	71	and	and	and	CC	O	cc	false	-1	-1	null	null	71	cc	null
+0	4	73	366	371	S	71	Yuwen	Yuwen	Yuwen	NNP	PERSON	conj	false	0	0	c6	null	71	conj:and	(c6;ANIMATE;FEMALE),
+0	4	74	372	375	S	75	has	has	have	VBZ	O	aux	false	-1	-1	null	null	75	aux	null
+0	4	75	376	379	S	-1	had	had	have	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	4	76	380	381	S	79	a	a	a	DT	O	det	false	-1	-1	null	null	79	det	null
+0	4	77	382	392	S	79	passionate	passionate	passionate	JJ	O	amod	false	-1	-1	null	null	79	amod	null
+0	4	78	393	397	S	79	love	love	love	NN	O	nn	false	-1	-1	null	null	79	compound	null
+0	4	79	398	404	S	75	affair	affair	affair	NN	O	dobj	false	-1	-1	null	null	75	dobj	null
+0	4	80	405	408	S	81	ten	ten	ten	CD	DATE	num	false	-1	-1	null	null	81	nummod	null
+0	4	81	409	414	S	82	years	years	year	NNS	DATE	dep	false	-1	-1	null	null	82	nmod:npmod	null
+0	4	82	415	422	S	75	earlier	earlier	earlier	RBR	DATE	advmod	false	-1	-1	null	null	79	advmod	null
+0	4	83	423	429	S	87	before	before	before	IN	DATE	mark	false	-1	-1	null	null	87	mark	null
+0	4	84	430	433	S	87	she	she	she	PRP	O	nsubjpass	false	-1	0	c6	null	87	nsubjpass	(c6;ANIMATE;FEMALE),
+0	4	85	434	437	S	87	had	had	have	VBD	O	aux	false	-1	-1	null	null	87	aux	null
+0	4	86	438	442	S	87	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	87	auxpass	null
+0	4	87	443	450	S	75	engaged	engaged	engage	VBN	O	advcl	false	-1	-1	null	null	75	advcl	null
+0	4	88	451	453	S	89	to	to	to	TO	O	aux	false	-1	-1	null	null	89	mark	null
+0	4	89	454	459	S	87	marry	marry	marry	VB	O	xcomp	false	-1	-1	null	null	87	xcomp	null
+0	4	90	460	463	S	91	her	her	she	PRP$	O	poss	false	-1	0	c6,c8	c8	91	nmod:poss	(c6;ANIMATE;FEMALE),(c8;ANIMATE;MALE),
+0	4	91	464	471		89	husband	husband	husband	NN	O	dobj	false	-1	-1	c8	c8	89	dobj	(c8;ANIMATE;MALE),
+0	4	92	471	472	S	75	.	.	.	.	O	punct	false	-1	-1	null	null	75	punct	null
+0	5	93	473	476	S	104	Due	Due	due	JJ	O	dep	false	-1	-1	null	null	98	case	null
+0	5	94	477	479	S	93	to	to	to	TO	O	prep	false	-1	-1	null	null	93	mwe	null
+0	5	95	480	483	S	96	her	her	she	PRP$	O	poss	false	-1	0	c6,c8	null	96	nmod:poss	(c6;ANIMATE;FEMALE),(c8;ANIMATE;MALE),
+0	5	96	484	491		98	husband	husband	husband	NN	O	poss	false	-1	-1	c8	null	98	nmod:poss	(c8;ANIMATE;MALE),
+0	5	97	491	493	S	96	's	's	's	POS	O	possessive	false	-1	-1	c8	null	96	case	(c8;ANIMATE;MALE),
+0	5	98	494	502	S	94	sickness	sickness	sickness	NN	O	pobj	false	-1	-1	null	null	104	nmod:due_to	null
+0	5	99	503	510		98	however	however	however	RB	O	advmod	false	-1	-1	null	null	98	advmod	null
+0	5	100	510	511	S	104	,	,	,	,	O	punct	false	-1	-1	null	null	104	punct	null
+0	5	101	512	515	S	102	the	the	the	DT	O	det	false	-1	-1	null	null	102	det	null
+0	5	102	516	522	S	104	couple	couple	couple	NN	O	nsubj	false	-1	-1	null	null	104	nsubj	null
+0	5	103	523	526	S	104	has	has	have	VBZ	O	aux	false	-1	-1	null	null	104	aux	null
+0	5	104	527	533	S	-1	ceased	ceased	cease	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	5	105	534	537	S	108	any	any	any	DT	O	det	false	-1	-1	null	null	108	det	null
+0	5	106	538	542	S	108	real	real	real	JJ	O	amod	false	-1	-1	null	null	108	amod	null
+0	5	107	543	551	S	108	physical	physical	physical	JJ	O	amod	false	-1	-1	null	null	108	amod	null
+0	5	108	552	559		104	contact	contact	contact	NN	O	dobj	false	-1	-1	null	null	104	dobj	null
+0	5	109	559	560	S	104	.	.	.	.	O	punct	false	-1	-1	null	null	104	punct	null
+0	6	110	561	565	S	119	With	With	with	IN	O	prep	false	-1	-1	null	null	111	case	null
+0	6	111	566	571	S	110	Zhang	Zhang	Zhang	NNP	PERSON	pobj	false	2	2	c2	null	119	nmod:with	(c2;ANIMATE;MALE),
+0	6	112	572	576		111	back	back	back	RB	O	advmod	false	-1	-1	null	null	119	advmod	null
+0	6	113	576	577	S	111	,	,	,	,	O	punct	false	-1	-1	null	null	119	punct	null
+0	6	114	578	582	S	115	both	both	both	DT	O	preconj	false	-1	-1	c9	c9	115	det	(c9;ANIMATE;UNKNOWN),
+0	6	115	583	588	S	111	Yuwen	Yuwen	Yuwen	NNP	PERSON	conj	false	0	0	c6,c9	c9	119	nsubj	(c6;ANIMATE;FEMALE),(c9;ANIMATE;UNKNOWN),
+0	6	116	589	592	S	111	and	and	and	CC	O	cc	false	-1	-1	c9	c9	115	cc	(c9;ANIMATE;UNKNOWN),
+0	6	117	593	596	S	118	the	the	the	DT	O	det	false	-1	-1	c2,c9	c9	118	det	(c2;ANIMATE;MALE),(c9;ANIMATE;UNKNOWN),
+0	6	118	597	603	S	111	doctor	doctor	doctor	NN	O	conj	false	-1	-1	c2,c9	c9	115	conj:and	(c2;ANIMATE;MALE),(c9;ANIMATE;UNKNOWN),
+0	6	119	604	608	S	-1	find	find	find	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	6	120	609	619	S	122	themselves	themselves	themselves	PRP	O	nsubj	false	-1	-1	c9	null	122	nsubj	(c9;ANIMATE;UNKNOWN),
+0	6	121	620	625	S	122	again	again	again	RB	O	advmod	false	-1	-1	null	null	122	advmod	null
+0	6	122	626	635	S	119	attracted	attracted	attract	VBD	O	dep	false	-1	-1	null	null	119	ccomp	null
+0	6	123	636	638	S	122	to	to	to	TO	O	prep	false	-1	-1	null	null	124	case	null
+0	6	124	639	642	S	123	one	one	one	CD	NUMBER	pobj	false	-1	-1	null	null	122	nmod:to	null
+0	6	125	643	650		124	another	another	another	DT	O	dep	false	-1	-1	null	null	124	dep	null
+0	6	126	650	651	S	119	.	.	.	.	O	punct	false	-1	-1	null	null	119	punct	null
+0	7	127	652	654	S	129	As	As	as	IN	O	mark	false	-1	-1	null	null	129	mark	null
+0	7	128	655	663	S	129	emotions	emotions	emotion	NNS	O	nsubj	false	-1	-1	null	null	129	nsubj	null
+0	7	129	664	667	S	136	run	run	run	VBP	O	advcl	false	-1	-1	null	null	136	advcl	null
+0	7	130	668	672		129	high	high	high	RB	O	advmod	false	-1	-1	null	null	129	advmod	null
+0	7	131	672	673	S	136	,	,	,	,	O	punct	false	-1	-1	null	null	136	punct	null
+0	7	132	674	677	S	133	Dai	Dai	Dai	NNP	PERSON	nn	false	3	3	c4	null	133	compound	(c4;ANIMATE;MALE),
+0	7	133	678	681		135	Xiu	Xiu	Xiu	NNP	PERSON	poss	false	3	3	c4	null	135	nmod:poss	(c4;ANIMATE;MALE),
+0	7	134	681	683	S	133	's	's	's	POS	O	possessive	false	-1	-1	c4	null	133	case	(c4;ANIMATE;MALE),
+0	7	135	684	692	S	136	birthday	birthday	birthday	NN	O	nsubj	false	-1	-1	null	null	136	nsubj	null
+0	7	136	693	698	S	-1	comes	comes	come	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	137	699	701		136	up	up	up	RP	O	prt	false	-1	-1	null	null	136	compound:prt	null
+0	7	138	701	702	S	136	.	.	.	.	O	punct	false	-1	-1	null	null	136	punct	null
+0	8	139	703	705	S	142	As	As	as	IN	O	mark	false	-1	-1	null	null	142	mark	null
+0	8	140	706	709	S	141	the	the	the	DT	O	det	false	-1	-1	null	null	141	det	null
+0	8	141	710	716	S	142	drinks	drinks	drink	NNS	O	nsubj	false	-1	-1	null	null	142	nsubj	null
+0	8	142	717	722	S	152	begin	begin	begin	VBP	O	advcl	false	-1	-1	null	null	152	advcl	null
+0	8	143	723	725	S	144	to	to	to	TO	O	aux	false	-1	-1	null	null	144	mark	null
+0	8	144	726	730		142	flow	flow	flow	VB	O	xcomp	false	-1	-1	null	null	142	xcomp	null
+0	8	145	730	731	S	152	,	,	,	,	O	punct	false	-1	-1	null	null	152	punct	null
+0	8	146	732	737	S	152	Zhang	Zhang	Zhang	NNP	PERSON	nsubj	false	2	2	c2	null	152	nsubj	(c2;ANIMATE;MALE),
+0	8	147	738	741	S	146	and	and	and	CC	O	cc	false	-1	-1	null	null	146	cc	null
+0	8	148	742	747		151	Yuwen	Yuwen	Yuwen	NNP	PERSON	poss	false	0	0	c6	null	151	nmod:poss	(c6;ANIMATE;FEMALE),
+0	8	149	747	749	S	148	's	's	's	POS	O	possessive	false	-1	-1	c6	null	148	case	(c6;ANIMATE;FEMALE),
+0	8	150	750	756	S	151	mutual	mutual	mutual	JJ	O	amod	false	-1	-1	null	null	151	amod	null
+0	8	151	757	767	S	146	attraction	attraction	attraction	NN	O	conj	false	-1	-1	null	null	146	conj:and	null
+0	8	152	768	774	S	-1	emerge	emerge	emerge	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	8	153	775	782	S	152	clearly	clearly	clearly	RB	O	advmod	false	-1	-1	null	null	152	advmod	null
+0	8	154	783	785	S	152	to	to	to	TO	O	prep	false	-1	-1	null	null	155	case	null
+0	8	155	786	794		154	everyone	everyone	everyone	NN	O	pobj	false	-1	-1	null	null	152	advcl	null
+0	8	156	794	795	S	155	,	,	,	,	O	punct	false	-1	-1	null	null	155	punct	null
+0	8	157	796	806	S	158	especially	especially	especially	RB	O	dep	false	-1	-1	null	null	155	dep	null
+0	8	158	807	809	S	155	to	to	to	TO	O	prep	false	-1	-1	null	null	159	case	null
+0	8	159	810	815		158	Liyan	Liyan	Liyan	NNP	PERSON	pobj	false	1	1	c4	null	155	nmod:to	(c4;ANIMATE;MALE),
+0	8	160	815	816	S	152	.	.	.	.	O	punct	false	-1	-1	null	null	152	punct	null
+0	9	161	817	820	S	162	Too	Too	too	RB	O	advmod	false	-1	-1	null	null	162	advmod	null
+0	9	162	821	827	S	175	sickly	sickly	sickly	JJ	O	advcl	false	-1	-1	null	null	175	ccomp	null
+0	9	163	828	830	S	162	in	in	in	IN	O	prep	false	-1	-1	null	null	165	case	null
+0	9	164	831	834	S	165	his	his	he	PRP$	O	poss	false	2	2	c2	null	165	nmod:poss	(c2;ANIMATE;MALE),
+0	9	165	835	839	S	163	mind	mind	mind	NN	O	pobj	false	-1	-1	null	null	162	nmod:in	null
+0	9	166	840	842	S	167	to	to	to	TO	O	aux	false	-1	-1	null	null	167	mark	null
+0	9	167	843	847	S	162	care	care	care	VB	O	xcomp	false	-1	-1	null	null	165	acl	null
+0	9	168	848	851	S	172	for	for	for	IN	O	mark	false	-1	-1	null	null	170	case	null
+0	9	169	852	855	S	170	his	his	he	PRP$	O	poss	false	2	2	c2,c7	null	170	nmod:poss	(c2;ANIMATE;MALE),(c7;ANIMATE;FEMALE),
+0	9	170	856	860	S	172	wife	wife	wife	NN	O	nsubj	false	-1	-1	c7	null	167	nmod:for	(c7;ANIMATE;FEMALE),
+0	9	171	861	864	S	172	any	any	any	DT	O	dep	false	-1	-1	null	null	172	det	null
+0	9	172	865	871		167	longer	longer	longer	JJR	O	advcl	false	-1	-1	null	null	167	advmod	null
+0	9	173	871	872	S	175	,	,	,	,	O	punct	false	-1	-1	null	null	175	punct	null
+0	9	174	873	875	S	175	he	he	he	PRP	O	nsubj	false	2	2	c2	null	175	nsubj	(c2;ANIMATE;MALE),
+0	9	175	876	880	S	-1	begs	begs	beg	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	176	881	886	S	178	Zhang	Zhang	Zhang	NNP	PERSON	nsubj	false	2	2	c2	null	175	dobj	(c2;ANIMATE;MALE),
+0	9	177	887	889	S	178	to	to	to	TO	O	aux	false	-1	-1	null	null	178	mark	null
+0	9	178	890	894		175	stay	stay	stay	VB	O	xcomp	false	-1	-1	null	null	175	xcomp	null
+0	9	179	894	895	S	175	.	.	.	.	O	punct	false	-1	-1	null	null	175	punct	null
+0	10	180	896	901	S	-1	Liyan	Liyan	liyan	NN	PERSON	null	false	1	1	null	null	183	nsubj	null
+0	10	181	902	906	S	180	then	then	then	RB	O	advmod	false	-1	-1	null	null	183	advmod	null
+0	10	182	907	915	S	183	promptly	promptly	promptly	RB	O	advmod	false	-1	-1	null	null	183	advmod	null
+0	10	183	916	924	S	180	attempts	attempts	attempt	VBZ	O	dep	false	-1	-1	null	null	-1	root	null
+0	10	184	925	932	S	183	suicide	suicide	suicide	NN	O	dobj	false	-1	-1	null	null	183	dobj	null
+0	10	185	933	935	S	180	by	by	by	IN	O	prep	false	-1	-1	null	null	186	case	null
+0	10	186	936	944	S	185	overdose	overdose	overdose	NN	O	pobj	false	-1	-1	null	null	183	nmod:by	null
+0	10	187	945	948	S	180	but	but	but	CC	O	cc	false	-1	-1	null	null	183	cc	null
+0	10	188	949	951	S	189	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	189	auxpass	null
+0	10	189	952	957	S	180	saved	saved	save	VBN	O	conj	false	-1	-1	null	null	183	conj:but	null
+0	10	190	958	960	S	189	by	by	by	IN	O	prep	false	-1	-1	null	null	192	case	null
+0	10	191	961	964	S	192	his	his	he	PRP$	O	poss	false	2	2	c2,c3	null	192	nmod:poss	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	10	192	965	971		190	friend	friend	friend	NN	O	pobj	false	-1	-1	c3	null	189	nmod:agent	(c3;ANIMATE;UNKNOWN),
+0	10	193	971	972	S	180	.	.	.	.	O	punct	false	-1	-1	null	null	183	punct	null
+0	11	194	973	978	S	196	Zhang	Zhang	Zhang	NNP	PERSON	nsubj	false	2	2	c2	null	196	nsubj	(c2;ANIMATE;MALE),
+0	11	195	979	983	S	196	then	then	then	RB	O	advmod	false	-1	-1	null	null	196	advmod	null
+0	11	196	984	991	S	-1	decides	decides	decide	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	11	197	992	996	S	200	that	that	that	IN	O	complm	false	-1	-1	null	null	200	mark	null
+0	11	198	997	999	S	200	it	it	it	PRP	O	nsubj	false	-1	-1	null	null	200	nsubj	null
+0	11	199	1000	1002	S	200	is	is	be	VBZ	O	cop	false	-1	-1	null	null	200	cop	null
+0	11	200	1003	1007	S	196	best	best	best	JJS	O	ccomp	false	-1	-1	null	null	196	ccomp	null
+0	11	201	1008	1012	S	203	that	that	that	IN	O	dobj	false	-1	-1	null	null	203	mark	null
+0	11	202	1013	1015	S	203	he	he	he	PRP	O	nsubj	false	2	2	c2	null	203	nsubj	(c2;ANIMATE;MALE),
+0	11	203	1016	1023		200	departs	departs	depart	VBZ	O	rcmod	false	-1	-1	null	null	200	ccomp	null
+0	11	204	1023	1024	S	196	.	.	.	.	O	punct	false	-1	-1	null	null	196	punct	null
+0	12	205	1025	1030	S	206	While	While	while	IN	O	mark	false	-1	-1	null	null	206	mark	null
+0	12	206	1031	1039	S	-1	faithful	faithful	faithful	NN	O	null	false	-1	-1	null	null	218	advcl	null
+0	12	207	1040	1042	S	206	to	to	to	TO	O	prep	false	-1	-1	null	null	209	case	null
+0	12	208	1043	1046	S	209	the	the	the	DT	O	det	false	-1	-1	null	null	209	det	null
+0	12	209	1047	1051	S	207	plot	plot	plot	NN	O	pobj	false	-1	-1	null	null	206	nmod:to	null
+0	12	210	1052	1054	S	209	of	of	of	IN	O	prep	false	-1	-1	null	null	212	case	null
+0	12	211	1055	1058	S	218	the	the	the	DT	O	det	false	-1	-1	c1	c1	212	det	(c1;INANIMATE;NEUTRAL),
+0	12	212	1059	1067		218	original	original	original	JJ	O	dep	false	-1	-1	c1	c1	209	nmod:of	(c1;INANIMATE;NEUTRAL),
+0	12	213	1067	1068	S	218	,	,	,	,	O	punct	false	-1	-1	null	null	218	punct	null
+0	12	214	1069	1073		216	Tian	Tian	Tian	NNP	PERSON	poss	false	-1	-1	null	null	216	nmod:poss	null
+0	12	215	1073	1075	S	214	's	's	's	POS	O	possessive	false	-1	-1	null	null	214	case	null
+0	12	216	1076	1082	S	218	remake	remake	remake	NN	O	nsubj	false	-1	-1	null	null	218	nsubj	null
+0	12	217	1083	1086	S	218	did	did	do	VBD	O	aux	false	-1	-1	null	null	218	aux	null
+0	12	218	1087	1093	S	210	choose	choose	choose	VB	O	pobj	false	-1	-1	null	null	-1	root	null
+0	12	219	1094	1096	S	220	to	to	to	TO	O	aux	false	-1	-1	null	null	220	mark	null
+0	12	220	1097	1101	S	218	drop	drop	drop	VB	O	xcomp	false	-1	-1	null	null	218	xcomp	null
+0	12	221	1102	1105	S	222	the	the	the	DT	O	det	false	-1	-1	c1	null	222	det	(c1;INANIMATE;NEUTRAL),
+0	12	222	1106	1114		224	original	original	original	NN	O	poss	false	-1	-1	c1	null	224	nmod:poss	(c1;INANIMATE;NEUTRAL),
+0	12	223	1114	1116	S	222	's	's	's	POS	O	possessive	false	-1	-1	c1	null	222	case	(c1;INANIMATE;NEUTRAL),
+0	12	224	1117	1120	S	220	use	use	use	NN	O	dobj	false	-1	-1	null	null	220	dobj	null
+0	12	225	1121	1123	S	224	of	of	of	IN	O	prep	false	-1	-1	null	null	228	case	null
+0	12	226	1124	1125	S	228	a	a	a	DT	O	det	false	-1	-1	null	null	228	det	null
+0	12	227	1126	1136	S	228	voice-over	voice-over	voice-over	NN	O	nn	false	-1	-1	null	null	228	compound	null
+0	12	228	1137	1146	S	225	narration	narration	narration	NN	O	pobj	false	-1	-1	null	null	224	nmod:of	null
+0	12	229	1147	1149	S	228	by	by	by	IN	O	prep	false	-1	-1	null	null	230	case	null
+0	12	230	1150	1155		229	Yuwen	Yuwen	Yuwen	NNP	PERSON	pobj	false	0	0	c6	null	220	nmod:by	(c6;ANIMATE;FEMALE),
+0	12	231	1155	1156	N	206	.	.	.	.	O	punct	false	-1	-1	null	null	218	punct	null

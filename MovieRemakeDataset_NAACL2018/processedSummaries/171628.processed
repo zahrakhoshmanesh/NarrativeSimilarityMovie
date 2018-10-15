@@ -1,0 +1,376 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	Sam	Sam	Sam	NNP	PERSON	nn	false	-1	2	c1	c1	1	compound	(c1;ANIMATE;MALE),
+0	0	1	4	10	S	13	Dawson	Dawson	Dawson	NNP	PERSON	nsubj	false	-1	2	c1	c1	13	nsubj	(c1;ANIMATE;MALE),
+0	0	2	11	12	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	3	13	14	S	4	a	a	a	DT	O	det	false	-1	-1	c1	null	4	det	(c1;ANIMATE;MALE),
+0	0	4	15	18	S	1	man	man	man	NN	O	appos	false	-1	-1	c1	null	1	appos	(c1;ANIMATE;MALE),
+0	0	5	19	23	S	4	with	with	with	IN	O	prep	false	-1	-1	c1	null	8	case	(c1;ANIMATE;MALE),
+0	0	6	24	25	S	8	a	a	a	DT	O	det	false	-1	-1	c1,c3	c3	8	det	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	7	26	39	S	8	developmental	developmental	developmental	JJ	O	amod	false	-1	-1	c1,c3	c3	8	amod	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	8	40	50		5	disability	disability	disability	NN	O	pobj	false	-1	-1	c1,c3	c3	4	nmod:with	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	9	50	51	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	10	52	54	S	13	is	is	be	VBZ	O	cop	false	-1	-1	null	null	13	cop	null
+0	0	11	55	58	S	13	the	the	the	DT	O	det	false	-1	-1	c1	null	13	det	(c1;ANIMATE;MALE),
+0	0	12	59	65	S	13	single	single	single	JJ	O	amod	false	-1	-1	c1	null	13	amod	(c1;ANIMATE;MALE),
+0	0	13	66	72	S	-1	father	father	father	NN	O	null	false	-1	-1	c1	null	-1	root	(c1;ANIMATE;MALE),
+0	0	14	73	75	S	13	of	of	of	IN	O	prep	false	-1	-1	c1	null	15	case	(c1;ANIMATE;MALE),
+0	0	15	76	80	S	14	Lucy	Lucy	Lucy	NNP	PERSON	pobj	false	1	1	c1,c2	null	13	nmod:of	(c1;ANIMATE;MALE),(c2;ANIMATE;FEMALE),
+0	0	16	81	82	S	13	,	,	,	,	O	punct	false	-1	-1	c1	null	13	punct	(c1;ANIMATE;MALE),
+0	0	17	83	92	S	13	following	following	follow	VBG	O	prep	false	-1	-1	c1	null	19	case	(c1;ANIMATE;MALE),
+0	0	18	93	98	S	19	their	their	they	PRP$	O	poss	false	-1	2	c1	null	19	nmod:poss	(c1;ANIMATE;MALE),
+0	0	19	99	110	S	17	abandonment	abandonment	abandonment	NN	O	pobj	false	-1	-1	c1	null	13	nmod:following	(c1;ANIMATE;MALE),
+0	0	20	111	113	S	19	by	by	by	IN	O	prep	false	-1	-1	c1	null	22	case	(c1;ANIMATE;MALE),
+0	0	21	114	117	S	22	her	her	she	PRP$	O	poss	false	1	1	c1,c3	null	22	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;FEMALE),
+0	0	22	118	124		20	mother	mother	mother	NN	O	pobj	false	-1	-1	c1	null	19	nmod:by	(c1;ANIMATE;MALE),
+0	0	23	124	125	S	13	.	.	.	.	O	punct	false	-1	-1	null	null	13	punct	null
+0	1	24	126	133	S	30	Despite	Despite	despite	IN	O	prep	false	-1	-1	null	null	26	case	null
+0	1	25	134	137	S	26	his	his	he	PRP$	O	poss	false	-1	2	c1	null	26	nmod:poss	(c1;ANIMATE;MALE),
+0	1	26	138	149		24	limitations	limitations	limitation	NNS	O	pobj	false	-1	-1	null	null	30	nmod:despite	null
+0	1	27	149	150	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	30	punct	null
+0	1	28	151	154	S	30	Sam	Sam	Sam	NNP	PERSON	nsubj	false	2	2	c1	null	30	nsubj	(c1;ANIMATE;MALE),
+0	1	29	155	157	S	30	is	is	be	VBZ	O	cop	false	-1	-1	null	null	30	cop	null
+0	1	30	158	171	S	-1	well-adjusted	well-adjusted	well-adjusted	JJ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	31	172	175	S	30	and	and	and	CC	O	cc	false	-1	-1	null	null	30	cc	null
+0	1	32	176	179	S	30	has	has	have	VBZ	O	conj	false	-1	-1	null	null	30	conj:and	null
+0	1	33	180	181	S	35	a	a	a	DT	O	det	false	-1	-1	c4	c4	35	det	(c4;INANIMATE;NEUTRAL),
+0	1	34	182	192	S	35	supportive	supportive	supportive	JJ	O	amod	false	-1	-1	c4	c4	35	amod	(c4;INANIMATE;NEUTRAL),
+0	1	35	193	198	S	32	group	group	group	NN	O	dobj	false	-1	-1	c4	c4	32	dobj	(c4;INANIMATE;NEUTRAL),
+0	1	36	199	201	S	35	of	of	of	IN	O	prep	false	-1	-1	c4	c4	37	case	(c4;INANIMATE;NEUTRAL),
+0	1	37	202	209	S	36	friends	friends	friend	NNS	O	pobj	false	-1	-1	c4	c4	35	nmod:of	(c4;INANIMATE;NEUTRAL),
+0	1	38	210	214	S	35	with	with	with	IN	O	prep	false	-1	-1	c4	c4	40	case	(c4;INANIMATE;NEUTRAL),
+0	1	39	215	228	S	40	developmental	developmental	developmental	JJ	O	amod	false	-1	-1	c4	c4	40	amod	(c4;INANIMATE;NEUTRAL),
+0	1	40	229	241		38	disabilities	disabilities	disability	NNS	O	pobj	false	-1	-1	c4	c4	37	nmod:with	(c4;INANIMATE;NEUTRAL),
+0	1	41	241	242	S	35	,	,	,	,	O	punct	false	-1	-1	null	null	35	punct	null
+0	1	42	243	245	S	43	as	as	as	RB	O	dep	false	-1	-1	null	null	35	cc	null
+0	1	43	246	250	S	35	well	well	well	RB	O	cc	false	-1	-1	null	null	42	mwe	null
+0	1	44	251	253	S	43	as	as	as	IN	O	dep	false	-1	-1	null	null	42	mwe	null
+0	1	45	254	255	S	46	a	a	a	DT	O	det	false	-1	-1	c4,c4	null	46	det	(c4;INANIMATE;NEUTRAL),(c4;INANIMATE;NEUTRAL),
+0	1	46	256	260		35	kind	kind	kind	NN	O	conj	false	-1	-1	c4,c4	null	35	conj:and	(c4;INANIMATE;NEUTRAL),(c4;INANIMATE;NEUTRAL),
+0	1	47	260	261	S	35	,	,	,	,	O	punct	false	-1	-1	c4	null	46	punct	(c4;INANIMATE;NEUTRAL),
+0	1	48	262	273	S	50	agoraphobic	agoraphobic	agoraphobic	JJ	O	amod	false	-1	-1	c4	null	50	amod	(c4;INANIMATE;NEUTRAL),
+0	1	49	274	282	S	50	neighbor	neighbor	neighbor	NN	O	nn	false	-1	-1	c4	null	50	compound	(c4;INANIMATE;NEUTRAL),
+0	1	50	283	288	SS	35	Annie	Annie	Annie	NNP	PERSON	appos	false	-1	-1	c4	null	46	appos	(c4;INANIMATE;NEUTRAL),
+0	1	51	290	293	S	52	who	who	who	WP	O	nsubj	false	-1	-1	c4	null	52	nsubj	(c4;INANIMATE;NEUTRAL),
+0	1	52	294	299	S	50	takes	takes	take	VBZ	O	rcmod	false	-1	-1	c4	null	50	acl:relcl	(c4;INANIMATE;NEUTRAL),
+0	1	53	300	304	S	52	care	care	care	NN	O	dobj	false	-1	-1	c4	null	52	dobj	(c4;INANIMATE;NEUTRAL),
+0	1	54	305	307	S	52	of	of	of	IN	O	prep	false	-1	-1	c4	null	55	case	(c4;INANIMATE;NEUTRAL),
+0	1	55	308	312	S	54	Lucy	Lucy	Lucy	NNP	PERSON	pobj	false	1	1	c2,c4	null	53	nmod:of	(c2;ANIMATE;FEMALE),(c4;INANIMATE;NEUTRAL),
+0	1	56	313	317	S	58	when	when	when	WRB	O	advmod	false	-1	-1	c4	null	58	advmod	(c4;INANIMATE;NEUTRAL),
+0	1	57	318	321	S	58	Sam	Sam	Sam	NNP	PERSON	nsubj	false	2	2	c1,c4	null	58	nsubj	(c1;ANIMATE;MALE),(c4;INANIMATE;NEUTRAL),
+0	1	58	322	325		55	can	can	can	MD	O	advcl	false	-1	-1	c4	null	53	acl:relcl	(c4;INANIMATE;NEUTRAL),
+0	1	59	325	328		58	not	not	not	RB	O	neg	false	-1	-1	c4	null	58	neg	(c4;INANIMATE;NEUTRAL),
+0	1	60	328	329	S	30	.	.	.	.	O	punct	false	-1	-1	null	null	30	punct	null
+0	2	61	330	336	S	63	Though	Though	though	IN	O	mark	false	-1	-1	null	null	63	mark	null
+0	2	62	337	340	S	63	Sam	Sam	Sam	NNP	PERSON	nsubj	false	2	2	c1	null	63	nsubj	(c1;ANIMATE;MALE),
+0	2	63	341	349	S	75	provides	provides	provide	VBZ	O	advcl	false	-1	-1	null	null	75	advcl	null
+0	2	64	350	351	S	68	a	a	a	DT	O	det	false	-1	-1	null	null	68	det	null
+0	2	65	352	358	S	68	loving	loving	loving	JJ	O	amod	false	-1	-1	null	null	68	amod	null
+0	2	66	359	362	S	65	and	and	and	CC	O	cc	false	-1	-1	null	null	65	cc	null
+0	2	67	363	369	S	65	caring	caring	care	VBG	O	conj	false	-1	-1	null	null	65	conj:and	null
+0	2	68	370	381	S	63	environment	environment	environment	NN	O	dobj	false	-1	-1	null	null	63	dobj	null
+0	2	69	382	385	S	68	for	for	for	IN	O	prep	false	-1	-1	null	null	71	case	null
+0	2	70	386	396	S	71	precocious	precocious	precocious	JJ	O	amod	false	-1	-1	c2	c2	71	amod	(c2;ANIMATE;FEMALE),
+0	2	71	397	401		69	Lucy	Lucy	Lucy	NNP	PERSON	pobj	false	1	1	c2,c2	c2	68	nmod:for	(c2;ANIMATE;FEMALE),(c2;ANIMATE;FEMALE),
+0	2	72	401	402	S	75	,	,	,	,	O	punct	false	-1	-1	null	null	75	punct	null
+0	2	73	403	406	S	75	she	she	she	PRP	O	nsubj	false	1	1	c2	null	75	nsubj	(c2;ANIMATE;FEMALE),
+0	2	74	407	411	S	75	soon	soon	soon	RB	O	advmod	false	-1	-1	null	null	75	advmod	null
+0	2	75	412	421	S	-1	surpasses	surpasses	surpass	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	76	422	425	S	78	his	his	he	PRP$	O	poss	false	2	2	c1	null	78	nmod:poss	(c1;ANIMATE;MALE),
+0	2	77	426	432	S	78	mental	mental	mental	JJ	O	amod	false	-1	-1	null	null	78	amod	null
+0	2	78	433	440		75	ability	ability	ability	NN	O	dobj	false	-1	-1	null	null	75	dobj	null
+0	2	79	440	441	S	75	.	.	.	.	O	punct	false	-1	-1	null	null	75	punct	null
+0	3	80	442	447	S	81	Other	Other	other	JJ	O	amod	false	-1	-1	null	null	81	amod	null
+0	3	81	448	456	S	82	children	children	child	NNS	O	nsubj	false	-1	-1	null	null	82	nsubj	null
+0	3	82	457	462	S	-1	tease	tease	tease	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	3	83	463	466	S	82	her	her	she	PRP$	O	dobj	false	1	1	c2	null	82	dobj	(c2;ANIMATE;FEMALE),
+0	3	84	467	470	S	83	for	for	for	IN	O	prep	false	-1	-1	null	null	85	mark	null
+0	3	85	471	477	S	84	having	having	have	VBG	O	pcomp	false	-1	-1	null	null	82	advcl	null
+0	3	86	478	479	S	88	a	a	a	DT	O	det	false	-1	-1	null	null	88	det	null
+0	3	87	480	481		88	"	``	``	``	O	punct	false	-1	-1	null	null	88	punct	null
+0	3	88	481	487		85	retard	retard	retard	VB	O	ccomp	true	-1	-1	null	null	85	xcomp	null
+0	3	89	487	488	S	88	"	''	''	''	O	punct	true	-1	-1	null	null	88	punct	null
+0	3	90	489	491	S	88	as	as	as	IN	O	prep	false	-1	-1	null	null	92	case	null
+0	3	91	492	493	S	92	a	a	a	DT	O	det	false	-1	-1	c5	c5	92	det	(c5;ANIMATE;MALE),
+0	3	92	494	500		90	father	father	father	NN	O	pobj	false	-1	-1	c5	c5	88	nmod:as	(c5;ANIMATE;MALE),
+0	3	93	500	501	S	82	,	,	,	,	O	punct	false	-1	-1	null	null	82	punct	null
+0	3	94	502	505	S	82	and	and	and	CC	O	cc	false	-1	-1	null	null	82	cc	null
+0	3	95	506	509	S	98	she	she	she	PRP	O	nsubj	false	1	1	c2	null	96	nsubj	(c2;ANIMATE;FEMALE),
+0	3	96	510	517	S	98	becomes	becomes	become	VBZ	O	cop	false	-1	-1	null	null	82	conj:and	null
+0	3	97	518	521	S	98	too	too	too	RB	O	advmod	false	-1	-1	null	null	98	advmod	null
+0	3	98	522	533	S	82	embarrassed	embarrassed	embarrassed	JJ	O	conj	false	-1	-1	null	null	96	xcomp	null
+0	3	99	534	536	S	100	to	to	to	TO	O	aux	false	-1	-1	null	null	100	mark	null
+0	3	100	537	543	S	98	accept	accept	accept	VB	O	xcomp	false	-1	-1	null	null	98	xcomp	null
+0	3	101	544	548	S	106	that	that	that	IN	O	complm	false	-1	-1	null	null	106	mark	null
+0	3	102	549	552	S	106	she	she	she	PRP	O	nsubj	false	1	1	c2	null	106	nsubj	(c2;ANIMATE;FEMALE),
+0	3	103	553	555	S	106	is	is	be	VBZ	O	cop	false	-1	-1	null	null	106	cop	null
+0	3	104	556	560	S	106	more	more	more	RBR	O	advmod	false	-1	-1	null	null	106	advmod	null
+0	3	105	561	575	S	106	intellectually	intellectually	intellectually	RB	O	advmod	false	-1	-1	null	null	106	advmod	null
+0	3	106	576	584	S	100	advanced	advanced	advanced	JJ	O	ccomp	false	-1	-1	null	null	100	ccomp	null
+0	3	107	585	589	S	106	than	than	than	IN	O	prep	false	-1	-1	null	null	108	case	null
+0	3	108	590	593		107	Sam	Sam	Sam	NNP	PERSON	pobj	false	2	2	c1	null	106	nmod:than	(c1;ANIMATE;MALE),
+0	3	109	593	594	S	82	.	.	.	.	O	punct	false	-1	-1	null	null	82	punct	null
+0	4	110	595	597	S	120	In	In	in	IN	O	prep	false	-1	-1	null	null	111	case	null
+0	4	111	598	609	S	110	preparation	preparation	preparation	NN	O	pobj	false	-1	-1	null	null	120	nmod:in	null
+0	4	112	610	613	S	111	for	for	for	IN	O	prep	false	-1	-1	null	null	115	case	null
+0	4	113	614	615	S	115	a	a	a	DT	O	det	false	-1	-1	null	null	115	det	null
+0	4	114	616	623	S	115	custody	custody	custody	NN	O	nn	false	-1	-1	null	null	115	compound	null
+0	4	115	624	628		112	case	case	case	NN	O	pobj	false	-1	-1	null	null	111	nmod:for	null
+0	4	116	628	629	S	120	,	,	,	,	O	punct	false	-1	-1	null	null	120	punct	null
+0	4	117	630	631	S	119	a	a	a	DT	O	det	false	-1	-1	c6	c6	119	det	(c6;ANIMATE;MALE),
+0	4	118	632	638	S	119	social	social	social	JJ	O	amod	false	-1	-1	c6	c6	119	amod	(c6;ANIMATE;MALE),
+0	4	119	639	645	S	120	worker	worker	worker	NN	O	nsubj	false	-1	-1	c6	c6	120	nsubj	(c6;ANIMATE;MALE),
+0	4	120	646	651	S	-1	turns	turns	turn	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	121	652	654	S	120	up	up	up	RP	O	prt	false	-1	-1	null	null	120	compound:prt	null
+0	4	122	655	657	S	120	at	at	at	IN	O	prep	false	-1	-1	null	null	126	case	null
+0	4	123	658	662		126	Lucy	Lucy	Lucy	NNP	PERSON	poss	false	1	1	c2	null	126	nmod:poss	(c2;ANIMATE;FEMALE),
+0	4	124	662	664	S	123	's	's	's	POS	O	possessive	false	-1	-1	c2	null	123	case	(c2;ANIMATE;FEMALE),
+0	4	125	665	673	S	126	birthday	birthday	birthday	NN	O	nn	false	-1	-1	null	null	126	compound	null
+0	4	126	674	679	S	122	party	party	party	NN	O	pobj	false	-1	-1	null	null	120	nmod:at	null
+0	4	127	680	683	S	120	and	and	and	CC	O	cc	false	-1	-1	null	null	120	cc	null
+0	4	128	684	689	S	120	takes	takes	take	VBZ	O	conj	false	-1	-1	null	null	120	conj:and	null
+0	4	129	690	693	S	130	her	her	she	PRP$	O	poss	false	1	1	c2	null	128	dobj	(c2;ANIMATE;FEMALE),
+0	4	130	694	698		128	away	away	away	RB	O	dobj	false	-1	-1	null	null	128	advmod	null
+0	4	131	698	699	S	120	,	,	,	,	O	punct	false	-1	-1	null	null	128	punct	null
+0	4	132	700	708	S	120	allowing	allowing	allow	VBG	O	xcomp	false	-1	-1	null	null	128	advcl	null
+0	4	133	709	712	S	136	Sam	Sam	Sam	NNP	PERSON	nn	false	2	2	c1	null	132	iobj	(c1;ANIMATE;MALE),
+0	4	134	713	716	S	136	two	two	two	CD	NUMBER	num	false	-1	-1	null	null	136	nummod	null
+0	4	135	717	727	S	136	supervised	supervised	supervised	JJ	O	amod	false	-1	-1	null	null	136	amod	null
+0	4	136	728	734	S	132	visits	visits	visit	NNS	O	dobj	false	-1	-1	null	null	132	dobj	null
+0	4	137	735	738	S	136	per	per	per	IN	O	prep	false	-1	-1	null	null	138	case	null
+0	4	138	739	743		137	week	week	week	NN	DURATION	pobj	false	-1	-1	null	null	136	nmod:per	null
+0	4	139	743	744	S	120	.	.	.	.	O	punct	false	-1	-1	null	null	120	punct	null
+0	5	140	745	747	S	148	On	On	on	IN	O	prep	false	-1	-1	null	null	142	case	null
+0	5	141	748	751	S	142	the	the	the	DT	O	det	false	-1	-1	null	null	142	det	null
+0	5	142	752	758	S	140	advice	advice	advice	NN	O	pobj	false	-1	-1	null	null	148	nmod:on	null
+0	5	143	759	761	S	142	of	of	of	IN	O	prep	false	-1	-1	null	null	145	case	null
+0	5	144	762	765	S	145	his	his	he	PRP$	O	poss	false	2	2	c6	null	145	nmod:poss	(c6;ANIMATE;MALE),
+0	5	145	766	773		143	friends	friends	friend	NNS	O	pobj	false	-1	-1	null	null	142	nmod:of	null
+0	5	146	773	774	S	148	,	,	,	,	O	punct	false	-1	-1	null	null	148	punct	null
+0	5	147	775	778	S	148	Sam	Sam	Sam	NNP	PERSON	nsubj	false	2	2	c1	null	148	nsubj	(c1;ANIMATE;MALE),
+0	5	148	779	789	S	-1	approaches	approaches	approach	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	149	790	791	S	151	a	a	a	DT	O	det	false	-1	-1	null	null	151	det	null
+0	5	150	792	804	S	151	high-powered	high-powered	high-powered	JJ	O	amod	false	-1	-1	null	null	151	amod	null
+0	5	151	805	811		148	lawyer	lawyer	lawyer	NN	O	dobj	false	-1	-1	null	null	148	dobj	null
+0	5	152	811	812	S	151	,	,	,	,	O	punct	false	-1	-1	null	null	151	punct	null
+0	5	153	813	817	S	154	Rita	Rita	Rita	NNP	PERSON	nn	false	-1	0	c7	c7	154	compound	(c7;ANIMATE;FEMALE),
+0	5	154	818	826	S	151	Harrison	Harrison	Harrison	NNP	PERSON	appos	false	-1	0	c7	c7	151	appos	(c7;ANIMATE;FEMALE),
+0	5	155	827	828	S	151	,	,	,	,	O	punct	false	-1	-1	null	null	151	punct	null
+0	5	156	829	834	S	158	whose	whose	whose	WP$	O	poss	false	-1	-1	null	null	161	nmod:poss	null
+0	5	157	835	842	S	158	brusque	brusque	brusque	JJ	O	amod	false	-1	-1	null	null	161	amod	null
+0	5	158	843	849		167	manner	manner	manner	NN	O	nsubj	false	-1	-1	null	null	161	compound	null
+0	5	159	849	850	S	158	,	,	,	,	O	punct	false	-1	-1	null	null	161	punct	null
+0	5	160	851	861	S	161	fast-paced	fast-paced	fast-paced	JJ	O	amod	false	-1	-1	null	null	161	amod	null
+0	5	161	862	870	S	158	schedule	schedule	schedule	NN	O	conj	false	-1	-1	null	null	167	nsubj	null
+0	5	162	871	874	S	158	and	and	and	CC	O	cc	false	-1	-1	null	null	161	cc	null
+0	5	163	875	884	S	165	difficult	difficult	difficult	JJ	O	amod	false	-1	-1	null	null	165	amod	null
+0	5	164	885	893	S	165	personal	personal	personal	JJ	O	amod	false	-1	-1	null	null	165	amod	null
+0	5	165	894	898	S	158	life	life	life	NN	O	conj	false	-1	-1	null	null	161	conj:and	null
+0	5	166	899	903	S	167	have	have	have	VBP	O	aux	false	-1	-1	null	null	167	aux	null
+0	5	167	904	910	S	151	earned	earned	earn	VBN	O	rcmod	false	-1	-1	null	null	151	acl:relcl	null
+0	5	168	911	914	S	170	her	her	she	PRP$	O	poss	false	-1	0	c7	null	167	dep	(c7;ANIMATE;FEMALE),
+0	5	169	915	916	S	170	a	a	a	DT	O	det	false	-1	-1	null	null	170	det	null
+0	5	170	917	927	S	167	reputation	reputation	reputation	NN	O	dobj	false	-1	-1	null	null	167	dobj	null
+0	5	171	928	930	S	167	as	as	as	IN	O	prep	false	-1	-1	null	null	172	case	null
+0	5	172	931	935	S	171	cold	cold	cold	JJ	O	pobj	false	-1	-1	null	null	170	nmod:as	null
+0	5	173	936	939	S	172	and	and	and	CC	O	cc	false	-1	-1	null	null	172	cc	null
+0	5	174	940	949		172	unfeeling	unfeeling	unfeeling	JJ	O	conj	false	-1	-1	null	null	172	conj:and	null
+0	5	175	949	950	S	148	.	.	.	.	O	punct	false	-1	-1	null	null	148	punct	null
+0	6	176	951	953	S	191	In	In	in	IN	O	prep	false	-1	-1	null	null	178	case	null
+0	6	177	954	956	S	178	an	an	a	DT	O	det	false	-1	-1	null	null	178	det	null
+0	6	178	957	964	S	176	attempt	attempt	attempt	NN	O	pobj	false	-1	-1	null	null	191	nmod:in	null
+0	6	179	965	967	S	180	to	to	to	TO	O	aux	false	-1	-1	null	null	180	mark	null
+0	6	180	968	973	S	178	prove	prove	prove	VB	O	infmod	false	-1	-1	null	null	178	acl	null
+0	6	181	974	976	S	180	to	to	to	TO	O	prep	false	-1	-1	null	null	182	case	null
+0	6	182	977	983	S	181	others	others	other	NNS	O	pobj	false	-1	-1	c8	c8	180	nmod:to	(c8;ANIMATE;UNKNOWN),
+0	6	183	984	988	S	187	that	that	that	IN	O	complm	false	-1	-1	null	null	187	mark	null
+0	6	184	989	992	S	187	she	she	she	PRP	O	nsubj	false	-1	0	c7	null	187	nsubj	(c7;ANIMATE;FEMALE),
+0	6	185	993	995	S	187	is	is	be	VBZ	O	cop	false	-1	-1	null	null	187	cop	null
+0	6	186	996	999	S	187	not	not	not	RB	O	neg	false	-1	-1	null	null	187	neg	null
+0	6	187	1000	1009		180	heartless	heartless	heartless	JJ	O	ccomp	false	-1	-1	null	null	180	ccomp	null
+0	6	188	1009	1010	S	191	,	,	,	,	O	punct	false	-1	-1	null	null	191	punct	null
+0	6	189	1011	1015	S	191	Rita	Rita	Rita	NNP	PERSON	nsubj	false	0	0	c7	null	191	nsubj	(c7;ANIMATE;FEMALE),
+0	6	190	1016	1028	S	191	surprisingly	surprisingly	surprisingly	RB	O	advmod	false	-1	-1	null	null	191	advmod	null
+0	6	191	1029	1035	S	-1	agrees	agrees	agree	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	192	1036	1038	S	193	to	to	to	TO	O	aux	false	-1	-1	null	null	193	mark	null
+0	6	193	1039	1043	S	191	take	take	take	VB	O	xcomp	false	-1	-1	null	null	191	xcomp	null
+0	6	194	1044	1046	S	193	on	on	on	RP	O	prt	false	-1	-1	null	null	193	compound:prt	null
+0	6	195	1047	1050		197	Sam	Sam	Sam	NNP	PERSON	poss	false	2	2	c1	null	197	nmod:poss	(c1;ANIMATE;MALE),
+0	6	196	1050	1052	S	195	's	's	's	POS	O	possessive	false	-1	-1	c1	null	195	case	(c1;ANIMATE;MALE),
+0	6	197	1053	1057	S	193	case	case	case	NN	O	dobj	false	-1	-1	null	null	193	dobj	null
+0	6	198	1058	1061	S	197	pro	pro	pro	FW	O	nn	false	-1	-1	null	null	197	amod	null
+0	6	199	1062	1066		197	bono	bono	bono	FW	O	dep	false	-1	-1	null	null	198	dep	null
+0	6	200	1066	1067	S	191	.	.	.	.	O	punct	false	-1	-1	null	null	191	punct	null
+0	7	201	1068	1070	S	203	As	As	as	IN	O	mark	false	-1	-1	null	null	203	mark	null
+0	7	202	1071	1075	S	203	they	they	they	PRP	O	nsubj	false	-1	-1	c8	null	203	nsubj	(c8;ANIMATE;UNKNOWN),
+0	7	203	1076	1080	S	214	work	work	work	VBP	O	advcl	false	-1	-1	null	null	214	advcl	null
+0	7	204	1081	1089	S	203	together	together	together	RB	O	advmod	false	-1	-1	null	null	203	advmod	null
+0	7	205	1090	1092	S	206	to	to	to	TO	O	aux	false	-1	-1	null	null	206	mark	null
+0	7	206	1093	1099	S	203	secure	secure	secure	VB	O	xcomp	false	-1	-1	null	null	203	xcomp	null
+0	7	207	1100	1103		210	Sam	Sam	Sam	NNP	PERSON	poss	false	2	2	c1	null	210	nmod:poss	(c1;ANIMATE;MALE),
+0	7	208	1103	1105	S	207	's	's	's	POS	O	possessive	false	-1	-1	c1	null	207	case	(c1;ANIMATE;MALE),
+0	7	209	1106	1114	S	210	parental	parental	parental	JJ	O	amod	false	-1	-1	null	null	210	amod	null
+0	7	210	1115	1121		206	rights	rights	rights	NNS	O	dobj	false	-1	-1	null	null	206	dobj	null
+0	7	211	1121	1122	S	214	,	,	,	,	O	punct	false	-1	-1	null	null	214	punct	null
+0	7	212	1123	1126	S	214	Sam	Sam	Sam	NNP	PERSON	nsubj	false	2	2	c1	null	214	nsubj	(c1;ANIMATE;MALE),
+0	7	213	1127	1138	S	214	unwittingly	unwittingly	unwittingly	RB	O	advmod	false	-1	-1	null	null	214	advmod	null
+0	7	214	1139	1144	S	-1	helps	helps	help	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	215	1145	1149	S	214	Rita	Rita	Rita	NNP	PERSON	dobj	false	0	0	null	null	214	dobj	null
+0	7	216	1150	1154	S	214	with	with	with	IN	O	prep	false	-1	-1	null	null	219	case	null
+0	7	217	1155	1158	S	219	her	her	she	PRP$	O	poss	false	0	0	c7	null	219	nmod:poss	(c7;ANIMATE;FEMALE),
+0	7	218	1159	1165	S	219	family	family	family	NN	O	nn	false	-1	-1	null	null	219	compound	null
+0	7	219	1166	1174		216	problems	problems	problem	NNS	O	pobj	false	-1	-1	null	null	215	nmod:with	null
+0	7	220	1174	1175	S	219	,	,	,	,	O	punct	false	-1	-1	null	null	215	punct	null
+0	7	221	1176	1185	S	219	including	including	include	VBG	O	prep	false	-1	-1	null	null	222	case	null
+0	7	222	1186	1197	S	221	encouraging	encouraging	encourage	VBG	O	pcomp	false	-1	-1	null	null	215	acl	null
+0	7	223	1198	1201	S	233	her	her	she	PRP$	O	poss	false	0	0	c7	null	222	dobj	(c7;ANIMATE;FEMALE),
+0	7	224	1202	1204	S	225	to	to	to	TO	O	aux	false	-1	-1	null	null	225	mark	null
+0	7	225	1205	1210	S	223	leave	leave	leave	VB	O	infmod	false	-1	-1	null	null	222	xcomp	null
+0	7	226	1211	1214	S	228	her	her	she	PRP$	O	poss	false	0	0	c7	null	228	nmod:poss	(c7;ANIMATE;FEMALE),
+0	7	227	1215	1227	S	228	philandering	philandering	philandering	JJ	O	amod	false	-1	-1	null	null	228	amod	null
+0	7	228	1228	1235	S	225	husband	husband	husband	NN	O	dobj	false	-1	-1	null	null	225	dobj	null
+0	7	229	1236	1239	S	223	and	and	and	CC	O	cc	false	-1	-1	null	null	222	cc	null
+0	7	230	1240	1249	S	223	repairing	repairing	repair	VBG	O	conj	false	-1	-1	null	null	222	conj:and	null
+0	7	231	1250	1253	S	233	her	her	she	PRP$	O	poss	false	0	0	c7	null	233	nmod:poss	(c7;ANIMATE;FEMALE),
+0	7	232	1254	1262	S	233	factious	factious	factious	JJ	O	amod	false	-1	-1	null	null	233	amod	null
+0	7	233	1263	1275	S	222	relationship	relationship	relationship	NN	O	dobj	false	-1	-1	null	null	230	dobj	null
+0	7	234	1276	1280	S	233	with	with	with	IN	O	prep	false	-1	-1	null	null	236	case	null
+0	7	235	1281	1284	S	236	her	her	she	PRP$	O	poss	false	0	0	c7,c9	c9	236	nmod:poss	(c7;ANIMATE;FEMALE),(c9;ANIMATE;MALE),
+0	7	236	1285	1288		234	son	son	son	NN	O	pobj	false	-1	-1	c9	c9	230	nmod:with	(c9;ANIMATE;MALE),
+0	7	237	1288	1289	S	214	.	.	.	.	O	punct	false	-1	-1	null	null	214	punct	null
+0	8	238	1290	1292	S	244	At	At	at	IN	O	prep	false	-1	-1	null	null	240	case	null
+0	8	239	1293	1296	S	240	the	the	the	DT	O	det	false	-1	-1	c10	c10	240	det	(c10;INANIMATE;UNKNOWN),
+0	8	240	1297	1302		238	trial	trial	trial	NN	O	pobj	false	-1	-1	c10	c10	248	nmod:at	(c10;INANIMATE;UNKNOWN),
+0	8	241	1302	1303	S	244	,	,	,	,	O	punct	false	-1	-1	null	null	248	punct	null
+0	8	242	1304	1307	S	243	Sam	Sam	Sam	NNP	PERSON	nn	false	2	2	c1	null	243	compound	(c1;ANIMATE;MALE),
+0	8	243	1308	1314	S	244	breaks	breaks	break	NNS	O	nsubj	false	-1	-1	null	null	248	nsubj	null
+0	8	244	1315	1319	S	-1	down	down	down	RB	O	null	false	-1	-1	null	null	246	advmod	null
+0	8	245	1320	1325	S	248	after	after	after	IN	O	prep	false	-1	-1	null	null	246	mark	null
+0	8	246	1326	1334	S	245	opposing	opposing	oppose	VBG	O	pcomp	false	-1	-1	null	null	248	advcl	null
+0	8	247	1335	1342	S	246	counsel	counsel	counsel	NN	O	dobj	false	-1	-1	null	null	246	dobj	null
+0	8	248	1343	1352	S	244	convinces	convinces	convince	VBZ	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	8	249	1353	1356	S	248	him	him	he	PRP	O	dobj	false	2	2	c1	null	248	dobj	(c1;ANIMATE;MALE),
+0	8	250	1357	1361	S	254	that	that	that	IN	O	complm	false	-1	-1	null	null	254	mark	null
+0	8	251	1362	1364	S	254	he	he	he	PRP	O	nsubj	false	2	2	c1	null	254	nsubj	(c1;ANIMATE;MALE),
+0	8	252	1365	1367	S	254	is	is	be	VBZ	O	cop	false	-1	-1	null	null	254	cop	null
+0	8	253	1368	1371	S	254	not	not	not	RB	O	neg	false	-1	-1	null	null	254	neg	null
+0	8	254	1372	1379	S	248	capable	capable	capable	JJ	O	ccomp	false	-1	-1	null	null	248	ccomp	null
+0	8	255	1380	1382	S	254	of	of	of	IN	O	prep	false	-1	-1	null	null	258	mark	null
+0	8	256	1383	1388	S	258	being	being	be	VBG	O	cop	false	-1	-1	null	null	258	cop	null
+0	8	257	1389	1390	S	258	a	a	a	DT	O	det	false	-1	-1	c5	null	258	det	(c5;ANIMATE;MALE),
+0	8	258	1391	1397		255	father	father	father	NN	O	pcomp	false	-1	-1	c5	null	254	advcl	(c5;ANIMATE;MALE),
+0	8	259	1397	1398	S	244	.	.	.	.	O	punct	false	-1	-1	null	null	248	punct	null
+0	9	260	1399	1404	S	265	After	After	after	IN	O	prep	false	-1	-1	null	null	262	case	null
+0	9	261	1405	1408	S	262	the	the	the	DT	O	det	false	-1	-1	c10	null	262	det	(c10;INANIMATE;UNKNOWN),
+0	9	262	1409	1414		260	trial	trial	trial	NN	O	pobj	false	-1	-1	c10	null	265	nmod:after	(c10;INANIMATE;UNKNOWN),
+0	9	263	1414	1415	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	265	punct	null
+0	9	264	1416	1420	S	265	Lucy	Lucy	Lucy	NNP	PERSON	nsubj	false	1	1	c2	null	265	nsubj	(c2;ANIMATE;FEMALE),
+0	9	265	1421	1428	S	-1	resides	resides	reside	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	266	1429	1431	S	265	in	in	in	IN	O	prep	false	-1	-1	null	null	269	case	null
+0	9	267	1432	1433	S	269	a	a	a	DT	O	det	false	-1	-1	null	null	269	det	null
+0	9	268	1434	1440	S	269	foster	foster	foster	JJ	O	amod	false	-1	-1	null	null	269	amod	null
+0	9	269	1441	1445	S	266	home	home	home	NN	O	pobj	false	-1	-1	null	null	265	nmod:in	null
+0	9	270	1446	1450	S	269	with	with	with	IN	O	prep	false	-1	-1	null	null	272	case	null
+0	9	271	1451	1456	S	272	Randy	Randy	Randy	NNP	PERSON	nn	false	-1	-1	c11	c11	272	compound	(c11;ANIMATE;MALE),
+0	9	272	1457	1466	S	270	Carpenter	Carpenter	Carpenter	NNP	PERSON	pobj	false	-1	-1	c11	c11	269	nmod:with	(c11;ANIMATE;MALE),
+0	9	273	1467	1468	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	265	punct	null
+0	9	274	1469	1472	S	265	but	but	but	CC	O	cc	false	-1	-1	null	null	265	cc	null
+0	9	275	1473	1478	S	265	tries	tries	try	VBZ	O	conj	false	-1	-1	null	null	265	conj:but	null
+0	9	276	1479	1481	S	277	to	to	to	TO	O	aux	false	-1	-1	null	null	277	mark	null
+0	9	277	1482	1490	S	275	convince	convince	convince	VB	O	xcomp	false	-1	-1	null	null	275	xcomp	null
+0	9	278	1491	1494	S	277	Sam	Sam	Sam	NNP	PERSON	dobj	false	2	2	c1	null	277	dobj	(c1;ANIMATE;MALE),
+0	9	279	1495	1497	S	280	to	to	to	TO	O	aux	false	-1	-1	null	null	280	mark	null
+0	9	280	1498	1502	S	277	help	help	help	VB	O	xcomp	false	-1	-1	null	null	277	xcomp	null
+0	9	281	1503	1506	S	282	her	her	she	PRP$	O	poss	false	1	1	c2	null	282	nmod:poss	(c2;ANIMATE;FEMALE),
+0	9	282	1507	1510	S	280	run	run	run	NN	O	dobj	false	-1	-1	null	null	280	dobj	null
+0	9	283	1511	1515		280	away	away	away	RB	O	advmod	false	-1	-1	null	null	280	advmod	null
+0	9	284	1515	1516	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	265	punct	null
+0	9	285	1517	1520	S	265	and	and	and	CC	O	cc	false	-1	-1	null	null	265	cc	null
+0	9	286	1521	1532	S	287	continually	continually	continually	RB	O	advmod	false	-1	-1	null	null	287	advmod	null
+0	9	287	1533	1540	S	265	escapes	escapes	escape	VBZ	O	conj	false	-1	-1	null	null	265	conj:and	null
+0	9	288	1541	1543	S	287	in	in	in	IN	O	prep	false	-1	-1	null	null	290	case	null
+0	9	289	1544	1547	S	290	the	the	the	DT	O	det	false	-1	-1	null	null	290	det	null
+0	9	290	1548	1554	S	288	middle	middle	middle	NN	O	pobj	false	-1	-1	null	null	287	nmod:in	null
+0	9	291	1555	1557	S	290	of	of	of	IN	O	prep	false	-1	-1	null	null	293	case	null
+0	9	292	1558	1561	S	293	the	the	the	DT	O	det	false	-1	-1	null	null	293	det	null
+0	9	293	1562	1567	S	291	night	night	night	NN	TIME	pobj	false	-1	-1	null	null	290	nmod:of	null
+0	9	294	1568	1570	S	295	to	to	to	TO	O	aux	false	-1	-1	null	null	295	mark	null
+0	9	295	1571	1573	S	287	go	go	go	VB	O	xcomp	false	-1	-1	null	null	287	xcomp	null
+0	9	296	1574	1576	S	295	to	to	to	TO	O	prep	false	-1	-1	null	null	299	case	null
+0	9	297	1577	1580		299	Sam	Sam	Sam	NNP	PERSON	poss	false	2	2	c1,c12	c12	299	nmod:poss	(c1;ANIMATE;MALE),(c12;INANIMATE;UNKNOWN),
+0	9	298	1580	1582	S	297	's	's	's	POS	O	possessive	false	-1	-1	c1,c12	c12	297	case	(c1;ANIMATE;MALE),(c12;INANIMATE;UNKNOWN),
+0	9	299	1583	1592		296	apartment	apartment	apartment	NN	O	pobj	false	-1	-1	c12	c12	295	nmod:to	(c12;INANIMATE;UNKNOWN),
+0	9	300	1592	1593	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	299	punct	null
+0	9	301	1594	1603	S	265	whereupon	whereupon	whereupon	NN	O	dobj	false	-1	-1	c12	null	299	appos	(c12;INANIMATE;UNKNOWN),
+0	9	302	1604	1606	S	304	he	he	he	PRP	O	nsubj	false	2	2	c1,c12	null	304	nsubj	(c1;ANIMATE;MALE),(c12;INANIMATE;UNKNOWN),
+0	9	303	1607	1618	S	304	immediately	immediately	immediately	RB	O	advmod	false	-1	-1	c12	null	304	advmod	(c12;INANIMATE;UNKNOWN),
+0	9	304	1619	1626	S	301	returns	returns	return	VBZ	O	rcmod	false	-1	-1	c12	null	301	acl:relcl	(c12;INANIMATE;UNKNOWN),
+0	9	305	1627	1630		304	her	her	she	PRP	O	dobj	false	1	1	c2,c12	null	304	dobj	(c2;ANIMATE;FEMALE),(c12;INANIMATE;UNKNOWN),
+0	9	306	1630	1631	S	265	.	.	.	.	O	punct	false	-1	-1	null	null	265	punct	null
+0	10	307	1632	1642		-1	Ultimately	Ultimately	ultimately	RB	O	null	false	-1	-1	null	null	317	advmod	null
+0	10	308	1642	1643	S	307	,	,	,	,	O	dep	false	-1	-1	null	null	317	punct	null
+0	10	309	1644	1647	S	311	the	the	the	DT	O	det	false	-1	-1	c13	c13	311	det	(c13;ANIMATE;UNKNOWN),
+0	10	310	1648	1654	S	311	foster	foster	foster	JJ	O	amod	false	-1	-1	c13	c13	311	amod	(c13;ANIMATE;UNKNOWN),
+0	10	311	1655	1661	S	308	family	family	family	NN	O	dobj	false	-1	-1	c13	c13	317	nsubj	(c13;ANIMATE;UNKNOWN),
+0	10	312	1662	1665	S	313	who	who	who	WP	O	nsubj	false	-1	-1	c13	c13	313	nsubj	(c13;ANIMATE;UNKNOWN),
+0	10	313	1666	1673	S	311	planned	planned	plan	VBD	O	rcmod	false	-1	-1	c13	c13	311	acl:relcl	(c13;ANIMATE;UNKNOWN),
+0	10	314	1674	1676	S	315	to	to	to	TO	O	aux	false	-1	-1	c13	c13	315	mark	(c13;ANIMATE;UNKNOWN),
+0	10	315	1677	1682	S	313	adopt	adopt	adopt	VB	O	xcomp	false	-1	-1	c13	c13	313	xcomp	(c13;ANIMATE;UNKNOWN),
+0	10	316	1683	1687	S	317	Lucy	Lucy	Lucy	NNP	PERSON	nsubj	false	1	1	c2,c13	c13	315	dobj	(c2;ANIMATE;FEMALE),(c13;ANIMATE;UNKNOWN),
+0	10	317	1688	1694	S	315	decide	decide	decide	VB	O	xcomp	false	-1	-1	null	null	-1	root	null
+0	10	318	1695	1697	S	319	to	to	to	TO	O	aux	false	-1	-1	null	null	319	mark	null
+0	10	319	1698	1704	S	317	return	return	return	VB	O	xcomp	false	-1	-1	null	null	317	xcomp	null
+0	10	320	1705	1708	S	319	her	her	she	PRP	O	dobj	false	1	1	c13	null	319	dobj	(c13;ANIMATE;FEMALE),
+0	10	321	1709	1711	S	319	to	to	to	TO	O	prep	false	-1	-1	null	null	322	case	null
+0	10	322	1712	1715		321	Sam	Sam	Sam	NNP	PERSON	pobj	false	2	2	c1	null	319	nmod:to	(c1;ANIMATE;MALE),
+0	10	323	1715	1716	S	319	,	,	,	,	O	punct	false	-1	-1	null	null	317	punct	null
+0	10	324	1717	1721	S	319	with	with	with	IN	O	prep	false	-1	-1	null	null	326	case	null
+0	10	325	1722	1724	S	326	an	an	a	DT	O	det	false	-1	-1	null	null	326	det	null
+0	10	326	1725	1736	S	324	arrangement	arrangement	arrangement	NN	O	pobj	false	-1	-1	null	null	317	nmod:with	null
+0	10	327	1737	1741	S	330	that	that	that	WDT	O	dobj	false	-1	-1	null	null	330	dobj	null
+0	10	328	1742	1747	S	330	Randy	Randy	Randy	NNP	PERSON	nsubj	false	-1	-1	c11	null	330	nsubj	(c11;ANIMATE;MALE),
+0	10	329	1748	1752	S	330	will	will	will	MD	O	aux	false	-1	-1	null	null	330	aux	null
+0	10	330	1753	1757	S	326	help	help	help	VB	O	rcmod	false	-1	-1	null	null	326	acl:relcl	null
+0	10	331	1758	1761	S	332	him	him	he	PRP	O	nsubj	false	2	2	c11	null	332	nsubj	(c11;ANIMATE;MALE),
+0	10	332	1762	1767	S	330	raise	raise	raise	VB	O	ccomp	false	-1	-1	null	null	330	ccomp	null
+0	10	333	1768	1771		332	her	her	she	PRP	O	dobj	false	1	1	c13	null	332	dobj	(c13;ANIMATE;FEMALE),
+0	10	334	1771	1772	S	307	.	.	.	.	O	punct	false	-1	-1	null	null	317	punct	null
+0	11	335	1773	1776	S	337	The	The	the	DT	O	det	false	-1	-1	null	null	337	det	null
+0	11	336	1777	1782	S	337	final	final	final	JJ	O	amod	false	-1	-1	null	null	337	amod	null
+0	11	337	1783	1788	S	338	scene	scene	scene	NN	O	nsubj	false	-1	-1	null	null	338	nsubj	null
+0	11	338	1789	1796	S	-1	depicts	depicts	depict	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	11	339	1797	1798	S	341	a	a	a	DT	O	det	false	-1	-1	null	null	341	det	null
+0	11	340	1799	1805	S	341	soccer	soccer	soccer	NN	O	nn	false	-1	-1	null	null	341	compound	null
+0	11	341	1806	1810		338	game	game	game	NN	O	dobj	false	-1	-1	null	null	338	dobj	null
+0	11	342	1810	1811	S	341	,	,	,	,	O	punct	false	-1	-1	null	null	341	punct	null
+0	11	343	1812	1820	S	341	refereed	refereed	referee	VBN	O	partmod	false	-1	-1	null	null	341	acl	null
+0	11	344	1821	1823	S	343	by	by	by	IN	O	prep	false	-1	-1	null	null	345	case	null
+0	11	345	1824	1827		344	Sam	Sam	Sam	NNP	PERSON	pobj	false	2	2	c1	null	343	nmod:by	(c1;ANIMATE;MALE),
+0	11	346	1827	1828	S	345	,	,	,	,	O	punct	false	-1	-1	null	null	341	punct	null
+0	11	347	1829	1831	S	350	in	in	in	IN	O	rel	false	-1	-1	null	null	348	case	null
+0	11	348	1832	1837	S	347	which	which	which	WDT	O	pobj	false	-1	-1	null	null	350	nmod:in	null
+0	11	349	1838	1842	S	350	Lucy	Lucy	Lucy	NNP	PERSON	nsubj	false	1	1	c2	null	350	nsubj	(c2;ANIMATE;FEMALE),
+0	11	350	1843	1855	S	345	participates	participates	participate	VBZ	O	rcmod	false	-1	-1	null	null	341	acl:relcl	null
+0	11	351	1856	1858	S	350	as	as	as	IN	O	prep	false	-1	-1	null	null	353	case	null
+0	11	352	1859	1860	S	353	a	a	a	DT	O	det	false	-1	-1	null	null	353	det	null
+0	11	353	1861	1867		351	player	player	player	NN	O	pobj	false	-1	-1	null	null	350	nmod:as	null
+0	11	354	1867	1868	S	338	.	.	.	.	O	punct	false	-1	-1	null	null	338	punct	null
+0	12	355	1869	1871	S	357	In	In	in	IN	O	prep	false	-1	-1	null	null	356	case	null
+0	12	356	1872	1882	S	355	attendance	attendance	attendance	NN	O	pobj	false	-1	-1	null	null	357	nmod:in	null
+0	12	357	1883	1886	S	-1	are	are	be	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	12	358	1887	1890	S	360	the	the	the	DT	O	det	false	-1	-1	c13	null	360	det	(c13;ANIMATE;UNKNOWN),
+0	12	359	1891	1897	S	360	foster	foster	foster	JJ	O	amod	false	-1	-1	c13	null	360	amod	(c13;ANIMATE;UNKNOWN),
+0	12	360	1898	1904		357	family	family	family	NN	O	nsubj	false	-1	-1	c13	null	357	nsubj	(c13;ANIMATE;UNKNOWN),
+0	12	361	1904	1905	S	360	,	,	,	,	O	punct	false	-1	-1	null	null	360	punct	null
+0	12	362	1906	1909		365	Sam	Sam	Sam	NNP	PERSON	poss	false	2	2	c1	null	365	nmod:poss	(c1;ANIMATE;MALE),
+0	12	363	1909	1911	S	362	's	's	's	POS	O	possessive	false	-1	-1	c1	null	362	case	(c1;ANIMATE;MALE),
+0	12	364	1912	1922	S	365	friendship	friendship	friendship	NN	O	nn	false	-1	-1	null	null	365	compound	null
+0	12	365	1923	1928		360	group	group	group	NN	O	conj	false	-1	-1	null	null	360	appos	null
+0	12	366	1928	1929	S	357	,	,	,	,	O	punct	false	-1	-1	null	null	365	punct	null
+0	12	367	1930	1933	S	357	and	and	and	CC	O	cc	false	-1	-1	null	null	365	cc	null
+0	12	368	1934	1935	S	370	a	a	a	DT	O	det	false	-1	-1	null	null	370	det	null
+0	12	369	1936	1948	S	370	newly-single	newly-single	newly-single	JJ	O	amod	false	-1	-1	null	null	370	amod	null
+0	12	370	1949	1953	S	357	Rita	Rita	Rita	NNP	PERSON	conj	false	0	0	null	null	365	conj:and	null
+0	12	371	1954	1958	S	370	with	with	with	IN	O	prep	false	-1	-1	null	null	373	case	null
+0	12	372	1959	1962	S	373	her	her	she	PRP$	O	poss	false	0	0	c9,c13	null	373	nmod:poss	(c9;ANIMATE;MALE),(c13;ANIMATE;FEMALE),
+0	12	373	1963	1966		371	son	son	son	NN	O	pobj	false	-1	-1	c9	null	370	nmod:with	(c9;ANIMATE;MALE),
+0	12	374	1966	1967	N	357	.	.	.	.	O	punct	false	-1	-1	null	null	357	punct	null

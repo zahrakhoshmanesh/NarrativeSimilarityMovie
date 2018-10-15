@@ -1,0 +1,141 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	4	SS	4	Gaby	Gaby	Gaby	NNP	PERSON	nsubj	false	0	0	c1	c1	4	nsubj	(c1;ANIMATE;UNKNOWN),
+0	0	1	6	8	S	4	is	is	be	VBZ	O	cop	false	-1	-1	null	null	4	cop	null
+0	0	2	9	10	S	4	a	a	a	DT	O	det	false	-1	-1	c1	null	4	det	(c1;ANIMATE;UNKNOWN),
+0	0	3	11	17	S	4	ballet	ballet	ballet	JJ	O	amod	false	-1	-1	c1	null	4	amod	(c1;ANIMATE;UNKNOWN),
+0	0	4	18	24	S	-1	dancer	dancer	dancer	NN	O	null	false	-1	-1	c1	null	-1	root	(c1;ANIMATE;UNKNOWN),
+0	0	5	25	27	S	4	in	in	in	IN	O	prep	false	-1	-1	c1	null	7	case	(c1;ANIMATE;UNKNOWN),
+0	0	6	28	32	S	7	1944	1944	1944	CD	DATE	num	false	-1	-1	c1	null	7	nummod	(c1;ANIMATE;UNKNOWN),
+0	0	7	33	39	S	5	London	London	London	NNP	LOCATION	pobj	false	-1	-1	c1	null	4	nmod:in	(c1;ANIMATE;UNKNOWN),
+0	0	8	40	43	S	9	who	who	who	WP	O	nsubj	false	-1	-1	c1	null	9	nsubj	(c1;ANIMATE;UNKNOWN),
+0	0	9	44	48	S	4	runs	runs	run	VBZ	O	rcmod	false	-1	-1	c1	null	7	acl:relcl	(c1;ANIMATE;UNKNOWN),
+0	0	10	49	53	S	9	into	into	into	IN	O	prep	false	-1	-1	c1	null	13	case	(c1;ANIMATE;UNKNOWN),
+0	0	11	54	62	S	13	corporal	corporal	corporal	JJ	O	amod	false	-1	-1	c1,c2	c2	13	amod	(c1;ANIMATE;UNKNOWN),(c2;ANIMATE;MALE),
+0	0	12	63	70	S	13	Gregory	Gregory	Gregory	NNP	PERSON	nn	false	-1	1	c1,c2	c2	13	compound	(c1;ANIMATE;UNKNOWN),(c2;ANIMATE;MALE),
+0	0	13	71	78	SS	10	Wendell	Wendell	Wendell	NNP	PERSON	pobj	false	-1	1	c1,c2	c2	9	nmod:into	(c1;ANIMATE;UNKNOWN),(c2;ANIMATE;MALE),
+0	0	14	80	85	S	15	while	while	while	IN	O	mark	false	-1	-1	c1	null	15	mark	(c1;ANIMATE;UNKNOWN),
+0	0	15	86	93	S	9	rushing	rushing	rush	VBG	O	advcl	false	-1	-1	c1	null	9	advcl	(c1;ANIMATE;UNKNOWN),
+0	0	16	94	96	S	17	to	to	to	TO	O	aux	false	-1	-1	c1	null	17	mark	(c1;ANIMATE;UNKNOWN),
+0	0	17	97	102	S	15	catch	catch	catch	VB	O	xcomp	false	-1	-1	c1	null	15	xcomp	(c1;ANIMATE;UNKNOWN),
+0	0	18	103	106	S	19	the	the	the	DT	O	det	false	-1	-1	c1	null	19	det	(c1;ANIMATE;UNKNOWN),
+0	0	19	107	110		17	bus	bus	bus	NN	O	dobj	false	-1	-1	c1	null	17	dobj	(c1;ANIMATE;UNKNOWN),
+0	0	20	110	111	S	4	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	21	112	116	S	23	Greg	Greg	Greg	NNP	PERSON	nsubjpass	false	1	1	c2	null	23	nsubjpass	(c2;ANIMATE;MALE),
+0	1	22	117	119	S	23	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	23	auxpass	null
+0	1	23	120	130	S	-1	mesmerized	mesmerized	mesmerize	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	1	24	131	133	S	23	by	by	by	IN	O	prep	false	-1	-1	null	null	25	case	null
+0	1	25	134	138	S	24	Gaby	Gaby	Gaby	NNP	PERSON	pobj	false	0	0	c1	null	23	nmod:agent	(c1;ANIMATE;UNKNOWN),
+0	1	26	139	142	S	23	and	and	and	CC	O	cc	false	-1	-1	null	null	23	cc	null
+0	1	27	143	147	S	23	goes	goes	go	VBZ	O	conj	false	-1	-1	null	null	23	conj:and	null
+0	1	28	148	150	S	27	to	to	to	TO	O	prep	false	-1	-1	null	null	30	case	null
+0	1	29	151	154	S	30	the	the	the	DT	O	det	false	-1	-1	null	null	30	det	null
+0	1	30	155	161	S	28	ballet	ballet	ballet	JJ	O	pobj	false	-1	-1	null	null	27	nmod:to	null
+0	1	31	162	164	S	32	to	to	to	TO	O	aux	false	-1	-1	null	null	32	mark	null
+0	1	32	165	168	S	27	see	see	see	VB	O	xcomp	false	-1	-1	null	null	27	xcomp	null
+0	1	33	169	172	S	32	her	her	she	PRP$	O	dobj	false	0	0	c1	null	32	dobj	(c1;ANIMATE;FEMALE),
+0	1	34	173	175	S	33	on	on	on	IN	O	prep	false	-1	-1	null	null	35	case	null
+0	1	35	176	181		34	stage	stage	stage	NN	O	pobj	false	-1	-1	null	null	32	nmod:on	null
+0	1	36	181	182	S	23	,	,	,	,	O	punct	false	-1	-1	null	null	23	punct	null
+0	1	37	183	186	S	23	but	but	but	CC	O	cc	false	-1	-1	null	null	23	cc	null
+0	1	38	187	191	S	39	Gaby	Gaby	Gaby	NNP	PERSON	nsubj	false	0	0	c1	null	39	nsubj	(c1;ANIMATE;UNKNOWN),
+0	1	39	192	197	S	23	wants	wants	want	VBZ	O	conj	false	-1	-1	null	null	23	conj:but	null
+0	1	40	198	205	S	39	nothing	nothing	nothing	NN	O	dobj	false	-1	-1	null	null	39	dobj	null
+0	1	41	206	208	S	42	to	to	to	TO	O	aux	false	-1	-1	null	null	42	mark	null
+0	1	42	209	211	S	40	do	do	do	VB	O	infmod	false	-1	-1	null	null	39	advcl	null
+0	1	43	212	216	S	42	with	with	with	IN	O	prep	false	-1	-1	null	null	44	case	null
+0	1	44	217	221		43	Greg	Greg	Greg	NNP	PERSON	pobj	false	1	1	c2	null	42	nmod:with	(c2;ANIMATE;MALE),
+0	1	45	221	222	S	23	.	.	.	.	O	punct	false	-1	-1	null	null	23	punct	null
+0	2	46	223	225	S	47	He	He	he	PRP	O	nsubj	false	1	1	c2	null	47	nsubj	(c2;ANIMATE;MALE),
+0	2	47	226	234		-1	persists	persists	persist	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	48	234	235	S	47	,	,	,	,	O	punct	false	-1	-1	null	null	47	punct	null
+0	2	49	236	243		47	however	however	however	RB	O	advmod	false	-1	-1	null	null	47	advmod	null
+0	2	50	243	244	S	47	,	,	,	,	O	punct	false	-1	-1	null	null	47	punct	null
+0	2	51	245	248	S	47	and	and	and	CC	O	cc	false	-1	-1	null	null	47	cc	null
+0	2	52	249	251	S	60	by	by	by	IN	O	prep	false	-1	-1	null	null	54	case	null
+0	2	53	252	255	S	54	the	the	the	DT	DATE	det	false	-1	-1	null	null	54	det	null
+0	2	54	256	259	S	52	end	end	end	NN	DATE	pobj	false	-1	-1	null	null	60	nmod:by	null
+0	2	55	260	262	S	54	of	of	of	IN	DATE	prep	false	-1	-1	null	null	57	case	null
+0	2	56	263	266	S	57	the	the	the	DT	DATE	det	false	-1	-1	null	null	57	det	null
+0	2	57	267	270		55	day	day	day	NN	DATE	pobj	false	-1	-1	null	null	54	nmod:of	null
+0	2	58	270	271	S	60	,	,	,	,	O	punct	false	-1	-1	null	null	60	punct	null
+0	2	59	272	275	S	60	she	she	she	PRP	O	nsubj	false	0	0	c1	null	60	nsubj	(c1;ANIMATE;FEMALE),
+0	2	60	276	282	S	47	agrees	agrees	agree	VBZ	O	conj	false	-1	-1	null	null	47	conj:and	null
+0	2	61	283	285	S	62	to	to	to	TO	O	aux	false	-1	-1	null	null	62	mark	null
+0	2	62	286	291	S	60	marry	marry	marry	VB	O	xcomp	false	-1	-1	null	null	60	xcomp	null
+0	2	63	292	295		62	him	him	he	PRP	O	dobj	false	1	1	c2	null	62	dobj	(c2;ANIMATE;MALE),
+0	2	64	295	296	S	47	.	.	.	.	O	punct	false	-1	-1	null	null	47	punct	null
+0	3	65	297	303	S	68	Before	Before	before	IN	O	mark	false	-1	-1	null	null	68	mark	null
+0	3	66	304	308	S	68	they	they	they	PRP	O	nsubj	false	-1	-1	null	null	68	nsubj	null
+0	3	67	309	312	S	68	can	can	can	MD	O	aux	false	-1	-1	null	null	68	aux	null
+0	3	68	313	318		73	marry	marry	marry	VB	O	advcl	false	-1	-1	null	null	73	advcl	null
+0	3	69	318	319	S	73	,	,	,	,	O	punct	false	-1	-1	null	null	73	punct	null
+0	3	70	320	327		73	however	however	however	RB	O	advmod	false	-1	-1	null	null	73	advmod	null
+0	3	71	327	328	S	73	,	,	,	,	O	punct	false	-1	-1	null	null	73	punct	null
+0	3	72	329	334	S	73	there	there	there	EX	O	expl	false	-1	-1	null	null	73	expl	null
+0	3	73	335	337	S	-1	is	is	be	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	74	338	339	S	75	a	a	a	DT	O	det	false	-1	-1	null	null	75	det	null
+0	3	75	340	348	S	73	mountain	mountain	mountain	NN	O	dobj	false	-1	-1	null	null	73	nsubj	null
+0	3	76	349	351	S	75	of	of	of	IN	O	prep	false	-1	-1	null	null	78	case	null
+0	3	77	352	355	S	78	red	red	red	JJ	O	amod	false	-1	-1	null	null	78	amod	null
+0	3	78	356	360	S	76	tape	tape	tape	NN	O	pobj	false	-1	-1	null	null	75	nmod:of	null
+0	3	79	361	364	S	78	and	and	and	CC	O	cc	false	-1	-1	null	null	75	cc	null
+0	3	80	365	369	S	81	Greg	Greg	Greg	NNP	PERSON	nn	false	1	1	c2	null	81	compound	(c2;ANIMATE;MALE),
+0	3	81	370	375	S	78	ships	ships	ship	NNS	O	conj	false	-1	-1	null	null	75	conj:and	null
+0	3	82	376	379	S	73	out	out	out	IN	O	advmod	false	-1	-1	null	null	84	mark	null
+0	3	83	380	385	S	73	while	while	while	IN	O	prep	false	-1	-1	null	null	84	mark	null
+0	3	84	386	395	S	83	promising	promising	promise	VBG	O	pcomp	false	-1	-1	null	null	81	acl	null
+0	3	85	396	398	S	86	to	to	to	TO	O	aux	false	-1	-1	null	null	86	mark	null
+0	3	86	399	404	S	84	marry	marry	marry	VB	O	xcomp	false	-1	-1	null	null	84	xcomp	null
+0	3	87	405	409	S	86	Gaby	Gaby	Gaby	NNP	PERSON	dobj	false	0	0	c3	c3	86	dobj	(c3;ANIMATE;UNKNOWN),
+0	3	88	410	412	S	86	on	on	on	IN	O	prep	false	-1	-1	c3	c3	90	case	(c3;ANIMATE;UNKNOWN),
+0	3	89	413	416	S	90	his	his	he	PRP$	O	poss	false	1	1	c2,c3	c3	90	nmod:poss	(c2;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	3	90	417	423		88	return	return	return	NN	O	pobj	false	-1	-1	c3	c3	87	nmod:on	(c3;ANIMATE;UNKNOWN),
+0	3	91	423	424	S	73	.	.	.	.	O	punct	false	-1	-1	null	null	73	punct	null
+0	4	92	425	429	S	94	When	When	when	WRB	O	advmod	false	-1	-1	null	null	94	advmod	null
+0	4	93	430	433	S	94	she	she	she	PRP	O	nsubj	false	0	0	c3	null	94	nsubj	(c3;ANIMATE;FEMALE),
+0	4	94	434	439	S	102	hears	hears	hear	VBZ	O	dep	false	-1	-1	null	null	102	advcl	null
+0	4	95	440	444	S	99	that	that	that	IN	O	complm	false	-1	-1	null	null	99	mark	null
+0	4	96	445	447	S	99	he	he	he	PRP	O	nsubj	false	1	1	c2	null	99	nsubjpass	(c2;ANIMATE;MALE),
+0	4	97	448	451	S	99	has	has	have	VBZ	O	aux	false	-1	-1	null	null	99	aux	null
+0	4	98	452	456	S	99	been	been	be	VBN	O	auxpass	false	-1	-1	null	null	99	auxpass	null
+0	4	99	457	463		94	killed	killed	kill	VBN	O	ccomp	false	-1	-1	null	null	94	ccomp	null
+0	4	100	463	464	S	102	,	,	,	,	O	punct	false	-1	-1	null	null	102	punct	null
+0	4	101	465	468	S	102	she	she	she	PRP	O	nsubj	false	0	0	c3	null	102	nsubj	(c3;ANIMATE;FEMALE),
+0	4	102	469	474	S	-1	makes	makes	make	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	103	475	482	S	104	herself	herself	herself	PRP	O	nsubj	false	-1	0	c3	null	104	nsubj	(c3;ANIMATE;FEMALE),
+0	4	104	483	492	S	102	available	available	available	JJ	O	xcomp	false	-1	-1	null	null	102	xcomp	null
+0	4	105	493	495	S	104	to	to	to	TO	O	prep	false	-1	-1	null	null	106	case	null
+0	4	106	496	502	S	105	anyone	anyone	anyone	NN	O	pobj	false	-1	-1	null	null	104	nmod:to	null
+0	4	107	503	506	S	108	who	who	who	WP	O	nsubj	false	-1	-1	null	null	108	nsubj	null
+0	4	108	507	512	S	106	wants	wants	want	VBZ	O	rcmod	false	-1	-1	null	null	106	acl:relcl	null
+0	4	109	513	516		108	her	her	she	PRP	O	dobj	false	0	0	c3	null	108	dobj	(c3;ANIMATE;FEMALE),
+0	4	110	516	517	S	102	.	.	.	.	O	punct	false	-1	-1	null	null	102	punct	null
+0	5	111	518	522	S	112	This	This	this	DT	O	det	false	-1	-1	null	null	112	det	null
+0	5	112	523	530		116	version	version	version	NN	O	nsubj	false	-1	-1	null	null	116	nsubj	null
+0	5	113	530	531	S	116	,	,	,	,	O	punct	false	-1	-1	null	null	116	punct	null
+0	5	114	532	539		116	however	however	however	RB	O	advmod	false	-1	-1	null	null	116	advmod	null
+0	5	115	539	540	S	116	,	,	,	,	O	punct	false	-1	-1	null	null	116	punct	null
+0	5	116	541	548	S	-1	changed	changed	change	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	5	117	549	552	S	116	the	the	the	DT	O	dobj	false	-1	-1	null	null	116	dobj	null
+0	5	118	553	559	S	117	ending	ending	end	VBG	O	partmod	false	-1	-1	null	null	117	acl	null
+0	5	119	560	564	S	121	even	even	even	RB	O	advmod	false	-1	-1	null	null	121	advmod	null
+0	5	120	565	569	S	121	more	more	more	RBR	O	advmod	false	-1	-1	null	null	121	advmod	null
+0	5	121	570	581	S	118	drastically	drastically	drastically	RB	O	advmod	false	-1	-1	null	null	118	advmod	null
+0	5	122	582	586	S	121	than	than	than	IN	O	dep	false	-1	-1	null	null	125	case	null
+0	5	123	587	590	S	125	the	the	the	DT	O	dep	false	-1	-1	null	null	125	det	null
+0	5	124	591	595	S	125	1940	1940	1940	CD	DATE	number	false	-1	-1	null	null	125	nummod	null
+0	5	125	596	599		122	one	one	one	CD	NUMBER	pobj	false	-1	-1	null	null	118	nmod:than	null
+0	5	126	599	600	S	118	,	,	,	,	O	punct	false	-1	-1	null	null	116	punct	null
+0	5	127	601	603	S	118	by	by	by	IN	O	prep	false	-1	-1	null	null	128	mark	null
+0	5	128	604	612	S	127	allowing	allowing	allow	VBG	O	pcomp	false	-1	-1	null	null	116	advcl	null
+0	5	129	613	617	S	133	Gaby	Gaby	Gaby	NNP	PERSON	nsubj	false	0	0	c1	null	128	dobj	(c1;ANIMATE;UNKNOWN),
+0	5	130	618	621	S	129	and	and	and	CC	O	cc	false	-1	-1	null	null	129	cc	null
+0	5	131	622	626	S	129	Greg	Greg	Greg	NNP	PERSON	conj	false	1	1	c2	null	129	conj:and	(c2;ANIMATE;MALE),
+0	5	132	627	629	S	133	to	to	to	TO	O	aux	false	-1	-1	null	null	133	mark	null
+0	5	133	630	637	S	128	reunite	reunite	reunite	VB	O	xcomp	false	-1	-1	null	null	128	xcomp	null
+0	5	134	638	641	S	133	and	and	and	CC	O	cc	false	-1	-1	null	null	133	cc	null
+0	5	135	642	646	S	133	live	live	live	VB	O	conj	false	-1	-1	null	null	133	conj:and	null
+0	5	136	647	654	S	137	happily	happily	happily	RB	O	advmod	false	-1	-1	null	null	135	advmod	null
+0	5	137	655	659	S	135	ever	ever	ever	RB	O	advmod	false	-1	-1	null	null	135	advmod	null
+0	5	138	660	665		135	after	after	after	IN	O	prep	false	-1	-1	null	null	135	nmod	null
+0	5	139	665	666	N	116	.	.	.	.	O	punct	false	-1	-1	null	null	116	punct	null

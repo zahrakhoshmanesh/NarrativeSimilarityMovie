@@ -1,0 +1,696 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	5	S	1	There	There	there	EX	O	expl	false	-1	-1	null	null	1	expl	null
+0	0	1	6	9	S	-1	are	are	be	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	0	2	10	13	S	4	two	two	two	CD	NUMBER	num	false	-1	-1	null	null	4	nummod	null
+0	0	3	14	22	S	4	distinct	distinct	distinct	JJ	O	amod	false	-1	-1	null	null	4	amod	null
+0	0	4	23	33	S	1	time-lines	time-lines	time-line	NNS	O	nsubj	false	-1	-1	null	null	1	nsubj	null
+0	0	5	34	45	S	4	intertwined	intertwined	intertwine	VBN	O	partmod	false	-1	-1	null	null	4	acl	null
+0	0	6	46	56	S	5	throughout	throughout	throughout	IN	O	prep	false	-1	-1	null	null	7	case	null
+0	0	7	57	61	S	6	most	most	most	JJS	O	pobj	false	-1	-1	null	null	5	nmod:throughout	null
+0	0	8	62	64	S	7	of	of	of	IN	O	prep	false	-1	-1	null	null	10	case	null
+0	0	9	65	68	S	10	the	the	the	DT	O	det	false	-1	-1	null	null	10	det	null
+0	0	10	69	73		8	film	film	film	NN	O	pobj	false	-1	-1	null	null	7	nmod:of	null
+0	0	11	73	74	S	1	.	.	.	.	O	punct	false	-1	-1	null	null	1	punct	null
+0	1	12	75	78	S	13	The	The	the	DT	O	det	false	-1	-1	null	null	13	det	null
+0	1	13	79	84	S	14	story	story	story	NN	O	nsubj	false	-1	-1	null	null	14	nsubj	null
+0	1	14	85	91	S	-1	begins	begins	begin	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	15	92	96	S	14	with	with	with	IN	O	prep	false	-1	-1	null	null	16	case	null
+0	1	16	97	104	S	17	Eun-joo	Eun-joo	eun-joo	NN	PERSON	nsubj	false	0	0	c1	c1	14	nmod:with	(c1;UNKNOWN;FEMALE),
+0	1	17	105	111	S	15	moving	moving	move	VBG	O	pcomp	false	-1	-1	c1	c1	16	acl	(c1;UNKNOWN;FEMALE),
+0	1	18	112	115	S	17	out	out	out	IN	O	prep	false	-1	-1	c1	c1	21	case	(c1;UNKNOWN;FEMALE),
+0	1	19	116	118	S	18	of	of	of	IN	O	dep	false	-1	-1	c1	c1	18	mwe	(c1;UNKNOWN;FEMALE),
+0	1	20	119	120	S	21	a	a	a	DT	O	det	false	-1	-1	c1,c2	c1,c2	21	det	(c1;UNKNOWN;FEMALE),(c2;INANIMATE;NEUTRAL),
+0	1	21	121	126	S	19	house	house	house	NN	O	pobj	false	-1	-1	c1,c2	c1,c2	17	nmod:out_of	(c1;UNKNOWN;FEMALE),(c2;INANIMATE;NEUTRAL),
+0	1	22	127	129	S	17	by	by	by	IN	O	prep	false	-1	-1	c1	c1	24	case	(c1;UNKNOWN;FEMALE),
+0	1	23	130	133	S	24	the	the	the	DT	O	det	false	-1	-1	c1	c1	24	det	(c1;UNKNOWN;FEMALE),
+0	1	24	134	137	S	22	sea	sea	sea	NN	O	pobj	false	-1	-1	c1	c1	17	nmod:by	(c1;UNKNOWN;FEMALE),
+0	1	25	138	144	S	24	called	called	call	VBN	O	partmod	false	-1	-1	c1	c1	24	acl	(c1;UNKNOWN;FEMALE),
+0	1	26	145	146		28	"	``	``	``	O	punct	false	-1	-1	c1	c1	28	punct	(c1;UNKNOWN;FEMALE),
+0	1	27	146	148	S	28	Il	Il	Il	NNP	O	nn	true	-1	-1	c1,c4	c1,c4	28	compound	(c1;UNKNOWN;FEMALE),(c4;ANIMATE;FEMALE),
+0	1	28	149	153		25	Mare	Mare	Mare	NNP	O	dep	true	-1	-1	c1,c4	c1,c4	25	xcomp	(c1;UNKNOWN;FEMALE),(c4;ANIMATE;FEMALE),
+0	1	29	153	154		28	"	''	''	''	O	punct	true	-1	-1	c1	c1	28	punct	(c1;UNKNOWN;FEMALE),
+0	1	30	154	155	S	14	.	.	.	.	O	punct	false	-1	-1	null	null	14	punct	null
+0	2	31	156	158	S	34	As	As	as	IN	O	mark	false	-1	-1	null	null	34	mark	null
+0	2	32	159	162	S	34	she	she	she	PRP	O	nsubj	false	0	0	c1	null	34	nsubj	(c1;ANIMATE;FEMALE),
+0	2	33	163	165	S	34	is	is	be	VBZ	O	aux	false	-1	-1	null	null	34	aux	null
+0	2	34	166	173		37	leaving	leaving	leave	VBG	O	advcl	false	-1	-1	null	null	37	advcl	null
+0	2	35	173	174	S	37	,	,	,	,	O	punct	false	-1	-1	null	null	37	punct	null
+0	2	36	175	178	S	37	she	she	she	PRP	O	nsubj	false	0	0	c1	null	37	nsubj	(c1;ANIMATE;FEMALE),
+0	2	37	179	185	S	-1	leaves	leaves	leave	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	38	186	187	S	40	a	a	a	DT	O	det	false	-1	-1	c5	c5	40	det	(c5;INANIMATE;NEUTRAL),
+0	2	39	188	197	S	40	Christmas	Christmas	Christmas	NNP	DATE	nn	false	-1	-1	c5	c5	40	compound	(c5;INANIMATE;NEUTRAL),
+0	2	40	198	202	S	37	card	card	card	NN	O	dobj	false	-1	-1	c5	c5	37	dobj	(c5;INANIMATE;NEUTRAL),
+0	2	41	203	205	S	40	in	in	in	IN	O	prep	false	-1	-1	null	null	43	case	null
+0	2	42	206	209	S	43	the	the	the	DT	O	det	false	-1	-1	c6	c6	43	det	(c6;INANIMATE;NEUTRAL),
+0	2	43	210	217		41	mailbox	mailbox	mailbox	NN	O	pobj	false	-1	-1	c6	c6	37	nmod:in	(c6;INANIMATE;NEUTRAL),
+0	2	44	217	218	S	37	,	,	,	,	O	punct	false	-1	-1	null	null	37	punct	null
+0	2	45	219	225	S	37	asking	asking	ask	VBG	O	xcomp	false	-1	-1	null	null	37	advcl	null
+0	2	46	226	229	S	48	the	the	the	DT	O	det	false	-1	-1	c7	c7	48	det	(c7;ANIMATE;UNKNOWN),
+0	2	47	230	234	S	48	next	next	next	JJ	O	amod	false	-1	-1	c7	c7	48	amod	(c7;ANIMATE;UNKNOWN),
+0	2	48	235	243	S	45	resident	resident	resident	NN	O	dobj	false	-1	-1	c7	c7	45	dobj	(c7;ANIMATE;UNKNOWN),
+0	2	49	244	246	S	50	to	to	to	TO	O	aux	false	-1	-1	null	null	50	mark	null
+0	2	50	247	253	S	45	please	please	please	VB	O	xcomp	false	-1	-1	null	null	45	xcomp	null
+0	2	51	254	261	S	50	forward	forward	forward	RB	O	advmod	false	-1	-1	null	null	50	advmod	null
+0	2	52	262	265	S	53	her	her	she	PRP$	O	poss	false	0	0	c7	null	53	nmod:poss	(c7;ANIMATE;FEMALE),
+0	2	53	266	270	S	50	mail	mail	mail	NN	O	dobj	false	-1	-1	null	null	50	dobj	null
+0	2	54	271	273	S	50	to	to	to	TO	O	prep	false	-1	-1	null	null	55	case	null
+0	2	55	274	277		54	her	her	she	PRP	O	pobj	false	0	0	c7	null	50	nmod:to	(c7;ANIMATE;FEMALE),
+0	2	56	277	278	S	37	.	.	.	.	O	punct	false	-1	-1	null	null	37	punct	null
+0	3	57	279	288		63	Sung-hyun	Sung-hyun	sung-hyun	NN	O	nsubj	false	-1	-1	c8	null	63	nsubj	(c8;UNKNOWN;UNKNOWN),
+0	3	58	288	289	S	57	,	,	,	,	O	punct	false	-1	-1	c8	null	57	punct	(c8;UNKNOWN;UNKNOWN),
+0	3	59	290	292	S	61	an	an	a	DT	O	det	false	-1	-1	c8,c9	c9	61	det	(c8;UNKNOWN;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	3	60	293	306	S	61	architectural	architectural	architectural	JJ	O	amod	false	-1	-1	c8,c9	c9	61	amod	(c8;UNKNOWN;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	3	61	307	314		57	student	student	student	NN	O	appos	false	-1	-1	c8,c9	c9	57	appos	(c8;UNKNOWN;UNKNOWN),(c9;ANIMATE;UNKNOWN),
+0	3	62	314	315	S	57	,	,	,	,	O	punct	false	-1	-1	null	null	57	punct	null
+0	3	63	316	324	S	-1	receives	receives	receive	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	64	325	328	S	65	her	her	she	PRP$	O	poss	false	0	0	c5,c8	null	65	nmod:poss	(c5;INANIMATE;NEUTRAL),(c8;ANIMATE;FEMALE),
+0	3	65	329	333		63	card	card	card	NN	O	dobj	false	-1	-1	c5	null	63	dobj	(c5;INANIMATE;NEUTRAL),
+0	3	66	333	334	S	63	,	,	,	,	O	punct	false	-1	-1	null	null	63	punct	null
+0	3	67	335	338	S	63	but	but	but	CC	O	cc	false	-1	-1	null	null	63	cc	null
+0	3	68	339	341	S	69	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	69	auxpass	null
+0	3	69	342	349		63	puzzled	puzzled	puzzle	VBN	O	conj	false	-1	-1	null	null	63	conj:but	null
+0	3	70	349	350	S	69	,	,	,	,	O	punct	false	-1	-1	null	null	69	punct	null
+0	3	71	351	356	S	76	since	since	since	IN	O	mark	false	-1	-1	null	null	76	mark	null
+0	3	72	357	359	S	76	he	he	he	PRP	O	nsubj	false	-1	-1	c9	null	76	nsubj	(c9;ANIMATE;MALE),
+0	3	73	360	362	S	76	is	is	be	VBZ	O	cop	false	-1	-1	null	null	76	cop	null
+0	3	74	363	366	S	76	the	the	the	DT	O	det	false	-1	-1	c9	null	76	det	(c9;ANIMATE;UNKNOWN),
+0	3	75	367	372	S	76	first	first	first	JJ	ORDINAL	amod	false	-1	-1	c9	null	76	amod	(c9;ANIMATE;UNKNOWN),
+0	3	76	373	381	S	69	resident	resident	resident	NN	O	advcl	false	-1	-1	c9	null	69	advcl	(c9;ANIMATE;UNKNOWN),
+0	3	77	382	384	S	86	at	at	at	IN	O	mark	false	-1	-1	c9	null	80	case	(c9;ANIMATE;UNKNOWN),
+0	3	78	385	386		80	"	``	``	``	O	punct	false	-1	-1	c9	null	80	punct	(c9;ANIMATE;UNKNOWN),
+0	3	79	386	388	S	80	Il	Il	Il	NNP	O	nn	true	-1	-1	c4,c9	null	80	compound	(c4;ANIMATE;FEMALE),(c9;ANIMATE;UNKNOWN),
+0	3	80	389	393		86	Mare	Mare	Mare	NNP	O	nsubjpass	true	-1	-1	c4,c9	null	76	nmod:at	(c4;ANIMATE;FEMALE),(c9;ANIMATE;UNKNOWN),
+0	3	81	393	394	S	80	"	''	''	''	O	punct	true	-1	-1	c9	null	80	punct	(c9;ANIMATE;UNKNOWN),
+0	3	82	395	398	S	80	and	and	and	CC	O	cc	false	-1	-1	null	null	76	cc	null
+0	3	83	399	402	S	84	the	the	the	DT	O	det	false	-1	-1	c5	null	84	det	(c5;INANIMATE;NEUTRAL),
+0	3	84	403	407	S	80	card	card	card	NN	O	conj	false	-1	-1	c5	null	86	nsubjpass	(c5;INANIMATE;NEUTRAL),
+0	3	85	408	410	S	86	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	86	auxpass	null
+0	3	86	411	416	S	76	dated	dated	date	VBN	O	dep	false	-1	-1	null	null	76	conj:and	null
+0	3	87	417	418	S	88	2	2	2	CD	DURATION	num	false	-1	-1	c11	c11	88	nummod	(c11;INANIMATE;UNKNOWN),
+0	3	88	419	424	S	86	years	years	year	NNS	DURATION	dobj	false	-1	-1	c11	c11	86	nmod:in	(c11;INANIMATE;UNKNOWN),
+0	3	89	425	427	S	88	in	in	in	IN	O	prep	false	-1	-1	null	null	88	case	null
+0	3	90	428	431	S	91	the	the	the	DT	DATE	det	false	-1	-1	null	null	91	det	null
+0	3	91	432	438		89	future	future	future	NN	DATE	pobj	false	-1	-1	null	null	88	dep	null
+0	3	92	438	439	S	63	.	.	.	.	O	punct	false	-1	-1	null	null	63	punct	null
+0	4	93	440	445	S	-1	After	After	after	IN	O	null	false	-1	-1	null	null	100	case	null
+0	4	94	446	447	S	95	a	a	a	DT	O	det	false	-1	-1	null	null	95	det	null
+0	4	95	448	454	S	93	series	series	series	NN	O	pobj	false	-1	-1	null	null	100	compound	null
+0	4	96	455	457	S	95	of	of	of	IN	O	prep	false	-1	-1	null	null	97	case	null
+0	4	97	458	462	S	96	back	back	back	RB	O	dep	false	-1	-1	null	null	95	acl	null
+0	4	98	463	466	S	97	and	and	and	CC	O	cc	false	-1	-1	null	null	95	cc	null
+0	4	99	467	472	S	97	forth	forth	forth	RB	O	conj	false	-1	-1	null	null	95	advmod	null
+0	4	100	473	488		105	correspondences	correspondences	correspondence	NNS	O	nsubj	false	-1	-1	null	null	105	nmod:after	null
+0	4	101	488	489	S	100	,	,	,	,	O	punct	false	-1	-1	null	null	105	punct	null
+0	4	102	490	497	S	100	Eun-joo	Eun-joo	eun-joo	NN	MISC	conj	false	-1	-1	c15	null	105	nsubj	(c15;UNKNOWN;UNKNOWN),
+0	4	103	498	501	S	100	and	and	and	CC	O	cc	false	-1	-1	c15	null	102	cc	(c15;UNKNOWN;UNKNOWN),
+0	4	104	502	511	S	100	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	conj	false	-1	-1	c15	null	102	conj:and	(c15;UNKNOWN;UNKNOWN),
+0	4	105	512	519	S	97	realize	realize	realize	VBP	O	dep	false	-1	-1	null	null	-1	root	null
+0	4	106	520	524	S	108	they	they	they	PRP	O	nsubj	false	-1	-1	c15	null	108	nsubj	(c15;ANIMATE;UNKNOWN),
+0	4	107	525	528	S	108	are	are	be	VBP	O	aux	false	-1	-1	null	null	108	aux	null
+0	4	108	529	535	S	105	living	living	live	VBG	O	ccomp	false	-1	-1	null	null	105	ccomp	null
+0	4	109	536	537	S	110	2	2	2	CD	DURATION	num	false	-1	-1	c11	null	110	nummod	(c11;INANIMATE;UNKNOWN),
+0	4	110	538	543	S	111	years	years	year	NNS	DURATION	dep	false	-1	-1	c11	null	108	dobj	(c11;INANIMATE;UNKNOWN),
+0	4	111	544	549		108	apart	apart	apart	RB	O	advmod	false	-1	-1	c11	null	110	advmod	(c11;INANIMATE;UNKNOWN),
+0	4	112	549	550	S	105	,	,	,	,	O	punct	false	-1	-1	null	null	110	punct	null
+0	4	113	551	558	S	105	Eun-joo	Eun-joo	eun-joo	NN	O	xcomp	false	-1	-1	null	null	110	conj:and	null
+0	4	114	559	561	S	113	in	in	in	IN	O	prep	false	-1	-1	null	null	116	case	null
+0	4	115	562	565	S	116	the	the	the	DT	DATE	det	false	-1	-1	null	null	116	det	null
+0	4	116	566	570	S	114	year	year	year	NN	DATE	pobj	false	-1	-1	null	null	113	nmod:in	null
+0	4	117	571	575	S	116	2000	2000	2000	CD	DATE	num	false	-1	-1	null	null	116	nummod	null
+0	4	118	576	579	S	113	and	and	and	CC	O	cc	false	-1	-1	null	null	110	cc	null
+0	4	119	580	589	S	113	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	conj	false	-1	-1	c16	c16	110	conj:and	(c16;UNKNOWN;UNKNOWN),
+0	4	120	590	592	S	113	in	in	in	IN	O	prep	false	-1	-1	c16	c16	122	case	(c16;UNKNOWN;UNKNOWN),
+0	4	121	593	596	S	122	the	the	the	DT	DATE	det	false	-1	-1	c16	c16	122	det	(c16;UNKNOWN;UNKNOWN),
+0	4	122	597	601	S	120	year	year	year	NN	DATE	pobj	false	-1	-1	c16	c16	119	nmod:in	(c16;UNKNOWN;UNKNOWN),
+0	4	123	602	606		122	1998	1998	1998	CD	DATE	num	false	-1	-1	c16	c16	122	nummod	(c16;UNKNOWN;UNKNOWN),
+0	4	124	606	607	S	93	.	.	.	.	O	punct	false	-1	-1	null	null	105	punct	null
+0	5	125	608	613	S	132	After	After	after	IN	O	prep	false	-1	-1	null	null	127	case	null
+0	5	126	614	618	S	127	some	some	some	DT	O	det	false	-1	-1	null	null	127	det	null
+0	5	127	619	626		125	testing	testing	testing	NN	O	pobj	false	-1	-1	null	null	132	nmod:after	null
+0	5	128	626	627	S	127	,	,	,	,	O	punct	false	-1	-1	null	null	132	punct	null
+0	5	129	628	635	S	127	Eun-joo	Eun-joo	eun-joo	NN	MISC	conj	false	-1	-1	c15	null	132	nsubj	(c15;ANIMATE;UNKNOWN),
+0	5	130	636	639	S	127	and	and	and	CC	O	cc	false	-1	-1	c15	null	129	cc	(c15;ANIMATE;UNKNOWN),
+0	5	131	640	649	S	127	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	conj	false	-1	-1	c15	null	129	conj:and	(c15;ANIMATE;UNKNOWN),
+0	5	132	650	658	S	-1	discover	discover	discover	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	5	133	659	663	S	142	that	that	that	IN	O	complm	false	-1	-1	null	null	142	mark	null
+0	5	134	664	667	S	135	the	the	the	DT	O	det	false	-1	-1	c17	c17	135	det	(c17;INANIMATE;NEUTRAL),
+0	5	135	668	675	S	142	mailbox	mailbox	mailbox	NN	O	nsubj	false	-1	-1	c17	c17	142	nsubj	(c17;INANIMATE;NEUTRAL),
+0	5	136	676	678	S	135	at	at	at	IN	O	prep	false	-1	-1	c17	c17	139	case	(c17;INANIMATE;NEUTRAL),
+0	5	137	679	680		139	"	``	``	``	O	punct	false	-1	-1	c17	c17	139	punct	(c17;INANIMATE;NEUTRAL),
+0	5	138	680	682	S	139	Il	Il	Il	NNP	O	nn	true	-1	-1	c4,c17	c17	139	compound	(c4;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	5	139	683	687		136	Mare	Mare	Mare	NNP	O	pobj	true	-1	-1	c4,c17	c17	135	nmod:at	(c4;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	5	140	687	688	S	139	"	''	''	''	O	punct	true	-1	-1	c17	c17	139	punct	(c17;INANIMATE;NEUTRAL),
+0	5	141	689	691	S	142	is	is	be	VBZ	O	aux	false	-1	-1	null	null	142	aux	null
+0	5	142	692	700	S	132	enabling	enabling	enable	VBG	O	ccomp	false	-1	-1	null	null	132	ccomp	null
+0	5	143	701	706	S	144	their	their	they	PRP$	O	poss	false	-1	-1	c15	null	144	nmod:poss	(c15;ANIMATE;UNKNOWN),
+0	5	144	707	720	S	142	communication	communication	communication	NN	O	dobj	false	-1	-1	null	null	142	dobj	null
+0	5	145	721	724	S	142	and	and	and	CC	O	cc	false	-1	-1	null	null	142	cc	null
+0	5	146	725	729	S	148	they	they	they	PRP	O	nsubj	false	-1	-1	c15	null	148	nsubj	(c15;ANIMATE;UNKNOWN),
+0	5	147	730	733	S	148	can	can	can	MD	O	aux	false	-1	-1	null	null	148	aux	null
+0	5	148	734	738	S	142	pass	pass	pass	VB	O	conj	false	-1	-1	null	null	142	conj:and	null
+0	5	149	739	746	S	148	objects	objects	object	NNS	O	dobj	false	-1	-1	null	null	148	dobj	null
+0	5	150	747	750	S	148	and	and	and	CC	O	cc	false	-1	-1	null	null	149	cc	null
+0	5	151	751	757	S	148	living	living	live	VBG	O	conj	false	-1	-1	null	null	152	amod	null
+0	5	152	758	767	S	151	creatures	creatures	creature	NNS	O	dobj	false	-1	-1	null	null	149	conj:and	null
+0	5	153	768	775		151	through	through	through	IN	O	prep	false	-1	-1	null	null	148	nmod	null
+0	5	154	775	776	S	132	.	.	.	.	O	punct	false	-1	-1	null	null	132	punct	null
+0	6	155	777	786	S	160	Utilizing	Utilizing	utilize	VBG	O	dep	false	-1	-1	null	null	160	advcl	null
+0	6	156	787	790	S	157	the	the	the	DT	O	det	false	-1	-1	c6	null	157	det	(c6;INANIMATE;NEUTRAL),
+0	6	157	791	798		155	mailbox	mailbox	mailbox	NN	O	dobj	false	-1	-1	c6	null	155	dobj	(c6;INANIMATE;NEUTRAL),
+0	6	158	798	799	S	160	,	,	,	,	O	punct	false	-1	-1	null	null	160	punct	null
+0	6	159	800	807	S	160	Eun-joo	Eun-joo	eun-joo	JJ	PERSON	dep	false	0	0	c15	c15	160	nsubj	(c15;ANIMATE;FEMALE),
+0	6	160	808	812	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	161	813	822	S	160	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	dobj	false	-1	-1	null	null	160	dobj	null
+0	6	162	823	825	S	163	to	to	to	TO	O	aux	false	-1	-1	null	null	163	mark	null
+0	6	163	826	834	S	161	retrieve	retrieve	retrieve	VB	O	infmod	false	-1	-1	null	null	160	xcomp	null
+0	6	164	835	836	S	166	a	a	a	DT	O	det	false	-1	-1	c18	c18	166	det	(c18;ANIMATE;MALE),
+0	6	165	837	841	S	166	tape	tape	tape	NN	O	nn	false	-1	-1	c18	c18	166	compound	(c18;ANIMATE;MALE),
+0	6	166	842	848	S	163	player	player	player	NN	O	dobj	false	-1	-1	c18	c18	163	dobj	(c18;ANIMATE;MALE),
+0	6	167	849	852	S	168	she	she	she	PRP	O	nsubj	false	0	0	c4,c18	c18	168	nsubj	(c4;ANIMATE;FEMALE),(c18;ANIMATE;MALE),
+0	6	168	853	857	S	166	lost	lost	lose	VBD	O	rcmod	false	-1	-1	c18	c18	166	acl:relcl	(c18;ANIMATE;MALE),
+0	6	169	858	861	S	170	two	two	two	CD	DATE	num	false	-1	-1	c18,c19	c18	170	nummod	(c18;ANIMATE;MALE),(c19;INANIMATE;UNKNOWN),
+0	6	170	862	867	S	171	years	years	year	NNS	DATE	dep	false	-1	-1	c18,c19	c18	171	nmod:npmod	(c18;ANIMATE;MALE),(c19;INANIMATE;UNKNOWN),
+0	6	171	868	871		168	ago	ago	ago	RB	DATE	advmod	false	-1	-1	c18	c18	168	advmod	(c18;ANIMATE;MALE),
+0	6	172	871	872	S	166	,	,	,	,	O	punct	false	-1	-1	c18	c18	168	punct	(c18;ANIMATE;MALE),
+0	6	173	873	878	S	175	which	which	which	WDT	O	dobj	false	-1	-1	c18	c18	175	dobj	(c18;ANIMATE;MALE),
+0	6	174	879	881	S	175	he	he	he	PRP	O	nsubj	false	-1	-1	c16,c18	c18	175	nsubj	(c16;ANIMATE;MALE),(c18;ANIMATE;MALE),
+0	6	175	882	886	S	166	gets	gets	get	VBZ	O	rcmod	false	-1	-1	c18	c18	168	ccomp	(c18;ANIMATE;MALE),
+0	6	176	887	890	S	175	for	for	for	IN	O	prep	false	-1	-1	c18	c18	177	case	(c18;ANIMATE;MALE),
+0	6	177	891	894		176	her	her	she	PRP	O	pobj	false	0	0	c4,c18	c18	175	nmod:for	(c4;ANIMATE;FEMALE),(c18;ANIMATE;MALE),
+0	6	178	894	895	S	160	.	.	.	.	O	punct	false	-1	-1	null	null	160	punct	null
+0	7	179	896	901	S	187	After	After	after	IN	O	mark	false	-1	-1	null	null	187	mark	null
+0	7	180	902	905	S	181	his	his	he	PRP$	O	poss	false	-1	-1	c18,c21,c21	null	181	nmod:poss	(c18;ANIMATE;MALE),(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	181	906	912		187	father	father	father	NN	O	nsubj	false	-1	-1	c21,c21	null	187	nsubj	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	182	912	913	S	181	,	,	,	,	O	punct	false	-1	-1	c21	null	181	punct	(c21;ANIMATE;MALE),
+0	7	183	914	915	S	185	a	a	a	DT	O	det	false	-1	-1	c21,c21	c21	185	det	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	184	916	921	S	185	noted	noted	note	VBN	O	amod	false	-1	-1	c21,c21	c21	185	amod	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	185	922	931		181	architect	architect	architect	NN	O	appos	false	-1	-1	c21,c21	c21	181	appos	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	186	931	932	S	181	,	,	,	,	O	punct	false	-1	-1	null	null	181	punct	null
+0	7	187	933	938	S	191	falls	falls	fall	VBZ	O	advcl	false	-1	-1	null	null	191	advcl	null
+0	7	188	939	942		187	ill	ill	ill	RB	O	advmod	false	-1	-1	null	null	187	xcomp	null
+0	7	189	942	943	S	191	,	,	,	,	O	punct	false	-1	-1	null	null	191	punct	null
+0	7	190	944	953	S	191	Sung-hyun	Sung-hyun	sung-hyun	JJ	O	dep	false	-1	-1	c8	null	191	nsubj	(c8;UNKNOWN;UNKNOWN),
+0	7	191	954	958	S	-1	asks	asks	ask	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	192	959	966	S	191	Eun-joo	Eun-joo	eun-joo	NN	PERSON	dobj	false	0	0	null	null	191	dobj	null
+0	7	193	967	969	S	194	to	to	to	TO	O	aux	false	-1	-1	null	null	194	mark	null
+0	7	194	970	976	S	192	obtain	obtain	obtain	VB	O	infmod	false	-1	-1	null	null	191	xcomp	null
+0	7	195	977	978	S	196	a	a	a	DT	O	det	false	-1	-1	c23	c23	196	det	(c23;INANIMATE;NEUTRAL),
+0	7	196	979	983	S	194	book	book	book	NN	O	dobj	false	-1	-1	c23	c23	194	dobj	(c23;INANIMATE;NEUTRAL),
+0	7	197	984	989	S	196	about	about	about	IN	O	prep	false	-1	-1	null	null	199	case	null
+0	7	198	990	993	S	199	his	his	he	PRP$	O	poss	false	-1	-1	c21,c21,c21	null	199	nmod:poss	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	199	994	1000		197	father	father	father	NN	O	pobj	false	-1	-1	c21,c21	null	194	nmod:about	(c21;ANIMATE;MALE),(c21;ANIMATE;MALE),
+0	7	200	1000	1001	S	199	,	,	,	,	O	punct	false	-1	-1	c21	null	199	punct	(c21;ANIMATE;MALE),
+0	7	201	1002	1007	S	203	which	which	which	WDT	O	dobj	false	-1	-1	c21	null	203	dobj	(c21;ANIMATE;MALE),
+0	7	202	1008	1011	S	203	she	she	she	PRP	O	nsubj	false	0	0	c8,c21	null	203	nsubj	(c8;ANIMATE;FEMALE),(c21;ANIMATE;MALE),
+0	7	203	1012	1016		199	does	does	do	VBZ	O	rcmod	false	-1	-1	c21	null	199	acl:relcl	(c21;ANIMATE;MALE),
+0	7	204	1016	1017	S	191	.	.	.	.	O	punct	false	-1	-1	null	null	191	punct	null
+0	8	205	1018	1025		208	However	However	however	RB	O	advmod	false	-1	-1	null	null	208	advmod	null
+0	8	206	1025	1026	S	208	,	,	,	,	O	punct	false	-1	-1	null	null	208	punct	null
+0	8	207	1027	1030	S	208	she	she	she	PRP	O	nsubj	false	0	0	c8	null	208	nsubj	(c8;ANIMATE;FEMALE),
+0	8	208	1031	1039	S	-1	succumbs	succumbs	succumb	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	8	209	1040	1042	S	208	to	to	to	TO	O	prep	false	-1	-1	null	null	213	case	null
+0	8	210	1043	1044	S	213	a	a	a	DT	O	det	false	-1	-1	null	null	213	det	null
+0	8	211	1045	1050	S	213	minor	minor	minor	JJ	O	amod	false	-1	-1	null	null	213	amod	null
+0	8	212	1051	1058	S	213	traffic	traffic	traffic	NN	O	nn	false	-1	-1	null	null	213	compound	null
+0	8	213	1059	1067	S	209	accident	accident	accident	NN	O	pobj	false	-1	-1	null	null	208	nmod:to	null
+0	8	214	1068	1071	S	208	and	and	and	CC	O	cc	false	-1	-1	null	null	208	cc	null
+0	8	215	1072	1077	S	216	while	while	while	IN	O	mark	false	-1	-1	null	null	216	mark	null
+0	8	216	1078	1090		220	hospitalised	hospitalised	hospitalise	VBN	O	advcl	false	-1	-1	null	null	220	advcl	null
+0	8	217	1090	1091	S	220	,	,	,	,	O	punct	false	-1	-1	null	null	220	punct	null
+0	8	218	1092	1095	S	219	the	the	the	DT	O	det	false	-1	-1	c23	null	219	det	(c23;INANIMATE;NEUTRAL),
+0	8	219	1096	1100	S	220	book	book	book	NN	O	nsubj	false	-1	-1	c23	null	220	nsubj	(c23;INANIMATE;NEUTRAL),
+0	8	220	1101	1106	S	208	fails	fails	fail	VBZ	O	conj	false	-1	-1	null	null	208	conj:and	null
+0	8	221	1107	1109	S	222	to	to	to	TO	O	aux	false	-1	-1	null	null	222	mark	null
+0	8	222	1110	1115	S	220	reach	reach	reach	VB	O	xcomp	false	-1	-1	null	null	220	xcomp	null
+0	8	223	1116	1125	S	222	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	dobj	false	-1	-1	c24	c24	222	dobj	(c24;UNKNOWN;UNKNOWN),
+0	8	224	1126	1128	S	222	in	in	in	IN	O	prep	false	-1	-1	c24	c24	225	case	(c24;UNKNOWN;UNKNOWN),
+0	8	225	1129	1133	S	224	time	time	time	NN	O	pobj	false	-1	-1	c24	c24	223	nmod:in	(c24;UNKNOWN;UNKNOWN),
+0	8	226	1134	1140	S	222	before	before	before	IN	O	prep	false	-1	-1	null	null	230	case	null
+0	8	227	1141	1144	S	228	his	his	he	PRP$	O	poss	false	-1	-1	c21,c24	null	228	nmod:poss	(c21;ANIMATE;MALE),(c24;ANIMATE;MALE),
+0	8	228	1145	1151		230	father	father	father	NN	O	poss	false	-1	-1	c21	null	230	nmod:poss	(c21;ANIMATE;MALE),
+0	8	229	1151	1153	S	228	's	's	's	POS	O	possessive	false	-1	-1	c21	null	228	case	(c21;ANIMATE;MALE),
+0	8	230	1154	1159		226	death	death	death	NN	O	pobj	false	-1	-1	null	null	222	nmod:before	null
+0	8	231	1159	1160	S	208	.	.	.	.	O	punct	false	-1	-1	null	null	208	punct	null
+0	9	232	1161	1166	S	239	After	After	after	IN	O	prep	false	-1	-1	null	null	233	mark	null
+0	9	233	1167	1174	S	232	reading	reading	read	VBG	O	pcomp	false	-1	-1	null	null	239	advcl	null
+0	9	234	1175	1178	S	235	the	the	the	DT	O	det	false	-1	-1	c23	null	235	det	(c23;INANIMATE;NEUTRAL),
+0	9	235	1179	1183		233	book	book	book	NN	O	dobj	false	-1	-1	c23	null	233	dobj	(c23;INANIMATE;NEUTRAL),
+0	9	236	1183	1184	S	239	,	,	,	,	O	punct	false	-1	-1	null	null	239	punct	null
+0	9	237	1185	1187	S	239	he	he	he	PRP	O	nsubj	false	-1	-1	c24	null	239	nsubj	(c24;ANIMATE;MALE),
+0	9	238	1188	1195	S	239	finally	finally	finally	RB	O	advmod	false	-1	-1	null	null	239	advmod	null
+0	9	239	1196	1203	S	-1	accepts	accepts	accept	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	240	1204	1207	S	241	his	his	he	PRP$	O	poss	false	-1	-1	c21,c24	null	241	nmod:poss	(c21;ANIMATE;MALE),(c24;ANIMATE;MALE),
+0	9	241	1208	1214		243	father	father	father	NN	O	poss	false	-1	-1	c21	null	243	nmod:poss	(c21;ANIMATE;MALE),
+0	9	242	1214	1216	S	241	's	's	's	POS	O	possessive	false	-1	-1	c21	null	241	case	(c21;ANIMATE;MALE),
+0	9	243	1217	1221	S	239	love	love	love	NN	O	dobj	false	-1	-1	null	null	239	dobj	null
+0	9	244	1222	1225	S	243	for	for	for	IN	O	prep	false	-1	-1	null	null	245	case	null
+0	9	245	1226	1229	S	244	him	him	he	PRP	O	pobj	false	-1	-1	c24	null	243	nmod:for	(c24;ANIMATE;MALE),
+0	9	246	1230	1233	S	239	and	and	and	CC	O	cc	false	-1	-1	null	null	239	cc	null
+0	9	247	1234	1239	S	239	takes	takes	take	VBZ	O	conj	false	-1	-1	null	null	239	conj:and	null
+0	9	248	1240	1242	S	247	up	up	up	RP	O	prt	false	-1	-1	null	null	247	compound:prt	null
+0	9	249	1243	1246	S	251	his	his	he	PRP$	O	poss	false	-1	-1	c24	null	251	nmod:poss	(c24;ANIMATE;MALE),
+0	9	250	1247	1260	S	251	architectural	architectural	architectural	JJ	O	amod	false	-1	-1	null	null	251	amod	null
+0	9	251	1261	1265	S	247	work	work	work	NN	O	dobj	false	-1	-1	null	null	247	dobj	null
+0	9	252	1266	1270	S	247	once	once	once	RB	DATE	advmod	false	-1	-1	null	null	253	advmod	null
+0	9	253	1271	1275		252	more	more	more	RBR	O	advmod	false	-1	-1	null	null	239	advmod	null
+0	9	254	1275	1276	S	239	.	.	.	.	O	punct	false	-1	-1	null	null	239	punct	null
+0	10	255	1277	1279	S	260	As	As	as	IN	O	mark	false	-1	-1	null	null	260	mark	null
+0	10	256	1280	1284	S	257	both	both	both	DT	O	preconj	false	-1	-1	c25	c25	257	cc:preconj	(c25;UNKNOWN;UNKNOWN),
+0	10	257	1285	1292	S	260	Eun-joo	Eun-joo	eun-joo	NN	MISC	nsubj	false	-1	-1	c25	c25	260	nsubj	(c25;UNKNOWN;UNKNOWN),
+0	10	258	1293	1296	S	257	and	and	and	CC	O	cc	false	-1	-1	c25	c25	257	cc	(c25;UNKNOWN;UNKNOWN),
+0	10	259	1297	1306	S	257	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	conj	false	-1	-1	c25	c25	257	conj:and	(c25;UNKNOWN;UNKNOWN),
+0	10	260	1307	1315	S	265	continue	continue	continue	VBP	O	advcl	false	-1	-1	null	null	265	advcl	null
+0	10	261	1316	1321	S	262	their	their	they	PRP$	O	poss	false	-1	-1	c25,c26	c26	262	nmod:poss	(c25;ANIMATE;UNKNOWN),(c26;INANIMATE;UNKNOWN),
+0	10	262	1322	1336		260	correspondence	correspondence	correspondence	NN	O	dobj	false	-1	-1	c26	c26	260	dobj	(c26;INANIMATE;UNKNOWN),
+0	10	263	1336	1337	S	265	,	,	,	,	O	punct	false	-1	-1	null	null	265	punct	null
+0	10	264	1338	1342	S	265	they	they	they	PRP	O	nsubj	false	-1	-1	c25	null	265	nsubj	(c25;ANIMATE;UNKNOWN),
+0	10	265	1343	1349	S	-1	decide	decide	decide	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	10	266	1350	1352	S	267	to	to	to	TO	O	aux	false	-1	-1	null	null	267	mark	null
+0	10	267	1353	1356	S	265	try	try	try	VB	O	xcomp	false	-1	-1	null	null	265	xcomp	null
+0	10	268	1357	1358	S	269	a	a	a	DT	O	det	false	-1	-1	null	null	269	det	null
+0	10	269	1359	1363	S	267	date	date	date	NN	O	dobj	false	-1	-1	null	null	267	dobj	null
+0	10	270	1364	1372		267	together	together	together	RB	O	advmod	false	-1	-1	null	null	267	advmod	null
+0	10	271	1372	1373	S	267	,	,	,	,	O	punct	false	-1	-1	null	null	267	punct	null
+0	10	272	1374	1378	S	267	with	with	with	IN	O	prep	false	-1	-1	null	null	274	case	null
+0	10	273	1379	1383	S	274	each	each	each	DT	O	det	false	-1	-1	c27	c27	274	det	(c27;ANIMATE;MALE),
+0	10	274	1384	1390	S	275	person	person	person	NN	O	nsubj	false	-1	-1	c27	c27	267	nmod:with	(c27;ANIMATE;MALE),
+0	10	275	1391	1404	S	272	participating	participating	participate	VBG	O	pcomp	false	-1	-1	c27	c27	274	acl	(c27;ANIMATE;MALE),
+0	10	276	1405	1407	S	275	in	in	in	IN	O	prep	false	-1	-1	c27	c27	281	case	(c27;ANIMATE;MALE),
+0	10	277	1408	1411	S	281	his	his	he	PRP$	O	nn	false	-1	-1	c24,c27	c27	281	compound	(c24;ANIMATE;MALE),(c27;ANIMATE;MALE),
+0	10	278	1412	1414	S	277	or	or	or	CC	O	cc	false	-1	-1	c27	c27	277	cc	(c27;ANIMATE;MALE),
+0	10	279	1415	1418	S	277	her	her	she	PRP$	O	conj	false	0	0	c8,c27	c27	277	conj:or	(c8;ANIMATE;FEMALE),(c27;ANIMATE;MALE),
+0	10	280	1419	1422	S	281	own	own	own	JJ	O	amod	false	-1	-1	c27	c27	281	amod	(c27;ANIMATE;MALE),
+0	10	281	1423	1427		276	time	time	time	NN	O	pobj	false	-1	-1	c27	c27	275	nmod:in	(c27;ANIMATE;MALE),
+0	10	282	1427	1428	S	265	.	.	.	.	O	punct	false	-1	-1	null	null	265	punct	null
+0	11	283	1429	1436	S	285	Eun-joo	Eun-joo	eun-joo	NN	O	nsubj	false	-1	-1	c28	c28	-1	root	(c28;UNKNOWN;FEMALE),
+0	11	284	1437	1438		285	"	``	``	``	O	punct	false	-1	-1	c28	c28	285	punct	(c28;UNKNOWN;FEMALE),
+0	11	285	1438	1443		-1	takes	takes	take	VBZ	O	null	true	-1	-1	c28	c28	283	acl:relcl	(c28;UNKNOWN;FEMALE),
+0	11	286	1443	1444	S	285	"	''	''	''	O	punct	true	-1	-1	c28	c28	285	punct	(c28;UNKNOWN;FEMALE),
+0	11	287	1445	1454	S	285	Sung-hyun	Sung-hyun	sung-hyun	NN	O	dobj	false	-1	-1	c28,c29	c28,c29	283	dep	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	288	1455	1457	S	285	to	to	to	TO	O	prep	false	-1	-1	c28,c29	c28,c29	291	case	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	289	1458	1460	S	291	an	an	a	DT	O	det	false	-1	-1	c28,c29,c30	c28,c29,c30	291	det	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),(c30;INANIMATE;UNKNOWN),
+0	11	290	1461	1470	S	291	amusement	amusement	amusement	NN	O	nn	false	-1	-1	c28,c29,c30	c28,c29,c30	291	compound	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),(c30;INANIMATE;UNKNOWN),
+0	11	291	1471	1475		288	park	park	park	NN	O	pobj	false	-1	-1	c28,c29,c30	c28,c29,c30	287	nmod:to	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),(c30;INANIMATE;UNKNOWN),
+0	11	292	1475	1476	S	291	,	,	,	,	O	punct	false	-1	-1	c28,c29	c28,c29	291	punct	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	293	1477	1482	S	295	where	where	where	WRB	O	advmod	false	-1	-1	c28,c29	c28,c29	295	advmod	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	294	1483	1485	S	295	he	he	he	PRP	O	nsubj	false	-1	-1	c27,c28,c29	c28,c29	295	nsubj	(c27;ANIMATE;MALE),(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	295	1486	1493	S	291	follows	follows	follow	VBZ	O	rcmod	false	-1	-1	c28,c29	c28,c29	291	acl:relcl	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	296	1494	1497	S	297	her	her	she	PRP$	O	poss	false	0	0	c8,c28,c29	c28,c29	297	nmod:poss	(c8;ANIMATE;FEMALE),(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	297	1498	1510	S	295	instructions	instructions	instruction	NNS	O	dobj	false	-1	-1	c28,c29	c28,c29	295	dobj	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	298	1511	1513	S	297	on	on	on	IN	O	prep	false	-1	-1	c28,c29	c28,c29	301	mark	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	299	1514	1517	S	301	how	how	how	WRB	O	advmod	false	-1	-1	c28,c29	c28,c29	301	advmod	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	300	1518	1520	S	301	to	to	to	TO	O	aux	false	-1	-1	c28,c29	c28,c29	301	mark	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	301	1521	1525	S	298	have	have	have	VB	O	pcomp	false	-1	-1	c28,c29	c28,c29	295	advcl	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	302	1526	1527	S	304	a	a	a	DT	O	det	false	-1	-1	c28,c29	c28,c29	304	det	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	303	1528	1532	S	304	good	good	good	JJ	O	amod	false	-1	-1	c28,c29	c28,c29	304	amod	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	304	1533	1537	S	301	time	time	time	NN	O	dobj	false	-1	-1	c28,c29	c28,c29	301	dobj	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	305	1538	1540	S	301	at	at	at	IN	O	prep	false	-1	-1	c28,c29	c28,c29	307	case	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),
+0	11	306	1541	1544	S	307	the	the	the	DT	O	det	false	-1	-1	c28,c29,c30	c28,c29	307	det	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),(c30;INANIMATE;UNKNOWN),
+0	11	307	1545	1549		305	park	park	park	NN	O	pobj	false	-1	-1	c28,c29,c30	c28,c29	304	nmod:at	(c28;UNKNOWN;FEMALE),(c29;UNKNOWN;UNKNOWN),(c30;INANIMATE;UNKNOWN),
+0	11	308	1549	1550	S	285	.	.	.	.	O	punct	false	-1	-1	c28	c28	283	punct	(c28;UNKNOWN;FEMALE),
+0	12	309	1551	1560	S	311	Sung-hyun	Sung-hyun	sung-hyun	JJ	O	nsubj	false	-1	-1	c31	null	-1	root	(c31;UNKNOWN;UNKNOWN),
+0	12	310	1561	1562		311	"	``	``	``	O	punct	false	-1	-1	c31	null	311	punct	(c31;UNKNOWN;UNKNOWN),
+0	12	311	1562	1567		-1	takes	takes	take	VBZ	O	null	true	-1	-1	c31	null	309	acl:relcl	(c31;UNKNOWN;UNKNOWN),
+0	12	312	1567	1568	S	311	"	''	''	''	O	punct	true	-1	-1	c31	null	311	punct	(c31;UNKNOWN;UNKNOWN),
+0	12	313	1569	1572	S	311	her	her	she	PRP$	O	dobj	false	0	0	c28,c31	null	309	dep	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	314	1573	1575	S	313	to	to	to	TO	O	prep	false	-1	-1	c28,c31	null	316	case	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	315	1576	1577	S	316	a	a	a	DT	O	det	false	-1	-1	c28,c31	null	316	det	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	316	1578	1588	S	314	restaurant	restaurant	restaurant	NN	O	pobj	false	-1	-1	c28,c31	null	313	nmod:to	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	317	1589	1594	S	319	where	where	where	WRB	O	advmod	false	-1	-1	c28,c31	null	319	advmod	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	318	1595	1598	S	319	she	she	she	PRP	O	nsubj	false	0	0	c28,c28,c31	null	319	nsubj	(c28;ANIMATE;FEMALE),(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	319	1599	1605	S	316	drinks	drinks	drink	VBZ	O	rcmod	false	-1	-1	c28,c31	null	316	acl:relcl	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	320	1606	1607	S	321	a	a	a	DT	O	det	false	-1	-1	c28,c31	null	321	det	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	321	1608	1614	S	319	bottle	bottle	bottle	NN	O	dobj	false	-1	-1	c28,c31	null	319	dobj	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	322	1615	1617	S	325	of	of	of	IN	O	rel	false	-1	-1	c28,c31	null	323	case	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	323	1618	1622	S	325	wine	wine	wine	NN	O	tmod	false	-1	-1	c28,c31	null	321	nmod:of	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	324	1623	1625	S	325	he	he	he	PRP	O	nsubj	false	-1	0	c28,c29,c31	null	325	nsubj	(c28;ANIMATE;FEMALE),(c29;ANIMATE;MALE),(c31;UNKNOWN;UNKNOWN),
+0	12	325	1626	1630	S	321	left	left	leave	VBD	O	rcmod	false	-1	-1	c28,c31	null	321	acl:relcl	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	326	1631	1634	S	325	for	for	for	IN	O	prep	false	-1	-1	c28,c31	null	329	case	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	327	1635	1638	S	329	her	her	she	PRP$	O	poss	false	0	0	c19,c28,c28,c31	c19	329	nmod:poss	(c19;INANIMATE;UNKNOWN),(c28;ANIMATE;FEMALE),(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	328	1639	1642	S	329	two	two	two	CD	DURATION	num	false	-1	-1	c19,c28,c31	c19	329	nummod	(c19;INANIMATE;UNKNOWN),(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	329	1643	1648	S	326	years	years	year	NNS	DURATION	pobj	false	-1	-1	c19,c28,c31	c19	325	nmod:for	(c19;INANIMATE;UNKNOWN),(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	330	1649	1654		325	prior	prior	prior	RB	O	advmod	false	-1	-1	c28,c31	null	325	advmod	(c28;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	12	331	1654	1655	S	311	.	.	.	.	O	punct	false	-1	-1	c31	null	309	punct	(c31;UNKNOWN;UNKNOWN),
+0	13	332	1656	1663	S	345	Despite	Despite	despite	IN	O	prep	false	-1	-1	null	null	333	mark	null
+0	13	333	1664	1670	S	332	having	having	have	VBG	O	pcomp	false	-1	-1	null	null	345	advcl	null
+0	13	334	1671	1672	S	335	a	a	a	DT	O	det	false	-1	-1	null	null	335	det	null
+0	13	335	1673	1676	S	333	lot	lot	lot	NN	O	dobj	false	-1	-1	null	null	333	dobj	null
+0	13	336	1677	1679	S	335	of	of	of	IN	O	prep	false	-1	-1	null	null	337	case	null
+0	13	337	1680	1683	S	336	fun	fun	fun	NN	O	pobj	false	-1	-1	null	null	335	nmod:of	null
+0	13	338	1684	1686	S	333	on	on	on	IN	O	prep	false	-1	-1	null	null	341	case	null
+0	13	339	1687	1692	S	341	these	these	these	DT	O	det	false	-1	-1	null	null	341	det	null
+0	13	340	1693	1694		341	"	``	``	``	O	punct	false	-1	-1	null	null	341	punct	null
+0	13	341	1694	1699		338	dates	dates	date	NNS	O	pobj	true	-1	-1	null	null	333	nmod:on	null
+0	13	342	1699	1700		341	"	''	''	''	O	punct	true	-1	-1	null	null	341	punct	null
+0	13	343	1700	1701	S	345	,	,	,	,	O	punct	false	-1	-1	null	null	345	punct	null
+0	13	344	1702	1706	S	345	they	they	they	PRP	O	nsubj	false	-1	-1	c25	null	345	nsubj	(c25;ANIMATE;UNKNOWN),
+0	13	345	1707	1713	S	-1	decide	decide	decide	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	13	346	1714	1718	S	349	that	that	that	IN	O	complm	false	-1	-1	null	null	349	mark	null
+0	13	347	1719	1723	S	349	they	they	they	PRP	O	nsubj	false	-1	-1	c25	null	349	nsubj	(c25;ANIMATE;UNKNOWN),
+0	13	348	1724	1730	S	349	should	should	should	MD	O	aux	false	-1	-1	null	null	349	aux	null
+0	13	349	1731	1734	S	345	try	try	try	VB	O	ccomp	false	-1	-1	null	null	345	ccomp	null
+0	13	350	1735	1737	S	351	to	to	to	TO	O	aux	false	-1	-1	null	null	351	mark	null
+0	13	351	1738	1742	S	349	meet	meet	meet	VB	O	xcomp	false	-1	-1	null	null	349	xcomp	null
+0	13	352	1743	1745	S	351	in	in	in	IN	O	prep	false	-1	-1	null	null	353	case	null
+0	13	353	1746	1752		352	person	person	person	NN	O	pobj	false	-1	-1	null	null	351	nmod:in	null
+0	13	354	1752	1753	S	345	.	.	.	.	O	punct	false	-1	-1	null	null	345	punct	null
+0	14	355	1754	1761	S	-1	Eun-joo	Eun-joo	eun-joo	NN	O	null	false	-1	-1	c15	null	358	nsubj	(c15;UNKNOWN;UNKNOWN),
+0	14	356	1762	1765	S	355	and	and	and	CC	O	cc	false	-1	-1	c15	null	355	cc	(c15;UNKNOWN;UNKNOWN),
+0	14	357	1766	1775	S	358	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	nn	false	-1	-1	c15	null	355	conj:and	(c15;UNKNOWN;UNKNOWN),
+0	14	358	1776	1780	S	355	plan	plan	plan	NN	O	conj	false	-1	-1	null	null	-1	root	null
+0	14	359	1781	1783	S	355	on	on	on	IN	O	prep	false	-1	-1	null	null	360	case	null
+0	14	360	1784	1791	S	359	meeting	meeting	meeting	NN	O	pobj	false	-1	-1	c32	null	358	nmod:on	(c32;INANIMATE;UNKNOWN),
+0	14	361	1792	1794	S	360	in	in	in	IN	O	prep	false	-1	-1	c32	null	362	case	(c32;INANIMATE;UNKNOWN),
+0	14	362	1795	1801	S	361	person	person	person	NN	O	pobj	false	-1	-1	c32	null	360	nmod:in	(c32;INANIMATE;UNKNOWN),
+0	14	363	1802	1804	S	355	at	at	at	IN	O	prep	false	-1	-1	null	null	365	case	null
+0	14	364	1805	1806	S	365	a	a	a	DT	O	det	false	-1	-1	c33	c33	365	det	(c33;INANIMATE;UNKNOWN),
+0	14	365	1807	1812	S	363	beach	beach	beach	NN	O	pobj	false	-1	-1	c33	c33	358	nmod:at	(c33;INANIMATE;UNKNOWN),
+0	14	366	1813	1818	S	370	where	where	where	WRB	O	advmod	false	-1	-1	c33	c33	370	advmod	(c33;INANIMATE;UNKNOWN),
+0	14	367	1819	1822	S	370	she	she	she	PRP	O	nsubj	false	0	0	c31,c33	c33	370	nsubj	(c31;ANIMATE;FEMALE),(c33;INANIMATE;UNKNOWN),
+0	14	368	1823	1826	S	370	has	has	have	VBZ	O	aux	false	-1	-1	c33	c33	370	aux	(c33;INANIMATE;UNKNOWN),
+0	14	369	1827	1833	S	370	always	always	always	RB	O	advmod	false	-1	-1	c33	c33	370	advmod	(c33;INANIMATE;UNKNOWN),
+0	14	370	1834	1840	S	365	wanted	wanted	want	VBN	O	rcmod	false	-1	-1	c33	c33	365	acl:relcl	(c33;INANIMATE;UNKNOWN),
+0	14	371	1841	1843	S	372	to	to	to	TO	O	aux	false	-1	-1	c33	c33	372	mark	(c33;INANIMATE;UNKNOWN),
+0	14	372	1844	1849	S	370	build	build	build	VB	O	xcomp	false	-1	-1	c33	c33	370	xcomp	(c33;INANIMATE;UNKNOWN),
+0	14	373	1850	1851	S	374	a	a	a	DT	O	det	false	-1	-1	c2,c33	c33	374	det	(c2;INANIMATE;NEUTRAL),(c33;INANIMATE;UNKNOWN),
+0	14	374	1852	1857		372	house	house	house	NN	O	dobj	false	-1	-1	c2,c33	c33	372	dobj	(c2;INANIMATE;NEUTRAL),(c33;INANIMATE;UNKNOWN),
+0	14	375	1857	1858	S	355	,	,	,	,	O	punct	false	-1	-1	null	null	358	punct	null
+0	14	376	1859	1862	S	377	two	two	two	CD	DURATION	num	false	-1	-1	c19	null	377	nummod	(c19;INANIMATE;UNKNOWN),
+0	14	377	1863	1868	S	355	years	years	year	NNS	DURATION	appos	false	-1	-1	c19	null	358	nmod:in	(c19;INANIMATE;UNKNOWN),
+0	14	378	1869	1871	S	377	in	in	in	IN	O	prep	false	-1	-1	null	null	377	case	null
+0	14	379	1872	1881		381	Sung-hyun	Sung-hyun	sung-hyun	NN	O	poss	false	-1	-1	c8	null	381	nmod:poss	(c8;UNKNOWN;UNKNOWN),
+0	14	380	1881	1883	S	379	's	's	's	POS	O	possessive	false	-1	-1	c8	null	379	case	(c8;UNKNOWN;UNKNOWN),
+0	14	381	1884	1890		378	future	future	future	NN	DATE	pobj	false	-1	-1	null	null	377	dep	null
+0	14	382	1890	1891	S	355	.	.	.	.	O	punct	false	-1	-1	null	null	358	punct	null
+0	15	383	1892	1899		395	However	However	however	RB	O	advmod	false	-1	-1	null	null	395	advmod	null
+0	15	384	1899	1900	S	395	,	,	,	,	O	punct	false	-1	-1	null	null	395	punct	null
+0	15	385	1901	1905	S	387	when	when	when	WRB	O	advmod	false	-1	-1	null	null	387	advmod	null
+0	15	386	1906	1913	S	387	Eun-joo	Eun-joo	eun-joo	NN	PERSON	nsubj	false	0	0	null	null	387	nsubj	null
+0	15	387	1914	1918	S	395	goes	goes	go	VBZ	O	dep	false	-1	-1	null	null	395	advcl	null
+0	15	388	1919	1921	S	387	to	to	to	TO	O	prep	false	-1	-1	null	null	390	case	null
+0	15	389	1922	1925	S	390	the	the	the	DT	O	det	false	-1	-1	c33	null	390	det	(c33;INANIMATE;UNKNOWN),
+0	15	390	1926	1931		388	beach	beach	beach	NN	O	pobj	false	-1	-1	c33	null	387	nmod:to	(c33;INANIMATE;UNKNOWN),
+0	15	391	1931	1932	S	395	,	,	,	,	O	punct	false	-1	-1	null	null	395	punct	null
+0	15	392	1933	1942	S	395	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	nsubj	false	-1	-1	null	null	395	nsubj	null
+0	15	393	1943	1947		395	does	does	do	VBZ	O	aux	false	-1	-1	null	null	395	aux	null
+0	15	394	1947	1950	S	395	n't	n't	not	RB	O	neg	false	-1	-1	null	null	395	neg	null
+0	15	395	1951	1955		-1	show	show	show	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	15	396	1955	1956	S	395	.	.	.	.	O	punct	false	-1	-1	null	null	395	punct	null
+0	16	397	1957	1960	S	399	She	She	she	PRP	O	nsubj	false	0	0	c31	null	399	nsubj	(c31;ANIMATE;FEMALE),
+0	16	398	1961	1965	S	399	does	does	do	VBZ	O	aux	false	-1	-1	null	null	399	aux	null
+0	16	399	1966	1969	S	-1	see	see	see	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	16	400	1970	1971	S	401	a	a	a	DT	O	det	false	-1	-1	c34	c34	401	det	(c34;INANIMATE;NEUTRAL),
+0	16	401	1972	1977	S	399	house	house	house	NN	O	dobj	false	-1	-1	c34	c34	399	dobj	(c34;INANIMATE;NEUTRAL),
+0	16	402	1978	1983	S	403	being	being	be	VBG	O	auxpass	false	-1	-1	c34	c34	403	auxpass	(c34;INANIMATE;NEUTRAL),
+0	16	403	1984	1989	S	401	built	built	build	VBN	O	partmod	false	-1	-1	c34	c34	401	acl	(c34;INANIMATE;NEUTRAL),
+0	16	404	1990	1992	S	403	on	on	on	IN	O	prep	false	-1	-1	c34	c34	406	case	(c34;INANIMATE;NEUTRAL),
+0	16	405	1993	1996	S	406	the	the	the	DT	O	det	false	-1	-1	c34	c34	406	det	(c34;INANIMATE;NEUTRAL),
+0	16	406	1997	2002	S	404	beach	beach	beach	NN	O	pobj	false	-1	-1	c34	c34	403	nmod:on	(c34;INANIMATE;NEUTRAL),
+0	16	407	2003	2006	S	403	for	for	for	IN	O	prep	false	-1	-1	c34	c34	412	case	(c34;INANIMATE;NEUTRAL),
+0	16	408	2007	2009	S	410	an	an	a	DT	O	det	false	-1	-1	c34,c35	c34,c35	410	det	(c34;INANIMATE;NEUTRAL),(c35;ANIMATE;UNKNOWN),
+0	16	409	2010	2017	S	410	unknown	unknown	unknown	JJ	O	amod	false	-1	-1	c34,c35	c34,c35	410	amod	(c34;INANIMATE;NEUTRAL),(c35;ANIMATE;UNKNOWN),
+0	16	410	2018	2027		412	architect	architect	architect	NN	O	poss	false	-1	-1	c34,c35	c34,c35	412	nmod:poss	(c34;INANIMATE;NEUTRAL),(c35;ANIMATE;UNKNOWN),
+0	16	411	2027	2029	S	410	's	's	's	POS	O	possessive	false	-1	-1	c34,c35	c34,c35	410	case	(c34;INANIMATE;NEUTRAL),(c35;ANIMATE;UNKNOWN),
+0	16	412	2030	2035		407	lover	lover	lover	NN	O	pobj	false	-1	-1	c34,c35	c34,c35	406	nmod:for	(c34;INANIMATE;NEUTRAL),(c35;ANIMATE;UNKNOWN),
+0	16	413	2035	2036	S	399	.	.	.	.	O	punct	false	-1	-1	null	null	399	punct	null
+0	17	414	2037	2041	S	416	When	When	when	WRB	O	advmod	false	-1	-1	null	null	416	advmod	null
+0	17	415	2042	2049	S	416	Eun-joo	Eun-joo	eun-joo	NN	PERSON	nsubj	false	0	0	null	null	416	nsubj	null
+0	17	416	2050	2055	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	426	advcl	null
+0	17	417	2056	2065	S	416	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	dobj	false	-1	-1	null	null	416	dobj	null
+0	17	418	2066	2070	S	422	that	that	that	IN	O	complm	false	-1	-1	null	null	422	mark	null
+0	17	419	2071	2073	S	422	he	he	he	PRP	O	nsubj	false	-1	-1	c35	null	422	nsubj	(c35;ANIMATE;MALE),
+0	17	420	2074	2077		422	did	did	do	VBD	O	aux	false	-1	-1	null	null	422	aux	null
+0	17	421	2077	2080	S	422	n't	n't	not	RB	O	neg	false	-1	-1	null	null	422	neg	null
+0	17	422	2081	2085		426	come	come	come	VB	O	advcl	false	-1	-1	null	null	416	ccomp	null
+0	17	423	2085	2086	S	426	,	,	,	,	O	punct	false	-1	-1	null	null	426	punct	null
+0	17	424	2087	2089	S	426	he	he	he	PRP	O	nsubjpass	false	-1	-1	c35	null	426	nsubjpass	(c35;ANIMATE;MALE),
+0	17	425	2090	2092	S	426	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	426	auxpass	null
+0	17	426	2093	2100	S	416	baffled	baffled	baffle	VBN	O	dep	false	-1	-1	null	null	-1	root	null
+0	17	427	2101	2106	S	432	about	about	about	IN	O	dep	false	-1	-1	null	null	432	mark	null
+0	17	428	2107	2110	S	432	why	why	why	WRB	O	advmod	false	-1	-1	null	null	432	advmod	null
+0	17	429	2111	2113	S	432	he	he	he	PRP	O	nsubj	false	-1	-1	c35	null	432	nsubj	(c35;ANIMATE;MALE),
+0	17	430	2114	2117		432	did	did	do	VBD	O	aux	false	-1	-1	null	null	432	aux	null
+0	17	431	2117	2120	S	432	n't	n't	not	RB	O	neg	false	-1	-1	null	null	432	neg	null
+0	17	432	2121	2125	S	426	show	show	show	VB	O	ccomp	false	-1	-1	null	null	426	advcl	null
+0	17	433	2126	2128		432	up	up	up	RP	O	prt	false	-1	-1	null	null	432	compound:prt	null
+0	17	434	2128	2129	S	416	;	;	;	:	O	punct	false	-1	-1	null	null	426	punct	null
+0	17	435	2130	2132	S	438	he	he	he	PRP	O	nsubj	false	-1	-1	c35	null	438	nsubj	(c35;ANIMATE;MALE),
+0	17	436	2133	2137		438	does	does	do	VBZ	O	aux	false	-1	-1	null	null	438	aux	null
+0	17	437	2137	2140	S	438	n't	n't	not	RB	O	neg	false	-1	-1	null	null	438	neg	null
+0	17	438	2141	2146	S	416	think	think	think	VB	O	parataxis	false	-1	-1	null	null	426	parataxis	null
+0	17	439	2147	2149	S	442	he	he	he	PRP	O	nsubj	false	-1	-1	c35	null	442	nsubj	(c35;ANIMATE;MALE),
+0	17	440	2150	2155	S	442	would	would	would	MD	O	aux	false	-1	-1	null	null	442	aux	null
+0	17	441	2156	2160	S	442	have	have	have	VB	O	aux	false	-1	-1	null	null	442	aux	null
+0	17	442	2161	2170	S	438	forgotten	forgotten	forget	VBN	O	ccomp	false	-1	-1	null	null	438	ccomp	null
+0	17	443	2171	2175	S	446	such	such	such	PDT	O	predet	false	-1	-1	null	null	446	det:predet	null
+0	17	444	2176	2178	S	446	an	an	a	DT	O	det	false	-1	-1	null	null	446	det	null
+0	17	445	2179	2188	S	446	important	important	important	JJ	O	amod	false	-1	-1	null	null	446	amod	null
+0	17	446	2189	2193		442	date	date	date	NN	O	dobj	false	-1	-1	null	null	442	dobj	null
+0	17	447	2193	2194	S	416	.	.	.	.	O	punct	false	-1	-1	null	null	426	punct	null
+0	18	448	2195	2197	S	454	At	At	at	IN	O	prep	false	-1	-1	null	null	451	case	null
+0	18	449	2198	2205		451	Eun-joo	Eun-joo	eun-joo	NN	O	poss	false	-1	-1	c15	null	451	nmod:poss	(c15;UNKNOWN;FEMALE),
+0	18	450	2205	2207	S	449	's	's	's	POS	O	possessive	false	-1	-1	c15	null	449	case	(c15;UNKNOWN;FEMALE),
+0	18	451	2208	2217		448	workplace	workplace	workplace	NN	O	pobj	false	-1	-1	null	null	454	nmod:at	null
+0	18	452	2217	2218	S	454	,	,	,	,	O	punct	false	-1	-1	null	null	454	punct	null
+0	18	453	2219	2222	S	454	she	she	she	PRP	O	nsubj	false	0	0	c31	null	454	nsubj	(c31;ANIMATE;FEMALE),
+0	18	454	2223	2227	S	-1	runs	runs	run	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	18	455	2228	2232	S	454	into	into	into	IN	O	prep	false	-1	-1	null	null	457	case	null
+0	18	456	2233	2236	S	457	her	her	she	PRP$	O	poss	false	0	0	c3,c31	c3	457	nmod:poss	(c3;ANIMATE;MALE),(c31;ANIMATE;FEMALE),
+0	18	457	2237	2246		455	ex-fiance	ex-fiance	ex-fiance	NN	O	pobj	false	-1	-1	c3	c3	454	nmod:into	(c3;ANIMATE;MALE),
+0	18	458	2246	2247	S	454	.	.	.	.	O	punct	false	-1	-1	null	null	454	punct	null
+0	19	459	2248	2252	S	461	They	They	they	PRP	O	nsubj	false	-1	-1	c15	null	461	nsubj	(c15;ANIMATE;UNKNOWN),
+0	19	460	2253	2257	S	461	were	were	be	VBD	O	aux	false	-1	-1	null	null	461	aux	null
+0	19	461	2258	2263	S	-1	going	going	go	VBG	O	null	false	-1	-1	null	null	-1	root	null
+0	19	462	2264	2266	S	464	to	to	to	TO	O	aux	false	-1	-1	null	null	463	mark	null
+0	19	463	2267	2270	S	464	get	get	get	VB	O	auxpass	false	-1	-1	null	null	461	xcomp	null
+0	19	464	2271	2278		461	married	married	marry	VBN	O	xcomp	false	-1	-1	null	null	463	xcomp	null
+0	19	465	2278	2279	S	461	,	,	,	,	O	punct	false	-1	-1	null	null	461	punct	null
+0	19	466	2280	2283	S	461	but	but	but	CC	O	cc	false	-1	-1	null	null	461	cc	null
+0	19	467	2284	2286	S	468	he	he	he	PRP	O	nsubj	false	-1	-1	c3	null	468	nsubj	(c3;ANIMATE;MALE),
+0	19	468	2287	2292	S	461	moved	moved	move	VBD	O	conj	false	-1	-1	null	null	461	conj:but	null
+0	19	469	2293	2299	S	468	abroad	abroad	abroad	RB	O	advmod	false	-1	-1	null	null	468	advmod	null
+0	19	470	2300	2303	S	468	for	for	for	IN	O	prep	false	-1	-1	null	null	471	case	null
+0	19	471	2304	2308		470	work	work	work	NN	O	pobj	false	-1	-1	null	null	468	nmod:for	null
+0	19	472	2308	2309	S	468	,	,	,	,	O	punct	false	-1	-1	null	null	468	punct	null
+0	19	473	2310	2315	S	475	while	while	while	IN	O	mark	false	-1	-1	null	null	475	mark	null
+0	19	474	2316	2319	S	475	she	she	she	PRP	O	nsubj	false	0	0	c31	null	475	nsubj	(c31;ANIMATE;FEMALE),
+0	19	475	2320	2326	S	468	stayed	stayed	stay	VBD	O	advcl	false	-1	-1	null	null	468	advcl	null
+0	19	476	2327	2329	S	475	in	in	in	IN	O	prep	false	-1	-1	null	null	477	case	null
+0	19	477	2330	2335		476	Korea	Korea	Korea	NNP	LOCATION	pobj	false	-1	-1	null	null	475	nmod:in	null
+0	19	478	2335	2336	S	461	.	.	.	.	O	punct	false	-1	-1	null	null	461	punct	null
+0	20	479	2337	2340	S	486	Due	Due	due	JJ	O	dep	false	-1	-1	null	null	482	case	null
+0	20	480	2341	2343	S	479	to	to	to	TO	O	prep	false	-1	-1	null	null	479	mwe	null
+0	20	481	2344	2347	S	482	the	the	the	DT	O	det	false	-1	-1	null	null	482	det	null
+0	20	482	2348	2358		480	separation	separation	separation	NN	O	pobj	false	-1	-1	null	null	486	nmod:due_to	null
+0	20	483	2358	2359	S	479	,	,	,	,	O	punct	false	-1	-1	null	null	486	punct	null
+0	20	484	2360	2364	S	486	they	they	they	PRP	O	nsubj	false	-1	-1	c15	null	486	nsubj	(c15;ANIMATE;UNKNOWN),
+0	20	485	2365	2375	S	486	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	486	advmod	null
+0	20	486	2376	2381	S	-1	broke	broke	break	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	20	487	2382	2384	S	486	up	up	up	RP	O	prt	false	-1	-1	null	null	486	compound:prt	null
+0	20	488	2385	2388	S	486	and	and	and	CC	O	cc	false	-1	-1	null	null	486	cc	null
+0	20	489	2389	2391	S	490	he	he	he	PRP	O	nsubj	false	-1	-1	c3	null	490	nsubj	(c3;ANIMATE;MALE),
+0	20	490	2392	2399	S	486	married	married	marry	VBD	O	conj	false	-1	-1	null	null	486	conj:and	null
+0	20	491	2400	2407	S	492	another	another	another	DT	O	det	false	-1	-1	null	null	492	det	null
+0	20	492	2408	2414		490	person	person	person	NN	O	dobj	false	-1	-1	null	null	490	dobj	null
+0	20	493	2414	2415	S	486	;	;	;	:	O	punct	false	-1	-1	null	null	486	punct	null
+0	20	494	2416	2423	S	497	Eun-joo	Eun-joo	eun-joo	NN	O	nsubj	false	-1	-1	null	null	497	nsubj	null
+0	20	495	2424	2431	S	494	however	however	however	RB	O	advmod	false	-1	-1	null	null	497	advmod	null
+0	20	496	2432	2437	S	494	still	still	still	RB	O	advmod	false	-1	-1	null	null	497	advmod	null
+0	20	497	2438	2443	S	486	loves	loves	love	VBZ	O	parataxis	false	-1	-1	null	null	486	parataxis	null
+0	20	498	2444	2447		497	him	him	he	PRP	O	dobj	false	-1	-1	c3	null	497	dobj	(c3;ANIMATE;MALE),
+0	20	499	2447	2448	S	486	.	.	.	.	O	punct	false	-1	-1	null	null	486	punct	null
+0	21	500	2449	2453	S	501	This	This	this	DT	O	det	false	-1	-1	c32	c32	501	det	(c32;INANIMATE;UNKNOWN),
+0	21	501	2454	2461	S	504	meeting	meeting	meeting	NN	O	nsubj	false	-1	-1	c32	c32	504	nsubj	(c32;INANIMATE;UNKNOWN),
+0	21	502	2462	2465	S	504	was	was	be	VBD	O	cop	false	-1	-1	null	null	504	cop	null
+0	21	503	2466	2467	S	504	a	a	a	DT	O	det	false	-1	-1	c32	null	504	det	(c32;INANIMATE;NEUTRAL),
+0	21	504	2468	2473	S	-1	shock	shock	shock	NN	O	null	false	-1	-1	c32	null	515,504	ccomp,conj:and	(c32;INANIMATE;NEUTRAL),
+0	21	505	2474	2476	S	504	to	to	to	TO	O	prep	false	-1	-1	c32	null	506	case	(c32;INANIMATE;NEUTRAL),
+0	21	506	2477	2484	S	505	Eun-joo	Eun-joo	eun-joo	NN	MISC	pobj	false	-1	-1	c32	null	504	nmod:to	(c32;INANIMATE;NEUTRAL),
+0	21	507	2485	2488	S	504	and	and	and	CC	O	cc	false	-1	-1	c32	null	504	cc	(c32;INANIMATE;NEUTRAL),
+0	21	508	2489	2491	S	515	in	in	in	IN	O	prep	false	-1	-1	c32	null	510	case	(c32;INANIMATE;NEUTRAL),
+0	21	509	2492	2494	S	510	an	an	a	DT	O	det	false	-1	-1	c32	null	510	det	(c32;INANIMATE;NEUTRAL),
+0	21	510	2495	2498	S	508	act	act	act	NN	O	pobj	false	-1	-1	c32	null	504	nmod:in	(c32;INANIMATE;NEUTRAL),
+0	21	511	2499	2501	S	510	of	of	of	IN	O	prep	false	-1	-1	c32	null	512	case	(c32;INANIMATE;NEUTRAL),
+0	21	512	2502	2513		511	desperation	desperation	desperation	NN	O	pobj	false	-1	-1	c32	null	510	nmod:of	(c32;INANIMATE;NEUTRAL),
+0	21	513	2513	2514	S	515	,	,	,	,	O	punct	false	-1	-1	null	null	515	punct	null
+0	21	514	2515	2518	S	515	she	she	she	PRP	O	nsubj	false	0	0	c31	null	515	nsubj	(c31;ANIMATE;FEMALE),
+0	21	515	2519	2523	S	504	asks	asks	ask	VBZ	O	conj	false	-1	-1	null	null	-1	root	null
+0	21	516	2524	2533	S	515	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	dobj	false	-1	-1	null	null	515	dobj	null
+0	21	517	2534	2536	S	518	to	to	to	TO	O	aux	false	-1	-1	null	null	518	mark	null
+0	21	518	2537	2546	S	516	intervene	intervene	intervene	VB	O	infmod	false	-1	-1	null	null	515	xcomp	null
+0	21	519	2547	2550	S	518	and	and	and	CC	O	cc	false	-1	-1	null	null	518	cc	null
+0	21	520	2551	2555	S	518	stop	stop	stop	VB	O	conj	false	-1	-1	null	null	518	conj:and	null
+0	21	521	2556	2559	S	522	her	her	she	PRP$	O	poss	false	0	0	c31	null	522	nmod:poss	(c31;ANIMATE;FEMALE),
+0	21	522	2560	2566	S	520	fiance	fiance	fiance	NN	O	dobj	false	-1	-1	null	null	518	dobj	null
+0	21	523	2567	2571	S	520	from	from	from	IN	O	prep	false	-1	-1	null	null	524	mark	null
+0	21	524	2572	2579	S	523	leaving	leaving	leave	VBG	O	pcomp	false	-1	-1	null	null	518	advcl	null
+0	21	525	2580	2583	S	526	two	two	two	CD	DURATION	num	false	-1	-1	null	null	526	nummod	null
+0	21	526	2584	2589	S	524	years	years	year	NNS	DURATION	dobj	false	-1	-1	null	null	524	dobj	null
+0	21	527	2590	2592	S	526	in	in	in	IN	O	prep	false	-1	-1	null	null	529	case	null
+0	21	528	2593	2596	S	529	the	the	the	DT	DATE	det	false	-1	-1	null	null	529	det	null
+0	21	529	2597	2601		527	past	past	past	NN	DATE	pobj	false	-1	-1	null	null	526	nmod:in	null
+0	21	530	2601	2602	S	504	.	.	.	.	O	punct	false	-1	-1	null	null	515	punct	null
+0	22	531	2603	2608	S	547	After	After	after	IN	O	prep	false	-1	-1	null	null	532	mark	null
+0	22	532	2609	2616	S	531	sending	sending	send	VBG	O	pcomp	false	-1	-1	null	null	540	advcl	null
+0	22	533	2617	2620	S	534	the	the	the	DT	O	det	false	-1	-1	c10	c10	534	det	(c10;INANIMATE;UNKNOWN),
+0	22	534	2621	2627	S	532	letter	letter	letter	NN	O	dobj	false	-1	-1	c10	c10	532	dobj	(c10;INANIMATE;UNKNOWN),
+0	22	535	2628	2630	S	532	to	to	to	TO	O	prep	false	-1	-1	null	null	536	case	null
+0	22	536	2631	2640		535	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	pobj	false	-1	-1	null	null	532	nmod:to	null
+0	22	537	2640	2641	S	547	,	,	,	,	O	punct	false	-1	-1	null	null	540	punct	null
+0	22	538	2642	2649	S	547	Eun-joo	Eun-joo	eun-joo	NN	MISC	nsubj	false	-1	-1	null	null	540	nsubj	null
+0	22	539	2650	2658	S	547	suddenly	suddenly	suddenly	RB	O	advmod	false	-1	-1	null	null	540	advmod	null
+0	22	540	2659	2667		547	realizes	realizes	realize	VBZ	O	dep	false	-1	-1	null	null	547	ccomp	null
+0	22	541	2667	2668	S	547	,	,	,	,	O	punct	false	-1	-1	null	null	540	punct	null
+0	22	542	2669	2671	S	547	on	on	on	IN	O	prep	false	-1	-1	null	null	544	case	null
+0	22	543	2672	2676	S	544	that	that	that	DT	O	det	false	-1	-1	c12	c12	544	det	(c12;INANIMATE;UNKNOWN),
+0	22	544	2677	2680		542	day	day	day	NN	DURATION	pobj	false	-1	-1	c12	c12	540	nmod:on	(c12;INANIMATE;UNKNOWN),
+0	22	545	2680	2681	S	547	,	,	,	,	O	punct	false	-1	-1	null	null	547	punct	null
+0	22	546	2682	2685	S	547	she	she	she	PRP	O	nsubj	false	0	0	c31	null	547	nsubj	(c31;ANIMATE;FEMALE),
+0	22	547	2686	2695	S	-1	witnessed	witnessed	witness	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	22	548	2696	2697	S	549	a	a	a	DT	O	det	false	-1	-1	c13	c13	549	det	(c13;INANIMATE;NEUTRAL),
+0	22	549	2698	2701	S	547	car	car	car	NN	O	dobj	false	-1	-1	c13	c13	547	dobj	(c13;INANIMATE;NEUTRAL),
+0	22	550	2702	2710	S	549	striking	striking	strike	VBG	O	partmod	false	-1	-1	null	null	547	dep	null
+0	22	551	2711	2712	S	552	a	a	a	DT	O	det	false	-1	-1	c14	c14	552	det	(c14;ANIMATE;MALE),
+0	22	552	2713	2723	S	550	pedestrian	pedestrian	pedestrian	NN	O	dobj	false	-1	-1	c14	c14	550	dobj	(c14;ANIMATE;MALE),
+0	22	553	2724	2727	S	550	and	and	and	CC	O	cc	false	-1	-1	null	null	550	cc	null
+0	22	554	2728	2735	S	550	killing	killing	kill	VBG	O	conj	false	-1	-1	null	null	550	conj:and	null
+0	22	555	2736	2739		554	him	him	he	PRP	O	dobj	false	-1	-1	c14	null	554	dobj	(c14;ANIMATE;MALE),
+0	22	556	2739	2740	S	547	.	.	.	.	O	punct	false	-1	-1	null	null	547	punct	null
+0	23	557	2741	2748	S	558	Eun-joo	Eun-joo	eun-joo	JJ	O	nsubj	false	-1	-1	c15	null	558	nsubj	(c15;UNKNOWN;FEMALE),
+0	23	558	2749	2755	S	-1	rushes	rushes	rush	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	23	559	2756	2758	S	558	to	to	to	TO	O	prep	false	-1	-1	null	null	563	case	null
+0	23	560	2759	2768		563	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	poss	false	-1	-1	c8	c8	563	nmod:poss	(c8;UNKNOWN;UNKNOWN),
+0	23	561	2768	2770	S	560	's	's	's	POS	O	possessive	false	-1	-1	c8	c8	560	case	(c8;UNKNOWN;UNKNOWN),
+0	23	562	2771	2784	S	563	architectural	architectural	architectural	JJ	O	amod	false	-1	-1	null	null	563	amod	null
+0	23	563	2785	2791	S	559	school	school	school	NN	O	pobj	false	-1	-1	null	null	558	nmod:to	null
+0	23	564	2792	2795	S	558	and	and	and	CC	O	cc	false	-1	-1	null	null	558	cc	null
+0	23	565	2796	2801	S	558	finds	finds	find	VBZ	O	conj	false	-1	-1	null	null	558	conj:and	null
+0	23	566	2802	2805	S	565	out	out	out	RP	O	prt	false	-1	-1	null	null	565	compound:prt	null
+0	23	567	2806	2810	S	569	that	that	that	IN	O	complm	false	-1	-1	null	null	569	mark	null
+0	23	568	2811	2820	S	569	Sung-hyun	Sung-hyun	sung-hyun	NN	PERSON	nsubj	false	-1	-1	null	null	569	nsubj	null
+0	23	569	2821	2824	S	565	was	was	be	VBD	O	ccomp	false	-1	-1	null	null	558	ccomp	null
+0	23	570	2825	2829	S	572	that	that	that	IN	O	complm	false	-1	-1	null	null	582	mark	null
+0	23	571	2830	2834	S	572	very	very	very	RB	O	advmod	false	-1	-1	c14	null	572	advmod	(c14;ANIMATE;MALE),
+0	23	572	2835	2845	S	569	pedestrian	pedestrian	pedestrian	JJ	O	ccomp	false	-1	-1	c14	null	582	nsubjpass	(c14;ANIMATE;MALE),
+0	23	573	2846	2849	S	572	and	and	and	CC	O	cc	false	-1	-1	null	null	572	cc	null
+0	23	574	2850	2853	S	575	the	the	the	DT	O	det	false	-1	-1	c34	null	575	det	(c34;INANIMATE;NEUTRAL),
+0	23	575	2854	2859	S	577	house	house	house	NN	O	nsubjpass	false	-1	-1	c34	null	572	conj:and	(c34;INANIMATE;NEUTRAL),
+0	23	576	2860	2865	S	577	being	being	be	VBG	O	auxpass	false	-1	-1	c34	null	577	auxpass	(c34;INANIMATE;NEUTRAL),
+0	23	577	2866	2871	S	582	built	built	build	VBN	O	nsubjpass	false	-1	-1	c34	null	575	acl	(c34;INANIMATE;NEUTRAL),
+0	23	578	2872	2874	S	577	at	at	at	IN	O	prep	false	-1	-1	c34	null	580	case	(c34;INANIMATE;NEUTRAL),
+0	23	579	2875	2878	S	580	the	the	the	DT	O	det	false	-1	-1	c33,c34	null	580	det	(c33;INANIMATE;UNKNOWN),(c34;INANIMATE;NEUTRAL),
+0	23	580	2879	2884	S	578	beach	beach	beach	NN	O	pobj	false	-1	-1	c33,c34	null	577	nmod:at	(c33;INANIMATE;UNKNOWN),(c34;INANIMATE;NEUTRAL),
+0	23	581	2885	2888	S	582	was	was	be	VBD	O	auxpass	false	-1	-1	null	null	582	auxpass	null
+0	23	582	2889	2897	S	572	designed	designed	design	VBN	O	conj	false	-1	-1	null	null	569	ccomp	null
+0	23	583	2898	2900	S	582	by	by	by	IN	O	prep	false	-1	-1	null	null	584	case	null
+0	23	584	2901	2910	S	583	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	pobj	false	-1	-1	c31	c31	582	nmod:agent	(c31;UNKNOWN;UNKNOWN),
+0	23	585	2911	2914	S	582	for	for	for	IN	O	prep	false	-1	-1	c31	c31	586	case	(c31;UNKNOWN;UNKNOWN),
+0	23	586	2915	2918		585	her	her	she	PRP	O	pobj	false	0	0	c8,c31	c31	584	nmod:for	(c8;ANIMATE;FEMALE),(c31;UNKNOWN;UNKNOWN),
+0	23	587	2918	2919	S	558	.	.	.	.	O	punct	false	-1	-1	null	null	558	punct	null
+0	24	588	2920	2923	S	590	She	She	she	PRP	O	nsubj	false	0	0	c8	null	590	nsubj	(c8;ANIMATE;FEMALE),
+0	24	589	2924	2935	S	590	immediately	immediately	immediately	RB	O	advmod	false	-1	-1	null	null	590	advmod	null
+0	24	590	2936	2942	S	-1	rushes	rushes	rush	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	24	591	2943	2945	S	590	to	to	to	TO	O	prep	false	-1	-1	null	null	593	case	null
+0	24	592	2946	2949	S	593	the	the	the	DT	O	det	false	-1	-1	c6	null	593	det	(c6;INANIMATE;NEUTRAL),
+0	24	593	2950	2957	S	591	mailbox	mailbox	mailbox	NN	O	pobj	false	-1	-1	c6	null	590	nmod:to	(c6;INANIMATE;NEUTRAL),
+0	24	594	2958	2961	S	590	and	and	and	CC	O	cc	false	-1	-1	null	null	590	cc	null
+0	24	595	2962	2967	S	590	sends	sends	send	VBZ	O	conj	false	-1	-1	null	null	590	conj:and	null
+0	24	596	2968	2969	S	597	a	a	a	DT	O	det	false	-1	-1	null	null	597	det	null
+0	24	597	2970	2976	S	595	letter	letter	letter	NN	O	dobj	false	-1	-1	null	null	595	dobj	null
+0	24	598	2977	2984	S	597	telling	telling	tell	VBG	O	partmod	false	-1	-1	null	null	597	acl	null
+0	24	599	2985	2988	S	598	him	him	he	PRP	O	dobj	false	-1	-1	c14	null	598	dobj	(c14;ANIMATE;MALE),
+0	24	600	2989	2992	S	602	not	not	not	RB	O	neg	false	-1	-1	null	null	602	neg	null
+0	24	601	2993	2995	S	602	to	to	to	TO	O	aux	false	-1	-1	null	null	602	mark	null
+0	24	602	2996	2998		598	go	go	go	VB	O	xcomp	false	-1	-1	null	null	598	xcomp	null
+0	24	603	2998	2999	S	590	.	.	.	.	O	punct	false	-1	-1	null	null	590	punct	null
+0	25	604	3000	3003	S	607	The	The	the	DT	O	det	false	-1	-1	null	null	607	det	null
+0	25	605	3004	3009	S	607	final	final	final	JJ	O	amod	false	-1	-1	null	null	607	amod	null
+0	25	606	3010	3015	S	607	scene	scene	scene	NN	O	nn	false	-1	-1	null	null	607	compound	null
+0	25	607	3016	3023	S	-1	returns	returns	return	NNS	O	null	false	-1	-1	null	null	-1	root	null
+0	25	608	3024	3026	S	607	to	to	to	TO	O	prep	false	-1	-1	null	null	610	case	null
+0	25	609	3027	3030	S	610	the	the	the	DT	O	det	false	-1	-1	null	null	610	det	null
+0	25	610	3031	3040	S	608	beginning	beginning	beginning	NN	O	pobj	false	-1	-1	null	null	607	nmod:to	null
+0	25	611	3041	3043	S	610	of	of	of	IN	O	prep	false	-1	-1	null	null	613	case	null
+0	25	612	3044	3047	S	613	the	the	the	DT	O	det	false	-1	-1	null	null	613	det	null
+0	25	613	3048	3053		611	movie	movie	movie	NN	O	pobj	false	-1	-1	null	null	610	nmod:of	null
+0	25	614	3053	3054	S	613	,	,	,	,	O	punct	false	-1	-1	null	null	613	punct	null
+0	25	615	3055	3060	S	618	where	where	where	WRB	O	advmod	false	-1	-1	null	null	618	advmod	null
+0	25	616	3061	3068	S	618	Eun-joo	Eun-joo	eun-joo	NN	MISC	nsubj	false	-1	-1	null	null	618	nsubj	null
+0	25	617	3069	3071	S	618	is	is	be	VBZ	O	aux	false	-1	-1	null	null	618	aux	null
+0	25	618	3072	3077	S	620	about	about	about	IN	O	quantmod	false	-1	-1	null	null	613	acl:relcl	null
+0	25	619	3078	3080	S	620	to	to	to	TO	O	aux	false	-1	-1	null	null	620	mark	null
+0	25	620	3081	3086	S	613	place	place	place	VB	O	dep	false	-1	-1	null	null	618	xcomp	null
+0	25	621	3087	3090	S	623	her	her	she	PRP$	O	poss	false	0	0	c5,c8	null	623	nmod:poss	(c5;INANIMATE;NEUTRAL),(c8;ANIMATE;FEMALE),
+0	25	622	3091	3100	S	623	Christmas	Christmas	Christmas	NNP	DATE	nn	false	-1	-1	c5	null	623	compound	(c5;INANIMATE;NEUTRAL),
+0	25	623	3101	3105	S	620	card	card	card	NN	O	dobj	false	-1	-1	c5	null	620	dobj	(c5;INANIMATE;NEUTRAL),
+0	25	624	3106	3110	S	620	into	into	into	IN	O	prep	false	-1	-1	null	null	626	case	null
+0	25	625	3111	3114	S	626	the	the	the	DT	O	det	false	-1	-1	c17	null	626	det	(c17;INANIMATE;NEUTRAL),
+0	25	626	3115	3122	S	624	mailbox	mailbox	mailbox	NN	O	pobj	false	-1	-1	c17	null	620	nmod:into	(c17;INANIMATE;NEUTRAL),
+0	25	627	3123	3125	S	620	at	at	at	IN	O	prep	false	-1	-1	c17	null	630	case	(c17;INANIMATE;NEUTRAL),
+0	25	628	3126	3127		630	"	``	``	``	O	punct	false	-1	-1	c17	null	630	punct	(c17;INANIMATE;NEUTRAL),
+0	25	629	3127	3129	S	630	Il	Il	Il	NNP	O	nn	true	-1	-1	c4,c17	null	630	compound	(c4;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	25	630	3130	3134		627	Mare	Mare	Mare	NNP	O	pobj	true	-1	-1	c4,c17	null	626	nmod:at	(c4;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	25	631	3134	3135		630	"	''	''	''	O	punct	true	-1	-1	c17	null	630	punct	(c17;INANIMATE;NEUTRAL),
+0	25	632	3135	3136	S	607	.	.	.	.	O	punct	false	-1	-1	null	null	607	punct	null
+0	26	633	3137	3138	S	634	A	A	a	DT	O	det	false	-1	-1	c20	c20	634	det	(c20;ANIMATE;MALE),
+0	26	634	3139	3147	S	635	stranger	stranger	stranger	NN	O	nsubj	false	-1	-1	c20	c20	635	nsubj	(c20;ANIMATE;MALE),
+0	26	635	3148	3158	S	-1	approaches	approaches	approach	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	26	636	3159	3162	S	635	her	her	she	PRP$	O	dobj	false	0	0	c8	null	635	dobj	(c8;ANIMATE;FEMALE),
+0	26	637	3163	3167	S	636	with	with	with	IN	O	prep	false	-1	-1	null	null	639	case	null
+0	26	638	3168	3169	S	639	a	a	a	DT	O	det	false	-1	-1	c22	null	639	det	(c22;INANIMATE;UNKNOWN),
+0	26	639	3170	3176	S	637	letter	letter	letter	NN	O	pobj	false	-1	-1	c22	null	635	nmod:with	(c22;INANIMATE;UNKNOWN),
+0	26	640	3177	3179	S	639	in	in	in	IN	O	prep	false	-1	-1	c22	null	642	case	(c22;INANIMATE;UNKNOWN),
+0	26	641	3180	3183	S	642	his	his	he	PRP$	O	poss	false	-1	-1	c20,c22	null	642	nmod:poss	(c20;ANIMATE;MALE),(c22;INANIMATE;UNKNOWN),
+0	26	642	3184	3188		640	hand	hand	hand	NN	O	pobj	false	-1	-1	c22	null	639	nmod:in	(c22;INANIMATE;UNKNOWN),
+0	26	643	3188	3189	S	635	,	,	,	,	O	punct	false	-1	-1	c22	null	642	punct	(c22;INANIMATE;UNKNOWN),
+0	26	644	3190	3193	S	645	the	the	the	DT	O	det	false	-1	-1	c10,c22	null	645	det	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	645	3194	3200	S	635	letter	letter	letter	NN	O	dobj	false	-1	-1	c10,c22	null	642	appos	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	646	3201	3205	S	648	that	that	that	WDT	O	dobj	false	-1	-1	c10,c22	null	649	dobj	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	647	3206	3213	S	648	Eun-joo	Eun-joo	Eun-joo	NNP	PERSON	nsubj	false	0	0	c10,c15,c22	null	648	nsubj	(c10;INANIMATE;UNKNOWN),(c15;ANIMATE;FEMALE),(c22;INANIMATE;UNKNOWN),
+0	26	648	3214	3218	S	645	sent	sent	send	VBD	O	rcmod	false	-1	-1	c10,c22	null	645	acl:relcl	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	649	3219	3226	S	648	warning	warning	warn	VBG	O	dep	false	-1	-1	c10,c22	null	648	xcomp	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	650	3227	3236	S	653	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	nsubj	false	-1	-1	c10,c22	null	649	dobj	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	651	3237	3240	S	653	not	not	not	RB	O	neg	false	-1	-1	c10,c22	null	653	neg	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	652	3241	3243	S	653	to	to	to	TO	O	aux	false	-1	-1	c10,c22	null	653	mark	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	653	3244	3246	S	649	go	go	go	VB	O	xcomp	false	-1	-1	c10,c22	null	649	advcl	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	654	3247	3249	S	653	to	to	to	TO	O	prep	false	-1	-1	c10,c22	null	656	case	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),
+0	26	655	3250	3253	S	656	the	the	the	DT	O	det	false	-1	-1	c10,c22,c32	null	656	det	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),(c32;INANIMATE;UNKNOWN),
+0	26	656	3254	3261		654	meeting	meeting	meeting	NN	O	pobj	false	-1	-1	c10,c22,c32	null	653	nmod:to	(c10;INANIMATE;UNKNOWN),(c22;INANIMATE;UNKNOWN),(c32;INANIMATE;UNKNOWN),
+0	26	657	3261	3262	S	635	.	.	.	.	O	punct	false	-1	-1	null	null	635	punct	null
+0	27	658	3263	3272	S	660	Sung-hyun	Sung-hyun	sung-hyun	NN	O	nsubj	false	-1	-1	null	null	660	nsubj	null
+0	27	659	3273	3276	S	660	did	did	do	VBD	O	aux	false	-1	-1	null	null	660	aux	null
+0	27	660	3277	3284	S	-1	receive	receive	receive	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	27	661	3285	3288	S	663	her	her	she	PRP$	O	poss	false	0	0	c8,c22	c22	663	nmod:poss	(c8;ANIMATE;FEMALE),(c22;INANIMATE;UNKNOWN),
+0	27	662	3289	3296	S	663	warning	warning	warning	NN	O	nn	false	-1	-1	c22	c22	663	compound	(c22;INANIMATE;UNKNOWN),
+0	27	663	3297	3303	S	660	letter	letter	letter	NN	O	dobj	false	-1	-1	c22	c22	660	dobj	(c22;INANIMATE;UNKNOWN),
+0	27	664	3304	3307	S	660	and	and	and	CC	O	cc	false	-1	-1	null	null	660	cc	null
+0	27	665	3308	3313	S	666	never	never	never	RB	O	neg	false	-1	-1	null	null	666	neg	null
+0	27	666	3314	3318	S	660	went	went	go	VBD	O	conj	false	-1	-1	null	null	660	conj:and	null
+0	27	667	3319	3321	S	668	to	to	to	TO	O	aux	false	-1	-1	null	null	668	mark	null
+0	27	668	3322	3331	S	666	intervene	intervene	intervene	VB	O	xcomp	false	-1	-1	null	null	666	xcomp	null
+0	27	669	3332	3336	S	670	that	that	that	DT	O	det	false	-1	-1	c12	null	670	det	(c12;INANIMATE;UNKNOWN),
+0	27	670	3337	3340	S	668	day	day	day	NN	DURATION	dobj	false	-1	-1	c12	null	668	nmod:tmod	(c12;INANIMATE;UNKNOWN),
+0	27	671	3341	3344	S	666	and	and	and	CC	O	cc	false	-1	-1	null	null	666	cc	null
+0	27	672	3345	3348	S	674	was	was	be	VBD	O	auxpass	false	-1	-1	null	null	674	auxpass	null
+0	27	673	3349	3354	S	674	never	never	never	RB	O	neg	false	-1	-1	null	null	674	neg	null
+0	27	674	3355	3358	S	666	hit	hit	hit	VBN	O	conj	false	-1	-1	null	null	666	conj:and	null
+0	27	675	3359	3361	S	674	by	by	by	IN	O	prep	false	-1	-1	null	null	677	case	null
+0	27	676	3362	3365	S	677	the	the	the	DT	O	det	false	-1	-1	c13	null	677	det	(c13;INANIMATE;NEUTRAL),
+0	27	677	3366	3369		675	car	car	car	NN	O	pobj	false	-1	-1	c13	null	674	nmod:agent	(c13;INANIMATE;NEUTRAL),
+0	27	678	3369	3370	S	660	.	.	.	.	O	punct	false	-1	-1	null	null	660	punct	null
+0	28	679	3371	3379	S	682	Although	Although	although	IN	O	mark	false	-1	-1	null	null	682	mark	null
+0	28	680	3380	3384	S	681	this	this	this	DT	O	det	false	-1	-1	c15	null	681	det	(c15;UNKNOWN;FEMALE),
+0	28	681	3385	3392	SS	682	Eun-joo	Eun-joo	eun-joo	NN	MISC	nsubj	false	-1	-1	c15	null	682	nsubj	(c15;UNKNOWN;FEMALE),
+0	28	682	3394	3397	S	-1	has	has	have	VBZ	O	null	false	-1	-1	null	null	693	advcl	null
+0	28	683	3398	3400	S	684	no	no	no	DT	O	det	false	-1	-1	null	null	684	neg	null
+0	28	684	3401	3407	S	682	memory	memory	memory	NN	O	dobj	false	-1	-1	null	null	682	dobj	null
+0	28	685	3408	3410	S	684	of	of	of	IN	O	prep	false	-1	-1	null	null	687	case	null
+0	28	686	3411	3414	S	687	the	the	the	DT	O	det	false	-1	-1	c26	null	687	det	(c26;INANIMATE;UNKNOWN),
+0	28	687	3415	3429		693	correspondence	correspondence	correspondence	NN	O	nsubj	false	-1	-1	c26	null	684	nmod:of	(c26;INANIMATE;UNKNOWN),
+0	28	688	3429	3430	S	687	,	,	,	,	O	punct	false	-1	-1	null	null	693	punct	null
+0	28	689	3431	3438	S	687	Eun-joo	Eun-joo	eun-joo	NN	MISC	conj	false	-1	-1	c15	null	693	nsubj	(c15;ANIMATE;UNKNOWN),
+0	28	690	3439	3442	S	687	and	and	and	CC	O	cc	false	-1	-1	c15	null	689	cc	(c15;ANIMATE;UNKNOWN),
+0	28	691	3443	3452	S	687	Sung-hyun	Sung-hyun	sung-hyun	NN	MISC	conj	false	-1	-1	c15	null	689	conj:and	(c15;ANIMATE;UNKNOWN),
+0	28	692	3453	3460	S	693	finally	finally	finally	RB	O	advmod	false	-1	-1	null	null	693	advmod	null
+0	28	693	3461	3465		685	meet	meet	meet	VB	O	pcomp	false	-1	-1	null	null	-1	root	null
+0	28	694	3465	3466	N	682	.	.	.	.	O	punct	false	-1	-1	null	null	693	punct	null

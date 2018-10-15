@@ -1,0 +1,115 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	2	Sir	Sir	Sir	NNP	O	nn	false	-1	-1	c1	c1	2	compound	(c1;ANIMATE;UNKNOWN),
+0	0	1	4	10	S	2	Karell	Karell	Karell	NNP	PERSON	nn	false	-1	-1	c1	c1	2	compound	(c1;ANIMATE;UNKNOWN),
+0	0	2	11	18	SS	4	Borotyn	Borotyn	Borotyn	NNP	PERSON	nsubjpass	false	-1	-1	c1	c1	4	nsubjpass	(c1;ANIMATE;UNKNOWN),
+0	0	3	20	22	S	4	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	4	auxpass	null
+0	0	4	23	28	S	-1	found	found	find	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	0	5	29	37	S	4	murdered	murdered	murder	VBN	O	dep	false	-1	-1	null	null	4	dep	null
+0	0	6	38	40	S	5	in	in	in	IN	O	prep	false	-1	-1	null	null	9	case	null
+0	0	7	41	44	S	9	his	his	he	PRP$	O	poss	false	-1	-1	c1	null	9	nmod:poss	(c1;ANIMATE;MALE),
+0	0	8	45	48	S	9	own	own	own	JJ	O	amod	false	-1	-1	null	null	9	amod	null
+0	0	9	49	54		6	house	house	house	NN	O	pobj	false	-1	-1	null	null	5	nmod:in	null
+0	0	10	54	55	S	4	,	,	,	,	O	punct	false	-1	-1	null	null	5	punct	null
+0	0	11	56	60	S	4	with	with	with	IN	O	prep	false	-1	-1	null	null	12	case	null
+0	0	12	61	64	S	14	two	two	two	CD	NUMBER	nsubj	false	-1	-1	null	null	5	nmod:with	null
+0	0	13	65	69	S	12	tiny	tiny	tiny	JJ	O	amod	false	-1	-1	null	null	14	nsubj	null
+0	0	14	70	78	S	11	pinpoint	pinpoint	pinpoint	VBP	O	pcomp	false	-1	-1	null	null	12	acl:relcl	null
+0	0	15	79	85	S	14	wounds	wounds	wound	NNS	O	dobj	false	-1	-1	null	null	14	dobj	null
+0	0	16	86	88	S	15	on	on	on	IN	O	prep	false	-1	-1	null	null	18	case	null
+0	0	17	89	92	S	18	his	his	he	PRP$	O	poss	false	-1	-1	c1	null	18	nmod:poss	(c1;ANIMATE;MALE),
+0	0	18	93	97		16	neck	neck	neck	NN	O	pobj	false	-1	-1	null	null	15	nmod:on	null
+0	0	19	97	98	S	4	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	20	99	102	S	24	The	The	the	DT	O	det	false	-1	-1	c2	c2	22	det	(c2;ANIMATE;MALE),
+0	1	21	103	112	S	24	attending	attending	attend	VBG	O	amod	false	-1	-1	c2	c2	22	amod	(c2;ANIMATE;MALE),
+0	1	22	113	119	S	24	doctor	doctor	doctor	NN	O	nn	false	-1	-1	c2	c2	41	nsubj	(c2;ANIMATE;MALE),
+0	1	23	120	123	S	24	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	-1	-1	c2	c2	24	compound	(c2;ANIMATE;MALE),
+0	1	24	124	130	SS	33	Doskil	Doskil	Doskil	NNP	PERSON	nsubj	false	-1	-1	c2	c2	33	nsubj	(c2;ANIMATE;MALE),
+0	1	25	132	135	S	24	and	and	and	CC	O	cc	false	-1	-1	c2	c2	24	cc	(c2;ANIMATE;MALE),
+0	1	26	136	139	S	27	Sir	Sir	Sir	NNP	O	nn	false	-1	-1	c1,c2	c2	27	compound	(c1;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	1	27	140	146		31	Karell	Karell	Karell	NNP	PERSON	poss	false	0	0	c1,c2	c2	31	nmod:poss	(c1;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	1	28	146	148	S	27	's	's	's	POS	O	possessive	false	-1	-1	c1,c2	c2	27	case	(c1;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	1	29	149	155	S	31	friend	friend	friend	NN	O	nn	false	-1	-1	c2	c2	31	compound	(c2;ANIMATE;MALE),
+0	1	30	156	161	S	31	Baron	Baron	Baron	NNP	PERSON	nn	false	-1	-1	c2	c2	31	compound	(c2;ANIMATE;MALE),
+0	1	31	162	166	SS	24	Otto	Otto	Otto	NNP	PERSON	conj	false	-1	-1	c2	c2	24	conj:and	(c2;ANIMATE;MALE),
+0	1	32	168	171	S	33	are	are	be	VBP	O	cop	false	-1	-1	c2	c2	33	cop	(c2;ANIMATE;MALE),
+0	1	33	172	181	S	-1	convinced	convinced	convinced	JJ	O	null	false	-1	-1	c2	c2	22	acl:relcl	(c2;ANIMATE;MALE),
+0	1	34	182	186	S	41	that	that	that	IN	O	complm	false	-1	-1	c2	c2	35	mark	(c2;ANIMATE;MALE),
+0	1	35	187	198	S	41	responsible	responsible	responsible	JJ	O	nsubj	false	-1	-1	c2	c2	33	dep	(c2;ANIMATE;MALE),
+0	1	36	199	202	S	35	for	for	for	IN	O	prep	false	-1	-1	c2	c2	38	case	(c2;ANIMATE;MALE),
+0	1	37	203	206	S	38	the	the	the	DT	O	det	false	-1	-1	c2	c2	38	det	(c2;ANIMATE;MALE),
+0	1	38	207	213	S	36	murder	murder	murder	NN	O	pobj	false	-1	-1	c2	c2	35	nmod:for	(c2;ANIMATE;MALE),
+0	1	39	214	216	S	41	is	is	be	VBZ	O	cop	false	-1	-1	null	null	41	cop	null
+0	1	40	217	218	S	41	a	a	a	DT	O	det	false	-1	-1	c2	null	41	det	(c2;ANIMATE;MALE),
+0	1	41	219	226		33	vampire	vampire	vampire	NN	O	ccomp	false	-1	-1	c2	null	-1	root	(c2;ANIMATE;MALE),
+0	1	42	226	227	S	41	,	,	,	,	O	punct	false	-1	-1	null	null	41	punct	null
+0	1	43	228	240	S	41	specifically	specifically	specifically	RB	O	advmod	false	-1	-1	null	null	45	advmod	null
+0	1	44	241	246	S	45	Count	Count	Count	NNP	PERSON	nn	false	-1	-1	null	null	45	compound	null
+0	1	45	247	251	SS	41	Mora	Mora	Mora	NNP	PERSON	dep	false	-1	-1	null	null	41	conj:and	null
+0	1	46	253	256	S	45	and	and	and	CC	O	cc	false	-1	-1	null	null	41	cc	null
+0	1	47	257	260	S	48	his	his	he	PRP$	O	poss	false	-1	-1	c2	null	49	nmod:poss	(c2;ANIMATE;MALE),
+0	1	48	261	269	S	45	daughter	daughter	daughter	NN	O	conj	false	-1	-1	null	null	49	compound	null
+0	1	49	270	274	S	48	Luna	Luna	Luna	NNP	PERSON	dep	false	-1	-1	null	null	41	conj:and	null
+0	1	50	275	276	S	48	,	,	,	,	O	punct	false	-1	-1	null	null	41	punct	null
+0	1	51	277	282	S	56	while	while	while	IN	O	mark	false	-1	-1	null	null	56	mark	null
+0	1	52	283	286	S	55	the	the	the	DT	O	det	false	-1	-1	null	null	55	det	null
+0	1	53	287	293	S	55	Prague	Prague	Prague	NNP	LOCATION	nn	false	-1	-1	null	null	55	compound	null
+0	1	54	294	300	S	55	police	police	police	NN	O	nn	false	-1	-1	null	null	55	compound	null
+0	1	55	301	310	SS	56	inspector	inspector	inspector	NN	O	nsubj	false	-1	-1	null	null	56	nsubj	null
+0	1	56	312	319	S	48	refuses	refuses	refuse	VBZ	O	advcl	false	-1	-1	null	null	41	advcl	null
+0	1	57	320	322	S	58	to	to	to	TO	O	aux	false	-1	-1	null	null	58	mark	null
+0	1	58	323	330		56	believe	believe	believe	VB	O	xcomp	false	-1	-1	null	null	56	xcomp	null
+0	1	59	330	331	S	33	.	.	.	.	O	punct	false	-1	-1	null	null	41	punct	null
+0	2	60	332	335	S	74	Now	Now	now	RB	DATE	advmod	false	-1	-1	null	null	74	advmod	null
+0	2	61	336	339	S	63	his	his	he	PRP$	O	poss	false	-1	-1	c2,c3	c3	63	nmod:poss	(c2;ANIMATE;MALE),(c3;ANIMATE;FEMALE),
+0	2	62	340	348	S	63	daughter	daughter	daughter	NN	O	nn	false	-1	-1	c3	c3	63	compound	(c3;ANIMATE;FEMALE),
+0	2	63	349	354	S	74	Irena	Irena	Irena	NNP	PERSON	nsubj	false	-1	-1	c3	c3	74	nsubj	(c3;ANIMATE;FEMALE),
+0	2	64	355	356		74	(	-LRB-	-lrb-	-LRB-	O	dep	false	-1	-1	c3	c3	65	punct	(c3;ANIMATE;FEMALE),
+0	2	65	356	357		74	[	-LSB-	-lsb-	-LRB-	O	punct	false	-1	-1	c3	c3	63	dep	(c3;ANIMATE;FEMALE),
+0	2	66	357	358		74	[	-LSB-	-lsb-	-LRB-	O	dep	false	-1	-1	c3	c3	65	punct	(c3;ANIMATE;FEMALE),
+0	2	67	358	367	S	68	Elizabeth	Elizabeth	Elizabeth	NNP	PERSON	nn	false	-1	-1	c3	c3	68	compound	(c3;ANIMATE;FEMALE),
+0	2	68	368	373	SS	74	Allan	Allan	Allan	NNP	PERSON	nsubj	false	-1	-1	c3	c3	65	dep	(c3;ANIMATE;FEMALE),
+0	2	69	375	377	S	74	is	is	be	VBZ	O	cop	false	-1	-1	null	null	74	cop	null
+0	2	70	378	381	S	71	the	the	the	DT	O	det	false	-1	-1	null	null	71	det	null
+0	2	71	382	387		74	count	count	count	NN	O	poss	false	-1	-1	null	null	74	nmod:poss	null
+0	2	72	387	389	S	71	’s	's	's	POS	O	possessive	false	-1	-1	null	null	71	case	null
+0	2	73	390	394	S	74	next	next	next	JJ	O	amod	false	-1	-1	null	null	74	amod	null
+0	2	74	395	401		-1	target	target	target	NN	O	null	false	-1	-1	null	null	-1	root	null
+0	2	75	401	402	S	74	.	.	.	.	O	punct	false	-1	-1	null	null	74	punct	null
+0	3	76	403	408	S	-1	Enter	Enter	enter	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	3	77	409	418	S	78	Professor	Professor	Professor	NNP	O	nn	false	-1	-1	null	null	78	compound	null
+0	3	78	419	424	S	76	Zelen	Zelen	Zelen	NNP	PERSON	dobj	false	-1	-1	c4	c4	76	dobj	(c4;ANIMATE;UNKNOWN),
+0	3	79	425	426	S	78	,	,	,	,	O	punct	false	-1	-1	null	null	78	punct	null
+0	3	80	427	429	S	81	an	an	a	DT	O	det	false	-1	-1	c4	null	81	det	(c4;ANIMATE;MALE),
+0	3	81	430	436	S	78	expert	expert	expert	NN	O	appos	false	-1	-1	c4	null	78	appos	(c4;ANIMATE;MALE),
+0	3	82	437	439	S	81	on	on	on	IN	O	prep	false	-1	-1	c4	null	83	case	(c4;ANIMATE;MALE),
+0	3	83	440	448	S	82	vampires	vampires	vampire	NNS	O	pobj	false	-1	-1	c4	null	81	nmod:on	(c4;ANIMATE;MALE),
+0	3	84	449	452	S	83	and	and	and	CC	O	cc	false	-1	-1	c4	null	83	cc	(c4;ANIMATE;MALE),
+0	3	85	453	456	S	86	the	the	the	DT	O	det	false	-1	-1	c4	null	86	det	(c4;ANIMATE;MALE),
+0	3	86	457	463		83	occult	occult	occult	NN	O	conj	false	-1	-1	c4	null	83	conj:and	(c4;ANIMATE;MALE),
+0	3	87	463	464	S	83	,	,	,	,	O	punct	false	-1	-1	null	null	78	punct	null
+0	3	88	465	468		90	who	who	who	WP	O	nsubjpass	false	-1	-1	null	null	90	nsubjpass	null
+0	3	89	468	470	S	90	’s	's	be	VBZ	O	auxpass	false	-1	-1	null	null	90	auxpass	null
+0	3	90	471	475	S	83	sent	sent	send	VBN	O	rcmod	false	-1	-1	null	null	78	acl:relcl	null
+0	3	91	476	478	S	90	in	in	in	IN	O	prep	false	-1	-1	null	null	90	nmod	null
+0	3	92	479	481	S	93	to	to	to	TO	O	aux	false	-1	-1	null	null	93	mark	null
+0	3	93	482	489	S	90	prevent	prevent	prevent	VB	O	xcomp	false	-1	-1	null	null	90	xcomp	null
+0	3	94	490	493	S	95	her	her	she	PRP$	O	poss	false	-1	-1	c3	null	95	nmod:poss	(c3;ANIMATE;FEMALE),
+0	3	95	494	499		93	death	death	death	NN	O	dobj	false	-1	-1	null	null	93	dobj	null
+0	3	96	499	500	S	76	.	.	.	.	O	punct	false	-1	-1	null	null	76	punct	null
+0	4	97	501	503	S	104	At	At	at	IN	O	prep	false	-1	-1	null	null	100	case	null
+0	4	98	504	507	S	100	the	the	the	DT	O	det	false	-1	-1	null	null	100	det	null
+0	4	99	508	512	S	100	same	same	same	JJ	O	amod	false	-1	-1	null	null	100	amod	null
+0	4	100	513	517		97	time	time	time	NN	O	pobj	false	-1	-1	null	null	104	nmod:at	null
+0	4	101	517	518	S	104	,	,	,	,	O	punct	false	-1	-1	null	null	104	punct	null
+0	4	102	519	526	S	104	secrets	secrets	secret	NNS	O	nsubjpass	false	-1	-1	null	null	104	nsubjpass	null
+0	4	103	527	530	S	104	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	104	auxpass	null
+0	4	104	531	539	S	-1	revealed	revealed	reveal	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	4	105	540	551	S	104	surrounding	surrounding	surround	VBG	O	xcomp	false	-1	-1	null	null	104	xcomp	null
+0	4	106	552	555	S	107	the	the	the	DT	O	det	false	-1	-1	null	null	107	det	null
+0	4	107	556	569	S	105	circumstances	circumstances	circumstance	NNS	O	dobj	false	-1	-1	null	null	105	dobj	null
+0	4	108	570	572	S	107	of	of	of	IN	O	prep	false	-1	-1	null	null	112	case	null
+0	4	109	573	576	S	110	Sir	Sir	Sir	NNP	O	nn	false	-1	-1	c1	null	110	compound	(c1;ANIMATE;MALE),
+0	4	110	577	583		112	Karell	Karell	Karell	NNP	PERSON	poss	false	0	0	c1	null	112	nmod:poss	(c1;ANIMATE;MALE),
+0	4	111	583	585	S	110	’s	's	's	POS	O	possessive	false	-1	-1	c1	null	110	case	(c1;ANIMATE;MALE),
+0	4	112	586	591		108	death	death	death	NN	O	pobj	false	-1	-1	null	null	107	nmod:of	null
+0	4	113	591	592	N	104	.	.	.	.	O	punct	false	-1	-1	null	null	104	punct	null

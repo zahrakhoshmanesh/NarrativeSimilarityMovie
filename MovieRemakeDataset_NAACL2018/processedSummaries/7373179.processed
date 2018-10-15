@@ -1,0 +1,99 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	6	S	1	Marlon	Marlon	Marlon	NNP	PERSON	nn	false	-1	1	c1,c2	null	1	compound	(c1;ANIMATE;MALE),(c2;ANIMATE;UNKNOWN),
+0	0	1	7	13	S	5	Brando	Brando	Brando	NNP	PERSON	nsubj	false	-1	1	c1,c2	null	5	nsubj	(c1;ANIMATE;MALE),(c2;ANIMATE;UNKNOWN),
+0	0	2	14	17	S	1	and	and	and	CC	O	cc	false	-1	-1	c2	null	1	cc	(c2;ANIMATE;UNKNOWN),
+0	0	3	18	23	S	4	David	David	David	NNP	PERSON	nn	false	-1	1	c2	null	4	compound	(c2;ANIMATE;UNKNOWN),
+0	0	4	24	29	S	1	Niven	Niven	Niven	NNP	PERSON	conj	false	-1	1	c2	null	1	conj:and	(c2;ANIMATE;UNKNOWN),
+0	0	5	30	37	S	-1	portray	portray	portray	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	0	6	38	41	S	8	two	two	two	CD	NUMBER	num	false	-1	-1	null	null	8	nummod	null
+0	0	7	42	50	S	8	charming	charming	charming	JJ	O	amod	false	-1	-1	null	null	8	amod	null
+0	0	8	51	61	S	5	scoundrels	scoundrels	scoundrel	NNS	O	dobj	false	-1	-1	null	null	5	dobj	null
+0	0	9	62	65	S	10	who	who	who	WP	O	nsubj	false	-1	-1	null	null	10	nsubj	null
+0	0	10	66	70	S	8	prey	prey	prey	VBP	O	rcmod	false	-1	-1	null	null	8	acl:relcl	null
+0	0	11	71	73	S	10	on	on	on	IN	O	prep	false	-1	-1	null	null	14	case	null
+0	0	12	74	81	S	14	wealthy	wealthy	wealthy	JJ	O	amod	false	-1	-1	null	null	14	amod	null
+0	0	13	82	88	S	14	single	single	single	JJ	O	amod	false	-1	-1	null	null	14	amod	null
+0	0	14	89	94	S	11	women	women	woman	NNS	O	pobj	false	-1	-1	null	null	10	nmod:on	null
+0	0	15	95	97	S	10	in	in	in	IN	O	prep	false	-1	-1	null	null	19	case	null
+0	0	16	98	102	S	19	this	this	this	DT	O	det	false	-1	-1	null	null	19	det	null
+0	0	17	103	115	S	19	lighthearted	lighthearted	lighthearted	JJ	O	amod	false	-1	-1	null	null	19	amod	null
+0	0	18	116	124	S	19	romantic	romantic	romantic	JJ	O	amod	false	-1	-1	null	null	19	amod	null
+0	0	19	125	131	S	15	comedy	comedy	comedy	NN	O	pobj	false	-1	-1	null	null	14	nmod:in	null
+0	0	20	132	135	S	19	set	set	set	VBN	O	partmod	false	-1	-1	null	null	19	acl	null
+0	0	21	136	138	S	20	on	on	on	IN	O	prep	false	-1	-1	null	null	24	case	null
+0	0	22	139	142	S	24	the	the	the	DT	O	det	false	-1	-1	null	null	24	det	null
+0	0	23	143	149	S	24	French	French	french	JJ	LOCATION	amod	false	-1	-1	null	null	24	amod	null
+0	0	24	150	157		21	Riviera	Riviera	Riviera	NNP	LOCATION	pobj	false	-1	-1	null	null	20	nmod:on	null
+0	0	25	157	158	S	5	.	.	.	.	O	punct	false	-1	-1	null	null	5	punct	null
+0	1	26	159	164	S	-1	While	While	while	IN	O	null	false	-1	-1	null	null	27	mark	null
+0	1	27	165	177	S	26	masquerading	masquerading	masquerade	VBG	O	pcomp	false	-1	-1	null	null	42	advcl	null
+0	1	28	178	180	S	27	as	as	as	IN	O	prep	false	-1	-1	null	null	31	case	null
+0	1	29	181	182	S	33	a	a	a	DT	O	det	false	-1	-1	null	null	31	det	null
+0	1	30	183	190	S	33	deposed	deposed	depose	VBN	O	amod	false	-1	-1	null	null	31	amod	null
+0	1	31	191	197	S	33	Middle	Middle	middle	NN	MISC	nn	false	-1	-1	null	null	27	nmod:as	null
+0	1	32	198	206	S	33	European	European	european	JJ	MISC	amod	false	-1	-1	null	null	33	amod	null
+0	1	33	207	213		28	prince	prince	prince	NN	O	pobj	false	-1	-1	null	null	31	dep	null
+0	1	34	213	214	S	26	,	,	,	,	O	punct	false	-1	-1	null	null	42	punct	null
+0	1	35	215	220		37	Niven	Niven	Niven	NNP	PERSON	poss	false	1	1	c2	c2	37	nmod:poss	(c2;ANIMATE;MALE),
+0	1	36	220	222	S	35	's	's	's	POS	O	possessive	false	-1	-1	c2	c2	35	case	(c2;ANIMATE;MALE),
+0	1	37	223	228	S	34	plans	plans	plan	NNS	O	dobj	false	-1	-1	null	null	42	nsubj	null
+0	1	38	229	231	S	39	to	to	to	TO	O	aux	false	-1	-1	null	null	39	mark	null
+0	1	39	232	236	S	37	oust	oust	oust	VB	O	infmod	false	-1	-1	null	null	37	acl	null
+0	1	40	237	240	S	41	his	his	he	PRP$	O	poss	false	1	1	c2	null	41	nmod:poss	(c2;ANIMATE;MALE),
+0	1	41	241	251	S	42	competitor	competitor	competitor	NN	O	nsubj	false	-1	-1	null	null	39	dobj	null
+0	1	42	252	260	S	39	backfire	backfire	backfire	VB	O	xcomp	false	-1	-1	null	null	-1	root	null
+0	1	43	261	265	S	47	when	when	when	WRB	O	advmod	false	-1	-1	null	null	47	advmod	null
+0	1	44	266	269	S	46	the	the	the	DT	O	det	false	-1	-1	c1	c1	46	det	(c1;ANIMATE;MALE),
+0	1	45	270	275	S	46	brash	brash	brash	JJ	O	amod	false	-1	-1	c1	c1	46	amod	(c1;ANIMATE;MALE),
+0	1	46	276	282	S	47	Brando	Brando	Brando	NNP	PERSON	nsubj	false	0	0	c1	c1	47	nsubj	(c1;ANIMATE;MALE),
+0	1	47	283	291	S	42	portrays	portrays	portray	VBZ	O	advcl	false	-1	-1	null	null	42	advcl	null
+0	1	48	292	297		51	Niven	Niven	Niven	NNP	PERSON	poss	false	1	1	c2	null	51	nmod:poss	(c2;ANIMATE;MALE),
+0	1	49	297	299	S	48	's	's	's	POS	O	possessive	false	-1	-1	c2	null	48	case	(c2;ANIMATE;MALE),
+0	1	50	300	310	S	51	dim-witted	dim-witted	dim-witted	JJ	O	amod	false	-1	-1	null	null	51	amod	null
+0	1	51	311	318		47	brother	brother	brother	NN	O	dobj	false	-1	-1	null	null	47	dobj	null
+0	1	52	318	319	S	34	.	.	.	.	O	punct	false	-1	-1	null	null	42	punct	null
+0	2	53	320	326		56	Brando	Brando	Brando	NNP	PERSON	poss	false	0	0	c1	null	56	nmod:poss	(c1;ANIMATE;MALE),
+0	2	54	326	328	S	53	's	's	's	POS	O	possessive	false	-1	-1	c1	null	53	case	(c1;ANIMATE;MALE),
+0	2	55	329	333	S	56	zany	zany	zany	JJ	O	amod	false	-1	-1	null	null	56	amod	null
+0	2	56	334	340	S	57	antics	antics	antic	NNS	O	nsubj	false	-1	-1	null	null	57	nsubj	null
+0	2	57	341	348	S	-1	prevent	prevent	prevent	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	2	58	349	356	S	59	several	several	several	JJ	O	amod	false	-1	-1	null	null	59	amod	null
+0	2	59	357	362	S	57	women	women	woman	NNS	O	dobj	false	-1	-1	null	null	57	dobj	null
+0	2	60	363	367	S	57	from	from	from	IN	O	prep	false	-1	-1	null	null	61	mark	null
+0	2	61	368	373	S	60	tying	tying	tie	VBG	O	pcomp	false	-1	-1	null	null	57	advcl	null
+0	2	62	374	377	S	63	the	the	the	DT	O	det	false	-1	-1	null	null	63	det	null
+0	2	63	378	382	S	61	knot	knot	knot	NN	O	dobj	false	-1	-1	null	null	61	dobj	null
+0	2	64	383	387	S	61	with	with	with	IN	O	prep	false	-1	-1	null	null	65	case	null
+0	2	65	388	393		64	Niven	Niven	Niven	NNP	PERSON	pobj	false	1	1	c2	null	61	nmod:with	(c2;ANIMATE;MALE),
+0	2	66	393	394	S	57	.	.	.	.	O	punct	false	-1	-1	null	null	57	punct	null
+0	3	67	395	399	S	70	When	When	when	WRB	O	advmod	false	-1	-1	null	null	70	advmod	null
+0	3	68	400	407	S	69	Shirley	Shirley	Shirley	NNP	PERSON	nn	false	-1	-1	c3	c3	69	compound	(c3;ANIMATE;FEMALE),
+0	3	69	408	413	S	70	Jones	Jones	Jones	NNP	PERSON	nsubj	false	-1	-1	c3	c3	70	nsubj	(c3;ANIMATE;FEMALE),
+0	3	70	414	421	S	79	appears	appears	appear	VBZ	O	dep	false	-1	-1	null	null	79	advcl	null
+0	3	71	422	424	S	70	as	as	as	IN	O	prep	false	-1	-1	null	null	75	case	null
+0	3	72	425	427	S	75	an	an	a	DT	O	det	false	-1	-1	null	null	75	det	null
+0	3	73	428	436	S	75	American	American	american	JJ	MISC	amod	false	-1	-1	null	null	75	amod	null
+0	3	74	437	441	S	75	soap	soap	soap	NN	O	nn	false	-1	-1	null	null	75	compound	null
+0	3	75	442	447		71	queen	queen	queen	NN	O	pobj	false	-1	-1	null	null	70	nmod:as	null
+0	3	76	447	448	S	79	,	,	,	,	O	punct	false	-1	-1	null	null	79	punct	null
+0	3	77	449	453	S	78	both	both	both	DT	O	det	false	-1	-1	c4	c4	78	det	(c4;ANIMATE;UNKNOWN),
+0	3	78	454	457	S	79	men	men	man	NNS	O	nsubj	false	-1	-1	c4	c4	79	nsubj	(c4;ANIMATE;UNKNOWN),
+0	3	79	458	465	S	-1	compete	compete	compete	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	3	80	466	469	S	79	for	for	for	IN	O	prep	false	-1	-1	null	null	82	case	null
+0	3	81	470	473	S	82	her	her	she	PRP$	O	poss	false	-1	-1	c3	null	82	nmod:poss	(c3;ANIMATE;FEMALE),
+0	3	82	474	484		80	affections	affections	affection	NNS	O	pobj	false	-1	-1	null	null	79	nmod:for	null
+0	3	83	484	485	S	79	,	,	,	,	O	punct	false	-1	-1	null	null	79	punct	null
+0	3	84	486	494	S	79	agreeing	agreeing	agree	VBG	O	dep	false	-1	-1	null	null	79	xcomp	null
+0	3	85	495	499	S	87	that	that	that	IN	O	complm	false	-1	-1	null	null	87	mark	null
+0	3	86	500	505	S	87	loser	loser	loser	NN	O	nsubj	false	-1	-1	null	null	87	nsubj	null
+0	3	87	506	512	S	84	leaves	leaves	leave	VBZ	O	ccomp	false	-1	-1	null	null	84	ccomp	null
+0	3	88	513	517		87	town	town	town	NN	O	dobj	false	-1	-1	null	null	87	dobj	null
+0	3	89	517	518	S	87	,	,	,	,	O	punct	false	-1	-1	null	null	79	punct	null
+0	3	90	519	524	S	92	until	until	until	IN	O	mark	false	-1	-1	null	null	92	mark	null
+0	3	91	525	529	S	92	they	they	they	PRP	O	nsubj	false	-1	-1	c4	null	92	nsubj	(c4;ANIMATE;UNKNOWN),
+0	3	92	530	538	S	87	discover	discover	discover	VBP	O	advcl	false	-1	-1	null	null	79	advcl	null
+0	3	93	539	542	S	96	her	her	she	PRP$	O	poss	false	-1	-1	c3	null	96	nmod:poss	(c3;ANIMATE;FEMALE),
+0	3	94	543	547	S	96	true	true	true	JJ	O	amod	false	-1	-1	null	null	96	amod	null
+0	3	95	548	557	S	96	financial	financial	financial	JJ	O	amod	false	-1	-1	null	null	96	amod	null
+0	3	96	558	567		92	situation	situation	situation	NN	O	dobj	false	-1	-1	null	null	92	dobj	null
+0	3	97	567	568	N	79	.	.	.	.	O	punct	false	-1	-1	null	null	79	punct	null

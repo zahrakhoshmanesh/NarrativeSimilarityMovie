@@ -1,0 +1,163 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	9	S	2	Detective	Detective	detective	NN	O	nn	false	-1	-1	c1	c1	2	compound	(c1;ANIMATE;MALE),
+0	0	1	10	17	S	2	Vincent	Vincent	Vincent	NNP	PERSON	nn	false	-1	1	c1	c1	2	compound	(c1;ANIMATE;MALE),
+0	0	2	18	23	S	3	Hanna	Hanna	Hanna	NNP	PERSON	nsubj	false	-1	1	c1	c1	6	nsubj	(c1;ANIMATE;MALE),
+0	0	3	24	26	S	-1	is	is	be	VBZ	O	null	false	-1	-1	null	null	6	cop	null
+0	0	4	27	29	S	3	on	on	on	IN	O	prep	false	-1	-1	null	null	6	case	null
+0	0	5	30	33	S	6	the	the	the	DT	O	det	false	-1	-1	null	null	6	det	null
+0	0	6	34	39	S	4	trail	trail	trail	NN	O	pobj	false	-1	-1	null	null	-1	root	null
+0	0	7	40	42	S	6	of	of	of	IN	O	prep	false	-1	-1	null	null	9	case	null
+0	0	8	43	44	S	9	a	a	a	DT	O	det	false	-1	-1	c2	c2	9	det	(c2;ANIMATE;NEUTRAL),
+0	0	9	45	49	S	7	gang	gang	gang	NN	O	pobj	false	-1	-1	c2	c2	6	nmod:of	(c2;ANIMATE;NEUTRAL),
+0	0	10	50	52	S	9	of	of	of	IN	O	prep	false	-1	-1	c2	c2	13	case	(c2;ANIMATE;NEUTRAL),
+0	0	11	53	61	S	13	ruthless	ruthless	ruthless	JJ	O	amod	false	-1	-1	c2	c2	13	amod	(c2;ANIMATE;NEUTRAL),
+0	0	12	62	74	S	13	professional	professional	professional	JJ	O	amod	false	-1	-1	c2	c2	13	amod	(c2;ANIMATE;NEUTRAL),
+0	0	13	75	84		10	criminals	criminals	criminal	NNS	O	pobj	false	-1	-1	c2	c2	9	nmod:of	(c2;ANIMATE;NEUTRAL),
+0	0	14	84	85	S	3	,	,	,	,	O	punct	false	-1	-1	c2	c2	13	punct	(c2;ANIMATE;NEUTRAL),
+0	0	15	86	89	S	3	led	led	lead	VBN	O	dep	false	-1	-1	c2	c2	13	acl	(c2;ANIMATE;NEUTRAL),
+0	0	16	90	92	S	15	by	by	by	IN	O	prep	false	-1	-1	c2	c2	20	case	(c2;ANIMATE;NEUTRAL),
+0	0	17	93	96	S	20	the	the	the	DT	O	det	false	-1	-1	c2,c3	c2,c3	20	det	(c2;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),
+0	0	18	97	107	S	20	methodical	methodical	methodical	JJ	O	amod	false	-1	-1	c2,c3	c2,c3	20	amod	(c2;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),
+0	0	19	108	115	S	20	Patrick	Patrick	Patrick	NNP	PERSON	nn	false	-1	-1	c2,c3	c2,c3	20	compound	(c2;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),
+0	0	20	116	123		16	McLaren	McLaren	McLaren	NNP	PERSON	pobj	false	-1	-1	c2,c3	c2,c3	15	nmod:by	(c2;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),
+0	0	21	123	124	S	3	.	.	.	.	O	punct	false	-1	-1	null	null	6	punct	null
+0	1	22	125	128	S	26	But	But	but	CC	O	cc	false	-1	-1	null	null	26	cc	null
+0	1	23	129	134	S	26	Hanna	Hanna	Hanna	NNP	PERSON	nsubjpass	false	1	1	c1	null	26	nsubjpass	(c1;ANIMATE;MALE),
+0	1	24	135	137	S	26	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	26	auxpass	null
+0	1	25	138	142	S	26	soon	soon	soon	RB	O	advmod	false	-1	-1	null	null	26	advmod	null
+0	1	26	143	152	S	-1	surprised	surprised	surprise	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	1	27	153	157	S	29	when	when	when	WRB	O	advmod	false	-1	-1	null	null	29	advmod	null
+0	1	28	158	160	S	29	he	he	he	PRP	O	nsubj	false	1	1	c1	null	29	nsubj	(c1;ANIMATE;MALE),
+0	1	29	161	170	S	26	discovers	discovers	discover	VBZ	O	advcl	false	-1	-1	null	null	26	ccomp	null
+0	1	30	171	175	S	34	that	that	that	IN	O	complm	false	-1	-1	null	null	34	mark	null
+0	1	31	176	178	S	34	he	he	he	PRP	O	nsubj	false	1	1	c1	null	34	nsubj	(c1;ANIMATE;MALE),
+0	1	32	179	182	S	31	and	and	and	CC	O	cc	false	-1	-1	null	null	31	cc	null
+0	1	33	183	190	S	31	McLaren	McLaren	McLaren	NNP	PERSON	conj	false	0	0	c3	null	31	conj:and	(c3;INANIMATE;UNKNOWN),
+0	1	34	191	195	S	29	have	have	have	VBP	O	ccomp	false	-1	-1	null	null	29	ccomp	null
+0	1	35	196	201	S	37	quite	quite	quite	RB	O	advmod	false	-1	-1	null	null	37	advmod	null
+0	1	36	202	203	S	37	a	a	a	DT	O	det	false	-1	-1	null	null	37	det	null
+0	1	37	204	207	S	34	lot	lot	lot	NN	O	dobj	false	-1	-1	null	null	34	dobj	null
+0	1	38	208	210	S	37	in	in	in	IN	O	prep	false	-1	-1	null	null	39	case	null
+0	1	39	211	217		38	common	common	common	JJ	O	pobj	false	-1	-1	null	null	37	nmod:in	null
+0	1	40	217	218	S	26	.	.	.	.	O	punct	false	-1	-1	null	null	26	punct	null
+0	2	41	219	224	S	48	While	While	while	IN	O	mark	false	-1	-1	null	null	46	mark	null
+0	2	42	225	232	S	48	McLaren	McLaren	McLaren	NNP	PERSON	nn	false	0	0	c3,c4	c4	46	nsubj	(c3;ANIMATE;UNKNOWN),(c4;ANIMATE;UNKNOWN),
+0	2	43	233	236	S	42	and	and	and	CC	O	cc	false	-1	-1	c4	c4	42	cc	(c4;ANIMATE;UNKNOWN),
+0	2	44	237	240	S	46	his	his	he	PRP$	O	poss	false	1	1	c2,c3,c4	c4	45	nmod:poss	(c2;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),(c4;ANIMATE;UNKNOWN),
+0	2	45	241	245	S	46	gang	gang	gang	NN	O	nn	false	-1	-1	c2,c4	c4	42	conj:and	(c2;ANIMATE;NEUTRAL),(c4;ANIMATE;UNKNOWN),
+0	2	46	246	250	S	42	plan	plan	plan	NN	O	conj	false	-1	-1	null	null	54	advcl	null
+0	2	47	251	258	S	48	another	another	another	DT	O	det	false	-1	-1	null	null	48	det	null
+0	2	48	259	264		-1	heist	heist	heist	NN	O	null	false	-1	-1	null	null	46	dobj	null
+0	2	49	264	265	S	48	,	,	,	,	O	punct	false	-1	-1	null	null	54	punct	null
+0	2	50	266	271	S	48	Hanna	Hanna	Hanna	NNP	PERSON	dep	false	1	1	c1	null	54	nsubj	(c1;ANIMATE;MALE),
+0	2	51	272	275	S	50	and	and	and	CC	O	cc	false	-1	-1	null	null	50	cc	null
+0	2	52	276	279	S	53	his	his	he	PRP$	O	poss	false	1	1	c3	null	53	nmod:poss	(c3;ANIMATE;MALE),
+0	2	53	280	290	S	50	colleagues	colleagues	colleague	NNS	O	conj	false	-1	-1	null	null	50	conj:and	null
+0	2	54	291	295	S	48	keep	keep	keep	VBP	O	prep	false	-1	-1	null	null	-1	root	null
+0	2	55	296	308		54	surveillance	surveillance	surveillance	NN	O	dobj	false	-1	-1	null	null	54	dobj	null
+0	2	56	308	309	S	48	.	.	.	.	O	punct	false	-1	-1	null	null	54	punct	null
+0	3	57	310	313	S	60	But	But	but	CC	O	cc	false	-1	-1	null	null	60	cc	null
+0	3	58	314	321	S	60	McLaren	McLaren	McLaren	NNP	PERSON	nsubj	false	0	0	c3	null	60	nsubj	(c3;ANIMATE;UNKNOWN),
+0	3	59	322	326	S	60	also	also	also	RB	O	advmod	false	-1	-1	null	null	60	advmod	null
+0	3	60	327	332	S	-1	faces	faces	face	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	61	333	334	S	63	a	a	a	DT	O	det	false	-1	-1	null	null	63	det	null
+0	3	62	335	343	S	63	personal	personal	personal	JJ	O	amod	false	-1	-1	null	null	63	amod	null
+0	3	63	344	351	S	60	problem	problem	problem	NN	O	dobj	false	-1	-1	null	null	60	dobj	null
+0	3	64	352	356	S	66	when	when	when	WRB	O	advmod	false	-1	-1	null	null	66	advmod	null
+0	3	65	357	359	S	66	he	he	he	PRP	O	nsubj	false	1	1	c3	null	66	nsubj	(c3;ANIMATE;MALE),
+0	3	66	360	365	S	60	finds	finds	find	VBZ	O	advcl	false	-1	-1	null	null	63	acl:relcl	null
+0	3	67	366	373	S	68	himself	himself	himself	PRP	O	nsubj	false	-1	-1	c3	null	68	nsubj	(c3;ANIMATE;MALE),
+0	3	68	374	381	S	66	falling	falling	fall	VBG	O	xcomp	false	-1	-1	null	null	66	dep	null
+0	3	69	382	384	S	68	in	in	in	IN	O	prep	false	-1	-1	null	null	70	case	null
+0	3	70	385	389		69	love	love	love	NN	O	pobj	false	-1	-1	null	null	68	nmod:in	null
+0	3	71	389	390	S	70	,	,	,	,	O	punct	false	-1	-1	null	null	70	punct	null
+0	3	72	391	396	S	75	which	which	which	WDT	O	rel	false	-1	-1	null	null	76	dobj	null
+0	3	73	397	399	S	75	he	he	he	PRP	O	nsubj	false	1	1	c3	null	75	nsubj	(c3;ANIMATE;MALE),
+0	3	74	400	410	S	75	personally	personally	personally	RB	O	advmod	false	-1	-1	null	null	75	advmod	null
+0	3	75	411	419	S	70	condemns	condemns	condemn	VBZ	O	rcmod	false	-1	-1	null	null	70	acl:relcl	null
+0	3	76	420	423	S	75	due	due	due	JJ	O	prep	false	-1	-1	null	null	75	xcomp	null
+0	3	77	424	426	S	76	to	to	to	TO	O	prep	false	-1	-1	null	null	79	case	null
+0	3	78	427	430	S	79	the	the	the	DT	O	det	false	-1	-1	null	null	79	det	null
+0	3	79	431	441	S	77	commitment	commitment	commitment	NN	O	pobj	false	-1	-1	null	null	76	nmod:to	null
+0	3	80	442	450	S	79	required	required	require	VBN	O	partmod	false	-1	-1	null	null	79	acl	null
+0	3	81	451	453	S	80	to	to	to	TO	O	prep	false	-1	-1	null	null	83	case	null
+0	3	82	454	457	S	83	his	his	he	PRP$	O	poss	false	1	1	c3	null	83	nmod:poss	(c3;ANIMATE;MALE),
+0	3	83	458	468		81	profession	profession	profession	NN	O	pobj	false	-1	-1	null	null	80	nmod:to	null
+0	3	84	468	469	S	60	.	.	.	.	O	punct	false	-1	-1	null	null	60	punct	null
+0	4	85	470	476	S	87	Things	Things	thing	NNS	O	nsubj	false	-1	-1	null	null	87	nsubj	null
+0	4	86	477	481	S	87	then	then	then	RB	O	advmod	false	-1	-1	null	null	87	advmod	null
+0	4	87	482	486	S	-1	take	take	take	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	4	88	487	488	S	89	a	a	a	DT	O	det	false	-1	-1	null	null	89	det	null
+0	4	89	489	493	S	87	turn	turn	turn	NN	O	dobj	false	-1	-1	null	null	87	dobj	null
+0	4	90	494	497	S	87	for	for	for	IN	O	prep	false	-1	-1	null	null	93	case	null
+0	4	91	498	501	S	93	the	the	the	DT	O	det	false	-1	-1	null	null	93	det	null
+0	4	92	502	506	S	93	very	very	very	RB	O	advmod	false	-1	-1	null	null	93	advmod	null
+0	4	93	507	512		90	worst	worst	worst	JJS	O	pobj	false	-1	-1	null	null	89	nmod:for	null
+0	4	94	512	513	S	93	,	,	,	,	O	punct	false	-1	-1	null	null	87	punct	null
+0	4	95	514	518	S	104	when	when	when	WRB	O	advmod	false	-1	-1	null	null	104	advmod	null
+0	4	96	519	522	S	97	the	the	the	DT	O	det	false	-1	-1	null	null	97	det	null
+0	4	97	523	530	S	104	details	details	detail	NNS	O	nsubjpass	false	-1	-1	null	null	104	nsubjpass	null
+0	4	98	531	533	S	97	of	of	of	IN	O	prep	false	-1	-1	null	null	102	case	null
+0	4	99	534	541		102	McLaren	McLaren	McLaren	NNP	ORGANIZATION	poss	false	0	0	c3	null	102	nmod:poss	(c3;INANIMATE;UNKNOWN),
+0	4	100	541	543	S	99	's	's	's	POS	O	possessive	false	-1	-1	c3	null	99	case	(c3;INANIMATE;UNKNOWN),
+0	4	101	544	551	S	102	planned	planned	plan	VBN	O	amod	false	-1	-1	null	null	102	amod	null
+0	4	102	552	557	S	98	heist	heist	heist	NN	O	pobj	false	-1	-1	null	null	97	nmod:of	null
+0	4	103	558	561	S	104	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	104	auxpass	null
+0	4	104	562	570	S	93	betrayed	betrayed	betray	VBN	O	dep	false	-1	-1	null	null	87	advcl	null
+0	4	105	571	573	S	104	to	to	to	TO	O	prep	false	-1	-1	null	null	107	case	null
+0	4	106	574	577	S	107	the	the	the	DT	O	det	false	-1	-1	null	null	107	det	null
+0	4	107	578	584		105	police	police	police	NN	O	pobj	false	-1	-1	null	null	104	nmod:to	null
+0	4	108	584	585	S	87	.	.	.	.	O	punct	false	-1	-1	null	null	87	punct	null
+0	5	109	586	590	S	111	When	When	when	WRB	O	advmod	false	-1	-1	null	null	111	advmod	null
+0	5	110	591	595	SS	111	they	they	they	PRP	O	nsubj	false	-1	-1	c4	null	111	nsubj	(c4;ANIMATE;UNKNOWN),
+0	5	111	597	603	S	121	arrive	arrive	arrive	VBP	O	dep	false	-1	-1	null	null	121	advcl	null
+0	5	112	604	606	S	111	on	on	on	IN	O	prep	false	-1	-1	null	null	114	case	null
+0	5	113	607	610	S	114	the	the	the	DT	O	det	false	-1	-1	null	null	114	det	null
+0	5	114	611	616	S	112	scene	scene	scene	NN	O	pobj	false	-1	-1	null	null	111	nmod:on	null
+0	5	115	617	629		114	unexpectedly	unexpectedly	unexpectedly	RB	O	advmod	false	-1	-1	null	null	111	advmod	null
+0	5	116	629	630	S	121	,	,	,	,	O	punct	false	-1	-1	null	null	121	punct	null
+0	5	117	631	638	S	121	McLaren	McLaren	McLaren	NNP	PERSON	nsubj	false	0	0	c3	null	121	nsubj	(c3;ANIMATE;UNKNOWN),
+0	5	118	639	642	S	117	and	and	and	CC	O	cc	false	-1	-1	null	null	117	cc	null
+0	5	119	643	646	S	120	his	his	he	PRP$	O	poss	false	1	1	c3	null	120	nmod:poss	(c3;ANIMATE;MALE),
+0	5	120	647	651	S	117	crew	crew	crew	NN	O	conj	false	-1	-1	null	null	117	conj:and	null
+0	5	121	652	658	S	-1	engage	engage	engage	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	5	122	659	663	S	121	them	them	they	PRP	O	dobj	false	-1	-1	c4	null	121	dobj	(c4;ANIMATE;UNKNOWN),
+0	5	123	664	666	S	121	in	in	in	IN	O	prep	false	-1	-1	null	null	126	case	null
+0	5	124	667	668	S	126	a	a	a	DT	O	det	false	-1	-1	null	null	126	det	null
+0	5	125	669	679	S	126	mid-street	mid-street	mid-street	JJ	O	amod	false	-1	-1	null	null	126	amod	null
+0	5	126	680	688		123	shootout	shootout	shootout	NN	O	pobj	false	-1	-1	null	null	121	nmod:in	null
+0	5	127	688	689	S	126	,	,	,	,	O	punct	false	-1	-1	null	null	126	punct	null
+0	5	128	690	692	S	136	in	in	in	IN	O	rel	false	-1	-1	null	null	129	case	null
+0	5	129	693	698	S	128	which	which	which	WDT	O	pobj	false	-1	-1	null	null	136	nmod:in	null
+0	5	130	699	703	S	136	most	most	most	JJS	O	nsubjpass	false	-1	-1	null	null	136	nsubjpass	null
+0	5	131	704	706	S	130	of	of	of	IN	O	prep	false	-1	-1	null	null	134	case	null
+0	5	132	707	714		134	McLaren	McLaren	McLaren	NNP	O	poss	false	-1	-1	c3	null	134	nmod:poss	(c3;INANIMATE;UNKNOWN),
+0	5	133	714	716	S	132	's	's	's	POS	O	possessive	false	-1	-1	c3	null	132	case	(c3;INANIMATE;UNKNOWN),
+0	5	134	717	721	S	131	crew	crew	crew	NN	O	pobj	false	-1	-1	null	null	130	nmod:of	null
+0	5	135	722	725	S	136	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	136	auxpass	null
+0	5	136	726	732		126	killed	killed	kill	VBN	O	rcmod	false	-1	-1	null	null	126	acl:relcl	null
+0	5	137	732	733	S	121	.	.	.	.	O	punct	false	-1	-1	null	null	121	punct	null
+0	6	138	734	739	S	145	After	After	after	IN	O	prep	false	-1	-1	null	null	139	mark	null
+0	6	139	740	746	S	138	making	making	make	VBG	O	pcomp	false	-1	-1	null	null	145	advcl	null
+0	6	140	747	749	S	141	an	an	a	DT	O	det	false	-1	-1	null	null	141	det	null
+0	6	141	750	756		139	escape	escape	escape	NN	O	dobj	false	-1	-1	null	null	139	dobj	null
+0	6	142	756	757	S	145	,	,	,	,	O	punct	false	-1	-1	null	null	145	punct	null
+0	6	143	758	765	S	145	McLaren	McLaren	McLaren	NNP	ORGANIZATION	nsubjpass	false	0	0	c3	null	145	nsubjpass	(c3;INANIMATE;UNKNOWN),
+0	6	144	766	768	S	145	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	145	auxpass	null
+0	6	145	769	773	S	-1	torn	torn	tear	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	6	146	774	781	S	145	between	between	between	IN	O	prep	false	-1	-1	null	null	149	case	null
+0	6	147	782	783	S	149	a	a	a	DT	O	det	false	-1	-1	null	null	149	det	null
+0	6	148	784	787	S	149	new	new	new	JJ	O	amod	false	-1	-1	null	null	149	amod	null
+0	6	149	788	792	S	146	life	life	life	NN	O	pobj	false	-1	-1	null	null	145	nmod:between	null
+0	6	150	793	797	S	149	with	with	with	IN	O	prep	false	-1	-1	null	null	152	case	null
+0	6	151	798	801	S	152	his	his	he	PRP$	O	poss	false	1	1	c3	null	152	nmod:poss	(c3;ANIMATE;MALE),
+0	6	152	802	812	S	150	girlfriend	girlfriend	girlfriend	NN	O	pobj	false	-1	-1	null	null	149	nmod:with	null
+0	6	153	813	816	S	149	and	and	and	CC	O	cc	false	-1	-1	null	null	145	cc	null
+0	6	154	817	824	S	155	seeking	seeking	seek	VBG	O	amod	false	-1	-1	null	null	145	conj:and	null
+0	6	155	825	832	S	149	revenge	revenge	revenge	NN	O	conj	false	-1	-1	null	null	154	dobj	null
+0	6	156	833	835	S	155	on	on	on	IN	O	prep	false	-1	-1	null	null	157	case	null
+0	6	157	836	841	S	156	those	those	those	DT	O	pobj	false	-1	-1	null	null	154	nmod:on	null
+0	6	158	842	846	S	159	that	that	that	WDT	O	nsubj	false	-1	-1	null	null	159	nsubj	null
+0	6	159	847	855	S	157	betrayed	betrayed	betray	VBD	O	rcmod	false	-1	-1	null	null	157	acl:relcl	null
+0	6	160	856	859		159	him	him	he	PRP	O	dobj	false	1	1	c3	null	159	dobj	(c3;ANIMATE;MALE),
+0	6	161	859	860	N	145	.	.	.	.	O	punct	false	-1	-1	null	null	145	punct	null

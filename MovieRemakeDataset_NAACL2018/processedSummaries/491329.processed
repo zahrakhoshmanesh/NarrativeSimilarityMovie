@@ -1,0 +1,516 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	The	The	the	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	4	8	S	2	film	film	film	NN	O	nsubj	false	-1	-1	null	null	2	nsubj	null
+0	0	2	9	14	S	-1	opens	opens	open	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	3	15	19	S	2	with	with	with	IN	O	prep	false	-1	-1	null	null	5	case	null
+0	0	4	20	21	S	5	a	a	a	DT	O	det	false	-1	-1	null	null	5	det	null
+0	0	5	22	27	S	3	bunch	bunch	bunch	NN	O	pobj	false	-1	-1	null	null	2	nmod:with	null
+0	0	6	28	30	S	5	of	of	of	IN	O	prep	false	-1	-1	null	null	7	case	null
+0	0	7	31	40		6	gangsters	gangsters	gangster	NNS	O	pobj	false	-1	-1	null	null	5	nmod:of	null
+0	0	8	40	41	S	5	,	,	,	,	O	punct	false	-1	-1	null	null	7	punct	null
+0	0	9	42	45	S	5	led	led	lead	VBN	O	partmod	false	-1	-1	null	null	7	acl	null
+0	0	10	46	48	S	9	by	by	by	IN	O	prep	false	-1	-1	null	null	11	case	null
+0	0	11	49	55		10	Ganesh	Ganesh	Ganesh	NNP	PERSON	pobj	false	6	6	c1	c1	9	nmod:by	(c1;ANIMATE;MALE),
+0	0	12	55	56	S	2	,	,	,	,	O	punct	false	-1	-1	null	null	7	punct	null
+0	0	13	57	64	S	2	waiting	waiting	wait	VBG	O	xcomp	false	-1	-1	null	null	7	acl	null
+0	0	14	65	72	S	13	outside	outside	outside	IN	O	prep	false	-1	-1	null	null	17	case	null
+0	0	15	73	76	SS	17	the	the	the	DT	O	det	false	-1	-1	c2	c2	17	det	(c2;INANIMATE;NEUTRAL),
+0	0	16	78	81	S	17	VAS	VAS	VAS	NNP	ORGANIZATION	nn	false	-1	-1	c2	c2	17	compound	(c2;INANIMATE;NEUTRAL),
+0	0	17	82	89	S	14	college	college	college	NN	ORGANIZATION	pobj	false	-1	-1	c2	c2	13	nmod:outside	(c2;INANIMATE;NEUTRAL),
+0	0	18	90	92	S	17	of	of	of	IN	ORGANIZATION	prep	false	-1	-1	c2	c2	19	case	(c2;INANIMATE;NEUTRAL),
+0	0	19	93	97	S	18	Arts	Arts	Arts	NNP	ORGANIZATION	pobj	false	-1	-1	c2	c2	17	nmod:of	(c2;INANIMATE;NEUTRAL),
+0	0	20	98	99	S	19	&	&	&	CC	ORGANIZATION	cc	false	-1	-1	c2	c2	19	cc	(c2;INANIMATE;NEUTRAL),
+0	0	21	100	108		19	Sciences	Sciences	Sciences	NNP	ORGANIZATION	conj	false	-1	-1	c2	c2	19	conj:&	(c2;INANIMATE;NEUTRAL),
+0	0	22	108	109	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	2	punct	null
+0	1	23	110	111	S	27	A	A	a	DT	O	det	false	-1	-1	null	null	27	det	null
+0	1	24	112	119	S	27	college	college	college	NN	O	nn	false	-1	-1	null	null	27	compound	null
+0	1	25	120	127	S	27	student	student	student	NN	O	nn	false	-1	-1	null	null	27	compound	null
+0	1	26	128	130	SS	27	JD	JD	jd	NN	O	nn	false	-1	-1	null	null	27	compound	null
+0	1	27	132	140	S	-1	gestures	gestures	gesture	NNS	O	null	false	-1	-1	null	null	33	nsubj	null
+0	1	28	141	143	S	27	to	to	to	TO	O	prep	false	-1	-1	null	null	30	case	null
+0	1	29	144	147	S	30	the	the	the	DT	O	det	false	-1	-1	c3	c3	30	det	(c3;ANIMATE;UNKNOWN),
+0	1	30	148	153	S	28	goons	goons	goon	NNS	O	pobj	false	-1	-1	c3	c3	27	nmod:to	(c3;ANIMATE;UNKNOWN),
+0	1	31	154	157	S	27	and	and	and	CC	O	cc	false	-1	-1	null	null	30	cc	null
+0	1	32	158	162	S	33	they	they	they	PRP	O	nsubj	false	-1	-1	c3	null	30	conj:and	(c3;ANIMATE;UNKNOWN),
+0	1	33	163	170	S	27	proceed	proceed	proceed	VBP	O	conj	false	-1	-1	null	null	-1	root	null
+0	1	34	171	173	S	36	to	to	to	TO	O	aux	false	-1	-1	null	null	36	mark	null
+0	1	35	174	182	S	36	savagely	savagely	savagely	RB	O	advmod	false	-1	-1	null	null	36	advmod	null
+0	1	36	183	190	S	33	assault	assault	assault	NN	O	xcomp	false	-1	-1	null	null	33	xcomp	null
+0	1	37	191	198	S	38	another	another	another	DT	O	det	false	-1	-1	c4	c4	38	det	(c4;ANIMATE;UNKNOWN),
+0	1	38	199	206	S	36	student	student	student	NN	O	dobj	false	-1	-1	c4	c4	36	dobj	(c4;ANIMATE;UNKNOWN),
+0	1	39	207	210	S	38	and	and	and	CC	O	cc	false	-1	-1	null	null	38	cc	null
+0	1	40	211	214	S	41	his	his	he	PRP$	O	poss	false	-1	-1	c4	null	41	nmod:poss	(c4;ANIMATE;MALE),
+0	1	41	215	222		38	friends	friends	friend	NNS	O	conj	false	-1	-1	null	null	38	conj:and	null
+0	1	42	222	223	S	27	.	.	.	.	O	punct	false	-1	-1	null	null	33	punct	null
+0	2	43	224	226	S	44	It	It	it	PRP	O	nsubj	false	-1	-1	null	null	44	nsubj	null
+0	2	44	227	232	S	-1	turns	turns	turn	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	45	233	236	S	44	out	out	out	RP	O	prt	false	-1	-1	null	null	44	compound:prt	null
+0	2	46	237	241	S	51	that	that	that	IN	O	complm	false	-1	-1	null	null	51	mark	null
+0	2	47	242	244	S	51	JD	JD	jd	NN	O	nsubj	false	-1	-1	null	null	51	nsubj	null
+0	2	48	245	247	S	51	is	is	be	VBZ	O	cop	false	-1	-1	null	null	51	cop	null
+0	2	49	248	249	S	51	a	a	a	DT	O	det	false	-1	-1	c5	c5	51	det	(c5;ANIMATE;MALE),
+0	2	50	250	257	S	51	student	student	student	NN	O	nn	false	-1	-1	c5	c5	51	compound	(c5;ANIMATE;MALE),
+0	2	51	258	264		44	leader	leader	leader	NN	O	ccomp	false	-1	-1	c5	c5	44	ccomp	(c5;ANIMATE;MALE),
+0	2	52	264	265	S	51	,	,	,	,	O	punct	false	-1	-1	null	null	51	punct	null
+0	2	53	266	267	S	54	a	a	a	DT	O	det	false	-1	-1	c5	null	54	det	(c5;UNKNOWN;UNKNOWN),
+0	2	54	268	285		51	big-man-on-campus	big-man-on-campus	big-man-on-campus	NN	O	dep	false	-1	-1	c5	null	51	appos	(c5;UNKNOWN;UNKNOWN),
+0	2	55	285	286	S	54	,	,	,	,	O	punct	false	-1	-1	null	null	51	punct	null
+0	2	56	287	290	S	59	who	who	who	WP	O	nsubj	false	-1	-1	null	null	59	nsubj	null
+0	2	57	291	293	S	59	is	is	be	VBZ	O	cop	false	-1	-1	null	null	59	cop	null
+0	2	58	294	297	SS	59	the	the	the	DT	O	det	false	-1	-1	c6	c6	59	det	(c6;ANIMATE;MALE),
+0	2	59	299	308	S	54	President	President	President	NNP	O	rcmod	false	-1	-1	c6	c6	51	acl:relcl	(c6;ANIMATE;MALE),
+0	2	60	309	311	S	59	of	of	of	IN	O	prep	false	-1	-1	c6	c6	63	case	(c6;ANIMATE;MALE),
+0	2	61	312	315	S	63	the	the	the	DT	O	det	false	-1	-1	c6	c6	63	det	(c6;ANIMATE;MALE),
+0	2	62	316	323	S	63	Student	Student	Student	NNP	O	nn	false	-1	-1	c6	c6	63	compound	(c6;ANIMATE;MALE),
+0	2	63	324	329	S	60	Union	Union	Union	NNP	O	pobj	false	-1	-1	c6	c6	59	nmod:of	(c6;ANIMATE;MALE),
+0	2	64	330	332	S	59	at	at	at	IN	O	prep	false	-1	-1	c6	c6	66	case	(c6;ANIMATE;MALE),
+0	2	65	333	336	S	66	the	the	the	DT	O	det	false	-1	-1	c2,c6	c6	66	det	(c2;INANIMATE;NEUTRAL),(c6;ANIMATE;MALE),
+0	2	66	337	344		64	college	college	college	NN	O	pobj	false	-1	-1	c2,c6	c6	63	nmod:at	(c2;INANIMATE;NEUTRAL),(c6;ANIMATE;MALE),
+0	2	67	344	345	S	44	.	.	.	.	O	punct	false	-1	-1	null	null	44	punct	null
+0	3	68	346	348	S	73	He	He	he	PRP	O	nsubjpass	false	-1	-1	c5	null	72	nsubj	(c5;ANIMATE;MALE),
+0	3	69	349	351	S	73	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	72	cop	null
+0	3	70	352	356	S	73	also	also	also	RB	O	advmod	false	-1	-1	null	null	72	advmod	null
+0	3	71	357	360	S	73	the	the	the	DT	O	det	false	-1	-1	null	null	72	det	null
+0	3	72	361	367	S	73	lowest	lowest	lowest	JJS	O	amod	false	-1	-1	null	null	-1	root	null
+0	3	73	368	372	S	-1	rung	rung	ring	VBN	O	null	false	-1	-1	null	null	72	acl	null
+0	3	74	373	375	S	73	in	in	in	IN	O	prep	false	-1	-1	null	null	77	case	null
+0	3	75	376	377	S	77	a	a	a	DT	O	det	false	-1	-1	null	null	77	det	null
+0	3	76	378	382	S	77	gang	gang	gang	NN	O	nn	false	-1	-1	null	null	77	compound	null
+0	3	77	383	389	S	74	ladder	ladder	ladder	NN	O	pobj	false	-1	-1	null	null	73	nmod:in	null
+0	3	78	390	394	S	79	that	that	that	WDT	O	nsubj	false	-1	-1	null	null	79	nsubj	null
+0	3	79	395	402	S	77	reaches	reaches	reach	VBZ	O	rcmod	false	-1	-1	null	null	77	acl:relcl	null
+0	3	80	403	410	S	79	through	through	through	IN	O	prep	false	-1	-1	null	null	81	case	null
+0	3	81	411	417		80	Ganesh	Ganesh	Ganesh	NNP	PERSON	pobj	false	6	6	c1,c1	null	79	nmod:through	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	3	82	417	418	S	81	,	,	,	,	O	punct	false	-1	-1	c1	null	81	punct	(c1;ANIMATE;MALE),
+0	3	83	419	422	S	85	the	the	the	DT	O	det	false	-1	-1	c1,c1	null	85	det	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	3	84	423	428	S	85	local	local	local	JJ	O	amod	false	-1	-1	c1,c1	null	85	amod	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	3	85	429	433		81	goon	goon	goon	NN	O	appos	false	-1	-1	c1,c1	null	81	appos	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	3	86	433	434	S	81	,	,	,	,	O	punct	false	-1	-1	null	null	81	punct	null
+0	3	87	435	437	S	79	to	to	to	TO	O	prep	false	-1	-1	null	null	88	case	null
+0	3	88	438	445	S	87	Bhavani	Bhavani	Bhavani	NNP	PERSON	pobj	false	3	3	c7	c7	79	nmod:to	(c7;ANIMATE;FEMALE),
+0	3	89	446	447	S	73	.	.	.	.	O	punct	false	-1	-1	null	null	72	punct	null
+0	4	90	448	455	S	91	Bhavani	Bhavani	Bhavani	NNP	PERSON	nsubj	false	3	3	c7	null	91	nsubj	(c7;ANIMATE;FEMALE),
+0	4	91	456	460	S	-1	uses	uses	use	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	92	461	465	S	93	this	this	this	DT	O	det	false	-1	-1	null	null	93	det	null
+0	4	93	466	473	S	91	network	network	network	NN	O	dobj	false	-1	-1	null	null	91	dobj	null
+0	4	94	474	476	S	95	to	to	to	TO	O	aux	false	-1	-1	null	null	95	mark	null
+0	4	95	477	484	S	91	provide	provide	provide	VB	O	xcomp	false	-1	-1	null	null	93	acl	null
+0	4	96	485	494	SS	97	political	political	political	JJ	O	amod	false	-1	-1	null	null	97	amod	null
+0	4	97	496	502	S	95	muscle	muscle	muscle	NN	O	dobj	false	-1	-1	null	null	95	dobj	null
+0	4	98	503	505	S	95	to	to	to	TO	O	prep	false	-1	-1	null	null	101	case	null
+0	4	99	506	509	S	101	the	the	the	DT	O	det	false	-1	-1	null	null	101	det	null
+0	4	100	510	515	S	101	local	local	local	JJ	O	amod	false	-1	-1	null	null	101	amod	null
+0	4	101	516	526	S	98	politician	politician	politician	NN	O	pobj	false	-1	-1	null	null	95	nmod:to	null
+0	4	102	527	528	S	91	.	.	.	.	O	punct	false	-1	-1	null	null	91	punct	null
+0	5	103	529	534	SS	107	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	107	nsubj	null
+0	5	104	536	538	S	107	is	is	be	VBZ	O	cop	false	-1	-1	null	null	107	cop	null
+0	5	105	539	540	S	107	a	a	a	DT	O	det	false	-1	-1	c8	c8	107	det	(c8;ANIMATE;UNKNOWN),
+0	5	106	541	544	S	107	new	new	new	JJ	O	amod	false	-1	-1	c8	c8	107	amod	(c8;ANIMATE;UNKNOWN),
+0	5	107	545	552	S	-1	student	student	student	NN	O	null	false	-1	-1	c8	c8	-1	root	(c8;ANIMATE;UNKNOWN),
+0	5	108	553	555	S	107	at	at	at	IN	O	prep	false	-1	-1	c8	c8	109	case	(c8;ANIMATE;UNKNOWN),
+0	5	109	556	563		108	college	college	college	NN	O	pobj	false	-1	-1	c8	c8	107	nmod:at	(c8;ANIMATE;UNKNOWN),
+0	5	110	563	564	S	107	.	.	.	.	O	punct	false	-1	-1	null	null	107	punct	null
+0	6	111	565	567	S	112	He	He	he	PRP	O	nsubj	false	-1	-1	c8	null	112	nsubj	(c8;ANIMATE;MALE),
+0	6	112	568	573	S	-1	joins	joins	join	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	113	574	575	S	115	a	a	a	DT	O	det	false	-1	-1	null	null	115	det	null
+0	6	114	576	581	S	115	small	small	small	JJ	O	amod	false	-1	-1	null	null	115	amod	null
+0	6	115	582	587	S	112	group	group	group	NN	O	dobj	false	-1	-1	null	null	112	dobj	null
+0	6	116	588	590	S	115	of	of	of	IN	O	prep	false	-1	-1	null	null	117	case	null
+0	6	117	591	598	S	116	friends	friends	friend	NNS	O	pobj	false	-1	-1	null	null	115	nmod:of	null
+0	6	118	599	608	S	117	including	including	include	VBG	O	prep	false	-1	-1	null	null	119	case	null
+0	6	119	609	614	SS	125	Malli	Malli	Malli	NNP	PERSON	nn	false	2	2	c9	c9	117	nmod:including	(c9;ANIMATE;MALE),
+0	6	120	616	619	S	119	and	and	and	CC	O	cc	false	-1	-1	null	null	119	cc	null
+0	6	121	620	624	S	119	Asha	Asha	Asha	NNP	PERSON	conj	false	0	0	c10,c10	c10	125	compound	(c10;ANIMATE;UNKNOWN),(c10;ANIMATE;FEMALE),
+0	6	122	625	626		125	(	-LRB-	-lrb-	-LRB-	O	punct	false	-1	-1	c10	c10	123	punct	(c10;ANIMATE;UNKNOWN),
+0	6	123	626	627		125	[	-LSB-	-lsb-	-LRB-	O	dep	false	-1	-1	c10	c10	125	dep	(c10;ANIMATE;UNKNOWN),
+0	6	124	627	628		125	[	-LSB-	-lsb-	-LRB-	O	amod	false	-1	-1	c10	c10	123	punct	(c10;ANIMATE;UNKNOWN),
+0	6	125	628	633	S	118	Amala	Amala	Amala	NNP	PERSON	pobj	false	-1	0	c10	c10	119	conj:and	(c10;ANIMATE;UNKNOWN),
+0	6	126	634	635	S	112	.	.	.	.	O	punct	false	-1	-1	null	null	112	punct	null
+0	7	127	636	638	S	129	JD	JD	jd	NN	O	nsubjpass	false	-1	-1	null	null	129	nsubjpass	null
+0	7	128	639	641	S	129	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	129	auxpass	null
+0	7	129	642	647	S	-1	known	known	know	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	7	130	648	650	S	131	to	to	to	TO	O	aux	false	-1	-1	null	null	131	mark	null
+0	7	131	651	656	S	129	cause	cause	cause	VB	O	xcomp	false	-1	-1	null	null	129	xcomp	null
+0	7	132	657	662	S	133	petty	petty	petty	JJ	O	amod	false	-1	-1	null	null	133	amod	null
+0	7	133	663	671	S	131	troubles	troubles	trouble	NNS	O	dobj	false	-1	-1	null	null	131	dobj	null
+0	7	134	672	673	S	129	.	.	.	.	O	punct	false	-1	-1	null	null	129	punct	null
+0	8	135	674	676	S	136	He	He	he	PRP	O	nsubj	false	-1	-1	c8	null	136	nsubj	(c8;ANIMATE;MALE),
+0	8	136	677	682	S	-1	falls	falls	fall	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	8	137	683	687	S	136	upon	upon	upon	IN	O	prep	false	-1	-1	null	null	138	case	null
+0	8	138	688	692	S	137	Siva	Siva	Siva	NNP	PERSON	pobj	false	-1	-1	null	null	136	nmod:upon	null
+0	8	139	693	695	S	136	in	in	in	IN	O	prep	false	-1	-1	null	null	142	case	null
+0	8	140	696	697	S	142	a	a	a	DT	O	det	false	-1	-1	null	null	142	det	null
+0	8	141	698	704	S	142	chance	chance	chance	NN	O	nn	false	-1	-1	null	null	142	compound	null
+0	8	142	705	714		139	encounter	encounter	encounter	NN	O	pobj	false	-1	-1	null	null	138	nmod:in	null
+0	8	143	714	715	S	136	.	.	.	.	O	punct	false	-1	-1	null	null	136	punct	null
+0	9	144	716	720	S	146	When	When	when	WRB	O	advmod	false	-1	-1	null	null	146	advmod	null
+0	9	145	721	723	S	146	he	he	he	PRP	O	nsubj	false	-1	-1	c8	null	146	nsubj	(c8;ANIMATE;MALE),
+0	9	146	724	732	S	150	provokes	provokes	provoke	VBZ	O	dep	false	-1	-1	null	null	150	advcl	null
+0	9	147	733	738		146	Shiva	Shiva	shiva	NN	ORGANIZATION	dobj	false	4	4	null	null	146	dobj	null
+0	9	148	738	739	S	150	,	,	,	,	O	punct	false	-1	-1	null	null	150	punct	null
+0	9	149	740	745	S	150	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	150	nsubj	null
+0	9	150	746	750	S	-1	hits	hits	hit	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	151	751	755		150	back	back	back	RB	O	advmod	false	-1	-1	null	null	150	advmod	null
+0	9	152	755	756	S	150	.	.	.	.	O	punct	false	-1	-1	null	null	150	punct	null
+0	10	153	757	764		156	Further	Further	further	RB	O	advmod	false	-1	-1	null	null	156	advmod	null
+0	10	154	764	765	S	156	,	,	,	,	O	punct	false	-1	-1	null	null	156	punct	null
+0	10	155	766	771	S	156	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	156	nsubj	null
+0	10	156	772	778	S	-1	chases	chases	chase	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	10	157	779	781	S	156	JD	JD	jd	NN	O	dobj	false	-1	-1	null	null	156	dobj	null
+0	10	158	782	788	S	156	across	across	across	IN	O	prep	false	-1	-1	null	null	159	case	null
+0	10	159	789	795	S	158	campus	campus	campus	NN	O	pobj	false	-1	-1	null	null	156	nmod:across	null
+0	10	160	796	798	S	159	in	in	in	IN	O	prep	false	-1	-1	null	null	162	case	null
+0	10	161	799	804	S	162	plain	plain	plain	JJ	O	amod	false	-1	-1	null	null	162	amod	null
+0	10	162	805	810	S	160	sight	sight	sight	NN	O	pobj	false	-1	-1	null	null	159	nmod:in	null
+0	10	163	811	814	S	156	and	and	and	CC	O	cc	false	-1	-1	null	null	156	cc	null
+0	10	164	815	823	S	156	inflicts	inflicts	inflict	VBZ	O	conj	false	-1	-1	null	null	156	conj:and	null
+0	10	165	824	831	S	166	vicious	vicious	vicious	JJ	O	amod	false	-1	-1	null	null	166	amod	null
+0	10	166	832	842		164	punishment	punishment	punishment	NN	O	dobj	false	-1	-1	null	null	164	dobj	null
+0	10	167	842	843	S	156	.	.	.	.	O	punct	false	-1	-1	null	null	156	punct	null
+0	11	168	844	846	S	170	JD	JD	jd	NN	O	nsubjpass	false	-1	-1	null	null	170	nsubjpass	null
+0	11	169	847	849	S	170	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	170	auxpass	null
+0	11	170	850	857	S	-1	shocked	shocked	shock	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	11	171	858	860	S	175	as	as	as	IN	O	mark	false	-1	-1	null	null	175	mark	null
+0	11	172	861	867	S	175	nobody	nobody	nobody	NN	O	nsubj	false	-1	-1	null	null	175	nsubj	null
+0	11	173	868	871	S	175	has	has	have	VBZ	O	aux	false	-1	-1	null	null	175	aux	null
+0	11	174	872	882	S	175	previously	previously	previously	RB	DATE	advmod	false	-1	-1	null	null	175	advmod	null
+0	11	175	883	893	S	170	confronted	confronted	confront	VBN	O	advcl	false	-1	-1	null	null	170	advcl	null
+0	11	176	894	897	S	175	him	him	he	PRP	O	dobj	false	-1	-1	c8	null	175	dobj	(c8;ANIMATE;MALE),
+0	11	177	898	902	S	175	like	like	like	IN	O	prep	false	-1	-1	null	null	178	case	null
+0	11	178	903	907	S	177	this	this	this	DT	O	pobj	false	-1	-1	null	null	175	nmod:like	null
+0	11	179	908	911	S	175	for	for	for	IN	O	prep	false	-1	-1	null	null	180	case	null
+0	11	180	912	916	S	179	fear	fear	fear	NN	O	pobj	false	-1	-1	null	null	178	nmod:for	null
+0	11	181	917	919	S	180	of	of	of	IN	O	prep	false	-1	-1	null	null	184	case	null
+0	11	182	920	923	S	184	his	his	he	PRP$	O	poss	false	-1	-1	c8	null	184	nmod:poss	(c8;ANIMATE;MALE),
+0	11	183	924	928	S	184	gang	gang	gang	NN	O	nn	false	-1	-1	null	null	184	compound	null
+0	11	184	929	940		181	connections	connections	connection	NNS	O	pobj	false	-1	-1	null	null	180	nmod:of	null
+0	11	185	940	941	S	170	.	.	.	.	O	punct	false	-1	-1	null	null	170	punct	null
+0	12	186	942	946	S	187	This	This	this	DT	O	det	false	-1	-1	null	null	187	det	null
+0	12	187	947	955	S	188	incident	incident	incident	NN	O	nsubj	false	-1	-1	null	null	188	nsubj	null
+0	12	188	956	962	S	-1	sparks	sparks	spark	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	12	189	963	966	S	190	two	two	two	CD	NUMBER	num	false	-1	-1	null	null	190	nummod	null
+0	12	190	967	973		188	things	things	thing	NNS	O	dobj	false	-1	-1	null	null	188	dobj	null
+0	12	191	973	974	S	188	.	.	.	.	O	punct	false	-1	-1	null	null	188	punct	null
+0	13	192	975	977	S	193	JD	JD	jd	NN	O	nsubj	false	-1	-1	null	null	193	nsubj	null
+0	13	193	978	985	S	-1	fetches	fetches	fetch	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	13	194	986	992	S	196	Ganesh	Ganesh	Ganesh	NNP	PERSON	nsubj	false	6	6	c1	null	193	dobj	(c1;ANIMATE;MALE),
+0	13	195	993	995	S	196	to	to	to	TO	O	aux	false	-1	-1	null	null	196	mark	null
+0	13	196	996	1000	S	193	sort	sort	sort	VB	O	ccomp	false	-1	-1	null	null	193	xcomp	null
+0	13	197	1001	1004	S	196	out	out	out	RP	O	prt	false	-1	-1	null	null	196	compound:prt	null
+0	13	198	1005	1010		196	Shiva	Shiva	shiva	NN	ORGANIZATION	dobj	false	4	4	null	null	196	dobj	null
+0	13	199	1010	1011	S	193	,	,	,	,	O	punct	false	-1	-1	null	null	193	punct	null
+0	13	200	1012	1015		193	and	and	and	CC	O	cc	false	-1	-1	null	null	193	cc	null
+0	13	201	1015	1016	S	209	,	,	,	,	O	punct	false	-1	-1	null	null	193	punct	null
+0	13	202	1017	1022	S	209	Malli	Malli	Malli	NNP	PERSON	nsubj	false	2	2	c9	null	215	nsubj	(c9;ANIMATE;MALE),
+0	13	203	1023	1026	S	202	and	and	and	CC	O	cc	false	-1	-1	null	null	202	cc	null
+0	13	204	1027	1030	S	206	the	the	the	DT	O	det	false	-1	-1	null	null	206	det	null
+0	13	205	1031	1036	S	206	other	other	other	JJ	O	amod	false	-1	-1	null	null	206	amod	null
+0	13	206	1037	1045		202	students	students	student	NNS	O	conj	false	-1	-1	null	null	202	conj:and	null
+0	13	207	1045	1046	S	202	,	,	,	,	O	punct	false	-1	-1	null	null	202	punct	null
+0	13	208	1047	1050	S	209	now	now	now	RB	DATE	advmod	false	-1	-1	null	null	209	advmod	null
+0	13	209	1051	1061	S	193	encouraged	encouraged	encourage	VBN	O	parataxis	false	-1	-1	null	null	202	acl	null
+0	13	210	1062	1064	S	215	by	by	by	IN	O	mark	false	-1	-1	null	null	213	case	null
+0	13	211	1065	1070		213	Shiva	Shiva	shiva	NN	ORGANIZATION	poss	false	4	4	c11	c11	213	nmod:poss	(c11;INANIMATE;FEMALE),
+0	13	212	1070	1072	S	211	's	's	's	POS	O	possessive	false	-1	-1	c11	c11	211	case	(c11;INANIMATE;FEMALE),
+0	13	213	1073	1080		215	actions	actions	action	NNS	O	nsubj	false	-1	-1	null	null	209	nmod:by	null
+0	13	214	1080	1081	S	213	,	,	,	,	O	punct	false	-1	-1	null	null	202	punct	null
+0	13	215	1082	1089	S	209	implore	implore	implore	VBP	O	advcl	false	-1	-1	null	null	193	conj:and	null
+0	13	216	1090	1095	S	215	Shiva	Shiva	shiva	NN	ORGANIZATION	dobj	false	4	4	null	null	215	dobj	null
+0	13	217	1096	1098	S	218	to	to	to	TO	O	aux	false	-1	-1	null	null	218	mark	null
+0	13	218	1099	1102	S	216	run	run	run	VB	O	infmod	false	-1	-1	null	null	215	xcomp	null
+0	13	219	1103	1106	S	218	for	for	for	IN	O	prep	false	-1	-1	null	null	220	case	null
+0	13	220	1107	1116	S	219	President	President	President	NNP	O	pobj	false	-1	-1	c6	null	218	nmod:for	(c6;ANIMATE;MALE),
+0	13	221	1117	1119	S	215	at	at	at	IN	O	prep	false	-1	-1	null	null	224	case	null
+0	13	222	1120	1123	S	224	the	the	the	DT	O	det	false	-1	-1	null	null	224	det	null
+0	13	223	1124	1128	S	224	next	next	next	JJ	O	amod	false	-1	-1	null	null	224	amod	null
+0	13	224	1129	1137		221	election	election	election	NN	O	pobj	false	-1	-1	null	null	218	nmod:at	null
+0	13	225	1137	1138	S	193	.	.	.	.	O	punct	false	-1	-1	null	null	193	punct	null
+0	14	226	1139	1144	S	227	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	227	nsubj	null
+0	14	227	1145	1153	S	-1	proposes	proposes	propose	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	14	228	1154	1158	S	227	that	that	that	IN	O	prep	false	-1	-1	null	null	235	case	null
+0	14	229	1159	1162	S	235	the	the	the	DT	O	det	false	-1	-1	null	null	235	det	null
+0	14	230	1163	1167	S	231	more	more	more	RBR	O	advmod	false	-1	-1	null	null	231	advmod	null
+0	14	231	1168	1177	S	235	qualified	qualified	qualified	JJ	O	amod	false	-1	-1	null	null	235	amod	null
+0	14	232	1178	1181	S	231	but	but	but	CC	O	cc	false	-1	-1	null	null	231	cc	null
+0	14	233	1182	1187	S	231	nerdy	nerdy	nerdy	JJ	O	conj	false	-1	-1	null	null	231	conj:but	null
+0	14	234	1188	1194	SS	235	Naresh	Naresh	Naresh	NNP	PERSON	nn	false	5	5	c12	c12	235	compound	(c12;ANIMATE;MALE),
+0	14	235	1196	1199	S	228	run	run	run	NN	O	pobj	false	-1	-1	null	null	227	nmod:that	null
+0	14	236	1200	1207		235	instead	instead	instead	RB	O	advmod	false	-1	-1	null	null	235	advmod	null
+0	14	237	1207	1208	S	227	.	.	.	.	O	punct	false	-1	-1	null	null	227	punct	null
+0	15	238	1209	1215	S	240	Ganesh	Ganesh	Ganesh	NNP	PERSON	nsubj	false	6	6	c1	null	240	nsubj	(c1;ANIMATE;MALE),
+0	15	239	1216	1221	S	240	first	first	first	RB	ORDINAL	advmod	false	-1	-1	c13	c13	240	advmod	(c13;INANIMATE;NEUTRAL),
+0	15	240	1222	1230	S	-1	attempts	attempts	attempt	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	15	241	1231	1233	S	242	to	to	to	TO	O	aux	false	-1	-1	null	null	242	mark	null
+0	15	242	1234	1238	S	240	talk	talk	talk	VB	O	xcomp	false	-1	-1	null	null	240	xcomp	null
+0	15	243	1239	1244	S	242	Shiva	Shiva	shiva	NN	ORGANIZATION	dobj	false	4	4	null	null	242	dobj	null
+0	15	244	1245	1248	S	242	out	out	out	IN	O	prep	false	-1	-1	null	null	246	case	null
+0	15	245	1249	1251	S	244	of	of	of	IN	O	dep	false	-1	-1	null	null	244	mwe	null
+0	15	246	1252	1254		245	it	it	it	PRP	O	pobj	false	-1	-1	c13	null	242	nmod:out_of	(c13;INANIMATE;NEUTRAL),
+0	15	247	1254	1255	S	240	.	.	.	.	O	punct	false	-1	-1	null	null	240	punct	null
+0	16	248	1256	1259	S	250	But	But	but	CC	O	cc	false	-1	-1	null	null	250	cc	null
+0	16	249	1260	1265	S	250	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	250	nsubj	null
+0	16	250	1266	1271	S	-1	tells	tells	tell	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	16	251	1272	1275	S	250	him	him	he	PRP	O	dobj	false	6	6	c1	null	250	dobj	(c1;ANIMATE;MALE),
+0	16	252	1276	1279		250	off	off	off	RP	O	prt	false	-1	-1	null	null	250	advcl	null
+0	16	253	1279	1280	S	250	,	,	,	,	O	punct	false	-1	-1	null	null	250	punct	null
+0	16	254	1281	1289	S	250	claiming	claiming	claim	VBG	O	xcomp	false	-1	-1	null	null	250	advcl	null
+0	16	255	1290	1294	S	258	that	that	that	IN	O	complm	false	-1	-1	null	null	258	mark	null
+0	16	256	1295	1302	S	257	college	college	college	NN	O	nn	false	-1	-1	null	null	257	compound	null
+0	16	257	1303	1310	S	258	matters	matters	matter	NNS	O	nsubj	false	-1	-1	null	null	258	nsubj	null
+0	16	258	1311	1314	S	254	are	are	be	VBP	O	ccomp	false	-1	-1	null	null	254	ccomp	null
+0	16	259	1315	1317	S	261	to	to	to	TO	O	aux	false	-1	-1	null	null	261	mark	null
+0	16	260	1318	1320	S	261	be	be	be	VB	O	auxpass	false	-1	-1	null	null	261	auxpass	null
+0	16	261	1321	1325	S	258	kept	kept	keep	VBN	O	xcomp	false	-1	-1	null	null	258	xcomp	null
+0	16	262	1326	1332	S	261	within	within	within	IN	O	prep	false	-1	-1	null	null	265	case	null
+0	16	263	1333	1336	S	265	the	the	the	DT	O	det	false	-1	-1	null	null	265	det	null
+0	16	264	1337	1343	S	265	campus	campus	campus	NN	O	nn	false	-1	-1	null	null	265	compound	null
+0	16	265	1344	1353	S	262	community	community	community	NN	O	pobj	false	-1	-1	null	null	261	nmod:within	null
+0	16	266	1354	1357	S	262	and	and	and	CC	O	cc	false	-1	-1	null	null	258	cc	null
+0	16	267	1358	1362	S	262	that	that	that	IN	O	conj	false	-1	-1	null	null	274	mark	null
+0	16	268	1363	1368	S	269	lowly	lowly	lowly	JJ	O	amod	false	-1	-1	null	null	269	amod	null
+0	16	269	1369	1378	S	267	gangsters	gangsters	gangster	NNS	O	nsubj	false	-1	-1	null	null	274	nsubj	null
+0	16	270	1379	1383	S	269	from	from	from	IN	O	prep	false	-1	-1	null	null	272	case	null
+0	16	271	1384	1391	S	272	outside	outside	outside	JJ	O	amod	false	-1	-1	null	null	272	amod	null
+0	16	272	1392	1396	S	270	need	need	need	NN	O	pobj	false	-1	-1	null	null	269	nmod:from	null
+0	16	273	1397	1400	S	274	not	not	not	RB	O	neg	false	-1	-1	null	null	274	neg	null
+0	16	274	1401	1410		272	interfere	interfere	interfere	VB	O	infmod	false	-1	-1	null	null	258	conj:and	null
+0	16	275	1410	1411	S	250	.	.	.	.	O	punct	false	-1	-1	null	null	250	punct	null
+0	17	276	1412	1416	S	278	When	When	when	WRB	O	advmod	false	-1	-1	null	null	278	advmod	null
+0	17	277	1417	1423	S	278	Ganesh	Ganesh	Ganesh	NNP	PERSON	nsubj	false	6	6	c1	null	278	nsubj	(c1;ANIMATE;MALE),
+0	17	278	1424	1432	S	284	attempts	attempts	attempt	VBZ	O	dep	false	-1	-1	null	null	284	advcl	null
+0	17	279	1433	1435	S	280	to	to	to	TO	O	aux	false	-1	-1	null	null	280	mark	null
+0	17	280	1436	1439	S	278	use	use	use	VB	O	xcomp	false	-1	-1	null	null	278	xcomp	null
+0	17	281	1440	1445		280	force	force	force	NN	O	dobj	false	-1	-1	null	null	280	dobj	null
+0	17	282	1445	1446	S	284	,	,	,	,	O	punct	false	-1	-1	null	null	284	punct	null
+0	17	283	1447	1452	S	284	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	284	nsubj	null
+0	17	284	1453	1458	S	-1	beats	beats	beat	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	17	285	1459	1462	S	284	him	him	he	PRP	O	dobj	false	6	6	c1	null	284	dobj	(c1;ANIMATE;MALE),
+0	17	286	1463	1467	S	284	back	back	back	RB	O	advmod	false	-1	-1	null	null	287	advmod	null
+0	17	287	1468	1471		284	too	too	too	RB	O	advmod	false	-1	-1	null	null	284	advmod	null
+0	17	288	1471	1472	S	284	.	.	.	.	O	punct	false	-1	-1	null	null	284	punct	null
+0	18	289	1473	1476	S	290	The	The	the	DT	O	det	false	-1	-1	null	null	290	det	null
+0	18	290	1477	1483	S	291	matter	matter	matter	NN	O	nsubj	false	-1	-1	null	null	291	nsubj	null
+0	18	291	1484	1489	S	-1	comes	comes	come	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	18	292	1490	1496	S	291	before	before	before	IN	O	prep	false	-1	-1	null	null	293	case	null
+0	18	293	1497	1504		292	Bhavani	Bhavani	Bhavani	NNP	PERSON	pobj	false	3	3	c7	null	291	nmod:before	(c7;ANIMATE;FEMALE),
+0	18	294	1504	1505	S	291	.	.	.	.	O	punct	false	-1	-1	null	null	291	punct	null
+0	19	295	1506	1513	S	298	Bhavani	Bhavani	Bhavani	NNP	PERSON	nsubj	false	3	3	c7	null	298	nsubj	(c7;UNKNOWN;FEMALE),
+0	19	296	1514	1516	S	298	is	is	be	VBZ	O	cop	false	-1	-1	null	null	298	cop	null
+0	19	297	1517	1523	S	298	mildly	mildly	mildly	RB	O	advmod	false	-1	-1	null	null	298	advmod	null
+0	19	298	1524	1531		-1	annoyed	annoyed	annoyed	JJ	O	null	false	-1	-1	null	null	-1	root	null
+0	19	299	1531	1532	S	298	,	,	,	,	O	punct	false	-1	-1	null	null	298	punct	null
+0	19	300	1533	1536	S	298	but	but	but	CC	O	cc	false	-1	-1	null	null	298	cc	null
+0	19	301	1537	1539	S	302	he	he	he	PRP	O	nsubj	false	6	6	c1	null	302	nsubj	(c1;ANIMATE;MALE),
+0	19	302	1540	1547	S	298	studies	studies	study	VBZ	O	conj	false	-1	-1	null	null	298	conj:but	null
+0	19	303	1548	1553	S	302	Shiva	Shiva	shiva	NN	ORGANIZATION	dobj	false	4	4	null	null	302	dobj	null
+0	19	304	1554	1556	S	302	as	as	as	IN	O	prep	false	-1	-1	null	null	307	case	null
+0	19	305	1557	1558	S	307	a	a	a	DT	O	det	false	-1	-1	null	null	307	det	null
+0	19	306	1559	1568	S	307	potential	potential	potential	JJ	O	amod	false	-1	-1	null	null	307	amod	null
+0	19	307	1569	1580	S	304	replacement	replacement	replacement	NN	O	pobj	false	-1	-1	null	null	302	nmod:as	null
+0	19	308	1581	1584	S	307	for	for	for	IN	O	prep	false	-1	-1	null	null	309	case	null
+0	19	309	1585	1587		308	JD	JD	jd	NN	O	pobj	false	-1	-1	null	null	307	nmod:for	null
+0	19	310	1587	1588	S	298	.	.	.	.	O	punct	false	-1	-1	null	null	298	punct	null
+0	20	311	1589	1591	S	317	At	At	at	IN	O	prep	false	-1	-1	null	null	313	case	null
+0	20	312	1592	1595	S	313	his	his	he	PRP$	O	poss	false	6	6	c1	null	313	nmod:poss	(c1;ANIMATE;MALE),
+0	20	313	1596	1602		311	behest	behest	behest	NN	O	pobj	false	-1	-1	null	null	317	nmod:at	null
+0	20	314	1602	1603	S	317	,	,	,	,	O	punct	false	-1	-1	null	null	317	punct	null
+0	20	315	1604	1610	S	317	Naresh	Naresh	Naresh	NNP	PERSON	nsubjpass	false	5	5	c12	null	317	nsubjpass	(c12;ANIMATE;MALE),
+0	20	316	1611	1613	S	317	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	317	auxpass	null
+0	20	317	1614	1623	S	-1	assaulted	assaulted	assault	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	20	318	1624	1627	S	317	and	and	and	CC	O	cc	false	-1	-1	null	null	317	cc	null
+0	20	319	1628	1636	S	317	rendered	rendered	render	VBN	O	conj	false	-1	-1	null	null	317	conj:and	null
+0	20	320	1637	1643	S	319	unable	unable	unable	JJ	O	dep	false	-1	-1	null	null	319	xcomp	null
+0	20	321	1644	1646	S	322	to	to	to	TO	O	aux	false	-1	-1	null	null	322	mark	null
+0	20	322	1647	1650		320	run	run	run	VB	O	xcomp	false	-1	-1	null	null	320	xcomp	null
+0	20	323	1650	1651	S	317	.	.	.	.	O	punct	false	-1	-1	null	null	317	punct	null
+0	21	324	1652	1654	S	329	At	At	at	IN	O	prep	false	-1	-1	null	null	326	case	null
+0	21	325	1655	1659	S	326	this	this	this	DT	O	det	false	-1	-1	null	null	326	det	null
+0	21	326	1660	1665		324	point	point	point	NN	O	pobj	false	-1	-1	null	null	329	nmod:at	null
+0	21	327	1665	1666	S	329	,	,	,	,	O	punct	false	-1	-1	null	null	329	punct	null
+0	21	328	1667	1672	S	329	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	329	nsubj	null
+0	21	329	1673	1680	S	-1	accepts	accepts	accept	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	21	330	1681	1684	S	331	the	the	the	DT	O	det	false	-1	-1	null	null	331	det	null
+0	21	331	1685	1695	S	329	nomination	nomination	nomination	NN	O	dobj	false	-1	-1	null	null	329	dobj	null
+0	21	332	1696	1699	S	329	and	and	and	CC	O	cc	false	-1	-1	null	null	329	cc	null
+0	21	333	1700	1707	S	329	decides	decides	decide	VBZ	O	conj	false	-1	-1	null	null	329	conj:and	null
+0	21	334	1708	1710	S	335	to	to	to	TO	O	aux	false	-1	-1	null	null	335	mark	null
+0	21	335	1711	1714		333	run	run	run	VB	O	xcomp	false	-1	-1	null	null	333	xcomp	null
+0	21	336	1714	1715	S	329	.	.	.	.	O	punct	false	-1	-1	null	null	329	punct	null
+0	22	337	1716	1725		340	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	false	-1	-1	null	null	340	advmod	null
+0	22	338	1725	1726	S	340	,	,	,	,	O	punct	false	-1	-1	null	null	340	punct	null
+0	22	339	1727	1734	S	340	Bhavani	Bhavani	Bhavani	NNP	PERSON	nsubj	false	3	3	c7	null	340	nsubj	(c7;ANIMATE;FEMALE),
+0	22	340	1735	1738	S	-1	has	has	have	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	22	341	1739	1744	S	342	other	other	other	JJ	O	amod	false	-1	-1	null	null	342	amod	null
+0	22	342	1745	1753		340	troubles	troubles	trouble	NNS	O	dobj	false	-1	-1	null	null	340	dobj	null
+0	22	343	1753	1754	S	340	.	.	.	.	O	punct	false	-1	-1	null	null	340	punct	null
+0	23	344	1755	1757	S	345	He	He	he	PRP	O	nsubj	false	5	5	c1	null	345	nsubj	(c1;ANIMATE;MALE),
+0	23	345	1758	1765	S	-1	refuses	refuses	refuse	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	23	346	1766	1768	S	347	to	to	to	TO	O	aux	false	-1	-1	null	null	347	mark	null
+0	23	347	1769	1773	S	345	side	side	side	VB	O	xcomp	false	-1	-1	null	null	345	xcomp	null
+0	23	348	1774	1778	S	347	with	with	with	IN	O	prep	false	-1	-1	null	null	355	case	null
+0	23	349	1779	1780	S	350	a	a	a	DT	O	det	false	-1	-1	c14	c14	350	det	(c14;ANIMATE;MALE),
+0	23	350	1781	1787		355	worker	worker	worker	NN	O	poss	false	-1	-1	c14	c14	355	nmod:poss	(c14;ANIMATE;MALE),
+0	23	351	1787	1789	S	350	's	's	's	POS	O	possessive	false	-1	-1	c14	c14	350	case	(c14;ANIMATE;MALE),
+0	23	352	1790	1795	S	355	union	union	union	NN	O	nn	false	-1	-1	c14	c14	355	compound	(c14;ANIMATE;MALE),
+0	23	353	1796	1802	S	355	leader	leader	leader	NN	O	nn	false	-1	-1	c14	c14	355	compound	(c14;ANIMATE;MALE),
+0	23	354	1803	1810	S	355	Krishna	Krishna	Krishna	NNP	PERSON	nn	false	1	1	c14	c14	355	compound	(c14;ANIMATE;MALE),
+0	23	355	1811	1816		348	Reddy	Reddy	Reddy	NNP	PERSON	pobj	false	1	1	c14	c14	347	nmod:with	(c14;ANIMATE;MALE),
+0	23	356	1816	1817	S	345	.	.	.	.	O	punct	false	-1	-1	null	null	345	punct	null
+0	24	357	1818	1825	S	358	Krishna	Krishna	Krishna	NNP	PERSON	nn	false	1	1	c14	null	358	compound	(c14;ANIMATE;MALE),
+0	24	358	1826	1831	S	359	Reddy	Reddy	Reddy	NNP	PERSON	nsubj	false	1	1	c14	null	359	nsubj	(c14;ANIMATE;MALE),
+0	24	359	1832	1837	S	-1	takes	takes	take	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	24	360	1838	1841	S	361	his	his	he	PRP$	O	poss	false	1	1	c14	null	361	nmod:poss	(c14;ANIMATE;MALE),
+0	24	361	1842	1848	S	359	plight	plight	plight	NN	O	dobj	false	-1	-1	null	null	359	dobj	null
+0	24	362	1849	1851	S	359	to	to	to	TO	O	prep	false	-1	-1	null	null	363	case	null
+0	24	363	1852	1857		362	Shiva	Shiva	shiva	NN	ORGANIZATION	pobj	false	4	4	null	null	359	nmod:to	null
+0	24	364	1857	1858	S	359	;	;	;	:	O	punct	false	-1	-1	null	null	359	punct	null
+0	24	365	1859	1864	S	366	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	366	nsubj	null
+0	24	366	1865	1871	S	359	agrees	agrees	agree	VBZ	O	conj	false	-1	-1	null	null	359	conj:and	null
+0	24	367	1872	1874	S	368	to	to	to	TO	O	aux	false	-1	-1	null	null	368	mark	null
+0	24	368	1875	1879	S	366	help	help	help	VB	O	xcomp	false	-1	-1	null	null	366	xcomp	null
+0	24	369	1880	1882	S	368	in	in	in	IN	O	prep	false	-1	-1	null	null	370	case	null
+0	24	370	1883	1889	S	369	return	return	return	NN	O	pobj	false	-1	-1	null	null	368	nmod:in	null
+0	24	371	1890	1893	S	370	for	for	for	IN	O	prep	false	-1	-1	null	null	372	case	null
+0	24	372	1894	1900		371	muscle	muscle	muscle	NN	O	pobj	false	-1	-1	null	null	370	nmod:for	null
+0	24	373	1900	1901	S	359	;	;	;	:	O	punct	false	-1	-1	null	null	359	punct	null
+0	24	374	1902	1905	S	359	and	and	and	CC	O	cc	false	-1	-1	null	null	359	cc	null
+0	24	375	1906	1913	S	376	Krishna	Krishna	Krishna	NNP	PERSON	nn	false	1	1	c14	null	376	compound	(c14;ANIMATE;MALE),
+0	24	376	1914	1919	S	377	Reddy	Reddy	Reddy	NNP	PERSON	nsubj	false	1	1	c14	null	377	nsubj	(c14;ANIMATE;MALE),
+0	24	377	1920	1928	S	359	provides	provides	provide	VBZ	O	conj	false	-1	-1	null	null	359	conj:and	null
+0	24	378	1929	1933	S	377	this	this	this	DT	O	dobj	false	-1	-1	c15	c15	377	dobj	(c15;UNKNOWN;NEUTRAL),
+0	24	379	1934	1936	S	377	by	by	by	IN	O	prep	false	-1	-1	null	null	380	mark	null
+0	24	380	1937	1944	S	379	calling	calling	call	VBG	O	pcomp	false	-1	-1	null	null	377	advcl	null
+0	24	381	1945	1949	S	380	upon	upon	upon	IN	O	prep	false	-1	-1	null	null	383	case	null
+0	24	382	1950	1953	S	383	the	the	the	DT	O	det	false	-1	-1	null	null	383	det	null
+0	24	383	1954	1961		381	workers	workers	worker	NNS	O	pobj	false	-1	-1	null	null	380	nmod:upon	null
+0	24	384	1961	1962	S	359	.	.	.	.	O	punct	false	-1	-1	null	null	359	punct	null
+0	25	385	1963	1969	S	390	Around	Around	around	IN	O	prep	false	-1	-1	null	null	387	case	null
+0	25	386	1970	1974	S	387	this	this	this	DT	O	det	false	-1	-1	null	null	387	det	null
+0	25	387	1975	1979		385	time	time	time	NN	O	pobj	false	-1	-1	null	null	390	nmod:around	null
+0	25	388	1979	1980	S	390	,	,	,	,	O	punct	false	-1	-1	null	null	390	punct	null
+0	25	389	1981	1985	S	390	Asha	Asha	Asha	NNP	PERSON	nsubj	false	0	0	c10	null	390	nsubj	(c10;ANIMATE;FEMALE),
+0	25	390	1986	1995	S	-1	expresses	expresses	express	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	25	391	1996	1997	S	393	a	a	a	DT	O	det	false	-1	-1	null	null	393	det	null
+0	25	392	1998	2006	S	393	romantic	romantic	romantic	JJ	O	amod	false	-1	-1	null	null	393	amod	null
+0	25	393	2007	2015	S	390	interest	interest	interest	NN	O	dobj	false	-1	-1	null	null	390	dobj	null
+0	25	394	2016	2018	S	393	in	in	in	IN	O	prep	false	-1	-1	null	null	395	case	null
+0	25	395	2019	2024		394	Shiva	Shiva	shiva	NN	ORGANIZATION	pobj	false	4	4	null	null	393	nmod:in	null
+0	25	396	2024	2025	S	390	.	.	.	.	O	punct	false	-1	-1	null	null	390	punct	null
+0	26	397	2026	2029	S	398	The	The	the	DT	O	det	false	-1	-1	null	null	398	det	null
+0	26	398	2030	2040	S	399	friendship	friendship	friendship	NN	O	nsubj	false	-1	-1	null	null	399	nsubj	null
+0	26	399	2041	2051	S	-1	progresses	progresses	progress	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	26	400	2052	2055	S	399	and	and	and	CC	O	cc	false	-1	-1	null	null	399	cc	null
+0	26	401	2056	2060	S	403	they	they	they	PRP	O	nsubj	false	-1	-1	c15	null	403	nsubj	(c15;ANIMATE;UNKNOWN),
+0	26	402	2061	2071	S	403	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	403	advmod	null
+0	26	403	2072	2077		399	marry	marry	marry	VB	O	conj	false	-1	-1	null	null	399	conj:and	null
+0	26	404	2077	2078	S	399	.	.	.	.	O	punct	false	-1	-1	null	null	399	punct	null
+0	27	405	2079	2082	S	406	The	The	the	DT	O	det	false	-1	-1	null	null	406	det	null
+0	27	406	2083	2088	S	409	stage	stage	stage	NN	O	nsubjpass	false	-1	-1	null	null	409	nsubjpass	null
+0	27	407	2089	2091	S	409	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	409	auxpass	null
+0	27	408	2092	2095	S	409	now	now	now	RB	DATE	advmod	false	-1	-1	null	null	409	advmod	null
+0	27	409	2096	2099		-1	set	set	set	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	27	410	2099	2100	S	409	.	.	.	.	O	punct	false	-1	-1	null	null	409	punct	null
+0	28	411	2101	2108	S	412	Bhavani	Bhavani	bhavani	JJ	PERSON	amod	false	3	3	c7	null	412	amod	(c7;ANIMATE;FEMALE),
+0	28	412	2109	2117	S	-1	launches	launches	launch	NNS	O	null	false	-1	-1	null	null	-1	root	null
+0	28	413	2118	2119	S	414	a	a	a	DT	O	det	false	-1	-1	null	null	414	det	null
+0	28	414	2120	2123	S	412	set	set	set	NN	O	dobj	false	-1	-1	null	null	412	dep	null
+0	28	415	2124	2126	S	414	of	of	of	IN	O	prep	false	-1	-1	null	null	417	case	null
+0	28	416	2127	2133	S	417	sniper	sniper	sniper	NN	O	nn	false	-1	-1	null	null	417	compound	null
+0	28	417	2134	2141	S	415	attacks	attacks	attack	NNS	O	pobj	false	-1	-1	null	null	414	nmod:of	null
+0	28	418	2142	2144	S	417	on	on	on	IN	O	prep	false	-1	-1	null	null	419	case	null
+0	28	419	2145	2150	S	418	those	those	those	DT	O	pobj	false	-1	-1	null	null	417	nmod:on	null
+0	28	420	2151	2156	S	419	close	close	close	JJ	O	amod	false	-1	-1	null	null	422	case	null
+0	28	421	2157	2159	S	420	to	to	to	TO	O	prep	false	-1	-1	null	null	420	mwe	null
+0	28	422	2160	2165		421	Shiva	Shiva	shiva	NN	ORGANIZATION	pobj	false	4	4	null	null	419	nmod:close_to	null
+0	28	423	2165	2166	S	412	.	.	.	.	O	punct	false	-1	-1	null	null	412	punct	null
+0	29	424	2167	2172	S	425	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	425	nsubj	null
+0	29	425	2173	2183	S	-1	retaliates	retaliates	retaliate	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	29	426	2184	2186	S	425	in	in	in	IN	O	prep	false	-1	-1	null	null	427	case	null
+0	29	427	2187	2191	S	426	kind	kind	kind	NN	O	pobj	false	-1	-1	null	null	425	nmod:in	null
+0	29	428	2192	2195	S	425	and	and	and	CC	O	cc	false	-1	-1	null	null	425	cc	null
+0	29	429	2196	2201	S	425	takes	takes	take	VBZ	O	conj	false	-1	-1	null	null	425	conj:and	null
+0	29	430	2202	2205	S	429	out	out	out	RP	O	prt	false	-1	-1	null	null	429	compound:prt	null
+0	29	431	2206	2210	S	429	many	many	many	JJ	O	dobj	false	-1	-1	null	null	429	dobj	null
+0	29	432	2211	2213	S	431	of	of	of	IN	O	prep	false	-1	-1	null	null	435	case	null
+0	29	433	2214	2221		435	Bhavani	Bhavani	Bhavani	NNP	PERSON	poss	false	3	3	c7	null	435	nmod:poss	(c7;ANIMATE;FEMALE),
+0	29	434	2221	2223	S	433	's	's	's	POS	O	possessive	false	-1	-1	c7	null	433	case	(c7;ANIMATE;FEMALE),
+0	29	435	2224	2231		432	leaders	leaders	leader	NNS	O	pobj	false	-1	-1	null	null	431	nmod:of	null
+0	29	436	2231	2232	S	425	.	.	.	.	O	punct	false	-1	-1	null	null	425	punct	null
+0	30	437	2233	2242	S	438	Machiraju	Machiraju	Machiraju	NNP	PERSON	nn	false	-1	-1	c16	c16	438	compound	(c16;ANIMATE;UNKNOWN),
+0	30	438	2243	2250	S	-1	notices	notices	notice	NNS	O	null	false	-1	-1	null	null	449	nsubj	null
+0	30	439	2251	2255	S	442	that	that	that	WDT	O	dobj	false	-1	-1	null	null	442	dobj	null
+0	30	440	2256	2261	S	442	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	442	nsubj	null
+0	30	441	2262	2264	S	442	is	is	be	VBZ	O	aux	false	-1	-1	null	null	442	aux	null
+0	30	442	2265	2274	S	438	launching	launching	launch	VBG	O	rcmod	false	-1	-1	null	null	438	acl:relcl	null
+0	30	443	2275	2276	S	445	a	a	a	DT	O	det	false	-1	-1	null	null	445	det	null
+0	30	444	2277	2284	S	445	fitting	fitting	fitting	JJ	O	amod	false	-1	-1	null	null	445	amod	null
+0	30	445	2285	2293	S	442	response	response	response	NN	O	dobj	false	-1	-1	null	null	442	dobj	null
+0	30	446	2294	2296	S	445	to	to	to	TO	O	prep	false	-1	-1	null	null	447	case	null
+0	30	447	2297	2304	S	446	Bhavani	Bhavani	Bhavani	NNP	PERSON	pobj	false	3	3	c7	null	445	nmod:to	(c7;ANIMATE;FEMALE),
+0	30	448	2305	2308	S	438	and	and	and	CC	O	cc	false	-1	-1	null	null	442	cc	null
+0	30	449	2309	2316	S	438	decides	decides	decide	VBZ	O	conj	false	-1	-1	null	null	-1	root	null
+0	30	450	2317	2319	S	451	to	to	to	TO	O	aux	false	-1	-1	null	null	451	mark	null
+0	30	451	2320	2324	S	449	stop	stop	stop	VB	O	xcomp	false	-1	-1	null	null	449	xcomp	null
+0	30	452	2325	2335	S	451	supporting	supporting	support	VBG	O	xcomp	false	-1	-1	null	null	451	xcomp	null
+0	30	453	2336	2343		452	Bhavani	Bhavani	Bhavani	NNP	PERSON	dobj	false	3	3	c7	null	452	dobj	(c7;ANIMATE;FEMALE),
+0	30	454	2343	2344	S	438	.	.	.	.	O	punct	false	-1	-1	null	null	449	punct	null
+0	31	455	2345	2352		462	Angered	Angered	anger	VBN	O	ccomp	false	-1	-1	null	null	462	advcl	null
+0	31	456	2352	2353	S	462	,	,	,	,	O	punct	false	-1	-1	null	null	455	punct	null
+0	31	457	2354	2364	S	462	humiliated	humiliated	humiliate	VBN	O	ccomp	false	-1	-1	null	null	455	conj:and	null
+0	31	458	2365	2368	S	457	and	and	and	CC	O	cc	false	-1	-1	null	null	455	cc	null
+0	31	459	2369	2377		457	defeated	defeated	defeat	VBN	O	conj	false	-1	-1	null	null	455	conj:and	null
+0	31	460	2377	2378	S	462	,	,	,	,	O	punct	false	-1	-1	null	null	462	punct	null
+0	31	461	2379	2386	S	462	Bhavani	Bhavani	Bhavani	NNP	PERSON	nsubj	false	3	3	c7	null	462	nsubj	(c7;ANIMATE;FEMALE),
+0	31	462	2387	2394	S	-1	strikes	strikes	strike	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	31	463	2395	2400		465	Shiva	Shiva	shiva	NN	ORGANIZATION	poss	false	4	4	c11	null	465	nmod:poss	(c11;INANIMATE;FEMALE),
+0	31	464	2400	2402	S	463	's	's	's	POS	O	possessive	false	-1	-1	c11	null	463	case	(c11;INANIMATE;FEMALE),
+0	31	465	2403	2407		462	home	home	home	NN	O	dobj	false	-1	-1	null	null	462	dobj	null
+0	31	466	2407	2408	S	462	.	.	.	.	O	punct	false	-1	-1	null	null	462	punct	null
+0	32	467	2409	2410	S	469	A	A	a	DT	O	det	false	-1	-1	null	null	469	det	null
+0	32	468	2411	2416	S	469	final	final	final	JJ	O	amod	false	-1	-1	null	null	469	amod	null
+0	32	469	2417	2422	S	470	fight	fight	fight	NN	O	nsubj	false	-1	-1	null	null	470	nsubj	null
+0	32	470	2423	2429	S	-1	ensues	ensues	ensue	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	32	471	2430	2432	S	476	in	in	in	IN	O	rel	false	-1	-1	null	null	472	case	null
+0	32	472	2433	2438	S	471	which	which	which	WDT	O	pobj	false	-1	-1	null	null	476	nmod:in	null
+0	32	473	2439	2449		476	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	476	advmod	null
+0	32	474	2449	2450	S	476	,	,	,	,	O	punct	false	-1	-1	null	null	476	punct	null
+0	32	475	2451	2456	S	476	Shiva	Shiva	shiva	NN	ORGANIZATION	nsubj	false	4	4	null	null	476	nsubj	null
+0	32	476	2457	2464	S	470	manages	manages	manage	VBZ	O	ccomp	false	-1	-1	null	null	470	ccomp	null
+0	32	477	2465	2467	S	478	to	to	to	TO	O	aux	false	-1	-1	null	null	478	mark	null
+0	32	478	2468	2472	S	476	kill	kill	kill	VB	O	xcomp	false	-1	-1	null	null	476	xcomp	null
+0	32	479	2473	2480		478	Bhavani	Bhavani	Bhavani	NNP	PERSON	dobj	false	3	3	c7,c7	null	478	dobj	(c7;ANIMATE;FEMALE),(c7;ANIMATE;FEMALE),
+0	32	480	2480	2481	S	476	,	,	,	,	O	punct	false	-1	-1	c7	null	479	punct	(c7;ANIMATE;FEMALE),
+0	32	481	2482	2489	S	476	ridding	ridding	rid	VBG	O	xcomp	false	-1	-1	c7	null	479	acl	(c7;ANIMATE;FEMALE),
+0	32	482	2490	2493	S	483	the	the	the	DT	O	det	false	-1	-1	c7	null	483	det	(c7;ANIMATE;FEMALE),
+0	32	483	2494	2498	S	481	city	city	city	NN	O	dobj	false	-1	-1	c7	null	481	dobj	(c7;ANIMATE;FEMALE),
+0	32	484	2499	2501	S	483	of	of	of	IN	O	prep	false	-1	-1	c7	null	485	case	(c7;ANIMATE;FEMALE),
+0	32	485	2502	2505	S	484	one	one	one	CD	NUMBER	pobj	false	-1	-1	c7	null	483	nmod:of	(c7;ANIMATE;FEMALE),
+0	32	486	2506	2508	S	485	of	of	of	IN	O	prep	false	-1	-1	c7	null	491	case	(c7;ANIMATE;FEMALE),
+0	32	487	2509	2512	S	491	its	its	its	PRP$	O	poss	false	-1	3	c7	null	491	nmod:poss	(c7;ANIMATE;FEMALE),
+0	32	488	2513	2517	S	489	most	most	most	RBS	O	advmod	false	-1	-1	c7	null	489	advmod	(c7;ANIMATE;FEMALE),
+0	32	489	2518	2528	S	491	terrifying	terrifying	terrifying	JJ	O	amod	false	-1	-1	c7	null	491	amod	(c7;ANIMATE;FEMALE),
+0	32	490	2529	2540	S	491	anti-social	anti-social	anti-social	JJ	O	amod	false	-1	-1	c7	null	491	amod	(c7;ANIMATE;FEMALE),
+0	32	491	2541	2549		486	elements	elements	element	NNS	O	pobj	false	-1	-1	c7	null	483	nmod:of	(c7;ANIMATE;FEMALE),
+0	32	492	2549	2550	S	476	,	,	,	,	O	punct	false	-1	-1	c7	null	491	punct	(c7;ANIMATE;FEMALE),
+0	32	493	2551	2556	S	495	while	while	while	IN	O	mark	false	-1	-1	c7	null	495	mark	(c7;ANIMATE;FEMALE),
+0	32	494	2557	2567	S	495	personally	personally	personally	RB	O	advmod	false	-1	-1	c7	null	495	advmod	(c7;ANIMATE;FEMALE),
+0	32	495	2568	2574	S	476	coming	coming	come	VBG	O	advcl	false	-1	-1	c7	null	491	dep	(c7;ANIMATE;FEMALE),
+0	32	496	2575	2577	S	495	to	to	to	TO	O	prep	false	-1	-1	c7	null	497	case	(c7;ANIMATE;FEMALE),
+0	32	497	2578	2583	S	496	terms	terms	term	NNS	O	pobj	false	-1	-1	c7	null	495	nmod:to	(c7;ANIMATE;FEMALE),
+0	32	498	2584	2588	S	495	with	with	with	IN	O	prep	false	-1	-1	c7	null	500	case	(c7;ANIMATE;FEMALE),
+0	32	499	2589	2592	S	500	the	the	the	DT	O	det	false	-1	-1	c7	null	500	det	(c7;ANIMATE;FEMALE),
+0	32	500	2593	2597	S	498	fact	fact	fact	NN	O	pobj	false	-1	-1	c7	null	497	nmod:with	(c7;ANIMATE;FEMALE),
+0	32	501	2598	2602	S	505	that	that	that	IN	O	complm	false	-1	-1	c7	null	505	mark	(c7;ANIMATE;FEMALE),
+0	32	502	2603	2606	S	503	his	his	he	PRP$	O	poss	false	-1	3	c7,c16	null	503	nmod:poss	(c7;ANIMATE;FEMALE),(c16;ANIMATE;MALE),
+0	32	503	2607	2611	S	505	wife	wife	wife	NN	O	nsubjpass	false	-1	-1	c7	null	505	nsubjpass	(c7;ANIMATE;FEMALE),
+0	32	504	2612	2614	S	505	is	is	be	VBZ	O	auxpass	false	-1	-1	c7	null	505	auxpass	(c7;ANIMATE;FEMALE),
+0	32	505	2615	2621	S	500	killed	killed	kill	VBN	O	ccomp	false	-1	-1	c7	null	495	ccomp	(c7;ANIMATE;FEMALE),
+0	32	506	2622	2624	S	505	by	by	by	IN	O	prep	false	-1	-1	c7	null	509	case	(c7;ANIMATE;FEMALE),
+0	32	507	2625	2628	S	509	the	the	the	DT	O	det	false	-1	-1	c7	null	509	det	(c7;ANIMATE;FEMALE),
+0	32	508	2629	2636	S	509	Bhavani	Bhavani	Bhavani	NNP	PERSON	nn	false	3	3	c7,c7	null	509	compound	(c7;ANIMATE;FEMALE),(c7;ANIMATE;FEMALE),
+0	32	509	2637	2641		506	gang	gang	gang	NN	O	pobj	false	-1	-1	c7	null	505	nmod:agent	(c7;ANIMATE;FEMALE),
+0	32	510	2641	2642	S	495	,	,	,	,	O	punct	false	-1	-1	null	null	479	punct	null
+0	32	511	2643	2645	S	495	in	in	in	IN	O	prep	false	-1	-1	null	null	513	case	null
+0	32	512	2646	2649	S	513	the	the	the	DT	O	det	false	-1	-1	null	null	513	det	null
+0	32	513	2650	2657		511	bargain	bargain	bargain	NN	O	pobj	false	-1	-1	null	null	478	nmod:in	null
+0	32	514	2657	2658	N	470	.	.	.	.	O	punct	false	-1	-1	null	null	470	punct	null

@@ -1,0 +1,594 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	4	S	1	King	King	King	NNP	O	nn	false	-1	-1	c3	c3	1	compound	(c3;ANIMATE;MALE),
+0	0	1	5	13	S	4	Acrisius	Acrisius	Acrisius	NNP	O	nsubj	false	-1	-1	c3	c3	4	nsubj	(c3;ANIMATE;MALE),
+0	0	2	14	16	S	1	of	of	of	IN	O	prep	false	-1	-1	c3	c3	3	case	(c3;ANIMATE;MALE),
+0	0	3	17	22	SS	2	Argos	Argos	Argos	NNP	PERSON	pobj	false	3	3	c1,c3	c1,c3	1	nmod:of	(c1;ANIMATE;NEUTRAL),(c3;ANIMATE;MALE),
+0	0	4	24	33	S	-1	imprisons	imprisons	imprison	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	5	34	37	S	7	his	his	he	PRP$	O	poss	false	-1	-1	c3	null	7	nmod:poss	(c3;ANIMATE;MALE),
+0	0	6	38	46	S	7	daughter	daughter	daughter	NN	O	nn	false	-1	-1	null	null	7	compound	null
+0	0	7	47	52	S	4	Danaë	Danaë	Danaë	NNP	PERSON	dobj	false	2	2	c2	c2	4	dobj	(c2;ANIMATE;UNKNOWN),
+0	0	8	53	54	S	7	,	,	,	,	O	punct	false	-1	-1	null	null	7	punct	null
+0	0	9	55	62	S	7	jealous	jealous	jealous	JJ	O	amod	false	-1	-1	null	null	7	appos	null
+0	0	10	63	65	S	7	of	of	of	IN	O	prep	false	-1	-1	null	null	12	case	null
+0	0	11	66	69	S	12	her	her	she	PRP$	O	poss	false	-1	2	c2	null	12	nmod:poss	(c2;ANIMATE;FEMALE),
+0	0	12	70	76		10	beauty	beauty	beauty	NN	O	pobj	false	-1	-1	null	null	9	nmod:of	null
+0	0	13	76	77	S	4	.	.	.	.	O	punct	false	-1	-1	null	null	4	punct	null
+0	1	14	78	82	S	18	When	When	when	WRB	O	advmod	false	-1	-1	null	null	18	advmod	null
+0	1	15	83	86	S	17	the	the	the	DT	O	det	false	-1	-1	c4	null	17	det	(c4;UNKNOWN;MALE),
+0	1	16	87	90	S	17	god	god	god	NN	O	nn	false	-1	-1	c4	null	17	compound	(c4;UNKNOWN;MALE),
+0	1	17	91	95	SS	18	Zeus	Zeus	zeus	NN	O	nsubj	false	-1	-1	c4	null	18	nsubj	(c4;UNKNOWN;MALE),
+0	1	18	97	108	S	22	impregnates	impregnates	impregnate	VBZ	O	dep	false	-1	-1	null	null	22	advcl	null
+0	1	19	109	112		18	her	her	she	PRP	O	dobj	false	-1	2	c2	null	18	dobj	(c2;ANIMATE;FEMALE),
+0	1	20	112	113	S	22	,	,	,	,	O	punct	false	-1	-1	null	null	22	punct	null
+0	1	21	114	122	S	22	Acrisius	Acrisius	Acrisius	NNP	PERSON	nsubj	false	7	7	c3	null	22	nsubj	(c3;ANIMATE;UNKNOWN),
+0	1	22	123	128	S	-1	sends	sends	send	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	23	129	132	S	24	his	his	he	PRP$	O	poss	false	-1	0	c4	null	24	nmod:poss	(c4;ANIMATE;MALE),
+0	1	24	133	141	S	22	daughter	daughter	daughter	NN	O	dobj	false	-1	-1	null	null	22	iobj	null
+0	1	25	142	145	S	24	and	and	and	CC	O	cc	false	-1	-1	null	null	24	cc	null
+0	1	26	146	149	S	28	his	his	he	PRP$	O	poss	false	-1	0	c4	null	28	nmod:poss	(c4;ANIMATE;MALE),
+0	1	27	150	157	S	28	newborn	newborn	newborn	JJ	O	amod	false	-1	-1	null	null	28	amod	null
+0	1	28	158	166	S	29	grandson	grandson	grandson	NN	O	nsubj	false	-1	-1	null	null	24	conj:and	null
+0	1	29	167	174	S	24	Perseus	Perseus	Perseus	NNP	PERSON	conj	false	1	1	c5	c5	22	dobj	(c5;ANIMATE;UNKNOWN),
+0	1	30	175	177	S	22	to	to	to	TO	O	prep	false	-1	-1	c5	c5	31	case	(c5;ANIMATE;UNKNOWN),
+0	1	31	178	181	S	30	sea	sea	sea	NN	O	pobj	false	-1	-1	c5	c5	29	nmod:to	(c5;ANIMATE;UNKNOWN),
+0	1	32	182	184	S	22	in	in	in	IN	O	prep	false	-1	-1	c5	c5	35	case	(c5;ANIMATE;UNKNOWN),
+0	1	33	185	186	S	35	a	a	a	DT	O	det	false	-1	-1	c5	c5	35	det	(c5;ANIMATE;UNKNOWN),
+0	1	34	187	193	S	35	wooden	wooden	wooden	JJ	O	amod	false	-1	-1	c5	c5	35	amod	(c5;ANIMATE;UNKNOWN),
+0	1	35	194	200		32	coffin	coffin	coffin	NN	O	pobj	false	-1	-1	c5	c5	31	nmod:in	(c5;ANIMATE;UNKNOWN),
+0	1	36	200	201	S	22	.	.	.	.	O	punct	false	-1	-1	null	null	22	punct	null
+0	2	37	202	204	S	41	In	In	in	IN	O	prep	false	-1	-1	null	null	38	case	null
+0	2	38	205	216		37	retribution	retribution	retribution	NN	O	pobj	false	-1	-1	null	null	41	nmod:in	null
+0	2	39	216	217	S	41	,	,	,	,	O	punct	false	-1	-1	null	null	41	punct	null
+0	2	40	218	222	S	41	Zeus	Zeus	Zeus	NNP	PERSON	nsubj	false	0	0	c4	null	41	nsubj	(c4;UNKNOWN;MALE),
+0	2	41	223	228	S	-1	kills	kills	kill	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	42	229	237	S	41	Acrisius	Acrisius	Acrisius	NNP	PERSON	dobj	false	7	7	c3	null	45	nsubj	(c3;ANIMATE;UNKNOWN),
+0	2	43	238	241	S	41	and	and	and	CC	O	cc	false	-1	-1	null	null	42	cc	null
+0	2	44	242	248	S	45	orders	orders	order	NNS	O	nn	false	-1	-1	null	null	42	conj:and	null
+0	2	45	249	257	S	48	Poseidon	Poseidon	Poseidon	NNP	O	nsubj	false	-1	-1	null	null	41	xcomp	null
+0	2	46	258	259	S	45	,	,	,	,	O	punct	false	-1	-1	null	null	41	punct	null
+0	2	47	260	262	S	48	to	to	to	TO	O	aux	false	-1	-1	null	null	48	mark	null
+0	2	48	263	270	S	41	release	release	release	VB	O	conj	false	-1	-1	null	null	41	xcomp	null
+0	2	49	271	272	S	52	a	a	a	DT	O	det	false	-1	-1	null	null	52	det	null
+0	2	50	273	281	S	52	gigantic	gigantic	gigantic	JJ	O	amod	false	-1	-1	null	null	52	amod	null
+0	2	51	282	285	S	52	sea	sea	sea	NN	O	nn	false	-1	-1	null	null	52	compound	null
+0	2	52	286	293	S	53	monster	monster	monster	NN	O	nsubj	false	-1	-1	null	null	53	nsubj	null
+0	2	53	294	300	S	48	called	called	call	VBD	O	ccomp	false	-1	-1	null	null	48	ccomp	null
+0	2	54	301	304	S	55	the	the	the	DT	O	det	false	-1	-1	c6	null	55	det	(c6;UNKNOWN;UNKNOWN),
+0	2	55	305	311	S	57	Kraken	Kraken	Kraken	NNP	O	nsubj	false	-1	-1	c6	null	53	dobj	(c6;UNKNOWN;UNKNOWN),
+0	2	56	312	314	S	57	to	to	to	TO	O	aux	false	-1	-1	null	null	57	mark	null
+0	2	57	315	322	S	53	destroy	destroy	destroy	VB	O	xcomp	false	-1	-1	null	null	53	xcomp	null
+0	2	58	323	328		57	Argos	Argos	Argos	NNP	PERSON	dobj	false	3	3	c1	null	57	dobj	(c1;INANIMATE;NEUTRAL),
+0	2	59	328	329	S	41	.	.	.	.	O	punct	false	-1	-1	null	null	41	punct	null
+0	3	60	330	339		66	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	false	-1	-1	null	null	66	advmod	null
+0	3	61	339	340	S	66	,	,	,	,	O	punct	false	-1	-1	null	null	66	punct	null
+0	3	62	341	346	S	66	Danaë	Danaë	danaë	NN	PERSON	nsubj	false	2	2	null	null	66	nsubj	null
+0	3	63	347	350	S	62	and	and	and	CC	O	cc	false	-1	-1	null	null	62	cc	null
+0	3	64	351	358	S	62	Perseus	Perseus	perseus	NN	PERSON	conj	false	1	1	null	null	62	conj:and	null
+0	3	65	359	365	S	66	safely	safely	safely	RB	O	advmod	false	-1	-1	null	null	66	advmod	null
+0	3	66	366	371	S	-1	float	float	float	VB	O	null	false	-1	-1	null	null	-1	root	null
+0	3	67	372	374	S	66	to	to	to	TO	O	prep	false	-1	-1	null	null	69	case	null
+0	3	68	375	378	S	69	the	the	the	DT	O	det	false	-1	-1	null	null	69	det	null
+0	3	69	379	385	S	67	island	island	island	NN	O	pobj	false	-1	-1	null	null	66	nmod:to	null
+0	3	70	386	388	S	69	of	of	of	IN	O	prep	false	-1	-1	null	null	71	case	null
+0	3	71	389	397		70	Seriphos	Seriphos	Seriphos	NNP	LOCATION	pobj	false	-1	-1	c7	c7	69	nmod:of	(c7;INANIMATE;UNKNOWN),
+0	3	72	397	398	S	71	,	,	,	,	O	punct	false	-1	-1	null	null	66	punct	null
+0	3	73	399	404	S	75	where	where	where	WRB	O	advmod	false	-1	-1	null	null	75	advmod	null
+0	3	74	405	412	S	75	Perseus	Perseus	Perseus	NNP	O	nsubj	false	-1	1	c5	null	75	nsubj	(c5;UNKNOWN;UNKNOWN),
+0	3	75	413	418	S	71	grows	grows	grow	VBZ	O	rcmod	false	-1	-1	null	null	66	advcl	null
+0	3	76	419	421	S	75	to	to	to	TO	O	prep	false	-1	-1	null	null	77	case	null
+0	3	77	422	431		76	adulthood	adulthood	adulthood	NN	O	pobj	false	-1	-1	null	null	75	nmod:to	null
+0	3	78	431	432	S	66	.	.	.	.	O	punct	false	-1	-1	null	null	66	punct	null
+0	4	79	433	440	S	-1	Calibos	Calibos	calibo	NN	O	null	false	-1	-1	c10	null	96	nsubj	(c10;UNKNOWN;UNKNOWN),
+0	4	80	441	442		79	(	-LRB-	-lrb-	-LRB-	O	dobj	false	-1	-1	c10	null	79	punct	(c10;UNKNOWN;UNKNOWN),
+0	4	81	442	443		80	[	-LSB-	-lsb-	-LRB-	O	dobj	false	-1	-1	c10	null	84	punct	(c10;UNKNOWN;UNKNOWN),
+0	4	82	443	444		96	[	-LSB-	-lsb-	-LRB-	O	punct	false	-1	-1	c10	null	84	punct	(c10;UNKNOWN;UNKNOWN),
+0	4	83	444	448	S	84	Neil	Neil	Neil	NNP	PERSON	nn	false	-1	-1	c10	null	84	compound	(c10;UNKNOWN;UNKNOWN),
+0	4	84	449	457	S	96	McCarthy	McCarthy	McCarthy	NNP	PERSON	nsubj	false	-1	-1	c10	null	79	nmod	(c10;UNKNOWN;UNKNOWN),
+0	4	85	458	459	S	84	,	,	,	,	O	punct	false	-1	-1	c10	null	79	punct	(c10;UNKNOWN;UNKNOWN),
+0	4	86	460	463	S	84	son	son	son	NN	O	appos	false	-1	-1	c10	null	79	appos	(c10;UNKNOWN;UNKNOWN),
+0	4	87	464	466	S	86	of	of	of	IN	O	prep	false	-1	-1	c10	null	91	case	(c10;UNKNOWN;UNKNOWN),
+0	4	88	467	470	S	91	the	the	the	DT	O	det	false	-1	-1	c10,c11	c11	91	det	(c10;UNKNOWN;UNKNOWN),(c11;UNKNOWN;UNKNOWN),
+0	4	89	471	474	S	91	sea	sea	sea	NN	O	nn	false	-1	-1	c10,c11	c11	91	compound	(c10;UNKNOWN;UNKNOWN),(c11;UNKNOWN;UNKNOWN),
+0	4	90	475	482	S	91	goddess	goddess	goddess	NN	O	nn	false	-1	-1	c10,c11	c11	91	compound	(c10;UNKNOWN;UNKNOWN),(c11;UNKNOWN;UNKNOWN),
+0	4	91	483	489	S	87	Thetis	Thetis	Thetis	NNP	O	pobj	false	-1	-1	c10,c11	c11	86	nmod:of	(c10;UNKNOWN;UNKNOWN),(c11;UNKNOWN;UNKNOWN),
+0	4	92	490	491	S	84	,	,	,	,	O	punct	false	-1	-1	null	null	79	punct	null
+0	4	93	492	494	S	96	is	is	be	VBZ	O	cop	false	-1	-1	null	null	96	cop	null
+0	4	94	495	496	S	96	a	a	a	DT	O	det	false	-1	-1	c10	c10	96	det	(c10;ANIMATE;MALE),
+0	4	95	497	502	S	96	young	young	young	JJ	O	amod	false	-1	-1	c10	c10	96	amod	(c10;ANIMATE;MALE),
+0	4	96	503	506	S	81	man	man	man	NN	O	appos	false	-1	-1	c10	c10	-1	root	(c10;ANIMATE;MALE),
+0	4	97	507	514	S	96	engaged	engaged	engage	VBN	O	partmod	false	-1	-1	c10	c10	96	acl	(c10;ANIMATE;MALE),
+0	4	98	515	517	S	99	to	to	to	TO	O	aux	false	-1	-1	c10	c10	99	mark	(c10;ANIMATE;MALE),
+0	4	99	518	523	S	97	marry	marry	marry	VB	O	xcomp	false	-1	-1	c10	c10	97	xcomp	(c10;ANIMATE;MALE),
+0	4	100	524	532	S	101	Princess	Princess	Princess	NNP	O	nn	false	-1	-1	c10,c12	c10,c12	101	compound	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	101	533	542	S	99	Andromeda	Andromeda	Andromeda	NNP	PERSON	dobj	false	10	10	c8,c10,c12	c8,c10,c12	99	dobj	(c8;ANIMATE;UNKNOWN),(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	102	543	544	S	101	,	,	,	,	O	punct	false	-1	-1	c10,c12	c10,c12	101	punct	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	103	545	548	S	104	the	the	the	DT	O	det	false	-1	-1	c10,c12	c10,c12	104	det	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	104	549	557	S	101	daughter	daughter	daughter	NN	O	appos	false	-1	-1	c10,c12	c10,c12	101	conj:and	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	105	558	560	S	104	of	of	of	IN	O	prep	false	-1	-1	c10,c12	c10,c12	107	case	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	106	561	566	S	107	Queen	Queen	Queen	NNP	ORGANIZATION	nn	false	4	4	c10,c12,c13	c10,c12	107	compound	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),(c13;UNKNOWN;UNKNOWN),
+0	4	107	567	577	SS	105	Cassiopeia	Cassiopeia	Cassiopeia	NNP	ORGANIZATION	pobj	false	4	4	c10,c12,c13	c10,c12	104	nmod:of	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),(c13;UNKNOWN;UNKNOWN),
+0	4	108	579	582	S	104	and	and	and	CC	O	cc	false	-1	-1	c10,c12	c10,c12	101	cc	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	109	583	587	S	104	heir	heir	heir	NN	O	conj	false	-1	-1	c10,c12	c10,c12	101	conj:and	(c10;ANIMATE;MALE),(c12;ANIMATE;UNKNOWN),
+0	4	110	588	590	S	104	to	to	to	TO	O	prep	false	-1	-1	c10	c10	113	case	(c10;ANIMATE;MALE),
+0	4	111	591	594	S	113	the	the	the	DT	O	det	false	-1	-1	c10	c10	113	det	(c10;ANIMATE;MALE),
+0	4	112	595	599	S	113	rich	rich	rich	JJ	O	amod	false	-1	-1	c10	c10	113	amod	(c10;ANIMATE;MALE),
+0	4	113	600	604	S	110	city	city	city	NN	O	pobj	false	-1	-1	c10	c10	99	nmod:to	(c10;ANIMATE;MALE),
+0	4	114	605	607	S	113	of	of	of	IN	O	prep	false	-1	-1	c10	c10	115	case	(c10;ANIMATE;MALE),
+0	4	115	608	613		114	Joppa	Joppa	Joppa	NNP	LOCATION	pobj	false	-1	-1	c9,c10	c9,c10	113	nmod:of	(c9;INANIMATE;UNKNOWN),(c10;ANIMATE;MALE),
+0	4	116	613	614	S	79	;	;	;	:	O	punct	false	-1	-1	null	null	96	punct	null
+0	4	117	615	618	S	79	but	but	but	CC	O	cc	false	-1	-1	null	null	96	cc	null
+0	4	118	619	622	S	119	has	has	have	VBZ	O	aux	false	-1	-1	null	null	119	aux	null
+0	4	119	623	632	S	79	destroyed	destroyed	destroy	VBN	O	conj	false	-1	-1	null	null	96	conj:but	null
+0	4	120	633	637		124	Zeus	Zeus	Zeus	NNP	O	poss	false	-1	-1	null	null	119	dobj	null
+0	4	121	637	639	S	120	's	's	's	POS	O	possessive	false	-1	-1	null	null	120	case	null
+0	4	122	640	646	S	124	sacred	sacred	sacred	JJ	O	amod	false	-1	-1	null	null	120	amod	null
+0	4	123	647	653	S	124	flying	flying	fly	VBG	O	amod	false	-1	-1	null	null	124	amod	null
+0	4	124	654	660	S	119	horses	horses	horse	NNS	O	dobj	false	-1	-1	null	null	119	nsubj	null
+0	4	125	661	662	S	79	.	.	.	.	O	punct	false	-1	-1	null	null	96	punct	null
+0	5	126	663	665	S	127	To	To	to	TO	O	aux	false	-1	-1	null	null	127	mark	null
+0	5	127	666	672	S	131	punish	punish	punish	VB	O	dep	false	-1	-1	null	null	131	advcl	null
+0	5	128	673	676		127	him	him	he	PRP	O	dobj	false	-1	-1	c10	null	127	dobj	(c10;ANIMATE;MALE),
+0	5	129	676	677	S	131	,	,	,	,	O	punct	false	-1	-1	null	null	131	punct	null
+0	5	130	678	682	S	131	Zeus	Zeus	Zeus	NNP	PERSON	nsubj	false	0	0	c4	c4	131	nsubj	(c4;ANIMATE;MALE),
+0	5	131	683	693	S	-1	transforms	transforms	transform	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	132	694	701	S	131	Calibos	Calibos	Calibos	NNPS	PERSON	dobj	false	6	6	c14	c14	131	dobj	(c14;ANIMATE;UNKNOWN),
+0	5	133	702	706	S	131	into	into	into	IN	O	prep	false	-1	-1	null	null	136	case	null
+0	5	134	707	708	S	136	a	a	a	DT	O	det	false	-1	-1	null	null	136	det	null
+0	5	135	709	717	S	136	deformed	deformed	deform	VBN	O	amod	false	-1	-1	null	null	136	amod	null
+0	5	136	718	725	S	133	monster	monster	monster	NN	O	pobj	false	-1	-1	null	null	131	nmod:into	null
+0	5	137	726	729	S	131	and	and	and	CC	O	cc	false	-1	-1	null	null	131	cc	null
+0	5	138	730	732	S	140	he	he	he	PRP	O	nsubjpass	false	0	0	c10	null	140	nsubjpass	(c10;ANIMATE;MALE),
+0	5	139	733	735	S	140	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	140	auxpass	null
+0	5	140	736	742	S	131	exiled	exiled	exile	VBN	O	conj	false	-1	-1	null	null	131	conj:and	null
+0	5	141	743	745	S	140	by	by	by	IN	O	prep	false	-1	-1	null	null	143	case	null
+0	5	142	746	749	S	143	his	his	he	PRP$	O	poss	false	0	0	c10	null	143	nmod:poss	(c10;ANIMATE;MALE),
+0	5	143	750	756		141	people	people	people	NNS	O	pobj	false	-1	-1	null	null	140	nmod:agent	null
+0	5	144	756	757	S	131	.	.	.	.	O	punct	false	-1	-1	null	null	131	punct	null
+0	6	145	758	760	S	149	In	In	in	IN	O	prep	false	-1	-1	null	null	146	case	null
+0	6	146	761	768		145	revenge	revenge	revenge	NN	O	pobj	false	-1	-1	null	null	149	nmod:in	null
+0	6	147	768	769	S	149	,	,	,	,	O	punct	false	-1	-1	null	null	149	punct	null
+0	6	148	770	776	S	149	Thetis	Thetis	Thetis	NNP	O	nsubj	false	-1	-1	c11	null	149	nsubj	(c11;UNKNOWN;UNKNOWN),
+0	6	149	777	787	S	-1	transports	transports	transport	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	150	788	795	SS	149	Perseus	Perseus	Perseus	NNP	O	dobj	false	-1	1	c5	null	149	dobj	(c5;UNKNOWN;UNKNOWN),
+0	6	151	797	801	S	149	from	from	from	IN	O	prep	false	-1	-1	null	null	152	case	null
+0	6	152	802	810	S	151	Seriphos	Seriphos	Seriphos	NNP	LOCATION	pobj	false	-1	-1	c7	null	149	nmod:from	(c7;INANIMATE;UNKNOWN),
+0	6	153	811	813	S	151	to	to	to	TO	O	dep	false	-1	-1	null	null	154	case	null
+0	6	154	814	819		153	Joppa	Joppa	Joppa	NNP	LOCATION	pobj	false	-1	-1	c9,c9	null	149	nmod:to	(c9;INANIMATE;UNKNOWN),(c9;INANIMATE;UNKNOWN),
+0	6	155	819	820	S	154	,	,	,	,	O	punct	false	-1	-1	c9	null	154	punct	(c9;INANIMATE;UNKNOWN),
+0	6	156	821	826	S	158	where	where	where	WRB	O	advmod	false	-1	-1	c9	null	158	advmod	(c9;INANIMATE;UNKNOWN),
+0	6	157	827	829	S	158	he	he	he	PRP	O	nsubj	false	0	0	c9,c11	null	158	nsubj	(c9;INANIMATE;UNKNOWN),(c11;ANIMATE;MALE),
+0	6	158	830	836	S	154	learns	learns	learn	VBZ	O	rcmod	false	-1	-1	c9	null	154	acl:relcl	(c9;INANIMATE;UNKNOWN),
+0	6	159	837	841	S	161	that	that	that	IN	O	complm	false	-1	-1	c9	null	164	mark	(c9;INANIMATE;UNKNOWN),
+0	6	160	842	851	S	161	Andromeda	Andromeda	Andromeda	NNP	PERSON	nsubj	false	10	10	c8,c9	null	164	nsubj	(c8;ANIMATE;UNKNOWN),(c9;INANIMATE;UNKNOWN),
+0	6	161	852	854	S	158	is	is	be	VBZ	O	ccomp	false	-1	-1	c9	null	164	cop	(c9;INANIMATE;UNKNOWN),
+0	6	162	855	860	S	161	under	under	under	IN	O	prep	false	-1	-1	c9	null	164	case	(c9;INANIMATE;UNKNOWN),
+0	6	163	861	862	S	164	a	a	a	DT	O	det	false	-1	-1	c9	null	164	det	(c9;INANIMATE;UNKNOWN),
+0	6	164	863	868	S	162	curse	curse	curse	NN	O	pobj	false	-1	-1	c9	null	158	ccomp	(c9;INANIMATE;UNKNOWN),
+0	6	165	869	872	S	161	and	and	and	CC	O	cc	false	-1	-1	null	null	149	cc	null
+0	6	166	873	876		168	can	can	can	MD	O	aux	false	-1	-1	null	null	168	aux	null
+0	6	167	876	879	S	168	not	not	not	RB	O	neg	false	-1	-1	null	null	168	neg	null
+0	6	168	880	885	S	161	marry	marry	marry	VB	O	conj	false	-1	-1	null	null	149	conj:and	null
+0	6	169	886	892	S	173	unless	unless	unless	IN	O	mark	false	-1	-1	null	null	173	mark	null
+0	6	170	893	896	S	171	her	her	she	PRP$	O	poss	false	4	4	c5	null	171	nmod:poss	(c5;ANIMATE;FEMALE),
+0	6	171	897	903	S	173	suitor	suitor	suitor	NN	O	nsubj	false	-1	-1	null	null	173	nsubj	null
+0	6	172	904	916	S	173	successfully	successfully	successfully	RB	O	advmod	false	-1	-1	null	null	173	advmod	null
+0	6	173	917	924	S	168	answers	answers	answer	VBZ	O	advcl	false	-1	-1	null	null	168	advcl	null
+0	6	174	925	926	S	175	a	a	a	DT	O	det	false	-1	-1	null	null	175	det	null
+0	6	175	927	933		173	riddle	riddle	riddle	NN	O	dobj	false	-1	-1	null	null	173	dobj	null
+0	6	176	933	934	S	173	,	,	,	,	O	punct	false	-1	-1	null	null	175	punct	null
+0	6	177	935	940	S	178	whose	whose	whose	WP$	O	poss	false	-1	-1	null	null	178	nmod:poss	null
+0	6	178	941	949	S	180	failures	failures	failure	NNS	O	nsubjpass	false	-1	-1	null	null	180	nsubjpass	null
+0	6	179	950	953	S	180	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	180	auxpass	null
+0	6	180	954	960	S	173	burned	burned	burn	VBN	O	xcomp	false	-1	-1	null	null	175	acl:relcl	null
+0	6	181	961	963	S	180	at	at	at	IN	O	prep	false	-1	-1	null	null	183	case	null
+0	6	182	964	967	S	183	the	the	the	DT	O	det	false	-1	-1	null	null	183	det	null
+0	6	183	968	973		181	stake	stake	stake	NN	O	pobj	false	-1	-1	null	null	180	nmod:at	null
+0	6	184	973	974	S	149	.	.	.	.	O	punct	false	-1	-1	null	null	149	punct	null
+0	7	185	975	982		196	Perseus	Perseus	Perseus	NNP	O	nsubj	false	-1	1	c5	null	196	nsubj	(c5;UNKNOWN;UNKNOWN),
+0	7	186	982	983	S	196	,	,	,	,	O	punct	false	-1	-1	null	null	196	punct	null
+0	7	187	984	991	S	196	wearing	wearing	wear	VBG	O	partmod	false	-1	-1	null	null	196	advcl	null
+0	7	188	992	993	S	189	a	a	a	DT	O	det	false	-1	-1	c16	c16	189	det	(c16;INANIMATE;NEUTRAL),
+0	7	189	994	1000	S	187	helmet	helmet	helmet	NN	O	dobj	false	-1	-1	c16	c16	187	dobj	(c16;INANIMATE;NEUTRAL),
+0	7	190	1001	1005	S	191	that	that	that	WDT	O	nsubj	false	-1	-1	c16	c16	191	nsubj	(c16;INANIMATE;NEUTRAL),
+0	7	191	1006	1013	S	189	renders	renders	render	VBZ	O	rcmod	false	-1	-1	c16	c16	189	acl:relcl	(c16;INANIMATE;NEUTRAL),
+0	7	192	1014	1017	S	193	its	its	its	PRP$	O	poss	false	-1	-1	c7,c16	c16	193	nmod:poss	(c7;INANIMATE;UNKNOWN),(c16;INANIMATE;NEUTRAL),
+0	7	193	1018	1024	S	191	wearer	wearer	wearer	NN	O	dobj	false	-1	-1	c16	c16	194	nsubj	(c16;INANIMATE;NEUTRAL),
+0	7	194	1025	1034		193	invisible	invisible	invisible	JJ	O	amod	false	-1	-1	c16	c16	191	xcomp	(c16;INANIMATE;NEUTRAL),
+0	7	195	1034	1035	S	196	,	,	,	,	O	punct	false	-1	-1	null	null	196	punct	null
+0	7	196	1036	1044	S	-1	captures	captures	capture	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	197	1045	1052	S	196	Pegasus	Pegasus	Pegasus	NNP	ORGANIZATION	dobj	false	8	8	c15	c15	196	dobj	(c15;INANIMATE;NEUTRAL),
+0	7	198	1053	1056	S	196	and	and	and	CC	O	cc	false	-1	-1	null	null	196	cc	null
+0	7	199	1057	1064	S	202	follows	follows	follow	VBZ	O	aux	false	-1	-1	null	null	196	conj:and	null
+0	7	200	1065	1074	S	202	Andromeda	Andromeda	Andromeda	NNP	O	nsubj	false	-1	-1	c8	null	199	dobj	(c8;UNKNOWN;UNKNOWN),
+0	7	201	1075	1077	S	202	to	to	to	TO	O	aux	false	-1	-1	null	null	202	mark	null
+0	7	202	1078	1083	S	196	learn	learn	learn	VB	O	conj	false	-1	-1	null	null	199	xcomp	null
+0	7	203	1084	1085	S	205	a	a	a	DT	O	det	false	-1	-1	c17	c17	205	det	(c17;INANIMATE;MALE),
+0	7	204	1086	1089	S	205	new	new	new	JJ	O	amod	false	-1	-1	c17	c17	205	amod	(c17;INANIMATE;MALE),
+0	7	205	1090	1096	S	202	riddle	riddle	riddle	NN	O	dobj	false	-1	-1	c17	c17	202	dobj	(c17;INANIMATE;MALE),
+0	7	206	1097	1101	S	205	from	from	from	IN	O	prep	false	-1	-1	null	null	207	case	null
+0	7	207	1102	1109		206	Calibos	Calibos	Calibos	NNPS	LOCATION	pobj	false	-1	-1	c14	null	202	nmod:from	(c14;INANIMATE;UNKNOWN),
+0	7	208	1109	1110	S	196	.	.	.	.	O	punct	false	-1	-1	null	null	196	punct	null
+0	8	209	1111	1118	S	212	Perseus	Perseus	Perseus	NNP	O	nsubjpass	false	-1	1	c5	null	212	nsubjpass	(c5;UNKNOWN;UNKNOWN),
+0	8	210	1119	1121	S	212	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	212	auxpass	null
+0	8	211	1122	1128	S	212	nearly	nearly	nearly	RB	O	advmod	false	-1	-1	null	null	212	advmod	null
+0	8	212	1129	1135	S	-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	8	213	1136	1138	S	212	by	by	by	IN	O	prep	false	-1	-1	null	null	214	case	null
+0	8	214	1139	1146	S	213	Calibos	Calibos	calibo	NNS	PERSON	pobj	false	6	6	c14	null	212	nmod:agent	(c14;ANIMATE;UNKNOWN),
+0	8	215	1147	1150	S	212	but	but	but	CC	O	cc	false	-1	-1	null	null	212	cc	null
+0	8	216	1151	1158		212	escapes	escapes	escape	VBZ	O	conj	false	-1	-1	null	null	212	conj:but	null
+0	8	217	1158	1159	S	212	,	,	,	,	O	punct	false	-1	-1	null	null	212	punct	null
+0	8	218	1160	1166	S	212	losing	losing	lose	VBG	O	xcomp	false	-1	-1	null	null	212	advcl	null
+0	8	219	1167	1170	S	220	his	his	he	PRP$	O	poss	false	0	0	c14,c16	null	220	nmod:poss	(c14;ANIMATE;MALE),(c16;INANIMATE;NEUTRAL),
+0	8	220	1171	1177	S	218	helmet	helmet	helmet	NN	O	dobj	false	-1	-1	c16	null	218	dobj	(c16;INANIMATE;NEUTRAL),
+0	8	221	1178	1180	S	218	in	in	in	IN	O	prep	false	-1	-1	null	null	223	case	null
+0	8	222	1181	1184	S	223	the	the	the	DT	O	det	false	-1	-1	null	null	223	det	null
+0	8	223	1185	1192		221	process	process	process	NN	O	pobj	false	-1	-1	null	null	218	nmod:in	null
+0	8	224	1192	1193	S	212	.	.	.	.	O	punct	false	-1	-1	null	null	212	punct	null
+0	9	225	1194	1201	S	226	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	226	nsubj	(c5;ANIMATE;UNKNOWN),
+0	9	226	1202	1210	S	-1	presents	presents	present	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	227	1211	1218	S	226	himself	himself	himself	PRP	O	dobj	false	-1	-1	c14	null	226	dobj	(c14;ANIMATE;MALE),
+0	9	228	1219	1221	S	226	as	as	as	IN	O	prep	false	-1	-1	null	null	229	case	null
+0	9	229	1222	1228	S	228	suitor	suitor	suitor	NN	O	pobj	false	-1	-1	null	null	226	nmod:as	null
+0	9	230	1229	1232	S	226	and	and	and	CC	O	cc	false	-1	-1	null	null	226	cc	null
+0	9	231	1233	1242	S	232	correctly	correctly	correctly	RB	O	advmod	false	-1	-1	null	null	232	advmod	null
+0	9	232	1243	1250	S	226	answers	answers	answer	VBZ	O	conj	false	-1	-1	null	null	226	conj:and	null
+0	9	233	1251	1254	S	234	the	the	the	DT	O	det	false	-1	-1	c17	null	234	det	(c17;INANIMATE;MALE),
+0	9	234	1255	1261		232	riddle	riddle	riddle	NN	O	dobj	false	-1	-1	c17	null	232	dobj	(c17;INANIMATE;MALE),
+0	9	235	1261	1262	S	226	,	,	,	,	O	punct	false	-1	-1	null	null	226	punct	null
+0	9	236	1263	1273	S	226	presenting	presenting	present	VBG	O	xcomp	false	-1	-1	null	null	226	advcl	null
+0	9	237	1274	1277	S	239	the	the	the	DT	O	det	false	-1	-1	null	null	239	det	null
+0	9	238	1278	1285	S	239	severed	severed	sever	VBN	O	amod	false	-1	-1	null	null	239	amod	null
+0	9	239	1286	1290	S	236	hand	hand	hand	NN	O	dobj	false	-1	-1	null	null	236	dobj	null
+0	9	240	1291	1293	S	239	of	of	of	IN	O	prep	false	-1	-1	null	null	241	case	null
+0	9	241	1294	1301		240	Calibos	Calibos	Calibos	NNPS	LOCATION	pobj	false	-1	-1	c14	null	239	nmod:of	(c14;INANIMATE;UNKNOWN),
+0	9	242	1301	1302	S	226	.	.	.	.	O	punct	false	-1	-1	null	null	226	punct	null
+0	10	243	1303	1310	S	244	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	244	nsubj	(c5;ANIMATE;UNKNOWN),
+0	10	244	1311	1315	S	-1	wins	wins	win	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	10	245	1316	1325		247	Andromeda	Andromeda	Andromeda	NNP	O	poss	false	-1	-1	c8	null	247	nmod:poss	(c8;ANIMATE;UNKNOWN),
+0	10	246	1325	1327	S	245	's	's	's	POS	O	possessive	false	-1	-1	c8	null	245	case	(c8;ANIMATE;UNKNOWN),
+0	10	247	1328	1332	S	244	hand	hand	hand	NN	O	dobj	false	-1	-1	null	null	244	dobj	null
+0	10	248	1333	1335	S	244	in	in	in	IN	O	prep	false	-1	-1	null	null	249	case	null
+0	10	249	1336	1344		248	marriage	marriage	marriage	NN	O	pobj	false	-1	-1	null	null	247	nmod:in	null
+0	10	250	1344	1345	S	244	.	.	.	.	O	punct	false	-1	-1	null	null	244	punct	null
+0	11	251	1346	1353		263	Calibos	Calibos	Calibos	NNP	PERSON	nsubj	false	6	6	c14,c14	null	263	nsubj	(c14;ANIMATE;UNKNOWN),(c14;ANIMATE;UNKNOWN),
+0	11	252	1353	1354	S	263	,	,	,	,	O	punct	false	-1	-1	c14	null	251	punct	(c14;ANIMATE;UNKNOWN),
+0	11	253	1355	1362	S	263	finding	finding	find	VBG	O	partmod	false	-1	-1	c14	null	251	acl	(c14;ANIMATE;UNKNOWN),
+0	11	254	1363	1367	S	258	that	that	that	IN	O	complm	false	-1	-1	c14	null	258	mark	(c14;ANIMATE;UNKNOWN),
+0	11	255	1368	1374	S	258	Thetis	Thetis	Thetis	NNP	O	nsubj	false	-1	-1	c11,c14	null	258	nsubj	(c11;UNKNOWN;UNKNOWN),(c14;ANIMATE;UNKNOWN),
+0	11	256	1375	1378		258	can	can	can	MD	O	aux	false	-1	-1	c14	null	258	aux	(c14;ANIMATE;UNKNOWN),
+0	11	257	1378	1381	S	258	not	not	not	RB	O	neg	false	-1	-1	c14	null	258	neg	(c14;ANIMATE;UNKNOWN),
+0	11	258	1382	1385	S	253	act	act	act	VB	O	ccomp	false	-1	-1	c14	null	253	ccomp	(c14;ANIMATE;UNKNOWN),
+0	11	259	1386	1393	S	258	against	against	against	IN	O	prep	false	-1	-1	c14	null	260	case	(c14;ANIMATE;UNKNOWN),
+0	11	260	1394	1401		259	Perseus	Perseus	Perseus	NNP	PERSON	pobj	false	1	1	c5,c14	null	258	nmod:against	(c5;ANIMATE;UNKNOWN),(c14;ANIMATE;UNKNOWN),
+0	11	261	1401	1402	S	263	,	,	,	,	O	punct	false	-1	-1	null	null	251	punct	null
+0	11	262	1403	1410	S	263	instead	instead	instead	RB	O	advmod	false	-1	-1	null	null	263	advmod	null
+0	11	263	1411	1418	S	-1	demands	demands	demand	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	11	264	1419	1423	S	266	that	that	that	IN	O	complm	false	-1	-1	null	null	266	mark	null
+0	11	265	1424	1427	S	266	she	she	she	PRP	O	nsubj	false	4	4	c5	null	266	nsubj	(c5;ANIMATE;FEMALE),
+0	11	266	1428	1432	S	263	take	take	take	VB	O	ccomp	false	-1	-1	null	null	263	ccomp	null
+0	11	267	1433	1442	S	266	vengeance	vengeance	vengeance	NN	O	dobj	false	-1	-1	null	null	266	dobj	null
+0	11	268	1443	1445	S	266	on	on	on	IN	O	prep	false	-1	-1	null	null	269	case	null
+0	11	269	1446	1451		268	Joppa	Joppa	Joppa	NNP	LOCATION	pobj	false	-1	-1	c9	null	266	nmod:on	(c9;INANIMATE;UNKNOWN),
+0	11	270	1451	1452	S	263	.	.	.	.	O	punct	false	-1	-1	null	null	263	punct	null
+0	12	271	1453	1455	S	277	At	At	at	IN	O	prep	false	-1	-1	null	null	273	case	null
+0	12	272	1456	1459	S	273	the	the	the	DT	O	det	false	-1	-1	null	null	273	det	null
+0	12	273	1460	1467		271	wedding	wedding	wedding	NN	O	pobj	false	-1	-1	null	null	277	nmod:at	null
+0	12	274	1467	1468	S	277	,	,	,	,	O	punct	false	-1	-1	null	null	277	punct	null
+0	12	275	1469	1474	S	276	Queen	Queen	Queen	NNP	ORGANIZATION	nn	false	4	4	c13	c13	276	compound	(c13;INANIMATE;UNKNOWN),
+0	12	276	1475	1485	S	277	Cassiopeia	Cassiopeia	Cassiopeia	NNP	ORGANIZATION	nsubj	false	4	4	c13	c13	277	nsubj	(c13;INANIMATE;UNKNOWN),
+0	12	277	1486	1494	S	292	compares	compares	compare	VBZ	O	advcl	false	-1	-1	null	null	-1	root	null
+0	12	278	1495	1504		280	Andromeda	Andromeda	Andromeda	NNP	PERSON	poss	false	10	10	c8	null	280	nmod:poss	(c8;ANIMATE;UNKNOWN),
+0	12	279	1504	1506	S	278	's	's	's	POS	O	possessive	false	-1	-1	c8	null	278	case	(c8;ANIMATE;UNKNOWN),
+0	12	280	1507	1513	S	277	beauty	beauty	beauty	NN	O	dobj	false	-1	-1	null	null	277	dobj	null
+0	12	281	1514	1516	S	277	to	to	to	TO	O	prep	false	-1	-1	null	null	282	case	null
+0	12	282	1517	1521	S	281	that	that	that	DT	O	pobj	false	-1	-1	null	null	277	nmod:to	null
+0	12	283	1522	1524	S	282	of	of	of	IN	O	prep	false	-1	-1	null	null	284	case	null
+0	12	284	1525	1531	S	283	Thetis	Thetis	Thetis	NNP	O	pobj	false	-1	-1	c11	null	282	nmod:of	(c11;UNKNOWN;UNKNOWN),
+0	12	285	1532	1539		284	herself	herself	herself	PRP	O	dep	false	-1	-1	c8,c8	null	282	nmod:tmod	(c8;ANIMATE;FEMALE),(c8;ANIMATE;FEMALE),
+0	12	286	1539	1540	S	292	,	,	,	,	O	punct	false	-1	-1	c8	null	285	punct	(c8;ANIMATE;FEMALE),
+0	12	287	1541	1550	S	290	whereupon	whereupon	whereupon	NN	O	nn	false	-1	-1	c8	null	289	compound	(c8;ANIMATE;FEMALE),
+0	12	288	1551	1557	S	290	Thetis	Thetis	Thetis	NNP	PERSON	nn	false	-1	-1	c8	null	289	compound	(c8;ANIMATE;FEMALE),
+0	12	289	1558	1565	S	290	demands	demands	demand	NNS	O	nn	false	-1	-1	c8	null	285	appos	(c8;ANIMATE;FEMALE),
+0	12	290	1566	1575	S	292	Andromeda	Andromeda	Andromeda	NNP	O	nsubjpass	false	-1	-1	c8,c8	null	292	nsubjpass	(c8;ANIMATE;FEMALE),(c8;UNKNOWN;UNKNOWN),
+0	12	291	1576	1578	S	292	be	be	be	VB	O	auxpass	false	-1	-1	c8	null	292	auxpass	(c8;ANIMATE;FEMALE),
+0	12	292	1579	1589	S	-1	sacrificed	sacrificed	sacrifice	VBN	O	null	false	-1	-1	c8	null	289	acl:relcl	(c8;ANIMATE;FEMALE),
+0	12	293	1590	1592	S	292	to	to	to	TO	O	prep	false	-1	-1	c8	null	295	case	(c8;ANIMATE;FEMALE),
+0	12	294	1593	1596	S	295	the	the	the	DT	O	det	false	-1	-1	c6,c8	null	295	det	(c6;UNKNOWN;UNKNOWN),(c8;ANIMATE;FEMALE),
+0	12	295	1597	1603	S	293	Kraken	Kraken	Kraken	NNP	O	pobj	false	-1	-1	c6,c8	null	292	nmod:to	(c6;UNKNOWN;UNKNOWN),(c8;ANIMATE;FEMALE),
+0	12	296	1604	1606	S	292	on	on	on	IN	O	prep	false	-1	-1	c8	null	297	case	(c8;ANIMATE;FEMALE),
+0	12	297	1607	1611	S	296	pain	pain	pain	NN	O	pobj	false	-1	-1	c8	null	292	nmod:on	(c8;ANIMATE;FEMALE),
+0	12	298	1612	1614	S	297	of	of	of	IN	O	prep	false	-1	-1	c8	null	301	case	(c8;ANIMATE;FEMALE),
+0	12	299	1615	1620		301	Joppa	Joppa	Joppa	NNP	LOCATION	poss	false	-1	-1	c8,c9	null	301	nmod:poss	(c8;ANIMATE;FEMALE),(c9;INANIMATE;UNKNOWN),
+0	12	300	1620	1622	S	299	's	's	's	POS	O	possessive	false	-1	-1	c8,c9	null	299	case	(c8;ANIMATE;FEMALE),(c9;INANIMATE;UNKNOWN),
+0	12	301	1623	1634		298	destruction	destruction	destruction	NN	O	pobj	false	-1	-1	c8	null	297	nmod:of	(c8;ANIMATE;FEMALE),
+0	12	302	1634	1635	SS	292	.	.	.	.	O	punct	false	-1	-1	null	null	277	punct	null
+0	13	303	1637	1644	S	304	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	304	nsubj	(c5;ANIMATE;UNKNOWN),
+0	13	304	1645	1650	S	-1	seeks	seeks	seek	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	13	305	1651	1652	S	306	a	a	a	DT	O	det	false	-1	-1	null	null	306	det	null
+0	13	306	1653	1656	S	304	way	way	way	NN	O	dobj	false	-1	-1	null	null	304	dobj	null
+0	13	307	1657	1659	S	308	to	to	to	TO	O	aux	false	-1	-1	null	null	308	mark	null
+0	13	308	1660	1666	S	306	defeat	defeat	defeat	VB	O	infmod	false	-1	-1	null	null	306	acl	null
+0	13	309	1667	1670	S	310	the	the	the	DT	O	det	false	-1	-1	c6	c6	310	det	(c6;ANIMATE;NEUTRAL),
+0	13	310	1671	1677		308	Kraken	Kraken	Kraken	NNP	O	dobj	false	-1	-1	c6,c6	c6	308	dobj	(c6;ANIMATE;NEUTRAL),(c6;ANIMATE;UNKNOWN),
+0	13	311	1677	1678	S	304	,	,	,	,	O	punct	false	-1	-1	null	null	304	punct	null
+0	13	312	1679	1684	S	315	while	while	while	IN	O	mark	false	-1	-1	null	null	315	mark	null
+0	13	313	1685	1692	S	315	Pegasus	Pegasus	Pegasus	NNP	ORGANIZATION	nsubjpass	false	8	8	c15	null	315	nsubjpass	(c15;INANIMATE;NEUTRAL),
+0	13	314	1693	1695	S	315	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	315	auxpass	null
+0	13	315	1696	1704	S	304	captured	captured	capture	VBN	O	advcl	false	-1	-1	null	null	304	advcl	null
+0	13	316	1705	1707	S	315	by	by	by	IN	O	prep	false	-1	-1	null	null	317	case	null
+0	13	317	1708	1715	S	316	Calibos	Calibos	Calibos	NNPS	PERSON	pobj	false	6	6	c14,c18	c18	315	nmod:agent	(c14;ANIMATE;UNKNOWN),(c18;ANIMATE;UNKNOWN),
+0	13	318	1716	1719	S	317	and	and	and	CC	O	cc	false	-1	-1	c18	c18	317	cc	(c18;ANIMATE;UNKNOWN),
+0	13	319	1720	1723	S	320	his	his	he	PRP$	O	poss	false	0	0	c14,c18,c19	c18,c19	320	nmod:poss	(c14;ANIMATE;MALE),(c18;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	13	320	1724	1727		317	men	men	man	NNS	O	conj	false	-1	-1	c18,c19	c18,c19	317	conj:and	(c18;ANIMATE;UNKNOWN),(c19;ANIMATE;UNKNOWN),
+0	13	321	1727	1728	S	304	.	.	.	.	O	punct	false	-1	-1	null	null	304	punct	null
+0	14	322	1729	1733	S	323	Zeus	Zeus	Zeus	NNP	O	nsubj	false	-1	0	c4	null	323	nsubj	(c4;UNKNOWN;MALE),
+0	14	323	1734	1742	S	-1	commands	commands	command	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	14	324	1743	1749	SS	326	Athena	Athena	Athena	NNP	ORGANIZATION	nsubj	false	-1	-1	null	null	323	dobj	null
+0	14	325	1751	1753	S	326	to	to	to	TO	O	aux	false	-1	-1	null	null	326	mark	null
+0	14	326	1754	1758	S	323	give	give	give	VB	O	xcomp	false	-1	-1	null	null	323	xcomp	null
+0	14	327	1759	1766	S	326	Perseus	Perseus	Perseus	NNP	PERSON	iobj	false	1	1	c5	null	326	iobj	(c5;ANIMATE;UNKNOWN),
+0	14	328	1767	1770	S	330	her	her	she	PRP$	O	poss	false	-1	-1	c5,c20	c20	330	nmod:poss	(c5;ANIMATE;FEMALE),(c20;ANIMATE;NEUTRAL),
+0	14	329	1771	1774	S	330	owl	owl	owl	NN	O	nn	false	-1	-1	c20	c20	330	compound	(c20;ANIMATE;NEUTRAL),
+0	14	330	1775	1779		326	Bubo	Bubo	Bubo	NNP	O	dobj	false	-1	9	c20	c20	326	dobj	(c20;ANIMATE;NEUTRAL),
+0	14	331	1779	1780	S	323	;	;	;	:	O	punct	false	-1	-1	null	null	323	punct	null
+0	14	332	1781	1784	S	323	but	but	but	CC	O	cc	false	-1	-1	null	null	323	cc	null
+0	14	333	1785	1788	S	334	she	she	she	PRP	O	nsubj	false	-1	1	c5	null	334	nsubj	(c5;ANIMATE;FEMALE),
+0	14	334	1789	1795	S	323	orders	orders	order	VBZ	O	conj	false	-1	-1	null	null	323	conj:but	null
+0	14	335	1796	1806	SS	337	Hephaestus	Hephaestus	Hephaestus	NNP	O	nsubj	false	-1	-1	null	null	334	dobj	null
+0	14	336	1808	1810	S	337	to	to	to	TO	O	aux	false	-1	-1	null	null	337	mark	null
+0	14	337	1811	1816	S	334	build	build	build	VB	O	ccomp	false	-1	-1	null	null	334	xcomp	null
+0	14	338	1817	1818	S	340	a	a	a	DT	O	det	false	-1	-1	null	null	340	det	null
+0	14	339	1819	1829	S	340	mechanical	mechanical	mechanical	JJ	O	amod	false	-1	-1	null	null	340	amod	null
+0	14	340	1830	1837	S	337	replica	replica	replica	NN	O	dobj	false	-1	-1	null	null	337	dobj	null
+0	14	341	1838	1840	S	340	of	of	of	IN	O	prep	false	-1	-1	null	null	342	case	null
+0	14	342	1841	1845	S	341	Bubo	Bubo	Bubo	NNP	PERSON	pobj	false	9	9	c20	null	340	nmod:of	(c20;UNKNOWN;UNKNOWN),
+0	14	343	1846	1853		342	instead	instead	instead	RB	O	advmod	false	-1	-1	null	null	337	advmod	null
+0	14	344	1853	1854	S	342	,	,	,	,	O	punct	false	-1	-1	null	null	337	punct	null
+0	14	345	1855	1858	S	346	who	who	who	WP	O	nsubj	false	-1	-1	null	null	346	nsubj	null
+0	14	346	1859	1864	S	342	leads	leads	lead	VBZ	O	rcmod	false	-1	-1	null	null	337	dep	null
+0	14	347	1865	1872	S	346	Perseus	Perseus	Perseus	NNP	PERSON	dobj	false	1	1	c5	null	346	dobj	(c5;UNKNOWN;UNKNOWN),
+0	14	348	1873	1875	S	346	to	to	to	TO	O	prep	false	-1	-1	c5	null	351	case	(c5;UNKNOWN;UNKNOWN),
+0	14	349	1876	1879	S	351	the	the	the	DT	O	det	false	-1	-1	c5	null	351	det	(c5;UNKNOWN;UNKNOWN),
+0	14	350	1880	1887	S	351	Stygian	Stygian	stygian	JJ	MISC	amod	false	-1	-1	c5	null	351	amod	(c5;UNKNOWN;UNKNOWN),
+0	14	351	1888	1895	S	348	Witches	Witches	witch	NNS	MISC	pobj	false	-1	-1	c5	null	347	nmod:to	(c5;UNKNOWN;UNKNOWN),
+0	14	352	1896	1897	S	323	.	.	.	.	O	punct	false	-1	-1	null	null	323	punct	null
+0	15	353	1898	1900	S	359	By	By	by	IN	O	prep	false	-1	-1	null	null	354	mark	null
+0	15	354	1901	1907	S	353	taking	taking	take	VBG	O	pcomp	false	-1	-1	null	null	359	dep	null
+0	15	355	1908	1913	S	358	their	their	they	PRP$	O	poss	false	-1	-1	c18	null	358	nmod:poss	(c18;ANIMATE;UNKNOWN),
+0	15	356	1914	1919	S	358	magic	magic	magic	JJ	O	amod	false	-1	-1	null	null	358	amod	null
+0	15	357	1920	1923	S	358	eye	eye	eye	NN	O	nn	false	-1	-1	null	null	358	compound	null
+0	15	358	1924	1931	S	354	Perseus	Perseus	perseus	NN	PERSON	dobj	false	1	1	null	null	354	dobj	null
+0	15	359	1932	1938	S	-1	forces	forces	force	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	15	360	1939	1943	S	362	them	them	they	PRP	O	nsubj	false	-1	-1	c18	null	359	dobj	(c18;ANIMATE;UNKNOWN),
+0	15	361	1944	1946	S	362	to	to	to	TO	O	aux	false	-1	-1	null	null	362	mark	null
+0	15	362	1947	1953	S	359	reveal	reveal	reveal	VB	O	xcomp	false	-1	-1	null	null	359	xcomp	null
+0	15	363	1954	1958	S	362	that	that	that	IN	O	prep	false	-1	-1	null	null	373	mark	null
+0	15	364	1959	1962	S	366	the	the	the	DT	O	det	false	-1	-1	null	null	366	det	null
+0	15	365	1963	1967	S	366	only	only	only	JJ	O	amod	false	-1	-1	null	null	366	amod	null
+0	15	366	1968	1971	S	363	way	way	way	NN	O	pobj	false	-1	-1	null	null	373	nsubj	null
+0	15	367	1972	1974	S	368	to	to	to	TO	O	aux	false	-1	-1	null	null	368	mark	null
+0	15	368	1975	1981	S	366	defeat	defeat	defeat	VB	O	infmod	false	-1	-1	null	null	366	acl	null
+0	15	369	1982	1985	S	370	the	the	the	DT	O	det	false	-1	-1	c6	null	370	det	(c6;ANIMATE;NEUTRAL),
+0	15	370	1986	1992	S	371	Kraken	Kraken	Kraken	NNP	O	nsubj	false	-1	-1	c6	null	368	dobj	(c6;ANIMATE;NEUTRAL),
+0	15	371	1993	1995	S	368	is	is	be	VBZ	O	ccomp	false	-1	-1	null	null	373	cop	null
+0	15	372	1996	1998	S	371	by	by	by	IN	O	prep	false	-1	-1	null	null	373	mark	null
+0	15	373	1999	2004	S	372	using	using	use	VBG	O	pcomp	false	-1	-1	null	null	362	ccomp	null
+0	15	374	2005	2008	S	375	the	the	the	DT	O	det	false	-1	-1	c21	null	375	det	(c21;INANIMATE;MALE),
+0	15	375	2009	2013	S	373	head	head	head	NN	O	dobj	false	-1	-1	c21	null	373	dobj	(c21;INANIMATE;MALE),
+0	15	376	2014	2016	S	375	of	of	of	IN	O	prep	false	-1	-1	c21	null	377	case	(c21;INANIMATE;MALE),
+0	15	377	2017	2023	S	376	Medusa	Medusa	Medusa	NNP	O	pobj	false	-1	5	c21,c22	null	375	nmod:of	(c21;INANIMATE;MALE),(c22;INANIMATE;UNKNOWN),
+0	15	378	2024	2027	S	379	the	the	the	DT	O	det	false	-1	-1	null	null	379	det	null
+0	15	379	2028	2034		377	Gorgon	Gorgon	Gorgon	NNP	O	dep	false	-1	-1	null	null	359	nsubj	null
+0	15	380	2034	2035	S	379	,	,	,	,	O	punct	false	-1	-1	null	null	379	punct	null
+0	15	381	2036	2039	S	385	who	who	who	WP	O	nsubj	false	-1	-1	null	null	385	nsubj	null
+0	15	382	2040	2042	S	385	in	in	in	IN	O	prep	false	-1	-1	null	null	384	case	null
+0	15	383	2043	2047	S	384	this	this	this	DT	O	det	false	-1	-1	null	null	384	det	null
+0	15	384	2048	2055	S	382	version	version	version	NN	O	pobj	false	-1	-1	null	null	385	nmod:in	null
+0	15	385	2056	2061	S	379	lives	lives	live	VBZ	O	rcmod	false	-1	-1	null	null	379	acl:relcl	null
+0	15	386	2062	2064	S	385	at	at	at	IN	O	prep	false	-1	-1	null	null	388	case	null
+0	15	387	2065	2068	S	388	the	the	the	DT	O	det	false	-1	-1	null	null	388	det	null
+0	15	388	2069	2073	S	386	edge	edge	edge	NN	O	pobj	false	-1	-1	null	null	385	nmod:at	null
+0	15	389	2074	2076	S	388	of	of	of	IN	O	prep	false	-1	-1	null	null	391	case	null
+0	15	390	2077	2080	S	391	the	the	the	DT	O	det	false	-1	-1	null	null	391	det	null
+0	15	391	2081	2091		389	Underworld	Underworld	underworld	NN	O	pobj	false	-1	-1	null	null	388	nmod:of	null
+0	15	392	2091	2092	S	359	.	.	.	.	O	punct	false	-1	-1	null	null	359	punct	null
+0	16	393	2093	2098		396	There	There	there	RB	O	advmod	false	-1	-1	null	null	396	advmod	null
+0	16	394	2098	2099	S	396	,	,	,	,	O	punct	false	-1	-1	null	null	396	punct	null
+0	16	395	2100	2107	S	396	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	396	nsubj	(c5;ANIMATE;UNKNOWN),
+0	16	396	2108	2113	S	-1	kills	kills	kill	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	16	397	2114	2120		401	Medusa	Medusa	Medusa	NNP	PERSON	poss	false	5	5	c22,c23	c22,c23	400	nmod:poss	(c22;ANIMATE;UNKNOWN),(c23;ANIMATE;UNKNOWN),
+0	16	398	2120	2122	S	397	's	's	's	POS	O	possessive	false	-1	-1	c22,c23	c22,c23	397	case	(c22;ANIMATE;UNKNOWN),(c23;ANIMATE;UNKNOWN),
+0	16	399	2123	2129	S	401	canine	canine	canine	JJ	O	amod	false	-1	-1	c23	c23	400	amod	(c23;ANIMATE;UNKNOWN),
+0	16	400	2130	2138	S	401	guardian	guardian	guardian	NN	O	nn	false	-1	-1	c23	c23	396	dobj	(c23;ANIMATE;UNKNOWN),
+0	16	401	2139	2148		396	Dioskilos	Dioskilos	Dioskilos	NNP	PERSON	dobj	false	-1	-1	c23	c23	400	dep	(c23;ANIMATE;UNKNOWN),
+0	16	402	2148	2149	S	401	,	,	,	,	O	punct	false	-1	-1	c23	c23	401	punct	(c23;ANIMATE;UNKNOWN),
+0	16	403	2150	2153	S	404	who	who	who	WP	O	nsubj	false	-1	-1	c23	c23	404	nsubj	(c23;ANIMATE;UNKNOWN),
+0	16	404	2154	2159	S	401	slays	slays	slay	VBZ	O	rcmod	false	-1	-1	c23	c23	401	acl:relcl	(c23;ANIMATE;UNKNOWN),
+0	16	405	2160	2163	S	404	one	one	one	CD	NUMBER	dobj	false	-1	-1	c23	c23	404	dobj	(c23;ANIMATE;UNKNOWN),
+0	16	406	2164	2166	S	405	of	of	of	IN	O	prep	false	-1	-1	c23	c23	409	case	(c23;ANIMATE;UNKNOWN),
+0	16	407	2167	2174		409	Perseus	Perseus	Perseus	NNP	PERSON	poss	false	1	1	c23	c23	409	nmod:poss	(c23;ANIMATE;UNKNOWN),
+0	16	408	2174	2176	S	407	's	's	's	POS	O	possessive	false	-1	-1	c23	c23	407	case	(c23;ANIMATE;UNKNOWN),
+0	16	409	2177	2187		406	companions	companions	companion	NNS	O	pobj	false	-1	-1	c23	c23	405	nmod:of	(c23;ANIMATE;UNKNOWN),
+0	16	410	2187	2188	S	396	;	;	;	:	O	punct	false	-1	-1	c23	c23	401	punct	(c23;ANIMATE;UNKNOWN),
+0	16	411	2189	2196	S	414	whereas	whereas	whereas	IN	O	mark	false	-1	-1	c23	c23	414	mark	(c23;ANIMATE;UNKNOWN),
+0	16	412	2197	2200	S	413	two	two	two	CD	NUMBER	num	false	-1	-1	c23	c23	413	nummod	(c23;ANIMATE;UNKNOWN),
+0	16	413	2201	2207	S	414	others	others	other	NNS	O	nsubj	false	-1	-1	c23	c23	414	nsubj	(c23;ANIMATE;UNKNOWN),
+0	16	414	2208	2211	S	396	die	die	die	VB	O	parataxis	false	-1	-1	c23	c23	401	acl:relcl	(c23;ANIMATE;UNKNOWN),
+0	16	415	2212	2214	S	414	on	on	on	IN	O	prep	false	-1	-1	c23	c23	416	case	(c23;ANIMATE;UNKNOWN),
+0	16	416	2215	2224	S	415	encounter	encounter	encounter	NN	O	pobj	false	-1	-1	c23	c23	414	nmod:on	(c23;ANIMATE;UNKNOWN),
+0	16	417	2225	2229	S	416	with	with	with	IN	O	prep	false	-1	-1	c23	c23	418	case	(c23;ANIMATE;UNKNOWN),
+0	16	418	2230	2236	S	417	Medusa	Medusa	Medusa	NNP	PERSON	pobj	false	5	5	c22,c23	c23	414	nmod:with	(c22;ANIMATE;UNKNOWN),(c23;ANIMATE;UNKNOWN),
+0	16	419	2237	2244		418	herself	herself	herself	PRP	O	dep	false	-1	-1	c5,c22,c23	c23	418	nmod:npmod	(c5;ANIMATE;FEMALE),(c22;ANIMATE;UNKNOWN),(c23;ANIMATE;UNKNOWN),
+0	16	420	2244	2245	S	396	.	.	.	.	O	punct	false	-1	-1	null	null	396	punct	null
+0	17	421	2246	2253	S	422	Perseus	Perseus	Perseus	NNP	O	nsubj	false	-1	1	c5	null	422	nsubj	(c5;UNKNOWN;UNKNOWN),
+0	17	422	2254	2258	S	-1	uses	uses	use	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	17	423	2259	2262	S	425	the	the	the	DT	O	det	false	-1	-1	null	null	425	det	null
+0	17	424	2263	2273	S	425	reflective	reflective	reflective	JJ	O	amod	false	-1	-1	null	null	425	amod	null
+0	17	425	2274	2283	S	422	underside	underside	underside	NN	O	dobj	false	-1	-1	null	null	422	dobj	null
+0	17	426	2284	2286	S	425	of	of	of	IN	O	prep	false	-1	-1	null	null	428	case	null
+0	17	427	2287	2290	S	428	his	his	he	PRP$	O	poss	false	-1	-1	c23,c24	c24	428	nmod:poss	(c23;ANIMATE;MALE),(c24;INANIMATE;NEUTRAL),
+0	17	428	2291	2297	S	426	shield	shield	shield	NN	O	pobj	false	-1	-1	c24	c24	425	nmod:of	(c24;INANIMATE;NEUTRAL),
+0	17	429	2298	2300	S	430	to	to	to	TO	O	aux	false	-1	-1	c24	c24	430	mark	(c24;INANIMATE;NEUTRAL),
+0	17	430	2301	2308	S	422	deceive	deceive	deceive	VB	O	xcomp	false	-1	-1	c24	c24	428	acl	(c24;INANIMATE;NEUTRAL),
+0	17	431	2309	2315		430	Medusa	Medusa	Medusa	NNP	PERSON	dobj	false	5	5	c22,c24	c24	430	dobj	(c22;INANIMATE;UNKNOWN),(c24;INANIMATE;NEUTRAL),
+0	17	432	2315	2316	S	422	,	,	,	,	O	punct	false	-1	-1	null	null	422	punct	null
+0	17	433	2317	2328	S	422	decapitates	decapitates	decapitate	VBZ	O	conj	false	-1	-1	null	null	422	conj:but	null
+0	17	434	2329	2332		433	her	her	she	PRP	O	dobj	false	-1	1	c5	null	433	dobj	(c5;ANIMATE;FEMALE),
+0	17	435	2332	2333	S	422	,	,	,	,	O	punct	false	-1	-1	null	null	422	punct	null
+0	17	436	2334	2337	S	422	and	and	and	CC	O	cc	false	-1	-1	null	null	422	cc	null
+0	17	437	2338	2346	S	422	collects	collects	collect	VBZ	O	conj	false	-1	-1	null	null	422	conj:and	null
+0	17	438	2347	2350	S	439	her	her	she	PRP$	O	poss	false	-1	1	c5,c21	null	439	nmod:poss	(c5;ANIMATE;FEMALE),(c21;INANIMATE;MALE),
+0	17	439	2351	2355		437	head	head	head	NN	O	dobj	false	-1	-1	c21	null	437	dobj	(c21;INANIMATE;MALE),
+0	17	440	2355	2356	S	422	;	;	;	:	O	punct	false	-1	-1	null	null	422	punct	null
+0	17	441	2357	2360	S	422	but	but	but	CC	O	cc	false	-1	-1	null	null	422	cc	null
+0	17	442	2361	2364	S	443	the	the	the	DT	O	det	false	-1	-1	c24	null	443	det	(c24;INANIMATE;NEUTRAL),
+0	17	443	2365	2371	S	445	shield	shield	shield	NN	O	nsubjpass	false	-1	-1	c24	null	445	nsubjpass	(c24;INANIMATE;NEUTRAL),
+0	17	444	2372	2374	S	445	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	445	auxpass	null
+0	17	445	2375	2384	S	422	dissolved	dissolved	dissolve	VBN	O	conj	false	-1	-1	null	null	422	conj:and	null
+0	17	446	2385	2387	S	445	by	by	by	IN	O	prep	false	-1	-1	null	null	448	case	null
+0	17	447	2388	2391	S	448	her	her	she	PRP$	O	poss	false	-1	1	c5	null	448	nmod:poss	(c5;ANIMATE;FEMALE),
+0	17	448	2392	2397		446	blood	blood	blood	NN	O	pobj	false	-1	-1	null	null	445	nmod:agent	null
+0	17	449	2397	2398	S	422	.	.	.	.	O	punct	false	-1	-1	null	null	422	punct	null
+0	18	450	2399	2401	S	460	As	As	as	IN	O	prep	false	-1	-1	null	null	451	case	null
+0	18	451	2402	2409	S	450	Perseus	Perseus	perseus	NN	PERSON	pobj	false	1	1	c25	c25	460	nmod:as	(c25;ANIMATE;UNKNOWN),
+0	18	452	2410	2413	S	451	and	and	and	CC	O	cc	false	-1	-1	c25	c25	451	cc	(c25;ANIMATE;UNKNOWN),
+0	18	453	2414	2417	S	454	his	his	he	PRP$	O	poss	false	-1	-1	c23,c25	c25	454	nmod:poss	(c23;ANIMATE;MALE),(c25;ANIMATE;UNKNOWN),
+0	18	454	2418	2423	S	451	party	party	party	NN	O	conj	false	-1	-1	c25	c25	451	conj:and	(c25;ANIMATE;UNKNOWN),
+0	18	455	2424	2427	S	451	set	set	set	VBN	O	partmod	false	-1	-1	c25	c25	454	acl	(c25;ANIMATE;UNKNOWN),
+0	18	456	2428	2430	S	457	to	to	to	TO	O	aux	false	-1	-1	c25	c25	457	mark	(c25;ANIMATE;UNKNOWN),
+0	18	457	2431	2437		455	return	return	return	VB	O	xcomp	false	-1	-1	c25	c25	455	xcomp	(c25;ANIMATE;UNKNOWN),
+0	18	458	2437	2438	S	460	,	,	,	,	O	punct	false	-1	-1	null	null	460	punct	null
+0	18	459	2439	2446	S	460	Calibos	Calibos	Calibos	NNP	PERSON	nsubj	false	6	6	c14	null	460	nsubj	(c14;ANIMATE;UNKNOWN),
+0	18	460	2447	2453	S	-1	enters	enters	enter	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	18	461	2454	2459	S	462	their	their	they	PRP$	O	poss	false	-1	-1	c25	null	462	nmod:poss	(c25;ANIMATE;UNKNOWN),
+0	18	462	2460	2464	S	460	camp	camp	camp	NN	O	dobj	false	-1	-1	null	null	460	dobj	null
+0	18	463	2465	2468	S	460	and	and	and	CC	O	cc	false	-1	-1	null	null	460	cc	null
+0	18	464	2469	2478	S	460	punctures	punctures	puncture	VBZ	O	conj	false	-1	-1	null	null	460	conj:and	null
+0	18	465	2479	2482	S	466	the	the	the	DT	O	det	false	-1	-1	null	null	466	det	null
+0	18	466	2483	2488	S	464	cloak	cloak	cloak	NN	O	dobj	false	-1	-1	null	null	464	dobj	null
+0	18	467	2489	2497	S	466	carrying	carrying	carry	VBG	O	partmod	false	-1	-1	null	null	466	acl	null
+0	18	468	2498	2504		470	Medusa	Medusa	Medusa	NNP	PERSON	poss	false	5	5	c21,c22	c21	470	nmod:poss	(c21;INANIMATE;MALE),(c22;ANIMATE;UNKNOWN),
+0	18	469	2504	2506	S	468	's	's	's	POS	O	possessive	false	-1	-1	c21,c22	c21	468	case	(c21;INANIMATE;MALE),(c22;ANIMATE;UNKNOWN),
+0	18	470	2507	2511		467	head	head	head	NN	O	dobj	false	-1	-1	c21	c21	467	dobj	(c21;INANIMATE;MALE),
+0	18	471	2511	2512	S	464	,	,	,	,	O	punct	false	-1	-1	null	null	464	punct	null
+0	18	472	2513	2520	S	464	causing	causing	cause	VBG	O	xcomp	false	-1	-1	null	null	464	advcl	null
+0	18	473	2521	2524	S	474	her	her	she	PRP$	O	poss	false	-1	5	c22	null	474	nmod:poss	(c22;ANIMATE;FEMALE),
+0	18	474	2525	2530	S	472	blood	blood	blood	NN	O	dobj	false	-1	-1	null	null	472	dobj	null
+0	18	475	2531	2533	S	476	to	to	to	TO	O	aux	false	-1	-1	null	null	476	mark	null
+0	18	476	2534	2541	S	474	produce	produce	produce	VB	O	infmod	false	-1	-1	null	null	474	acl	null
+0	18	477	2542	2547	S	478	giant	giant	giant	JJ	O	amod	false	-1	-1	null	null	478	amod	null
+0	18	478	2548	2557		476	scorpions	scorpions	scorpion	NNS	O	dobj	false	-1	-1	null	null	476	dobj	null
+0	18	479	2557	2558	S	460	.	.	.	.	O	punct	false	-1	-1	null	null	460	punct	null
+0	19	480	2559	2563	S	485	Most	Most	most	JJS	O	nsubjpass	false	-1	-1	null	null	485	nsubjpass	null
+0	19	481	2564	2566	S	480	of	of	of	IN	O	prep	false	-1	-1	null	null	483	case	null
+0	19	482	2567	2570	S	483	the	the	the	DT	O	det	false	-1	-1	c19	null	483	det	(c19;ANIMATE;UNKNOWN),
+0	19	483	2571	2574	S	481	men	men	man	NNS	O	pobj	false	-1	-1	c19	null	480	nmod:of	(c19;ANIMATE;UNKNOWN),
+0	19	484	2575	2578	S	485	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	485	auxpass	null
+0	19	485	2579	2585		-1	killed	killed	kill	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	19	486	2585	2586	S	485	;	;	;	:	O	punct	false	-1	-1	null	null	485	punct	null
+0	19	487	2587	2590	S	485	but	but	but	CC	O	cc	false	-1	-1	null	null	485	cc	null
+0	19	488	2591	2598	S	489	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	489	nsubj	(c5;ANIMATE;UNKNOWN),
+0	19	489	2599	2604	S	485	slays	slays	slay	VBZ	O	conj	false	-1	-1	null	null	485	conj:but	null
+0	19	490	2605	2608	S	492	the	the	the	DT	O	det	false	-1	-1	null	null	492	det	null
+0	19	491	2609	2613	S	492	last	last	last	JJ	O	amod	false	-1	-1	null	null	492	amod	null
+0	19	492	2614	2622	S	489	scorpion	scorpion	scorpion	NN	O	dobj	false	-1	-1	null	null	489	dobj	null
+0	19	493	2623	2626	S	485	and	and	and	CC	O	cc	false	-1	-1	null	null	489	cc	null
+0	19	494	2627	2637	S	495	thereafter	thereafter	thereafter	RB	O	advmod	false	-1	-1	null	null	495	advmod	null
+0	19	495	2638	2643	S	485	kills	kills	kill	VBZ	O	conj	false	-1	-1	null	null	489	conj:and	null
+0	19	496	2644	2651		495	Calibos	Calibos	calibo	NNS	PERSON	dobj	false	6	6	c14	null	495	dobj	(c14;ANIMATE;UNKNOWN),
+0	19	497	2651	2652	SS	485	.	.	.	.	O	punct	false	-1	-1	null	null	485	punct	null
+0	20	498	2654	2662	S	504	Weakened	Weakened	weaken	VBN	O	ccomp	false	-1	-1	null	null	504	advcl	null
+0	20	499	2663	2665	S	498	by	by	by	IN	O	prep	false	-1	-1	null	null	501	case	null
+0	20	500	2666	2669	S	501	his	his	he	PRP$	O	poss	false	-1	-1	c14	null	501	nmod:poss	(c14;ANIMATE;MALE),
+0	20	501	2670	2678		499	struggle	struggle	struggle	NN	O	pobj	false	-1	-1	null	null	498	nmod:by	null
+0	20	502	2678	2679	S	504	,	,	,	,	O	punct	false	-1	-1	null	null	504	punct	null
+0	20	503	2680	2687	S	504	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	504	nsubj	(c5;ANIMATE;UNKNOWN),
+0	20	504	2688	2693	S	-1	sends	sends	send	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	20	505	2694	2698	S	504	Bubo	Bubo	Bubo	NNP	PERSON	dobj	false	9	9	c20	null	504	dobj	(c20;UNKNOWN;UNKNOWN),
+0	20	506	2699	2701	S	507	to	to	to	TO	O	aux	false	-1	-1	null	null	507	mark	null
+0	20	507	2702	2707	S	504	bring	bring	bring	VB	O	xcomp	false	-1	-1	null	null	504	xcomp	null
+0	20	508	2708	2715		507	Pegasus	Pegasus	Pegasus	NNP	O	dobj	false	-1	8	c15	null	507	dobj	(c15;INANIMATE;NEUTRAL),
+0	20	509	2715	2716	S	504	;	;	;	:	O	punct	false	-1	-1	null	null	504	punct	null
+0	20	510	2717	2721	S	511	this	this	this	DT	O	det	false	-1	-1	c20	null	511	det	(c20;ANIMATE;NEUTRAL),
+0	20	511	2722	2726	S	504	Bubo	Bubo	bubo	NN	PERSON	conj	false	9	9	c20	null	512	nsubj	(c20;ANIMATE;NEUTRAL),
+0	20	512	2727	2731		511	does	does	do	VBZ	O	dep	false	-1	-1	null	null	504	parataxis	null
+0	20	513	2731	2732	S	504	,	,	,	,	O	punct	false	-1	-1	null	null	512	punct	null
+0	20	514	2733	2736	S	504	and	and	and	CC	O	cc	false	-1	-1	null	null	512	cc	null
+0	20	515	2737	2742	S	516	later	later	later	RB	O	advmod	false	-1	-1	null	null	516	advmod	null
+0	20	516	2743	2750	S	504	diverts	diverts	divert	VBZ	O	conj	false	-1	-1	null	null	512	conj:and	null
+0	20	517	2751	2754	S	518	the	the	the	DT	O	det	false	-1	-1	null	null	518	det	null
+0	20	518	2755	2761	S	516	Kraken	Kraken	Kraken	NNP	O	dobj	false	-1	-1	null	null	516	dobj	null
+0	20	519	2762	2767	S	521	until	until	until	IN	O	mark	false	-1	-1	null	null	521	mark	null
+0	20	520	2768	2775	S	521	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5	null	521	nsubj	(c5;ANIMATE;UNKNOWN),
+0	20	521	2776	2783	S	516	appears	appears	appear	VBZ	O	advcl	false	-1	-1	null	null	518	acl	null
+0	20	522	2784	2786	S	521	on	on	on	IN	O	prep	false	-1	-1	null	null	523	case	null
+0	20	523	2787	2794		522	Pegasus	Pegasus	Pegasus	NNP	O	pobj	false	-1	8	c15	null	521	nmod:on	(c15;UNKNOWN;NEUTRAL),
+0	20	524	2794	2795	S	504	.	.	.	.	O	punct	false	-1	-1	null	null	504	punct	null
+0	21	525	2796	2798	S	546	In	In	in	IN	O	prep	false	-1	-1	null	null	528	case	null
+0	21	526	2799	2802	S	528	the	the	the	DT	O	det	false	-1	-1	null	null	528	det	null
+0	21	527	2803	2813	S	528	subsequent	subsequent	subsequent	JJ	O	amod	false	-1	-1	null	null	528	amod	null
+0	21	528	2814	2820		525	battle	battle	battle	NN	O	pobj	false	-1	-1	null	null	533	nmod:in	null
+0	21	529	2820	2821	S	528	,	,	,	,	O	punct	false	-1	-1	null	null	533	punct	null
+0	21	530	2822	2826	S	533	Bubo	Bubo	Bubo	NNP	PERSON	nsubj	false	9	9	c20	null	533	nsubj	(c20;ANIMATE;UNKNOWN),
+0	21	531	2827	2830	S	530	and	and	and	CC	O	cc	false	-1	-1	null	null	530	cc	null
+0	21	532	2831	2838	S	530	Perseus	Perseus	Perseus	NNP	O	conj	false	-1	1	c5	null	530	conj:and	(c5;UNKNOWN;UNKNOWN),
+0	21	533	2839	2842	S	528	use	use	use	VBP	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	21	534	2843	2849		536	Medusa	Medusa	Medusa	NNP	PERSON	poss	false	5	5	c22	null	536	nmod:poss	(c22;INANIMATE;UNKNOWN),
+0	21	535	2849	2851	S	534	's	's	's	POS	O	possessive	false	-1	-1	c22	null	534	case	(c22;INANIMATE;UNKNOWN),
+0	21	536	2852	2856	S	538	head	head	head	NN	O	nsubj	false	-1	-1	null	null	533	dobj	null
+0	21	537	2857	2859	S	538	to	to	to	TO	O	aux	false	-1	-1	null	null	538	mark	null
+0	21	538	2860	2864	S	533	turn	turn	turn	VB	O	ccomp	false	-1	-1	null	null	536	acl	null
+0	21	539	2865	2868	S	540	the	the	the	DT	O	det	false	-1	-1	c6	null	540	det	(c6;ANIMATE;NEUTRAL),
+0	21	540	2869	2875	S	538	Kraken	Kraken	Kraken	NNP	O	dobj	false	-1	-1	c6	null	538	dobj	(c6;ANIMATE;NEUTRAL),
+0	21	541	2876	2880	S	538	into	into	into	IN	O	prep	false	-1	-1	null	null	542	case	null
+0	21	542	2881	2886		541	stone	stone	stone	NN	O	pobj	false	-1	-1	null	null	538	nmod:into	null
+0	21	543	2886	2887	S	546	,	,	,	,	O	punct	false	-1	-1	null	null	536	punct	null
+0	21	544	2888	2891	S	546	and	and	and	CC	O	cc	false	-1	-1	null	null	536	cc	null
+0	21	545	2892	2896	S	546	free	free	free	JJ	O	amod	false	-1	-1	c8	null	546	amod	(c8;UNKNOWN;UNKNOWN),
+0	21	546	2897	2906		-1	Andromeda	Andromeda	Andromeda	NNP	O	null	false	-1	-1	c8	null	536	conj:and	(c8;UNKNOWN;UNKNOWN),
+0	21	547	2906	2907	S	546	.	.	.	.	O	punct	false	-1	-1	null	null	533	punct	null
+0	22	548	2908	2911	S	549	The	The	the	DT	O	det	false	-1	-1	null	null	549	det	null
+0	22	549	2912	2916	S	550	gods	gods	god	NNS	O	nsubj	false	-1	-1	null	null	550	nsubj	null
+0	22	550	2917	2924	S	-1	predict	predict	predict	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	22	551	2925	2929	S	556	that	that	that	IN	O	complm	false	-1	-1	null	null	556	mark	null
+0	22	552	2930	2937	S	556	Perseus	Perseus	Perseus	NNP	PERSON	nsubj	false	1	1	c5,c26	c26	556	nsubj	(c5;UNKNOWN;UNKNOWN),(c26;UNKNOWN;UNKNOWN),
+0	22	553	2938	2941	S	552	and	and	and	CC	O	cc	false	-1	-1	c26	c26	552	cc	(c26;UNKNOWN;UNKNOWN),
+0	22	554	2942	2951	S	552	Andromeda	Andromeda	Andromeda	NNP	PERSON	conj	false	10	10	c8,c26	c26	552	conj:and	(c8;ANIMATE;UNKNOWN),(c26;UNKNOWN;UNKNOWN),
+0	22	555	2952	2956	S	556	will	will	will	MD	O	aux	false	-1	-1	null	null	556	aux	null
+0	22	556	2957	2961	S	564	live	live	live	VB	O	advcl	false	-1	-1	null	null	550	ccomp	null
+0	22	557	2962	2969		556	happily	happily	happily	RB	O	advmod	false	-1	-1	null	null	556	advmod	null
+0	22	558	2969	2970	S	564	,	,	,	,	O	punct	false	-1	-1	null	null	550	punct	null
+0	22	559	2971	2975	S	564	rule	rule	rule	NN	O	nn	false	-1	-1	null	null	550	conj:and	null
+0	22	560	2976	2982		559	wisely	wisely	wisely	RB	O	advmod	false	-1	-1	null	null	559	advmod	null
+0	22	561	2982	2983	S	559	,	,	,	,	O	punct	false	-1	-1	null	null	550	punct	null
+0	22	562	2984	2987	S	559	and	and	and	CC	O	cc	false	-1	-1	null	null	550	cc	null
+0	22	563	2988	2995	S	559	produce	produce	produce	VBP	O	conj	false	-1	-1	null	null	550	conj:and	null
+0	22	564	2996	3004		550	children	children	child	NNS	O	dobj	false	-1	-1	null	null	563	dobj	null
+0	22	565	3004	3005	S	567	,	,	,	,	O	punct	false	-1	-1	null	null	550	punct	null
+0	22	566	3006	3009	S	567	and	and	and	CC	O	cc	false	-1	-1	null	null	550	cc	null
+0	22	567	3010	3014	S	568	Zeus	Zeus	Zeus	NNP	PERSON	nsubj	false	0	0	c4	null	568	nsubj	(c4;UNKNOWN;MALE),
+0	22	568	3015	3022	S	564	forbids	forbids	forbid	VBZ	O	rcmod	false	-1	-1	null	null	550	conj:and	null
+0	22	569	3023	3026	S	571	the	the	the	DT	O	det	false	-1	-1	null	null	571	det	null
+0	22	570	3027	3032	S	571	other	other	other	JJ	O	amod	false	-1	-1	null	null	571	amod	null
+0	22	571	3033	3037	S	568	gods	gods	god	NNS	O	dobj	false	-1	-1	null	null	568	dobj	null
+0	22	572	3038	3040	S	573	to	to	to	TO	O	aux	false	-1	-1	null	null	573	mark	null
+0	22	573	3041	3047	S	568	pursue	pursue	pursue	VB	O	xcomp	false	-1	-1	null	null	568	xcomp	null
+0	22	574	3048	3057	S	573	vengeance	vengeance	vengeance	NN	O	dobj	false	-1	-1	null	null	573	dobj	null
+0	22	575	3058	3065	S	573	against	against	against	IN	O	prep	false	-1	-1	null	null	576	case	null
+0	22	576	3066	3070		575	them	them	they	PRP	O	pobj	false	-1	-1	c26	null	573	nmod:against	(c26;ANIMATE;UNKNOWN),
+0	22	577	3070	3071	S	550	.	.	.	.	O	punct	false	-1	-1	null	null	550	punct	null
+0	23	578	3072	3075	S	579	The	The	the	DT	O	det	false	-1	-1	null	null	579	det	null
+0	23	579	3076	3086	S	589	likenesses	likenesses	likeness	NNS	O	nsubj	false	-1	-1	null	null	589	ccomp	null
+0	23	580	3087	3089	S	579	of	of	of	IN	O	prep	false	-1	-1	null	null	581	case	null
+0	23	581	3090	3097		580	Perseus	Perseus	Perseus	NNP	LOCATION	pobj	false	-1	1	c5	null	579	nmod:of	(c5;INANIMATE;UNKNOWN),
+0	23	582	3097	3098	S	581	,	,	,	,	O	punct	false	-1	-1	null	null	589	punct	null
+0	23	583	3099	3108		581	Andromeda	Andromeda	Andromeda	NNP	O	conj	false	-1	-1	c8,c12	null	589	nsubj	(c8;UNKNOWN;UNKNOWN),(c12;UNKNOWN;UNKNOWN),
+0	23	584	3108	3109	S	583	,	,	,	,	O	punct	false	-1	-1	c12	null	583	punct	(c12;UNKNOWN;UNKNOWN),
+0	23	585	3110	3117		583	Pegasus	Pegasus	Pegasus	NNP	ORGANIZATION	conj	false	8	8	c12,c15	null	583	conj:and	(c12;UNKNOWN;UNKNOWN),(c15;INANIMATE;NEUTRAL),
+0	23	586	3117	3118	S	579	,	,	,	,	O	punct	false	-1	-1	c12	null	583	punct	(c12;UNKNOWN;UNKNOWN),
+0	23	587	3119	3122	S	579	and	and	and	CC	O	cc	false	-1	-1	c12	null	583	cc	(c12;UNKNOWN;UNKNOWN),
+0	23	588	3123	3133	S	579	Cassiopeia	Cassiopeia	Cassiopeia	NNP	O	conj	false	-1	4	c12,c13	null	583	conj:and	(c12;UNKNOWN;UNKNOWN),(c13;UNKNOWN;UNKNOWN),
+0	23	589	3134	3140	S	-1	appear	appear	appear	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	23	590	3141	3143	S	589	as	as	as	IN	O	prep	false	-1	-1	null	null	591	case	null
+0	23	591	3144	3158		590	constellations	constellations	constellation	NNS	O	pobj	false	-1	-1	null	null	589	nmod:as	null
+0	23	592	3158	3159	N	589	.	.	.	.	O	punct	false	-1	-1	null	null	589	punct	null

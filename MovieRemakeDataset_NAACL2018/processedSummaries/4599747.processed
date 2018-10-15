@@ -1,0 +1,190 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	6	S	1	Holger	Holger	Holger	NNP	PERSON	nn	false	-1	2	c1	c1	1	compound	(c1;ANIMATE;MALE),
+0	0	1	7	13		8	Brandt	Brandt	Brandt	NNP	PERSON	nsubj	false	-1	2	c1	c1	8	nsubj	(c1;ANIMATE;MALE),
+0	0	2	13	14	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	3	15	16	S	6	a	a	a	DT	O	det	false	-1	-1	c1	null	6	det	(c1;ANIMATE;MALE),
+0	0	4	17	23	S	6	famous	famous	famous	JJ	O	amod	false	-1	-1	c1	null	6	amod	(c1;ANIMATE;MALE),
+0	0	5	24	32	S	6	virtuoso	virtuoso	virtuoso	JJ	O	amod	false	-1	-1	c1	null	6	amod	(c1;ANIMATE;MALE),
+0	0	6	33	42		1	violinist	violinist	violinist	NN	O	appos	false	-1	-1	c1	null	1	appos	(c1;ANIMATE;MALE),
+0	0	7	42	43	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	8	44	49	S	-1	meets	meets	meet	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	9	50	55	S	10	Anita	Anita	Anita	NNP	PERSON	nn	false	-1	0	c2	c2	10	compound	(c2;ANIMATE;FEMALE),
+0	0	10	56	63		8	Hoffman	Hoffman	Hoffman	NNP	PERSON	dobj	false	-1	0	c2	c2	8	dobj	(c2;ANIMATE;FEMALE),
+0	0	11	63	64	S	10	,	,	,	,	O	punct	false	-1	-1	null	null	10	punct	null
+0	0	12	65	68	S	13	his	his	he	PRP$	O	poss	false	-1	2	c1,c3	c3	13	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;FEMALE),
+0	0	13	69	77		16	daughter	daughter	daughter	NN	O	poss	false	-1	-1	c3	c3	16	nmod:poss	(c3;ANIMATE;FEMALE),
+0	0	14	77	79	S	13	's	's	's	POS	O	possessive	false	-1	-1	c3	c3	13	case	(c3;ANIMATE;FEMALE),
+0	0	15	80	85	S	16	piano	piano	piano	NN	O	nn	false	-1	-1	null	null	16	compound	null
+0	0	16	86	96		10	instructor	instructor	instructor	NN	O	appos	false	-1	-1	null	null	10	appos	null
+0	0	17	96	97	S	10	,	,	,	,	O	punct	false	-1	-1	null	null	10	punct	null
+0	0	18	98	104	S	8	during	during	during	IN	O	prep	false	-1	-1	null	null	21	case	null
+0	0	19	105	106	S	21	a	a	a	DT	O	det	false	-1	-1	null	null	21	det	null
+0	0	20	107	111	S	21	trip	trip	trip	NN	O	nn	false	-1	-1	null	null	21	compound	null
+0	0	21	112	116		18	home	home	home	NN	O	pobj	false	-1	-1	null	null	8	nmod:during	null
+0	0	22	116	117	S	8	.	.	.	.	O	punct	false	-1	-1	null	null	8	punct	null
+0	1	23	118	127	S	30	Impressed	Impressed	impress	VBN	O	ccomp	false	-1	-1	null	null	30	advcl	null
+0	1	24	128	132	S	23	with	with	with	IN	O	prep	false	-1	-1	null	null	27	case	null
+0	1	25	133	138		27	Anita	Anita	Anita	NNP	PERSON	poss	false	0	0	c2	null	27	nmod:poss	(c2;ANIMATE;FEMALE),
+0	1	26	138	140	S	25	's	's	's	POS	O	possessive	false	-1	-1	c2	null	25	case	(c2;ANIMATE;FEMALE),
+0	1	27	141	147		24	talent	talent	talent	NN	O	pobj	false	-1	-1	null	null	23	nmod:with	null
+0	1	28	147	148	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	30	punct	null
+0	1	29	149	151	S	30	he	he	he	PRP	O	nsubj	false	-1	2	c1	null	30	nsubj	(c1;ANIMATE;MALE),
+0	1	30	152	159	S	-1	invites	invites	invite	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	31	160	163	S	30	her	her	she	PRP$	O	dobj	false	0	0	c2	null	30	dobj	(c2;ANIMATE;FEMALE),
+0	1	32	164	166	S	33	to	to	to	TO	O	aux	false	-1	-1	null	null	33	mark	null
+0	1	33	167	176	S	30	accompany	accompany	accompany	VB	O	xcomp	false	-1	-1	null	null	30	xcomp	null
+0	1	34	177	180	S	33	him	him	he	PRP	O	dobj	false	-1	2	c1	null	33	dobj	(c1;ANIMATE;MALE),
+0	1	35	181	183	S	33	on	on	on	IN	O	prep	false	-1	-1	null	null	38	case	null
+0	1	36	184	187	S	38	his	his	he	PRP$	O	poss	false	-1	2	c1	null	38	nmod:poss	(c1;ANIMATE;MALE),
+0	1	37	188	192	S	38	next	next	next	JJ	O	amod	false	-1	-1	null	null	38	amod	null
+0	1	38	193	197		35	tour	tour	tour	NN	O	pobj	false	-1	-1	null	null	33	nmod:on	null
+0	1	39	197	198	S	30	.	.	.	.	O	punct	false	-1	-1	null	null	30	punct	null
+0	2	40	199	203	S	41	They	They	they	PRP	O	nsubj	false	-1	-1	null	null	41	nsubj	null
+0	2	41	204	209	S	-1	begin	begin	begin	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	2	42	210	217	S	41	touring	touring	tour	VBG	O	xcomp	false	-1	-1	null	null	41	xcomp	null
+0	2	43	218	226	S	42	together	together	together	RB	O	advmod	false	-1	-1	null	null	42	advmod	null
+0	2	44	227	230	S	42	and	and	and	CC	O	cc	false	-1	-1	null	null	41	cc	null
+0	2	45	231	232	S	47	a	a	a	DT	O	det	false	-1	-1	null	null	47	det	null
+0	2	46	233	243	S	47	passionate	passionate	passionate	JJ	O	amod	false	-1	-1	null	null	47	amod	null
+0	2	47	244	256	S	48	relationship	relationship	relationship	NN	O	nsubj	false	-1	-1	null	null	48	nsubj	null
+0	2	48	257	263		42	ensues	ensues	ensue	VBZ	O	conj	false	-1	-1	null	null	41	conj:and	null
+0	2	49	263	264	S	41	.	.	.	.	O	punct	false	-1	-1	null	null	41	punct	null
+0	3	50	265	271		52	Holger	Holger	Holger	NNP	PERSON	poss	false	2	2	c1	null	52	nmod:poss	(c1;ANIMATE;UNKNOWN),
+0	3	51	271	273	S	50	's	's	's	POS	O	possessive	false	-1	-1	c1	null	50	case	(c1;ANIMATE;UNKNOWN),
+0	3	52	274	278	S	-1	wife	wife	wife	NN	O	null	false	-1	-1	null	null	54	dep	null
+0	3	53	279	285	S	54	Margit	Margit	Margit	NNP	PERSON	nsubj	false	1	1	c4	c4	54	nsubj	(c4;ANIMATE;UNKNOWN),
+0	3	54	286	290	S	52	asks	asks	ask	VBZ	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	3	55	291	294	S	54	him	him	he	PRP	O	dobj	false	2	2	c1	null	54	dobj	(c1;ANIMATE;MALE),
+0	3	56	295	298	S	54	for	for	for	IN	O	prep	false	-1	-1	null	null	58	case	null
+0	3	57	299	300	S	58	a	a	a	DT	O	det	false	-1	-1	null	null	58	det	null
+0	3	58	301	308		56	divorce	divorce	divorce	NN	O	pobj	false	-1	-1	null	null	54	nmod:for	null
+0	3	59	308	309	S	52	.	.	.	.	O	punct	false	-1	-1	null	null	54	punct	null
+0	4	60	310	317	S	-1	Knowing	Knowing	know	VBG	O	null	false	-1	-1	null	null	84	advcl	null
+0	4	61	318	321	S	62	how	how	how	WRB	O	dep	false	-1	-1	null	null	62	advmod	null
+0	4	62	322	326	S	64	much	much	much	JJ	O	advmod	false	-1	-1	null	null	64	dep	null
+0	4	63	327	333	S	64	Holger	Holger	Holger	NNP	PERSON	nsubj	false	2	2	c1	null	64	nsubj	(c1;ANIMATE;UNKNOWN),
+0	4	64	334	340	S	60	misses	misses	miss	VBZ	O	dep	false	-1	-1	null	null	60	ccomp	null
+0	4	65	341	344	S	68	his	his	he	PRP$	O	poss	false	2	2	c1,c3	null	66	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;FEMALE),
+0	4	66	345	353	S	68	daughter	daughter	daughter	NN	O	nn	false	-1	-1	c3	null	64	dep	(c3;ANIMATE;FEMALE),
+0	4	67	354	357	S	68	Ann	Ann	Ann	NNP	PERSON	nn	false	3	3	c5	null	68	compound	(c5;ANIMATE;FEMALE),
+0	4	68	358	363	S	64	Marie	Marie	Marie	NNP	PERSON	dobj	false	3	3	c5	null	64	dobj	(c5;ANIMATE;FEMALE),
+0	4	69	364	367	S	60	and	and	and	CC	O	cc	false	-1	-1	null	null	68	cc	null
+0	4	70	368	371	S	71	son	son	son	NN	O	nn	false	-1	-1	null	null	71	compound	null
+0	4	71	372	376		84	Eric	Eric	Eric	NNP	PERSON	nsubj	false	-1	-1	null	null	68	conj:and	null
+0	4	72	376	377	S	71	,	,	,	,	O	punct	false	-1	-1	null	null	68	punct	null
+0	4	73	378	381	S	71	and	and	and	CC	O	cc	false	-1	-1	null	null	68	cc	null
+0	4	74	382	386	S	71	torn	torn	tear	VBN	O	conj	false	-1	-1	null	null	68	acl	null
+0	4	75	387	391	S	74	with	with	with	IN	O	prep	false	-1	-1	null	null	76	case	null
+0	4	76	392	397	S	75	guilt	guilt	guilt	NN	O	pobj	false	-1	-1	null	null	74	nmod:with	null
+0	4	77	398	401	S	74	for	for	for	IN	O	prep	false	-1	-1	null	null	78	mark	null
+0	4	78	402	410	S	77	breaking	breaking	break	VBG	O	pcomp	false	-1	-1	null	null	74	advcl	null
+0	4	79	411	413	S	78	up	up	up	RP	O	prt	false	-1	-1	null	null	78	compound:prt	null
+0	4	80	414	417	S	81	his	his	he	PRP$	O	poss	false	-1	2	c1,c6	c6	81	nmod:poss	(c1;ANIMATE;MALE),(c6;ANIMATE;UNKNOWN),
+0	4	81	418	424		78	family	family	family	NN	O	dobj	false	-1	-1	c6	c6	78	dobj	(c6;ANIMATE;UNKNOWN),
+0	4	82	424	425	S	71	,	,	,	,	O	punct	false	-1	-1	null	null	84	punct	null
+0	4	83	426	431	S	71	Anita	Anita	Anita	NNP	PERSON	appos	false	0	0	c2	null	84	nsubj	(c2;ANIMATE;FEMALE),
+0	4	84	432	439	S	60	decides	decides	decide	VBZ	O	conj	false	-1	-1	null	null	-1	root	null
+0	4	85	440	442	S	86	to	to	to	TO	O	aux	false	-1	-1	null	null	86	mark	null
+0	4	86	443	449	S	84	pursue	pursue	pursue	VB	O	xcomp	false	-1	-1	null	null	84	xcomp	null
+0	4	87	450	453	S	89	her	her	she	PRP$	O	poss	false	0	0	c3	null	89	nmod:poss	(c3;ANIMATE;FEMALE),
+0	4	88	454	457	S	89	own	own	own	JJ	O	amod	false	-1	-1	null	null	89	amod	null
+0	4	89	458	464	S	86	career	career	career	NN	O	dobj	false	-1	-1	null	null	86	dobj	null
+0	4	90	465	468	S	60	and	and	and	CC	O	cc	false	-1	-1	null	null	84	cc	null
+0	4	91	469	475	S	60	leaves	leaves	leave	VBZ	O	conj	false	-1	-1	null	null	84	conj:and	null
+0	4	92	476	482		91	Holger	Holger	Holger	NNP	PERSON	dobj	false	2	2	c1	null	91	dobj	(c1;ANIMATE;UNKNOWN),
+0	4	93	482	483	S	60	.	.	.	.	O	punct	false	-1	-1	null	null	84	punct	null
+0	5	94	484	490	S	95	Holger	Holger	Holger	NNP	PERSON	nsubj	false	2	2	c1	null	95	nsubj	(c1;ANIMATE;UNKNOWN),
+0	5	95	491	498	S	-1	returns	returns	return	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	5	96	499	503	S	95	home	home	home	NN	O	dobj	false	-1	-1	null	null	95	dobj	null
+0	5	97	504	506	S	98	to	to	to	TO	O	aux	false	-1	-1	null	null	98	mark	null
+0	5	98	507	510	S	95	see	see	see	VB	O	xcomp	false	-1	-1	null	null	95	advcl	null
+0	5	99	511	514	S	100	his	his	he	PRP$	O	poss	false	2	2	c1	null	100	nmod:poss	(c1;ANIMATE;MALE),
+0	5	100	515	523	S	98	children	children	child	NNS	O	dobj	false	-1	-1	null	null	98	dobj	null
+0	5	101	524	529		98	again	again	again	RB	O	advmod	false	-1	-1	null	null	98	advmod	null
+0	5	102	529	530	S	95	.	.	.	.	O	punct	false	-1	-1	null	null	95	punct	null
+0	6	103	531	533	S	105	He	He	he	PRP	O	nsubj	false	2	2	c1	null	105	nsubj	(c1;ANIMATE;MALE),
+0	6	104	534	539	S	105	first	first	first	RB	ORDINAL	advmod	false	-1	-1	null	null	105	advmod	null
+0	6	105	540	547	S	-1	travels	travels	travel	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	106	548	550	S	105	to	to	to	TO	O	prep	false	-1	-1	null	null	110	case	null
+0	6	107	551	554	S	108	Ann	Ann	Ann	NNP	PERSON	nn	false	3	3	c5	null	108	compound	(c5;ANIMATE;FEMALE),
+0	6	108	555	560		110	Marie	Marie	Marie	NNP	PERSON	poss	false	3	3	c5	null	110	nmod:poss	(c5;ANIMATE;FEMALE),
+0	6	109	560	562	S	108	's	's	's	POS	O	possessive	false	-1	-1	c5	null	108	case	(c5;ANIMATE;FEMALE),
+0	6	110	563	569		106	school	school	school	NN	O	pobj	false	-1	-1	null	null	105	nmod:to	null
+0	6	111	569	570	S	105	,	,	,	,	O	punct	false	-1	-1	null	null	105	punct	null
+0	6	112	571	574	S	105	but	but	but	CC	O	cc	false	-1	-1	null	null	105	cc	null
+0	6	113	575	577	S	115	as	as	as	IN	O	mark	false	-1	-1	null	null	115	mark	null
+0	6	114	578	581	S	115	she	she	she	PRP	O	nsubj	false	3	3	c5	null	115	nsubj	(c5;ANIMATE;FEMALE),
+0	6	115	582	586	S	105	runs	runs	run	VBZ	O	conj	false	-1	-1	null	null	124	advcl	null
+0	6	116	587	593	S	115	across	across	across	IN	O	prep	false	-1	-1	null	null	118	case	null
+0	6	117	594	597	S	118	the	the	the	DT	O	det	false	-1	-1	null	null	118	det	null
+0	6	118	598	604	S	116	street	street	street	NN	O	pobj	false	-1	-1	null	null	115	nmod:across	null
+0	6	119	605	607	S	120	to	to	to	TO	O	aux	false	-1	-1	null	null	120	mark	null
+0	6	120	608	613	S	115	greet	greet	greet	VB	O	xcomp	false	-1	-1	null	null	118	acl	null
+0	6	121	614	617	S	120	him	him	he	PRP	O	dobj	false	2	2	c1	null	120	dobj	(c1;ANIMATE;MALE),
+0	6	122	618	621	S	124	she	she	she	PRP	O	nsubjpass	false	3	3	c5	null	124	nsubjpass	(c5;ANIMATE;FEMALE),
+0	6	123	622	624	S	124	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	124	auxpass	null
+0	6	124	625	628	S	120	hit	hit	hit	VBN	O	advcl	false	-1	-1	null	null	105	conj:but	null
+0	6	125	629	631	S	124	by	by	by	IN	O	prep	false	-1	-1	null	null	127	case	null
+0	6	126	632	633	S	127	a	a	a	DT	O	det	false	-1	-1	null	null	127	det	null
+0	6	127	634	637	S	125	car	car	car	NN	O	pobj	false	-1	-1	null	null	124	nmod:agent	null
+0	6	128	638	640	S	127	in	in	in	IN	O	prep	false	-1	-1	null	null	132	case	null
+0	6	129	641	646	S	128	front	front	front	NN	O	pobj	false	-1	-1	null	null	128	mwe	null
+0	6	130	647	649	S	129	of	of	of	IN	O	prep	false	-1	-1	null	null	128	mwe	null
+0	6	131	650	653	S	132	his	his	he	PRP$	O	poss	false	2	2	c1	null	132	nmod:poss	(c1;ANIMATE;MALE),
+0	6	132	654	658		130	eyes	eyes	eye	NNS	O	pobj	false	-1	-1	null	null	127	nmod:in_front_of	null
+0	6	133	658	659	S	105	.	.	.	.	O	punct	false	-1	-1	null	null	105	punct	null
+0	7	134	660	662	S	135	He	He	he	PRP	O	nsubj	false	2	2	c1	null	135	nsubj	(c1;ANIMATE;MALE),
+0	7	135	663	668	S	-1	takes	takes	take	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	7	136	669	672	S	139	the	the	the	DT	O	det	false	-1	-1	c5	c5	139	det	(c5;ANIMATE;FEMALE),
+0	7	137	673	680	S	139	injured	injured	injured	JJ	O	amod	false	-1	-1	c5	c5	139	amod	(c5;ANIMATE;FEMALE),
+0	7	138	681	684	S	139	Ann	Ann	Ann	NNP	PERSON	nn	false	3	3	c5	c5	139	compound	(c5;ANIMATE;FEMALE),
+0	7	139	685	690	S	135	Marie	Marie	Marie	NNP	PERSON	dobj	false	3	3	c5	c5	135	dobj	(c5;ANIMATE;FEMALE),
+0	7	140	691	695	S	135	back	back	back	RB	O	advmod	false	-1	-1	null	null	135	compound:prt	null
+0	7	141	696	700		135	home	home	home	RB	O	advmod	false	-1	-1	null	null	135	advmod	null
+0	7	142	700	701	S	135	,	,	,	,	O	punct	false	-1	-1	null	null	135	punct	null
+0	7	143	702	705	S	135	and	and	and	CC	O	cc	false	-1	-1	null	null	135	cc	null
+0	7	144	706	715	S	135	confronts	confronts	confront	VBZ	O	conj	false	-1	-1	null	null	135	conj:and	null
+0	7	145	716	719	S	147	his	his	he	PRP$	O	poss	false	2	2	c1	null	147	nmod:poss	(c1;ANIMATE;MALE),
+0	7	146	720	725	S	147	angry	angry	angry	JJ	O	amod	false	-1	-1	null	null	147	amod	null
+0	7	147	726	729	S	144	son	son	son	NN	O	dobj	false	-1	-1	null	null	144	dobj	null
+0	7	148	730	732	S	144	in	in	in	IN	O	prep	false	-1	-1	null	null	150	case	null
+0	7	149	733	735	S	150	an	an	a	DT	O	det	false	-1	-1	null	null	150	det	null
+0	7	150	736	743	S	148	attempt	attempt	attempt	NN	O	pobj	false	-1	-1	null	null	144	nmod:in	null
+0	7	151	744	746	S	152	to	to	to	TO	O	aux	false	-1	-1	null	null	152	mark	null
+0	7	152	747	754	S	150	explain	explain	explain	VB	O	infmod	false	-1	-1	null	null	150	acl	null
+0	7	153	755	758	S	154	his	his	he	PRP$	O	poss	false	2	2	c1	null	154	nmod:poss	(c1;ANIMATE;MALE),
+0	7	154	759	769		152	infidelity	infidelity	infidelity	NN	O	dobj	false	-1	-1	null	null	152	dobj	null
+0	7	155	769	770	S	135	.	.	.	.	O	punct	false	-1	-1	null	null	135	punct	null
+0	8	156	771	773	S	163	To	To	to	TO	O	prep	false	-1	-1	null	null	159	case	null
+0	8	157	774	780		159	Holger	Holger	Holger	NNP	PERSON	poss	false	2	2	c1	null	159	nmod:poss	(c1;ANIMATE;UNKNOWN),
+0	8	158	780	782	S	157	's	's	's	POS	O	possessive	false	-1	-1	c1	null	157	case	(c1;ANIMATE;UNKNOWN),
+0	8	159	783	789		156	relief	relief	relief	NN	O	pobj	false	-1	-1	null	null	163	nmod:to	null
+0	8	160	789	790	S	163	,	,	,	,	O	punct	false	-1	-1	null	null	159	punct	null
+0	8	161	791	794	S	162	the	the	the	DT	O	det	false	-1	-1	null	null	162	det	null
+0	8	162	795	801	S	163	doctor	doctor	doctor	NN	O	nsubj	false	-1	-1	null	null	159	appos	null
+0	8	163	802	809	S	-1	informs	informs	inform	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	8	164	810	813	S	163	him	him	he	PRP	O	dobj	false	2	2	c1	null	163	dobj	(c1;ANIMATE;MALE),
+0	8	165	814	818	S	169	that	that	that	IN	O	complm	false	-1	-1	null	null	169	mark	null
+0	8	166	819	822	S	167	Ann	Ann	Ann	NNP	PERSON	nn	false	3	3	c5	null	167	compound	(c5;ANIMATE;FEMALE),
+0	8	167	823	828	S	169	Marie	Marie	Marie	NNP	PERSON	nsubj	false	3	3	c5	null	169	nsubj	(c5;ANIMATE;FEMALE),
+0	8	168	829	833	S	169	will	will	will	MD	O	aux	false	-1	-1	null	null	169	aux	null
+0	8	169	834	841	S	163	survive	survive	survive	VB	O	ccomp	false	-1	-1	null	null	163	dep	null
+0	8	170	842	845	S	169	and	and	and	CC	O	cc	false	-1	-1	null	null	169	cc	null
+0	8	171	846	856	S	172	eventually	eventually	eventually	RB	O	advmod	false	-1	-1	null	null	172	advmod	null
+0	8	172	857	864	S	169	recover	recover	recover	VB	O	conj	false	-1	-1	null	null	169	conj:and	null
+0	8	173	865	869	S	172	from	from	from	IN	O	prep	false	-1	-1	null	null	175	case	null
+0	8	174	870	873	S	175	her	her	she	PRP$	O	poss	false	3	3	c5	null	175	nmod:poss	(c5;ANIMATE;FEMALE),
+0	8	175	874	882		173	injuries	injuries	injury	NNS	O	pobj	false	-1	-1	null	null	172	nmod:from	null
+0	8	176	882	883	S	163	.	.	.	.	O	punct	false	-1	-1	null	null	163	punct	null
+0	9	177	884	890	S	179	Margit	Margit	Margit	NNP	PERSON	nsubj	false	1	1	c4	null	179	nsubj	(c4;ANIMATE;UNKNOWN),
+0	9	178	891	895	S	179	then	then	then	RB	O	advmod	false	-1	-1	null	null	179	advmod	null
+0	9	179	896	904	S	-1	forgives	forgives	forgive	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	9	180	905	911	S	179	Holger	Holger	Holger	NNP	PERSON	dobj	false	2	2	c1	null	179	dobj	(c1;ANIMATE;UNKNOWN),
+0	9	181	912	915	S	179	and	and	and	CC	O	cc	false	-1	-1	null	null	179	cc	null
+0	9	182	916	924	S	179	welcomes	welcomes	welcome	VBZ	O	conj	false	-1	-1	null	null	179	conj:and	null
+0	9	183	925	928	S	182	him	him	he	PRP	O	dobj	false	2	2	c4	null	182	dobj	(c4;ANIMATE;MALE),
+0	9	184	929	933	S	182	back	back	back	RB	O	advmod	false	-1	-1	null	null	182	compound:prt	null
+0	9	185	934	938	S	182	into	into	into	IN	O	prep	false	-1	-1	null	null	187	case	null
+0	9	186	939	942	S	187	his	his	he	PRP$	O	poss	false	2	2	c4,c6	null	187	nmod:poss	(c4;ANIMATE;MALE),(c6;ANIMATE;UNKNOWN),
+0	9	187	943	949		185	family	family	family	NN	O	pobj	false	-1	-1	c6	null	182	nmod:into	(c6;ANIMATE;UNKNOWN),
+0	9	188	949	950	N	179	.	.	.	.	O	punct	false	-1	-1	null	null	179	punct	null

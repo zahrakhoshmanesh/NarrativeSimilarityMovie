@@ -1,0 +1,105 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	3	S	1	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	1	1	c1	c1	1	compound	(c1;ANIMATE;MALE),
+0	0	1	4	10	SS	2	Jekyll	Jekyll	Jekyll	NNP	PERSON	nsubj	false	1	1	c1	c1	6	nsubj	(c1;ANIMATE;MALE),
+0	0	2	12	20	S	-1	believes	believes	believe	VBZ	O	null	false	-1	-1	c1	c1	1	acl:relcl	(c1;ANIMATE;MALE),
+0	0	3	21	25	S	6	good	good	good	JJ	O	nsubj	false	-1	-1	c1	c1	2	xcomp	(c1;ANIMATE;MALE),
+0	0	4	26	29	S	3	and	and	and	CC	O	cc	false	-1	-1	c1	c1	3	cc	(c1;ANIMATE;MALE),
+0	0	5	30	34	S	3	evil	evil	evil	JJ	O	conj	false	-1	-1	c1	c1	3	conj:and	(c1;ANIMATE;MALE),
+0	0	6	35	40	S	2	exist	exist	exist	VBP	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	0	7	41	43	S	6	in	in	in	IN	O	prep	false	-1	-1	null	null	8	case	null
+0	0	8	44	52		7	everyone	everyone	everyone	NN	O	pobj	false	-1	-1	null	null	6	nmod:in	null
+0	0	9	52	53	S	2	.	.	.	.	O	punct	false	-1	-1	null	null	6	punct	null
+0	1	10	54	65	S	11	Experiments	Experiments	experiment	NNS	O	nsubj	false	-1	-1	null	null	11	nsubj	null
+0	1	11	66	72	S	16	reveal	reveal	reveal	VBP	O	ccomp	false	-1	-1	null	null	16	ccomp	null
+0	1	12	73	76	S	14	his	his	he	PRP$	O	poss	false	1	1	c1	null	14	nmod:poss	(c1;ANIMATE;MALE),
+0	1	13	77	81	S	14	evil	evil	evil	JJ	O	amod	false	-1	-1	null	null	14	amod	null
+0	1	14	82	86		11	side	side	side	NN	O	dobj	false	-1	-1	null	null	11	dobj	null
+0	1	15	86	87	S	16	,	,	,	,	O	punct	false	-1	-1	null	null	16	punct	null
+0	1	16	88	93	S	-1	named	named	name	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	1	17	94	97	S	18	Mr.	Mr.	Mr.	NNP	PERSON	nn	false	0	0	c2	c2	18	compound	(c2;ANIMATE;MALE),
+0	1	18	98	102		16	Hyde	Hyde	Hyde	NNP	PERSON	nsubj	false	0	0	c2	c2	16	nsubj	(c2;ANIMATE;MALE),
+0	1	19	102	103	S	16	.	.	.	.	O	punct	false	-1	-1	null	null	16	punct	null
+0	2	20	104	114	S	21	Experience	Experience	experience	NN	O	nsubj	false	-1	-1	null	null	21	nsubj	null
+0	2	21	115	122	S	-1	teaches	teaches	teach	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	22	123	126	S	21	him	him	he	PRP	O	dobj	false	0	0	c1	null	21	dobj	(c1;ANIMATE;MALE),
+0	2	23	127	130	S	27	how	how	how	WRB	O	advmod	false	-1	-1	null	null	27	advmod	null
+0	2	24	131	135	S	25	evil	evil	evil	JJ	O	amod	false	-1	-1	c2	null	25	amod	(c2;ANIMATE;NEUTRAL),
+0	2	25	136	140	S	27	Hyde	Hyde	Hyde	NNP	PERSON	nsubj	false	0	0	c2	null	27	nsubj	(c2;ANIMATE;NEUTRAL),
+0	2	26	141	144	S	27	can	can	can	MD	O	dep	false	-1	-1	null	null	27	aux	null
+0	2	27	145	147		21	be	be	be	VB	O	advcl	false	-1	-1	null	null	21	dep	null
+0	2	28	147	148	S	27	:	:	:	:	O	punct	false	-1	-1	null	null	21	punct	null
+0	2	29	149	151	S	30	he	he	he	PRP	O	nsubj	false	0	0	c1	null	30	nsubj	(c1;ANIMATE;MALE),
+0	2	30	152	157	S	27	kills	kills	kill	VBZ	O	parataxis	false	-1	-1	null	null	21	parataxis	null
+0	2	31	158	163		30	Aydee	Aydee	Aydee	NNP	PERSON	dobj	false	-1	-1	null	null	30	dobj	null
+0	2	32	163	164	S	31	,	,	,	,	O	punct	false	-1	-1	null	null	31	punct	null
+0	2	33	165	168	S	35	who	who	who	WP	O	nsubj	false	-1	-1	null	null	35	nsubj	null
+0	2	34	169	176	S	35	earlier	earlier	earlier	RB	O	advmod	false	-1	-1	null	null	35	advmod	null
+0	2	35	177	186	S	31	expressed	expressed	express	VBD	O	rcmod	false	-1	-1	null	null	31	acl:relcl	null
+0	2	36	187	195	S	35	interest	interest	interest	NN	O	dobj	false	-1	-1	null	null	35	dobj	null
+0	2	37	196	198	S	36	in	in	in	IN	O	prep	false	-1	-1	null	null	38	case	null
+0	2	38	199	205		37	Jekyll	Jekyll	Jekyll	NNP	LOCATION	pobj	false	-1	1	c1	null	35	nmod:in	(c1;INANIMATE;MALE),
+0	2	39	205	206	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	31	punct	null
+0	2	40	207	210	S	30	and	and	and	CC	O	cc	false	-1	-1	null	null	31	cc	null
+0	2	41	211	214	S	42	Sir	Sir	Sir	NNP	O	nn	false	-1	-1	null	null	42	compound	null
+0	2	42	215	222	S	30	Charles	Charles	Charles	NNP	PERSON	conj	false	-1	-1	null	null	31	conj:and	null
+0	2	43	223	224	S	30	,	,	,	,	O	punct	false	-1	-1	null	null	42	punct	null
+0	2	44	225	228	S	45	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	1	1	c1	null	45	compound	(c1;ANIMATE;MALE),
+0	2	45	229	235		47	Jekyll	Jekyll	Jekyll	NNP	PERSON	poss	false	1	1	c1	null	47	nmod:poss	(c1;ANIMATE;MALE),
+0	2	46	235	237	S	45	's	's	's	POS	O	possessive	false	-1	-1	c1	null	45	case	(c1;ANIMATE;MALE),
+0	2	47	238	245		49	fiancee	fiancee	fiancee	NN	O	poss	false	-1	-1	null	null	49	nmod:poss	null
+0	2	48	245	247	S	47	's	's	's	POS	O	possessive	false	-1	-1	null	null	47	case	null
+0	2	49	248	254		30	father	father	father	NN	O	conj	false	-1	-1	null	null	42	appos	null
+0	2	50	254	255	S	21	.	.	.	.	O	punct	false	-1	-1	null	null	21	punct	null
+0	3	51	256	258	S	70	At	At	at	IN	O	prep	false	-1	-1	null	null	53	case	null
+0	3	52	259	262	S	53	the	the	the	DT	O	det	false	-1	-1	null	null	53	det	null
+0	3	53	263	266	S	51	end	end	end	NN	O	pobj	false	-1	-1	null	null	70	nmod:at	null
+0	3	54	267	269	S	53	of	of	of	IN	O	prep	false	-1	-1	null	null	56	case	null
+0	3	55	270	273	S	56	the	the	the	DT	O	det	false	-1	-1	c3,c3	c3	56	det	(c3;INANIMATE;NEUTRAL),(c3;INANIMATE;NEUTRAL),
+0	3	56	274	278		54	film	film	film	NN	O	pobj	false	-1	-1	c3,c3	c3	53	nmod:of	(c3;INANIMATE;NEUTRAL),(c3;INANIMATE;NEUTRAL),
+0	3	57	278	279	S	70	,	,	,	,	O	punct	false	-1	-1	c3	c3	56	punct	(c3;INANIMATE;NEUTRAL),
+0	3	58	280	283	S	59	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	1	1	c1,c3	c3	59	compound	(c1;ANIMATE;MALE),(c3;INANIMATE;NEUTRAL),
+0	3	59	284	290		64	Jekyll	Jekyll	Jekyll	NNP	PERSON	poss	false	1	1	c1,c3	c3	62	nmod:poss	(c1;ANIMATE;MALE),(c3;INANIMATE;NEUTRAL),
+0	3	60	290	292	S	59	's	's	's	POS	O	possessive	false	-1	-1	c1,c3	c3	59	case	(c1;ANIMATE;MALE),(c3;INANIMATE;NEUTRAL),
+0	3	61	293	297	S	64	best	best	best	JJS	O	amod	false	-1	-1	c3	c3	62	amod	(c3;INANIMATE;NEUTRAL),
+0	3	62	298	304	S	64	friend	friend	friend	NN	O	nn	false	-1	-1	c3	c3	56	appos	(c3;INANIMATE;NEUTRAL),
+0	3	63	305	308	S	64	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	-1	-1	null	null	69	compound	null
+0	3	64	309	315	S	70	Lanyon	Lanyon	Lanyon	NNP	PERSON	nsubj	false	-1	-1	null	null	69	compound	null
+0	3	65	316	317		70	(	-LRB-	-lrb-	-LRB-	O	dep	false	-1	-1	null	null	69	punct	null
+0	3	66	317	318		70	[	-LSB-	-lsb-	-LRB-	O	advmod	false	-1	-1	null	null	69	punct	null
+0	3	67	318	319		69	[	-LSB-	-lsb-	-LRB-	O	amod	false	-1	-1	null	null	69	punct	null
+0	3	68	319	322	S	69	Ian	Ian	Ian	NNP	PERSON	nn	false	-1	-1	null	null	69	compound	null
+0	3	69	323	329	SS	70	Hunter	Hunter	Hunter	NNP	PERSON	nsubj	false	-1	-1	null	null	70	nsubj	null
+0	3	70	331	337	S	-1	shoots	shoots	shoot	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	71	338	341	S	70	and	and	and	CC	O	cc	false	-1	-1	null	null	70	cc	null
+0	3	72	342	347	S	70	kills	kills	kill	VBZ	O	conj	false	-1	-1	null	null	70	conj:and	null
+0	3	73	348	351	S	74	Mr.	Mr.	Mr.	NNP	PERSON	nn	false	0	0	c2,c2	null	74	compound	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	3	74	352	356		72	Hyde	Hyde	Hyde	NNP	PERSON	dobj	false	0	0	c2,c2,c2	null	70	dobj	(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	3	75	356	357	S	72	,	,	,	,	O	punct	false	-1	-1	c2	null	74	punct	(c2;ANIMATE;MALE),
+0	3	76	358	365	S	72	causing	causing	cause	VBG	O	xcomp	false	-1	-1	c2	null	74	acl	(c2;ANIMATE;MALE),
+0	3	77	366	372	S	79	Jekyll	Jekyll	Jekyll	NNP	PERSON	nsubj	false	1	1	c1,c2	null	76	dobj	(c1;ANIMATE;MALE),(c2;ANIMATE;MALE),
+0	3	78	373	375	S	79	to	to	to	TO	O	aux	false	-1	-1	c2	null	79	mark	(c2;ANIMATE;MALE),
+0	3	79	376	379	S	76	die	die	die	VB	O	xcomp	false	-1	-1	c2	null	76	xcomp	(c2;ANIMATE;MALE),
+0	3	80	380	382	S	81	as	as	as	RB	O	advmod	false	-1	-1	c2	null	79	advmod	(c2;ANIMATE;MALE),
+0	3	81	383	387		79	well	well	well	RB	O	advmod	false	-1	-1	c2	null	80	mwe	(c2;ANIMATE;MALE),
+0	3	82	387	388	S	70	.	.	.	.	O	punct	false	-1	-1	null	null	70	punct	null
+0	4	83	389	394		90	Poole	Poole	Poole	NNP	PERSON	nsubj	false	-1	1	c4	c4	90	nsubj	(c4;ANIMATE;MALE),
+0	4	84	394	395	S	83	,	,	,	,	O	punct	false	-1	-1	null	null	83	punct	null
+0	4	85	396	399	S	86	Dr.	Dr.	Dr.	NNP	PERSON	nn	false	1	1	c1,c4	null	86	compound	(c1;ANIMATE;MALE),(c4;ANIMATE;MALE),
+0	4	86	400	406		88	Jekyll	Jekyll	Jekyll	NNP	PERSON	poss	false	1	1	c1,c4	null	88	nmod:poss	(c1;ANIMATE;MALE),(c4;ANIMATE;MALE),
+0	4	87	406	408	S	86	's	's	's	POS	O	possessive	false	-1	-1	c1,c4	null	86	case	(c1;ANIMATE;MALE),(c4;ANIMATE;MALE),
+0	4	88	409	415		83	butler	butler	butler	NN	O	appos	false	-1	-1	c4	null	83	appos	(c4;ANIMATE;MALE),
+0	4	89	415	416	S	83	,	,	,	,	O	punct	false	-1	-1	null	null	83	punct	null
+0	4	90	417	423	S	-1	begins	begins	begin	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	4	91	424	426	S	92	to	to	to	TO	O	aux	false	-1	-1	null	null	92	mark	null
+0	4	92	427	430	S	90	say	say	say	VB	O	xcomp	false	-1	-1	null	null	90	xcomp	null
+0	4	93	431	432	S	94	a	a	a	DT	O	det	false	-1	-1	null	null	94	det	null
+0	4	94	433	439	S	92	prayer	prayer	prayer	NN	O	dobj	false	-1	-1	null	null	92	dobj	null
+0	4	95	440	443	S	94	for	for	for	IN	O	prep	false	-1	-1	null	null	98	case	null
+0	4	96	444	447	S	98	his	his	he	PRP$	O	poss	false	1	1	c4	null	98	nmod:poss	(c4;ANIMATE;MALE),
+0	4	97	448	452	S	98	late	late	late	JJ	O	amod	false	-1	-1	null	null	98	amod	null
+0	4	98	453	459		95	master	master	master	NN	O	pobj	false	-1	-1	null	null	94	nmod:for	null
+0	4	99	459	460	S	92	,	,	,	,	O	punct	false	-1	-1	null	null	92	punct	null
+0	4	100	461	467	S	92	ending	ending	end	VBG	O	xcomp	false	-1	-1	null	null	92	advcl	null
+0	4	101	468	471	S	102	the	the	the	DT	O	det	false	-1	-1	c3	null	102	det	(c3;INANIMATE;NEUTRAL),
+0	4	102	472	476		100	film	film	film	NN	O	dobj	false	-1	-1	c3	null	100	dobj	(c3;INANIMATE;NEUTRAL),
+0	4	103	476	477	N	90	.	.	.	.	O	punct	false	-1	-1	null	null	90	punct	null

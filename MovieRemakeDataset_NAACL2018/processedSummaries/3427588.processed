@@ -1,0 +1,584 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	1	S	1	A	A	a	DT	O	det	false	-1	-1	null	null	1	det	null
+0	0	1	2	7	S	20	group	group	group	NN	O	nsubj	false	-1	-1	null	null	-1	root	null
+0	0	2	8	10	S	1	of	of	of	IN	O	prep	false	-1	-1	null	null	4	case	null
+0	0	3	11	18	S	4	college	college	college	NN	O	nn	false	-1	-1	null	null	4	compound	null
+0	0	4	19	26		2	friends	friends	friend	NNS	O	pobj	false	-1	-1	null	null	1	nmod:of	null
+0	0	5	26	27	S	1	:	:	:	:	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	6	28	34		16	Harvey	Harvey	Harvey	NNP	PERSON	dep	false	-1	-1	null	null	1	dep	null
+0	0	7	34	35	S	6	,	,	,	,	O	punct	false	-1	-1	null	null	6	punct	null
+0	0	8	36	41		6	Nikki	Nikki	Nikki	NNP	PERSON	appos	false	0	0	c1	c1	10	compound	(c1;ANIMATE;FEMALE),
+0	0	9	41	42	S	8	,	,	,	,	O	punct	false	-1	-1	null	null	10	punct	null
+0	0	10	43	46		8	Rob	Rob	Rob	NNP	PERSON	appos	false	1	1	c2	c2	6	appos	(c2;ANIMATE;MALE),
+0	0	11	46	47	S	6	,	,	,	,	O	punct	false	-1	-1	null	null	6	punct	null
+0	0	12	48	52		6	Skip	Skip	skip	VB	O	dep	false	-1	-1	null	null	1	dep	null
+0	0	13	52	53	S	6	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	14	54	57		6	Nan	Nan	Nan	NNP	PERSON	appos	false	3	3	c3,c4	c3,c4	20	nsubj	(c3;ANIMATE;UNKNOWN),(c4;ANIMATE;UNKNOWN),
+0	0	15	57	58	S	6	,	,	,	,	O	punct	false	-1	-1	c4	c4	14	punct	(c4;ANIMATE;UNKNOWN),
+0	0	16	59	62	S	1	Kit	Kit	kit	NN	O	dep	false	-1	-1	c4	c4	14	appos	(c4;ANIMATE;UNKNOWN),
+0	0	17	63	66	S	16	and	and	and	CC	O	cc	false	-1	-1	c4	c4	16	cc	(c4;ANIMATE;UNKNOWN),
+0	0	18	67	71		16	Arch	Arch	Arch	NNP	O	conj	false	-1	4	c4,c5	c4	16	conj:and	(c4;ANIMATE;UNKNOWN),(c5;INANIMATE;NEUTRAL),
+0	0	19	71	72	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	14	punct	null
+0	0	20	73	79	S	-1	gather	gather	gather	VBP	O	null	false	-1	-1	null	null	1	dep	null
+0	0	21	80	82	S	22	to	to	to	TO	O	aux	false	-1	-1	null	null	22	mark	null
+0	0	22	83	92	S	20	celebrate	celebrate	celebrate	VB	O	xcomp	false	-1	-1	null	null	20	xcomp	null
+0	0	23	93	99	S	24	Spring	Spring	Spring	NNP	DATE	nsubj	false	-1	-1	null	null	24	nsubj	null
+0	0	24	100	105	S	22	Break	Break	break	VB	O	ccomp	false	-1	-1	null	null	22	ccomp	null
+0	0	25	106	108	S	24	by	by	by	IN	O	prep	false	-1	-1	null	null	26	mark	null
+0	0	26	109	117	S	25	spending	spending	spend	VBG	O	pcomp	false	-1	-1	null	null	24	advcl	null
+0	0	27	118	121	S	28	the	the	the	DT	DATE	det	false	-1	-1	null	null	28	det	null
+0	0	28	122	129	S	26	weekend	weekend	weekend	NN	DATE	dobj	false	-1	-1	null	null	26	dobj	null
+0	0	29	130	132	S	26	at	at	at	IN	O	prep	false	-1	-1	null	null	32	case	null
+0	0	30	133	136	S	32	the	the	the	DT	O	det	false	-1	-1	c6	c6	32	det	(c6;INANIMATE;NEUTRAL),
+0	0	31	137	143	S	32	island	island	island	NN	O	nn	false	-1	-1	c6	c6	32	compound	(c6;INANIMATE;NEUTRAL),
+0	0	32	144	151	S	29	mansion	mansion	mansion	NN	O	pobj	false	-1	-1	c6	c6	26	nmod:at	(c6;INANIMATE;NEUTRAL),
+0	0	33	152	154	S	32	of	of	of	IN	O	prep	false	-1	-1	c6	c6	35	case	(c6;INANIMATE;NEUTRAL),
+0	0	34	155	160	S	35	their	their	they	PRP$	O	poss	false	-1	-1	c4,c6,c7	c6	35	nmod:poss	(c4;ANIMATE;UNKNOWN),(c6;INANIMATE;NEUTRAL),(c7;ANIMATE;UNKNOWN),
+0	0	35	161	167		33	friend	friend	friend	NN	O	pobj	false	-1	-1	c6,c7	c6	32	nmod:of	(c6;INANIMATE;NEUTRAL),(c7;ANIMATE;UNKNOWN),
+0	0	36	167	168	S	20	,	,	,	,	O	punct	false	-1	-1	c6	c6	35	punct	(c6;INANIMATE;NEUTRAL),
+0	0	37	169	174	S	39	Muffy	Muffy	Muffy	NNP	PERSON	nn	false	-1	-1	c6,c7	c6,c7	39	compound	(c6;INANIMATE;NEUTRAL),(c7;ANIMATE;NEUTRAL),
+0	0	38	175	178	S	39	St.	St.	St.	NNP	PERSON	nn	false	-1	-1	c6,c7	c6,c7	39	compound	(c6;INANIMATE;NEUTRAL),(c7;ANIMATE;NEUTRAL),
+0	0	39	179	183		36	John	John	John	NNP	PERSON	null	false	-1	-1	c6,c7	c6,c7	35	appos	(c6;INANIMATE;NEUTRAL),(c7;ANIMATE;NEUTRAL),
+0	0	40	183	184	S	39	,	,	,	,	O	punct	false	-1	-1	null	null	35	punct	null
+0	0	41	185	187	S	40	on	on	on	IN	O	dep	false	-1	-1	null	null	43	case	null
+0	0	42	188	191	S	43	the	the	the	DT	DATE	det	false	-1	-1	null	null	43	det	null
+0	0	43	192	199	S	41	weekend	weekend	weekend	NN	DATE	pobj	false	-1	-1	null	null	26	nmod:on	null
+0	0	44	200	207	S	41	leading	leading	lead	VBG	O	pcomp	false	-1	-1	null	null	43	acl	null
+0	0	45	208	210	S	44	up	up	up	RP	O	prt	false	-1	-1	null	null	44	compound:prt	null
+0	0	46	211	213	S	44	to	to	to	TO	O	prep	false	-1	-1	null	null	50	case	null
+0	0	47	214	219	S	48	April	April	April	NNP	DATE	nn	false	-1	-1	null	null	48	compound	null
+0	0	48	220	225		50	Fools	Fools	fool	NNS	DATE	poss	false	-1	-1	null	null	50	nmod:poss	null
+0	0	49	225	226	S	48	'	'	'	POS	DATE	possessive	false	-1	-1	null	null	48	case	null
+0	0	50	227	230		46	Day	Day	day	NN	DATE	pobj	false	-1	-1	null	null	44	nmod:to	null
+0	0	51	230	231	S	39	.	.	.	.	O	punct	false	-1	-1	null	null	1	punct	null
+0	1	52	232	235	S	53	The	The	the	DT	O	det	false	-1	-1	null	null	53	det	null
+0	1	53	236	240	S	55	tone	tone	tone	NN	O	nsubjpass	false	-1	-1	null	null	55	nsubjpass	null
+0	1	54	241	243	S	55	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	55	auxpass	null
+0	1	55	244	247	S	-1	set	set	set	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	1	56	248	254	S	57	almost	almost	almost	RB	O	advmod	false	-1	-1	null	null	57	advmod	null
+0	1	57	255	266	S	55	immediately	immediately	immediately	RB	O	advmod	false	-1	-1	null	null	55	advmod	null
+0	1	58	267	271	S	55	with	with	with	IN	O	prep	false	-1	-1	null	null	59	case	null
+0	1	59	272	277	S	60	Muffy	Muffy	Muffy	NNP	PERSON	nsubj	false	2	2	c8	c8	55	nmod:with	(c8;ANIMATE;FEMALE),
+0	1	60	278	287	S	58	preparing	preparing	prepare	VBG	O	pcomp	false	-1	-1	null	null	55	xcomp	null
+0	1	61	288	295	S	60	details	details	detail	NNS	O	dobj	false	-1	-1	null	null	60	dobj	null
+0	1	62	296	302	S	60	around	around	around	IN	O	prep	false	-1	-1	null	null	64	case	null
+0	1	63	303	306	S	64	the	the	the	DT	O	det	false	-1	-1	null	null	64	det	null
+0	1	64	307	312		62	house	house	house	NN	O	pobj	false	-1	-1	null	null	60	nmod:around	null
+0	1	65	312	313	S	55	,	,	,	,	O	punct	false	-1	-1	null	null	55	punct	null
+0	1	66	314	317	S	55	and	and	and	CC	O	cc	false	-1	-1	null	null	55	cc	null
+0	1	67	318	323	S	55	finds	finds	find	VBZ	O	conj	false	-1	-1	null	null	55	conj:and	null
+0	1	68	324	326	S	70	an	an	a	DT	O	det	false	-1	-1	c9	null	70	det	(c9;INANIMATE;UNKNOWN),
+0	1	69	327	330	S	70	old	old	old	JJ	O	amod	false	-1	-1	c9	null	70	amod	(c9;INANIMATE;UNKNOWN),
+0	1	70	331	346	S	67	jack-in-the-box	jack-in-the-box	jack-in-the-box	NN	O	dobj	false	-1	-1	c9	null	67	dobj	(c9;INANIMATE;UNKNOWN),
+0	1	71	347	350	S	72	she	she	she	PRP	O	nsubj	false	3	3	c8,c9	null	72	nsubj	(c8;ANIMATE;FEMALE),(c9;INANIMATE;UNKNOWN),
+0	1	72	351	360	S	70	remembers	remembers	remember	VBZ	O	rcmod	false	-1	-1	c9	null	70	acl:relcl	(c9;INANIMATE;UNKNOWN),
+0	1	73	361	362	S	55	.	.	.	.	O	punct	false	-1	-1	null	null	55	punct	null
+0	2	74	363	366	S	75	Her	Her	she	PRP$	O	poss	false	3	3	c8	null	75	nmod:poss	(c8;ANIMATE;FEMALE),
+0	2	75	367	374		80	friends	friends	friend	NNS	O	nsubj	false	-1	-1	null	null	80	nsubj	null
+0	2	76	374	375	S	80	,	,	,	,	O	punct	false	-1	-1	null	null	80	punct	null
+0	2	77	376	385		80	meanwhile	meanwhile	meanwhile	RB	O	advmod	false	-1	-1	null	null	80	advmod	null
+0	2	78	385	386	S	80	,	,	,	,	O	punct	false	-1	-1	null	null	80	punct	null
+0	2	79	387	390	S	80	are	are	be	VBP	O	aux	false	-1	-1	null	null	80	aux	null
+0	2	80	391	397	S	-1	joking	joking	joke	VBG	O	null	false	-1	-1	null	null	-1	root	null
+0	2	81	398	404	S	80	around	around	around	RP	O	prt	false	-1	-1	null	null	80	compound:prt	null
+0	2	82	405	407	S	80	on	on	on	IN	O	prep	false	-1	-1	null	null	84	case	null
+0	2	83	408	411	S	84	the	the	the	DT	O	det	false	-1	-1	null	null	84	det	null
+0	2	84	412	416		82	pier	pier	pier	NN	O	pobj	false	-1	-1	null	null	80	nmod:on	null
+0	2	85	416	417	S	80	,	,	,	,	O	punct	false	-1	-1	null	null	84	punct	null
+0	2	86	418	422	S	80	then	then	then	RB	O	advmod	false	-1	-1	null	null	84	advmod	null
+0	2	87	423	425	S	80	on	on	on	IN	O	prep	false	-1	-1	null	null	89	case	null
+0	2	88	426	429	S	89	the	the	the	DT	O	det	false	-1	-1	null	null	89	det	null
+0	2	89	430	435	S	87	ferry	ferry	ferry	NN	O	pobj	false	-1	-1	null	null	80	nmod:on	null
+0	2	90	436	438	S	89	to	to	to	TO	O	prep	false	-1	-1	null	null	92	case	null
+0	2	91	439	442	S	92	the	the	the	DT	O	det	false	-1	-1	c10	c10	92	det	(c10;INANIMATE;NEUTRAL),
+0	2	92	443	449		90	island	island	island	NN	O	pobj	false	-1	-1	c10	c10	80	nmod:to	(c10;INANIMATE;NEUTRAL),
+0	2	93	449	450	S	80	.	.	.	.	O	punct	false	-1	-1	null	null	80	punct	null
+0	3	94	451	454	S	108	But	But	but	CC	O	cc	false	-1	-1	null	null	108	cc	null
+0	3	95	455	457	S	108	en	en	en	IN	O	prep	false	-1	-1	null	null	96	case	null
+0	3	96	458	463	S	95	route	route	route	NN	O	pobj	false	-1	-1	null	null	108	nmod:en	null
+0	3	97	464	466	S	96	to	to	to	TO	O	prep	false	-1	-1	null	null	99	case	null
+0	3	98	467	470	S	99	the	the	the	DT	O	det	false	-1	-1	c10,c10	null	99	det	(c10;INANIMATE;NEUTRAL),(c10;INANIMATE;NEUTRAL),
+0	3	99	471	477		97	island	island	island	NN	O	pobj	false	-1	-1	c10,c10	null	96	nmod:to	(c10;INANIMATE;NEUTRAL),(c10;INANIMATE;NEUTRAL),
+0	3	100	477	478	S	96	,	,	,	,	O	punct	false	-1	-1	c10	null	99	punct	(c10;INANIMATE;NEUTRAL),
+0	3	101	479	483		96	Buck	Buck	Buck	NNP	O	appos	false	-1	-1	c10	null	99	appos	(c10;INANIMATE;NEUTRAL),
+0	3	102	483	484	S	96	,	,	,	,	O	punct	false	-1	-1	null	null	108	punct	null
+0	3	103	485	486	S	105	a	a	a	DT	O	det	false	-1	-1	null	null	105	det	null
+0	3	104	487	492	S	105	local	local	local	JJ	O	amod	false	-1	-1	null	null	105	amod	null
+0	3	105	493	501	S	96	deckhand	deckhand	deckhand	NN	O	appos	false	-1	-1	null	null	108	nsubjpass	null
+0	3	106	502	504	S	108	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	108	auxpass	null
+0	3	107	505	514	S	108	seriously	seriously	seriously	RB	O	advmod	false	-1	-1	null	null	108	advmod	null
+0	3	108	515	522	S	-1	injured	injured	injure	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	3	109	523	525	S	108	in	in	in	IN	O	prep	false	-1	-1	null	null	112	case	null
+0	3	110	526	527	S	112	a	a	a	DT	O	det	false	-1	-1	null	null	112	det	null
+0	3	111	528	536	S	112	gruesome	gruesome	gruesome	JJ	O	amod	false	-1	-1	null	null	112	amod	null
+0	3	112	537	545		109	accident	accident	accident	NN	O	pobj	false	-1	-1	null	null	108	nmod:in	null
+0	3	113	545	546	S	108	.	.	.	.	O	punct	false	-1	-1	null	null	108	punct	null
+0	4	114	547	551	S	124	Once	Once	once	RB	DATE	advmod	false	-1	-1	null	null	124	advmod	null
+0	4	115	552	554	S	114	on	on	on	IN	O	dep	false	-1	-1	null	null	117	case	null
+0	4	116	555	558	S	117	the	the	the	DT	O	det	false	-1	-1	c10	null	117	det	(c10;INANIMATE;NEUTRAL),
+0	4	117	559	565	S	115	island	island	island	NN	O	pobj	false	-1	-1	c10	null	124	nmod:on	(c10;INANIMATE;NEUTRAL),
+0	4	118	566	569	S	115	and	and	and	CC	O	cc	false	-1	-1	null	null	124	cc	null
+0	4	119	570	572	S	115	in	in	in	IN	O	conj	false	-1	-1	null	null	121	case	null
+0	4	120	573	576	S	121	the	the	the	DT	O	det	false	-1	-1	c6	null	121	det	(c6;INANIMATE;NEUTRAL),
+0	4	121	577	584		119	mansion	mansion	mansion	NN	O	pobj	false	-1	-1	c6	null	124	nmod:in	(c6;INANIMATE;NEUTRAL),
+0	4	122	584	585	S	124	,	,	,	,	O	punct	false	-1	-1	null	null	124	punct	null
+0	4	123	586	588	S	124	it	it	it	PRP	O	nsubj	false	-1	-1	null	null	124	nsubj	null
+0	4	124	589	594	S	-1	turns	turns	turn	VBZ	O	null	false	-1	-1	null	null	152,124	advcl,conj:and	null
+0	4	125	595	598	S	124	out	out	out	RP	O	prt	false	-1	-1	null	null	124	compound:prt	null
+0	4	126	599	604	S	128	Muffy	Muffy	Muffy	NNP	PERSON	nsubj	false	2	2	c8	null	128	nsubj	(c8;ANIMATE;FEMALE),
+0	4	127	605	608	S	128	has	has	have	VBZ	O	aux	false	-1	-1	null	null	128	aux	null
+0	4	128	609	612	S	124	set	set	set	VBN	O	ccomp	false	-1	-1	null	null	124	ccomp	null
+0	4	129	613	615	S	128	up	up	up	RP	O	prt	false	-1	-1	null	null	128	compound:prt	null
+0	4	130	616	617	S	131	a	a	a	DT	O	det	false	-1	-1	c11	c11	131	det	(c11;INANIMATE;UNKNOWN),
+0	4	131	618	621	S	128	ton	ton	ton	NN	O	dobj	false	-1	-1	c11	c11	128	dobj	(c11;INANIMATE;UNKNOWN),
+0	4	132	622	624	S	131	of	of	of	IN	O	prep	false	-1	-1	c11	c11	134	case	(c11;INANIMATE;UNKNOWN),
+0	4	133	625	631	S	134	little	little	little	JJ	O	amod	false	-1	-1	c11	c11	134	amod	(c11;INANIMATE;UNKNOWN),
+0	4	134	632	637	S	132	jokes	jokes	joke	NNS	O	pobj	false	-1	-1	c11	c11	131	nmod:of	(c11;INANIMATE;UNKNOWN),
+0	4	135	638	642	S	128	from	from	from	IN	O	prep	false	-1	-1	null	null	137	case	null
+0	4	136	643	646	S	137	the	the	the	DT	O	det	false	-1	-1	null	null	137	det	null
+0	4	137	647	653	SS	135	simple	simple	simple	JJ	O	pobj	false	-1	-1	null	null	128	nmod:from	null
+0	4	138	655	657	S	128	to	to	to	TO	O	prep	false	-1	-1	null	null	141	case	null
+0	4	139	658	661	S	141	the	the	the	DT	O	dep	false	-1	-1	null	null	141	det	null
+0	4	140	662	666	S	141	more	more	more	RBR	O	advmod	false	-1	-1	null	null	141	advmod	null
+0	4	141	667	674	S	138	complex	complex	complex	JJ	O	pobj	false	-1	-1	null	null	137	nmod:to	null
+0	4	142	675	678	S	141	and	and	and	CC	O	cc	false	-1	-1	null	null	141	cc	null
+0	4	143	679	689	SS	152	disturbing	disturbing	disturbing	JJ	O	nsubj	false	-1	-1	null	null	141	conj:and	null
+0	4	144	691	698	S	152	Through	Through	through	IN	O	prep	false	-1	-1	null	null	145	case	null
+0	4	145	699	701	S	144	it	it	it	PRP	O	pobj	false	-1	-1	c11	null	143	nmod:through	(c11;INANIMATE;NEUTRAL),
+0	4	146	702	705		145	all	all	all	DT	O	dep	false	-1	-1	null	null	137	advmod	null
+0	4	147	705	706	S	152	,	,	,	,	O	punct	false	-1	-1	null	null	152	punct	null
+0	4	148	707	710	S	149	the	the	the	DT	O	det	false	-1	-1	null	null	149	det	null
+0	4	149	711	718	S	152	friends	friends	friend	NNS	O	nsubj	false	-1	-1	null	null	152	nsubj	null
+0	4	150	719	721	S	149	in	in	in	IN	O	prep	false	-1	-1	null	null	151	case	null
+0	4	151	722	729	S	150	general	general	general	JJ	O	pobj	false	-1	-1	c12	c12	149	nmod:in	(c12;ANIMATE;MALE),
+0	4	152	730	733	S	141	try	try	try	VBP	O	conj	false	-1	-1	null	null	-1	root	null
+0	4	153	734	736	S	154	to	to	to	TO	O	aux	false	-1	-1	null	null	154	mark	null
+0	4	154	737	742		152	relax	relax	relax	VB	O	xcomp	false	-1	-1	null	null	152	xcomp	null
+0	4	155	742	743	S	124	.	.	.	.	O	punct	false	-1	-1	null	null	152	punct	null
+0	5	156	744	747	S	159	But	But	but	CC	O	cc	false	-1	-1	null	null	160	cc	null
+0	5	157	748	752		159	then	then	then	RB	O	advmod	false	-1	-1	null	null	160	advmod	null
+0	5	158	752	753	S	159	,	,	,	,	O	punct	false	-1	-1	null	null	160	punct	null
+0	5	159	754	758	S	-1	Skip	Skip	skip	VB	PERSON	null	false	-1	-1	null	null	160	csubj	null
+0	5	160	759	763	S	161	goes	goes	go	VBZ	O	aux	false	-1	-1	null	null	-1	root	null
+0	5	161	764	771		159	missing	missing	miss	VBG	O	xcomp	false	-1	-1	null	null	160	xcomp	null
+0	5	162	771	772	S	159	.	.	.	.	O	punct	false	-1	-1	null	null	160	punct	null
+0	6	163	773	776	S	164	Kit	Kit	kit	NN	O	nsubj	false	-1	-1	null	null	164	nsubj	null
+0	6	164	777	784	S	-1	catches	catches	catch	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	6	165	785	786	S	166	a	a	a	DT	O	det	false	-1	-1	null	null	166	det	null
+0	6	166	787	794	S	164	glimpse	glimpse	glimpse	NN	O	dobj	false	-1	-1	null	null	164	dobj	null
+0	6	167	795	797	S	166	of	of	of	IN	O	prep	false	-1	-1	null	null	169	mark	null
+0	6	168	798	802	S	169	what	what	what	WP	O	nsubj	false	-1	-1	null	null	169	nsubj	null
+0	6	169	803	808	S	167	looks	looks	look	VBZ	O	pcomp	false	-1	-1	null	null	166	acl	null
+0	6	170	809	813	S	169	like	like	like	IN	O	prep	false	-1	-1	null	null	173	case	null
+0	6	171	814	817	S	173	his	his	he	PRP$	O	poss	false	-1	-1	c12	null	173	nmod:poss	(c12;ANIMATE;MALE),
+0	6	172	818	822	S	173	dead	dead	dead	JJ	O	amod	false	-1	-1	null	null	173	amod	null
+0	6	173	823	827		170	body	body	body	NN	O	pobj	false	-1	-1	null	null	169	nmod:like	null
+0	6	174	827	828	S	164	.	.	.	.	O	punct	false	-1	-1	null	null	164	punct	null
+0	7	175	829	833		181	Next	Next	next	RB	O	advmod	false	-1	-1	null	null	181	advmod	null
+0	7	176	833	834	S	181	,	,	,	,	O	punct	false	-1	-1	null	null	181	punct	null
+0	7	177	835	839	S	181	Arch	Arch	Arch	NNP	ORGANIZATION	nsubj	false	4	4	c5	c5	181	nsubj	(c5;INANIMATE;NEUTRAL),
+0	7	178	840	843	S	177	and	and	and	CC	O	cc	false	-1	-1	null	null	177	cc	null
+0	7	179	844	847	S	177	Nan	Nan	Nan	NNP	PERSON	conj	false	3	3	c3	null	177	conj:and	(c3;ANIMATE;UNKNOWN),
+0	7	180	848	852	S	181	also	also	also	RB	O	advmod	false	-1	-1	null	null	181	advmod	null
+0	7	181	853	855	S	-1	go	go	go	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	7	182	856	863		181	missing	missing	miss	VBG	O	ccomp	false	-1	-1	null	null	181	xcomp	null
+0	7	183	863	864	S	181	.	.	.	.	O	punct	false	-1	-1	null	null	181	punct	null
+0	8	184	865	871	S	189	During	During	during	IN	O	prep	false	-1	-1	null	null	186	case	null
+0	8	185	872	873	S	186	a	a	a	DT	O	det	false	-1	-1	null	null	186	det	null
+0	8	186	874	880		184	search	search	search	NN	O	pobj	false	-1	-1	null	null	189	nmod:during	null
+0	8	187	880	881	S	189	,	,	,	,	O	punct	false	-1	-1	null	null	189	punct	null
+0	8	188	882	887	S	189	Nikki	Nikki	Nikki	NNP	PERSON	nsubj	false	0	0	c1	null	189	nsubj	(c1;ANIMATE;FEMALE),
+0	8	189	888	893	S	-1	falls	falls	fall	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	8	190	894	898	S	189	into	into	into	IN	O	prep	false	-1	-1	null	null	194	case	null
+0	8	191	899	902	S	192	the	the	the	DT	O	det	false	-1	-1	c10	null	192	det	(c10;INANIMATE;NEUTRAL),
+0	8	192	903	909		194	island	island	island	NN	O	poss	false	-1	-1	c10	null	194	nmod:poss	(c10;INANIMATE;NEUTRAL),
+0	8	193	909	911	S	192	's	's	's	POS	O	possessive	false	-1	-1	c10	null	192	case	(c10;INANIMATE;NEUTRAL),
+0	8	194	912	916	S	190	well	well	well	NN	O	pobj	false	-1	-1	null	null	189	nmod:into	null
+0	8	195	917	920	S	189	and	and	and	CC	O	cc	false	-1	-1	null	null	189	cc	null
+0	8	196	921	926	S	189	finds	finds	find	VBZ	O	conj	false	-1	-1	null	null	189	conj:and	null
+0	8	197	927	930	S	199	the	the	the	DT	O	det	false	-1	-1	null	null	199	det	null
+0	8	198	931	938	S	199	severed	severed	sever	VBN	O	amod	false	-1	-1	null	null	199	amod	null
+0	8	199	939	944	S	196	heads	heads	head	NNS	O	dobj	false	-1	-1	null	null	196	dobj	null
+0	8	200	945	947	S	199	of	of	of	IN	O	prep	false	-1	-1	null	null	201	case	null
+0	8	201	948	952	S	200	Skip	Skip	skip	VB	O	pcomp	false	-1	-1	null	null	199	nmod:of	null
+0	8	202	953	956	S	201	and	and	and	CC	O	cc	false	-1	-1	null	null	201	cc	null
+0	8	203	957	961	S	201	Arch	Arch	Arch	NNP	ORGANIZATION	conj	false	4	4	c5	null	201	conj:and	(c5;INANIMATE;NEUTRAL),
+0	8	204	962	965	S	203	and	and	and	CC	O	cc	false	-1	-1	null	null	201	cc	null
+0	8	205	966	969	S	207	the	the	the	DT	O	det	false	-1	-1	null	null	207	det	null
+0	8	206	970	974	S	207	dead	dead	dead	JJ	O	amod	false	-1	-1	null	null	207	amod	null
+0	8	207	975	979	S	203	body	body	body	NN	O	conj	false	-1	-1	null	null	201	conj:and	null
+0	8	208	980	982	S	207	of	of	of	IN	O	prep	false	-1	-1	null	null	209	case	null
+0	8	209	983	986		208	Nan	Nan	Nan	NNP	PERSON	pobj	false	3	3	c3	null	207	nmod:of	(c3;ANIMATE;UNKNOWN),
+0	8	210	986	987	S	189	.	.	.	.	O	punct	false	-1	-1	null	null	189	punct	null
+0	9	211	988	997		216	Afterward	Afterward	afterward	RB	O	advmod	false	-1	-1	null	null	216	advmod	null
+0	9	212	997	998	S	216	,	,	,	,	O	punct	false	-1	-1	null	null	216	punct	null
+0	9	213	999	1002	S	215	the	the	the	DT	O	det	false	-1	-1	null	null	215	det	null
+0	9	214	1003	1012	S	215	remaining	remaining	remain	VBG	O	amod	false	-1	-1	null	null	215	amod	null
+0	9	215	1013	1018	S	216	group	group	group	NN	O	nsubj	false	-1	-1	null	null	216	nsubj	null
+0	9	216	1019	1027	S	-1	discover	discover	discover	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	9	217	1028	1032	S	221	that	that	that	IN	O	complm	false	-1	-1	null	null	221	mark	null
+0	9	218	1033	1036	S	219	the	the	the	DT	O	det	false	-1	-1	null	null	219	det	null
+0	9	219	1037	1043	S	221	phones	phones	phone	NNS	O	nsubj	false	-1	-1	null	null	221	nsubj	null
+0	9	220	1044	1047	S	221	are	are	be	VBP	O	cop	false	-1	-1	null	null	221	cop	null
+0	9	221	1048	1052		216	dead	dead	dead	JJ	O	ccomp	false	-1	-1	null	null	216	ccomp	null
+0	9	222	1052	1053	S	216	,	,	,	,	O	punct	false	-1	-1	null	null	216	punct	null
+0	9	223	1054	1057	S	216	and	and	and	CC	O	cc	false	-1	-1	null	null	216	cc	null
+0	9	224	1058	1063	S	225	there	there	there	EX	O	expl	false	-1	-1	null	null	225	expl	null
+0	9	225	1064	1066	S	216	is	is	be	VBZ	O	conj	false	-1	-1	null	null	216	conj:and	null
+0	9	226	1067	1069	S	227	no	no	no	DT	O	det	false	-1	-1	null	null	227	neg	null
+0	9	227	1070	1073	S	225	way	way	way	NN	O	nsubj	false	-1	-1	null	null	225	nsubj	null
+0	9	228	1074	1076	S	229	to	to	to	TO	O	aux	false	-1	-1	null	null	229	mark	null
+0	9	229	1077	1080	S	227	get	get	get	VB	O	infmod	false	-1	-1	null	null	227	acl	null
+0	9	230	1081	1084	S	229	off	off	off	RP	O	prt	false	-1	-1	null	null	229	compound:prt	null
+0	9	231	1085	1088	S	232	the	the	the	DT	O	det	false	-1	-1	c10	null	232	det	(c10;INANIMATE;NEUTRAL),
+0	9	232	1089	1095	S	229	island	island	island	NN	O	dobj	false	-1	-1	c10	null	229	dobj	(c10;INANIMATE;NEUTRAL),
+0	9	233	1096	1101	S	229	until	until	until	IN	O	prep	false	-1	-1	null	null	234	case	null
+0	9	234	1102	1108		233	Monday	Monday	Monday	NNP	DATE	pobj	false	-1	-1	null	null	229	nmod:until	null
+0	9	235	1108	1109	S	216	.	.	.	.	O	punct	false	-1	-1	null	null	216	punct	null
+0	10	236	1110	1113	S	-1	One	One	one	CD	NUMBER	null	false	-1	-1	null	null	241	nmod:after	null
+0	10	237	1114	1119	S	236	after	after	after	IN	O	prep	false	-1	-1	null	null	236	case	null
+0	10	238	1120	1127		237	another	another	another	DT	O	pobj	false	-1	-1	c13	c13	236	dep	(c13;UNKNOWN;UNKNOWN),
+0	10	239	1127	1128	S	236	,	,	,	,	O	punct	false	-1	-1	null	null	241	punct	null
+0	10	240	1129	1135	S	241	people	people	people	NNS	O	nsubj	false	-1	-1	null	null	241	nsubj	null
+0	10	241	1136	1140	S	236	keep	keep	keep	VBP	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	10	242	1141	1150	S	241	vanishing	vanishing	vanish	VBG	O	xcomp	false	-1	-1	null	null	241	ccomp	null
+0	10	243	1151	1153	S	242	or	or	or	CC	O	cc	false	-1	-1	null	null	242	cc	null
+0	10	244	1154	1159	S	245	being	being	be	VBG	O	auxpass	false	-1	-1	null	null	245	auxpass	null
+0	10	245	1160	1166	S	242	killed	killed	kill	VBN	O	conj	false	-1	-1	null	null	242	conj:or	null
+0	10	246	1167	1170	S	241	and	and	and	CC	O	cc	false	-1	-1	null	null	241	cc	null
+0	10	247	1171	1176	S	248	their	their	they	PRP$	O	poss	false	-1	-1	c13	null	248	nmod:poss	(c13;ANIMATE;UNKNOWN),
+0	10	248	1177	1183	S	250	bodies	bodies	body	NNS	O	nsubjpass	false	-1	-1	null	null	250	nsubjpass	null
+0	10	249	1184	1189	S	250	being	being	be	VBG	O	auxpass	false	-1	-1	null	null	250	auxpass	null
+0	10	250	1190	1195		241	found	found	find	VBN	O	conj	false	-1	-1	null	null	241	conj:and	null
+0	10	251	1195	1196	S	236	.	.	.	.	O	punct	false	-1	-1	null	null	241	punct	null
+0	11	252	1197	1200	S	255	Kit	Kit	kit	NN	O	nsubj	false	-1	-1	null	null	255	nsubj	null
+0	11	253	1201	1204	S	252	and	and	and	CC	O	cc	false	-1	-1	null	null	252	cc	null
+0	11	254	1205	1208	S	252	Rob	Rob	Rob	NNP	PERSON	conj	false	1	1	c2	null	252	conj:and	(c2;ANIMATE;MALE),
+0	11	255	1209	1212	S	-1	put	put	put	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	11	256	1213	1221	S	255	together	together	together	RB	O	advmod	false	-1	-1	null	null	255	advmod	null
+0	11	257	1222	1226	S	258	some	some	some	DT	O	det	false	-1	-1	null	null	258	det	null
+0	11	258	1227	1232		255	clues	clues	clue	NNS	O	dobj	false	-1	-1	null	null	255	dobj	null
+0	11	259	1232	1233	S	255	,	,	,	,	O	punct	false	-1	-1	null	null	258	punct	null
+0	11	260	1234	1243	S	255	realizing	realizing	realize	VBG	O	xcomp	false	-1	-1	null	null	258	acl	null
+0	11	261	1244	1248	S	267	that	that	that	IN	O	complm	false	-1	-1	null	null	267	mark	null
+0	11	262	1249	1257		265	everyone	everyone	everyone	NN	O	poss	false	-1	-1	c14	c14	265	nmod:poss	(c14;INANIMATE;NEUTRAL),
+0	11	263	1257	1259	S	262	's	's	's	POS	O	possessive	false	-1	-1	c14	c14	262	case	(c14;INANIMATE;NEUTRAL),
+0	11	264	1260	1267	S	265	earlier	earlier	earlier	JJR	O	amod	false	-1	-1	c14	c14	265	amod	(c14;INANIMATE;NEUTRAL),
+0	11	265	1268	1278	S	267	assumption	assumption	assumption	NN	O	nsubj	false	-1	-1	c14	c14	267	nsubj	(c14;INANIMATE;NEUTRAL),
+0	11	266	1279	1281	S	267	is	is	be	VBZ	O	cop	false	-1	-1	null	null	267	cop	null
+0	11	267	1282	1287		260	wrong	wrong	wrong	JJ	O	ccomp	false	-1	-1	null	null	260	ccomp	null
+0	11	268	1287	1288	S	255	.	.	.	.	O	punct	false	-1	-1	null	null	255	punct	null
+0	12	269	1289	1292	S	270	The	The	the	DT	O	det	false	-1	-1	null	null	270	det	null
+0	12	270	1293	1300	S	281	kinsman	kinsman	kinsman	NN	O	nsubj	false	-1	-1	null	null	281	nsubj	null
+0	12	271	1301	1303	S	270	of	of	of	IN	O	prep	false	-1	-1	null	null	273	case	null
+0	12	272	1304	1307	S	273	the	the	the	DT	O	det	false	-1	-1	null	null	273	det	null
+0	12	273	1308	1316	S	271	deckhand	deckhand	deckhand	NN	O	pobj	false	-1	-1	null	null	270	nmod:of	null
+0	12	274	1317	1324	S	273	injured	injured	injure	VBN	O	partmod	false	-1	-1	null	null	273	acl	null
+0	12	275	1325	1329	S	277	when	when	when	WRB	O	advmod	false	-1	-1	null	null	277	advmod	null
+0	12	276	1330	1334	S	277	they	they	they	PRP	O	nsubj	false	-1	-1	c13	null	277	nsubj	(c13;ANIMATE;UNKNOWN),
+0	12	277	1335	1342	S	274	arrived	arrived	arrive	VBD	O	advcl	false	-1	-1	null	null	274	advcl	null
+0	12	278	1343	1345	S	281	is	is	be	VBZ	O	cop	false	-1	-1	null	null	281	cop	null
+0	12	279	1346	1347	S	281	a	a	a	DT	O	det	false	-1	-1	null	null	281	det	null
+0	12	280	1348	1351	S	281	red	red	red	JJ	O	amod	false	-1	-1	null	null	281	amod	null
+0	12	281	1352	1359		-1	herring	herring	herring	NN	O	null	false	-1	-1	null	null	-1	root	null
+0	12	282	1359	1360	S	281	.	.	.	.	O	punct	false	-1	-1	null	null	281	punct	null
+0	13	283	1361	1366		286	Muffy	Muffy	Muffy	NNP	PERSON	nsubj	false	2	2	c8	null	289	nsubj	(c8;ANIMATE;FEMALE),
+0	13	284	1366	1367	S	286	,	,	,	,	O	punct	false	-1	-1	null	null	286	punct	null
+0	13	285	1368	1370	S	286	it	it	it	PRP	O	nsubj	false	-1	-1	c14	null	286	nsubj	(c14;INANIMATE;NEUTRAL),
+0	13	286	1371	1376	S	-1	turns	turns	turn	VBZ	O	null	false	-1	-1	null	null	289	parataxis	null
+0	13	287	1377	1380		286	out	out	out	RP	O	prt	false	-1	-1	null	null	286	compound:prt	null
+0	13	288	1380	1381	S	286	,	,	,	,	O	punct	false	-1	-1	null	null	286	punct	null
+0	13	289	1382	1385	S	286	has	has	have	VBZ	O	conj	false	-1	-1	null	null	-1	root	null
+0	13	290	1386	1387	S	294	a	a	a	DT	O	det	false	-1	-1	c15,c15	null	294	det	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	291	1388	1397	S	292	violently	violently	violently	RB	O	advmod	false	-1	-1	c15,c15	null	292	advmod	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	292	1398	1404	S	294	insane	insane	insane	JJ	O	amod	false	-1	-1	c15,c15	null	294	amod	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	293	1405	1409	S	294	twin	twin	twin	NN	O	nn	false	-1	-1	c15,c15	null	294	compound	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	294	1410	1416		289	sister	sister	sister	NN	O	dobj	false	-1	-1	c15,c15	null	289	dobj	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	295	1416	1417	S	294	,	,	,	,	O	punct	false	-1	-1	c15	null	294	punct	(c15;ANIMATE;FEMALE),
+0	13	296	1418	1423		294	Buffy	Buffy	Buffy	NNP	PERSON	appos	false	5	5	c15,c15	c15	294	appos	(c15;ANIMATE;FEMALE),(c15;ANIMATE;FEMALE),
+0	13	297	1423	1424	S	294	,	,	,	,	O	punct	false	-1	-1	c15	null	294	punct	(c15;ANIMATE;FEMALE),
+0	13	298	1425	1428	S	300	who	who	who	WP	O	nsubj	false	-1	-1	c15	null	300	nsubj	(c15;ANIMATE;FEMALE),
+0	13	299	1429	1432	S	300	has	has	have	VBZ	O	aux	false	-1	-1	c15	null	300	aux	(c15;ANIMATE;FEMALE),
+0	13	300	1433	1440		294	escaped	escaped	escape	VBN	O	rcmod	false	-1	-1	c15	null	294	acl:relcl	(c15;ANIMATE;FEMALE),
+0	13	301	1440	1441	S	286	.	.	.	.	O	punct	false	-1	-1	null	null	289	punct	null
+0	14	302	1442	1444	S	315	In	In	in	IN	O	prep	false	-1	-1	null	null	303	case	null
+0	14	303	1445	1449		302	fact	fact	fact	NN	O	pobj	false	-1	-1	null	null	316	nmod:in	null
+0	14	304	1449	1450	S	315	,	,	,	,	O	punct	false	-1	-1	null	null	316	punct	null
+0	14	305	1451	1454	S	306	the	the	the	DT	O	det	false	-1	-1	null	null	306	det	null
+0	14	306	1455	1460	S	315	Muffy	Muffy	Muffy	NNP	PERSON	nsubj	false	2	2	null	null	316	nsubj	null
+0	14	307	1461	1465	S	309	they	they	they	PRP	O	nsubj	false	-1	-1	c13	null	309	nsubj	(c13;ANIMATE;UNKNOWN),
+0	14	308	1466	1470	S	309	have	have	have	VBP	O	aux	false	-1	-1	null	null	309	aux	null
+0	14	309	1471	1475	S	306	been	been	be	VBN	O	rcmod	false	-1	-1	null	null	306	acl:relcl	null
+0	14	310	1476	1482	S	309	around	around	around	IN	O	advmod	false	-1	-1	null	null	309	advmod	null
+0	14	311	1483	1488	S	309	since	since	since	IN	O	prep	false	-1	-1	null	null	314	case	null
+0	14	312	1489	1492	S	314	the	the	the	DT	O	det	false	-1	-1	c16	c16	314	det	(c16;INANIMATE;UNKNOWN),
+0	14	313	1493	1498	S	314	first	first	first	JJ	ORDINAL	amod	false	-1	-1	c16	c16	314	amod	(c16;INANIMATE;UNKNOWN),
+0	14	314	1499	1504	S	311	night	night	night	NN	TIME	pobj	false	-1	-1	c16	c16	310	nmod:since	(c16;INANIMATE;UNKNOWN),
+0	14	315	1505	1508	S	-1	was	was	be	VBD	O	null	false	-1	-1	null	null	316	cop	null
+0	14	316	1509	1514	S	317	Buffy	Buffy	Buffy	NNP	PERSON	nsubj	false	5	5	null	null	-1	root	null
+0	14	317	1515	1525	S	315	pretending	pretending	pretend	VBG	O	xcomp	false	-1	-1	null	null	316	acl	null
+0	14	318	1526	1528	S	320	to	to	to	TO	O	aux	false	-1	-1	null	null	320	mark	null
+0	14	319	1529	1531	S	320	be	be	be	VB	O	cop	false	-1	-1	null	null	320	cop	null
+0	14	320	1532	1537		317	Muffy	Muffy	Muffy	NNP	PERSON	xcomp	false	2	2	c8	null	317	xcomp	(c8;ANIMATE;FEMALE),
+0	14	321	1537	1538	S	315	.	.	.	.	O	punct	false	-1	-1	null	null	316	punct	null
+0	15	322	1539	1543	S	323	They	They	they	PRP	O	nsubj	false	-1	-1	c13	null	323	nsubj	(c13;ANIMATE;UNKNOWN),
+0	15	323	1544	1552	S	-1	discover	discover	discover	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	15	324	1553	1558		327	Muffy	Muffy	Muffy	NNP	PERSON	poss	false	2	2	c8	null	326	nsubj	(c8;ANIMATE;FEMALE),
+0	15	325	1558	1560	S	324	's	's	's	POS	O	possessive	false	-1	-1	c8	null	324	case	(c8;ANIMATE;FEMALE),
+0	15	326	1561	1568	S	327	severed	severed	sever	VBN	O	amod	false	-1	-1	null	null	323	ccomp	null
+0	15	327	1569	1573	S	323	head	head	head	NN	O	dobj	false	-1	-1	null	null	326	advmod	null
+0	15	328	1574	1576	S	323	in	in	in	IN	O	prep	false	-1	-1	null	null	330	case	null
+0	15	329	1577	1580	S	330	the	the	the	DT	O	det	false	-1	-1	null	null	330	det	null
+0	15	330	1581	1589		328	basement	basement	basement	NN	O	pobj	false	-1	-1	null	null	326	nmod:in	null
+0	15	331	1589	1590	S	323	.	.	.	.	O	punct	false	-1	-1	null	null	323	punct	null
+0	16	332	1591	1596	S	333	Buffy	Buffy	buffy	JJ	PERSON	nsubj	false	5	5	c15	null	333	nsubj	(c15;ANIMATE;FEMALE),
+0	16	333	1597	1603	S	-1	chases	chases	chase	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	16	334	1604	1608	S	333	them	them	they	PRP	O	dobj	false	-1	-1	c13	null	333	dobj	(c13;ANIMATE;UNKNOWN),
+0	16	335	1609	1613	S	333	with	with	with	IN	O	prep	false	-1	-1	null	null	339	case	null
+0	16	336	1614	1615	S	337	a	a	a	DT	O	det	false	-1	-1	null	null	337	det	null
+0	16	337	1616	1623		339	butcher	butcher	butcher	NN	O	poss	false	-1	-1	null	null	339	nmod:poss	null
+0	16	338	1623	1625	S	337	's	's	's	POS	O	possessive	false	-1	-1	null	null	337	case	null
+0	16	339	1626	1631		335	knife	knife	knife	NN	O	pobj	false	-1	-1	null	null	333	nmod:with	null
+0	16	340	1631	1632	S	333	,	,	,	,	O	punct	false	-1	-1	null	null	333	punct	null
+0	16	341	1633	1636	S	333	and	and	and	CC	O	cc	false	-1	-1	null	null	333	cc	null
+0	16	342	1637	1640	S	343	the	the	the	DT	O	det	false	-1	-1	null	null	343	det	null
+0	16	343	1641	1647	S	345	couple	couple	couple	NN	O	nsubjpass	false	-1	-1	null	null	345	nsubjpass	null
+0	16	344	1648	1651	S	345	are	are	be	VBP	O	auxpass	false	-1	-1	null	null	345	auxpass	null
+0	16	345	1652	1661		333	separated	separated	separate	VBN	O	conj	false	-1	-1	null	null	333	conj:and	null
+0	16	346	1661	1662	S	333	.	.	.	.	O	punct	false	-1	-1	null	null	333	punct	null
+0	17	347	1663	1666	S	348	Kit	Kit	kit	NN	O	nsubj	false	-1	-1	null	null	348	nsubj	null
+0	17	348	1667	1672	S	-1	flees	flees	flee	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	17	349	1673	1677	S	348	from	from	from	IN	O	prep	false	-1	-1	null	null	350	case	null
+0	17	350	1678	1683	S	349	Buffy	Buffy	Buffy	NNP	PERSON	pobj	false	5	5	c15	null	348	nmod:from	(c15;ANIMATE;FEMALE),
+0	17	351	1684	1688	S	348	into	into	into	IN	O	prep	false	-1	-1	null	null	354	case	null
+0	17	352	1689	1692	S	354	the	the	the	DT	O	det	false	-1	-1	c17	c17	354	det	(c17;INANIMATE;NEUTRAL),
+0	17	353	1693	1699	S	354	living	living	living	NN	O	nn	false	-1	-1	c17	c17	354	compound	(c17;INANIMATE;NEUTRAL),
+0	17	354	1700	1704	S	351	room	room	room	NN	O	pobj	false	-1	-1	c17	c17	348	nmod:into	(c17;INANIMATE;NEUTRAL),
+0	17	355	1705	1706	S	354	—	--	--	:	O	punct	false	-1	-1	c17	c17	354	punct	(c17;INANIMATE;NEUTRAL),
+0	17	356	1707	1712	S	358	where	where	where	WRB	O	advmod	false	-1	-1	c17	c17	358	advmod	(c17;INANIMATE;NEUTRAL),
+0	17	357	1713	1716	S	358	she	she	she	PRP	O	nsubj	false	5	5	c15,c17	c17	358	nsubj	(c15;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	17	358	1717	1722	S	354	finds	finds	find	VBZ	O	rcmod	false	-1	-1	c17	c17	354	acl:relcl	(c17;INANIMATE;NEUTRAL),
+0	17	359	1723	1731	S	358	everyone	everyone	everyone	NN	O	dobj	false	-1	-1	c17	c17	358	dobj	(c17;INANIMATE;NEUTRAL),
+0	17	360	1732	1736	S	359	else	else	else	RB	O	amod	false	-1	-1	c17	c17	359	advmod	(c17;INANIMATE;NEUTRAL),
+0	17	361	1737	1742		358	there	there	there	RB	O	advmod	false	-1	-1	c17	c17	359	advmod	(c17;INANIMATE;NEUTRAL),
+0	17	362	1742	1743	S	358	,	,	,	,	O	punct	false	-1	-1	c17	c17	359	punct	(c17;INANIMATE;NEUTRAL),
+0	17	363	1744	1749	S	358	alive	alive	alive	JJ	O	conj	false	-1	-1	c17	c17	359	amod	(c17;INANIMATE;NEUTRAL),
+0	17	364	1750	1753	S	358	and	and	and	CC	O	cc	false	-1	-1	c17	c17	363	cc	(c17;INANIMATE;NEUTRAL),
+0	17	365	1754	1760	S	366	calmly	calmly	calmly	RB	O	advmod	false	-1	-1	c17	c17	366	advmod	(c17;INANIMATE;NEUTRAL),
+0	17	366	1761	1768	S	358	waiting	waiting	wait	VBG	O	conj	false	-1	-1	c17	c17	363	conj:and	(c17;INANIMATE;NEUTRAL),
+0	17	367	1769	1772	S	366	for	for	for	IN	O	prep	false	-1	-1	c17	c17	368	case	(c17;INANIMATE;NEUTRAL),
+0	17	368	1773	1776		367	her	her	she	PRP	O	pobj	false	5	5	c15,c17	c17	366	nmod:for	(c15;ANIMATE;FEMALE),(c17;INANIMATE;NEUTRAL),
+0	17	369	1776	1777	S	348	.	.	.	.	O	punct	false	-1	-1	null	null	348	punct	null
+0	18	370	1778	1780	S	374	It	It	it	PRP	O	nsubj	false	-1	-1	c17	null	374	nsubj	(c17;INANIMATE;NEUTRAL),
+0	18	371	1781	1784	S	374	was	was	be	VBD	O	cop	false	-1	-1	null	null	374	cop	null
+0	18	372	1785	1788	S	374	all	all	all	PDT	O	predet	false	-1	-1	null	null	374	det:predet	null
+0	18	373	1789	1790	S	374	a	a	a	DT	O	det	false	-1	-1	null	null	374	det	null
+0	18	374	1791	1795		-1	joke	joke	joke	NN	O	null	false	-1	-1	null	null	-1	root	null
+0	18	375	1795	1796	S	374	,	,	,	,	O	punct	false	-1	-1	null	null	374	punct	null
+0	18	376	1797	1799	S	374	or	or	or	CC	O	cc	false	-1	-1	null	null	374	cc	null
+0	18	377	1800	1804	S	378	more	more	more	RBR	O	advmod	false	-1	-1	null	null	378	advmod	null
+0	18	378	1805	1815		374	accurately	accurately	accurately	RB	O	advmod	false	-1	-1	null	null	374	advmod	null
+0	18	379	1815	1816	S	374	,	,	,	,	O	punct	false	-1	-1	null	null	374	punct	null
+0	18	380	1817	1818	S	382	a	a	a	DT	O	det	false	-1	-1	null	null	382	det	null
+0	18	381	1819	1824	S	382	dress	dress	dress	NN	O	nn	false	-1	-1	null	null	382	compound	null
+0	18	382	1825	1834		374	rehearsal	rehearsal	rehearsal	NN	O	appos	false	-1	-1	null	null	374	conj:or	null
+0	18	383	1834	1835	S	374	.	.	.	.	O	punct	false	-1	-1	null	null	374	punct	null
+0	19	384	1836	1838	S	386	It	It	it	PRP	O	nsubjpass	false	-1	-1	c17	null	386	nsubjpass	(c17;INANIMATE;NEUTRAL),
+0	19	385	1839	1841	S	386	is	is	be	VBZ	O	auxpass	false	-1	-1	null	null	386	auxpass	null
+0	19	386	1842	1850	S	-1	revealed	revealed	reveal	VBN	O	null	false	-1	-1	null	null	-1	root	null
+0	19	387	1851	1853	S	386	to	to	to	TO	O	prep	false	-1	-1	null	null	389	case	null
+0	19	388	1854	1857	S	389	the	the	the	DT	O	det	false	-1	-1	c18	c18	389	det	(c18;ANIMATE;NEUTRAL),
+0	19	389	1858	1866	S	387	audience	audience	audience	NN	O	pobj	false	-1	-1	c18	c18	386	nmod:to	(c18;ANIMATE;NEUTRAL),
+0	19	390	1867	1871	S	398	that	that	that	IN	O	complm	false	-1	-1	c18	c18	398	mark	(c18;ANIMATE;NEUTRAL),
+0	19	391	1872	1875	S	393	the	the	the	DT	O	det	false	-1	-1	c18,c19	c18,c19	393	det	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	392	1876	1881	S	393	whole	whole	whole	JJ	O	amod	false	-1	-1	c18,c19	c18,c19	393	amod	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	393	1882	1887	S	398	movie	movie	movie	NN	O	nsubj	false	-1	-1	c18,c19	c18,c19	398	nsubj	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	394	1888	1891	S	398	was	was	be	VBD	O	cop	false	-1	-1	c18	c18	398	cop	(c18;ANIMATE;NEUTRAL),
+0	19	395	1892	1897	S	398	never	never	never	RB	O	neg	false	-1	-1	c18	c18	398	neg	(c18;ANIMATE;NEUTRAL),
+0	19	396	1898	1899	S	398	a	a	a	DT	O	det	false	-1	-1	c18,c19	c18	398	det	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	397	1900	1907	S	398	slasher	slasher	slasher	NN	O	nn	false	-1	-1	c18,c19	c18	398	compound	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	398	1908	1912	S	386	film	film	film	NN	O	ccomp	false	-1	-1	c18,c19	c18	389	dep	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	399	1913	1917	S	398	from	from	from	IN	O	prep	false	-1	-1	c18,c19	c18	401	case	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	400	1918	1921	S	401	the	the	the	DT	O	det	false	-1	-1	c18,c19	c18	401	det	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	401	1922	1927		399	start	start	start	NN	O	pobj	false	-1	-1	c18,c19	c18	398	nmod:from	(c18;ANIMATE;NEUTRAL),(c19;INANIMATE;NEUTRAL),
+0	19	402	1927	1928	S	398	,	,	,	,	O	punct	false	-1	-1	null	null	389	punct	null
+0	19	403	1929	1932	S	398	but	but	but	CC	O	cc	false	-1	-1	null	null	404	cc	null
+0	19	404	1933	1939	S	405	rather	rather	rather	RB	O	advmod	false	-1	-1	null	null	389	cc	null
+0	19	405	1940	1950	S	398	pretending	pretending	pretend	VBG	O	conj	false	-1	-1	null	null	389	conj:rather	null
+0	19	406	1951	1953	S	408	to	to	to	TO	O	aux	false	-1	-1	null	null	408	mark	null
+0	19	407	1954	1956	S	408	be	be	be	VB	O	cop	false	-1	-1	null	null	408	cop	null
+0	19	408	1957	1960		405	one	one	one	CD	NUMBER	xcomp	false	-1	-1	null	null	405	xcomp	null
+0	19	409	1960	1961	S	386	.	.	.	.	O	punct	false	-1	-1	null	null	386	punct	null
+0	20	410	1962	1967	S	411	Muffy	Muffy	Muffy	NNP	PERSON	nsubj	false	2	2	c8	null	411	nsubj	(c8;ANIMATE;FEMALE),
+0	20	411	1968	1973	S	-1	hopes	hopes	hope	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	20	412	1974	1976	S	413	to	to	to	TO	O	aux	false	-1	-1	null	null	413	mark	null
+0	20	413	1977	1981	S	411	turn	turn	turn	VB	O	xcomp	false	-1	-1	null	null	411	xcomp	null
+0	20	414	1982	1985	S	415	the	the	the	DT	O	det	false	-1	-1	c6	null	415	det	(c6;INANIMATE;NEUTRAL),
+0	20	415	1986	1993	S	413	mansion	mansion	mansion	NN	O	dobj	false	-1	-1	c6	null	413	dobj	(c6;INANIMATE;NEUTRAL),
+0	20	416	1994	1998	S	413	into	into	into	IN	O	prep	false	-1	-1	null	null	418	case	null
+0	20	417	1999	2000	S	418	a	a	a	DT	O	det	false	-1	-1	null	null	418	det	null
+0	20	418	2001	2007	S	416	resort	resort	resort	NN	O	pobj	false	-1	-1	null	null	413	nmod:into	null
+0	20	419	2008	2016	S	418	offering	offering	offer	VBG	O	partmod	false	-1	-1	null	null	418	acl	null
+0	20	420	2017	2018	S	421	a	a	a	DT	O	det	false	-1	-1	null	null	421	det	null
+0	20	421	2019	2026	S	419	weekend	weekend	weekend	NN	DATE	dobj	false	-1	-1	null	null	419	dobj	null
+0	20	422	2027	2029	S	421	of	of	of	IN	O	prep	false	-1	-1	null	null	423	case	null
+0	20	423	2030	2036	S	422	staged	staged	stage	VBD	O	pcomp	false	-1	-1	null	null	421	acl	null
+0	20	424	2037	2043		423	horror	horror	horror	NN	O	dobj	false	-1	-1	null	null	423	dobj	null
+0	20	425	2043	2044	S	411	.	.	.	.	O	punct	false	-1	-1	null	null	411	punct	null
+0	21	426	2045	2048	S	428	She	She	she	PRP	O	nsubj	false	5	5	c8	null	428	nsubj	(c8;ANIMATE;FEMALE),
+0	21	427	2049	2053	S	428	even	even	even	RB	O	advmod	false	-1	-1	null	null	428	advmod	null
+0	21	428	2054	2057	S	-1	had	had	have	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	21	429	2058	2059	S	430	a	a	a	DT	O	det	false	-1	-1	null	null	430	det	null
+0	21	430	2060	2066	S	428	friend	friend	friend	NN	O	dobj	false	-1	-1	null	null	428	dobj	null
+0	21	431	2067	2070	S	432	who	who	who	WP	O	nsubj	false	-1	-1	null	null	432	nsubj	null
+0	21	432	2071	2075	S	430	does	does	do	VBZ	O	rcmod	false	-1	-1	null	null	430	acl:relcl	null
+0	21	433	2076	2083	S	434	special	special	special	JJ	O	amod	false	-1	-1	null	null	434	amod	null
+0	21	434	2084	2091	S	432	effects	effects	effect	NNS	O	dobj	false	-1	-1	null	null	432	dobj	null
+0	21	435	2092	2095	S	434	and	and	and	CC	O	cc	false	-1	-1	null	null	434	cc	null
+0	21	436	2096	2103	S	434	make-up	make-up	make-up	NN	O	conj	false	-1	-1	null	null	434	conj:and	null
+0	21	437	2104	2107	S	434	for	for	for	IN	O	prep	false	-1	-1	null	null	439	case	null
+0	21	438	2108	2117	S	439	Hollywood	Hollywood	Hollywood	NNP	O	nn	false	-1	-1	null	null	439	compound	null
+0	21	439	2118	2122		437	help	help	help	NN	O	pobj	false	-1	-1	null	null	432	nmod:for	null
+0	21	440	2122	2123	S	428	.	.	.	.	O	punct	false	-1	-1	null	null	428	punct	null
+0	22	441	2124	2128	S	443	Each	Each	each	DT	O	det	false	-1	-1	c20	c20	443	det	(c20;ANIMATE;UNKNOWN),
+0	22	442	2129	2130		443	"	``	``	``	O	punct	false	-1	-1	c20	c20	443	punct	(c20;ANIMATE;UNKNOWN),
+0	22	443	2130	2136		445	victim	victim	victim	NN	O	nsubj	true	-1	-1	c20	c20	445	nsubj	(c20;ANIMATE;UNKNOWN),
+0	22	444	2136	2137	S	443	"	''	''	''	O	punct	true	-1	-1	c20	c20	443	punct	(c20;ANIMATE;UNKNOWN),
+0	22	445	2138	2144	S	-1	agreed	agreed	agree	VBD	O	null	false	-1	-1	null	null	-1	root	null
+0	22	446	2145	2147	S	447	to	to	to	TO	O	aux	false	-1	-1	null	null	447	mark	null
+0	22	447	2148	2152	S	445	take	take	take	VB	O	xcomp	false	-1	-1	null	null	445	xcomp	null
+0	22	448	2153	2157	S	447	part	part	part	NN	O	dobj	false	-1	-1	null	null	447	dobj	null
+0	22	449	2158	2160	S	447	as	as	as	IN	O	prep	false	-1	-1	null	null	452	mark	null
+0	22	450	2161	2167	S	449	things	things	thing	NNS	O	pobj	false	-1	-1	null	null	452	nsubjpass	null
+0	22	451	2168	2172	S	452	were	were	be	VBD	O	auxpass	false	-1	-1	null	null	452	auxpass	null
+0	22	452	2173	2182	S	445	explained	explained	explain	VBN	O	ccomp	false	-1	-1	null	null	447	advcl	null
+0	22	453	2183	2185	S	452	to	to	to	TO	O	prep	false	-1	-1	null	null	454	case	null
+0	22	454	2186	2190		453	them	them	they	PRP	O	pobj	false	-1	-1	null	null	452	nmod:to	null
+0	22	455	2190	2191	S	445	.	.	.	.	O	punct	false	-1	-1	null	null	445	punct	null
+0	23	456	2192	2200	S	457	Everyone	Everyone	everyone	NN	O	nsubj	false	-1	-1	null	null	457	nsubj	null
+0	23	457	2201	2204	S	-1	has	has	have	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	23	458	2205	2206	S	460	a	a	a	DT	O	det	false	-1	-1	null	null	460	det	null
+0	23	459	2207	2211	S	460	huge	huge	huge	JJ	O	amod	false	-1	-1	null	null	460	amod	null
+0	23	460	2212	2217		457	laugh	laugh	laugh	NN	O	dobj	false	-1	-1	null	null	457	dobj	null
+0	23	461	2217	2218	S	457	,	,	,	,	O	punct	false	-1	-1	null	null	457	punct	null
+0	23	462	2219	2222	S	457	and	and	and	CC	O	cc	false	-1	-1	null	null	457	cc	null
+0	23	463	2223	2228	S	457	break	break	break	VB	O	conj	false	-1	-1	null	null	457	conj:and	null
+0	23	464	2229	2232	S	463	out	out	out	RP	O	prt	false	-1	-1	null	null	463	compound:prt	null
+0	23	465	2233	2237	S	463	lots	lots	lot	NNS	O	dobj	false	-1	-1	null	null	463	dobj	null
+0	23	466	2238	2240	S	465	of	of	of	IN	O	prep	false	-1	-1	null	null	467	case	null
+0	23	467	2241	2248	S	466	bottles	bottles	bottle	NNS	O	pobj	false	-1	-1	null	null	465	nmod:of	null
+0	23	468	2249	2251	S	467	of	of	of	IN	O	prep	false	-1	-1	null	null	469	case	null
+0	23	469	2252	2261		468	champagne	champagne	champagne	NN	O	pobj	false	-1	-1	null	null	467	nmod:of	null
+0	23	470	2261	2262	S	457	.	.	.	.	O	punct	false	-1	-1	null	null	457	punct	null
+0	24	471	2263	2268	S	473	Later	Later	later	RB	TIME	advmod	false	-1	-1	c16	null	473	advmod	(c16;INANIMATE;UNKNOWN),
+0	24	472	2269	2273	S	473	that	that	that	DT	TIME	det	false	-1	-1	c16	null	473	det	(c16;INANIMATE;UNKNOWN),
+0	24	473	2274	2279		478	night	night	night	NN	TIME	nsubj	false	-1	-1	c16	null	478	nmod:tmod	(c16;INANIMATE;UNKNOWN),
+0	24	474	2279	2280	S	473	,	,	,	,	O	punct	false	-1	-1	null	null	478	punct	null
+0	24	475	2281	2282	S	477	a	a	a	DT	O	det	false	-1	-1	null	null	477	det	null
+0	24	476	2283	2293	S	477	half-drunk	half-drunk	half-drunk	JJ	O	amod	false	-1	-1	null	null	477	amod	null
+0	24	477	2294	2299	S	473	Muffy	Muffy	Muffy	NNP	PERSON	appos	false	2	2	null	null	478	nsubj	null
+0	24	478	2300	2304	S	-1	goes	goes	go	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	24	479	2305	2307	S	478	to	to	to	TO	O	prep	false	-1	-1	null	null	481	case	null
+0	24	480	2308	2311	S	481	her	her	she	PRP$	O	poss	false	5	5	c17,c20	null	481	nmod:poss	(c17;INANIMATE;NEUTRAL),(c20;ANIMATE;FEMALE),
+0	24	481	2312	2316		479	room	room	room	NN	O	pobj	false	-1	-1	c17	null	478	nmod:to	(c17;INANIMATE;NEUTRAL),
+0	24	482	2316	2317	S	478	.	.	.	.	O	punct	false	-1	-1	null	null	478	punct	null
+0	25	483	2318	2321	S	484	She	She	she	PRP	O	nsubj	false	5	5	c20	null	484	nsubj	(c20;ANIMATE;FEMALE),
+0	25	484	2322	2327	S	-1	finds	finds	find	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	25	485	2328	2329	S	487	a	a	a	DT	O	det	false	-1	-1	c21	c21	487	nsubj	(c21;UNKNOWN;UNKNOWN),
+0	25	486	2330	2337	S	487	wrapped	wrapped	wrap	VBN	O	amod	false	-1	-1	c21	c21	485	amod	(c21;UNKNOWN;UNKNOWN),
+0	25	487	2338	2345	S	484	present	present	present	JJ	DATE	dobj	false	-1	-1	null	null	484	xcomp	null
+0	25	488	2346	2348	S	487	on	on	on	IN	O	prep	false	-1	-1	null	null	490	case	null
+0	25	489	2349	2352	S	490	her	her	she	PRP$	O	poss	false	5	5	c21,c22	c22	490	nmod:poss	(c21;ANIMATE;FEMALE),(c22;INANIMATE;UNKNOWN),
+0	25	490	2353	2356		488	bed	bed	bed	NN	O	pobj	false	-1	-1	c22	c22	487	nmod:on	(c22;INANIMATE;UNKNOWN),
+0	25	491	2356	2357	S	484	.	.	.	.	O	punct	false	-1	-1	null	null	484	punct	null
+0	26	492	2358	2366		495	Grinning	Grinning	grin	VBG	O	dep	false	-1	-1	null	null	495	advcl	null
+0	26	493	2366	2367	S	495	,	,	,	,	O	punct	false	-1	-1	null	null	495	punct	null
+0	26	494	2368	2371	S	495	she	she	she	PRP	O	nsubj	false	5	5	c20	null	495	nsubj	(c20;ANIMATE;FEMALE),
+0	26	495	2372	2379	S	-1	unwraps	unwraps	unwrap	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	26	496	2380	2382		495	it	it	it	PRP	O	dobj	false	-1	5	c22	null	495	dobj	(c22;INANIMATE;NEUTRAL),
+0	26	497	2382	2383	S	495	.	.	.	.	O	punct	false	-1	-1	null	null	495	punct	null
+0	27	498	2384	2386	S	501	It	It	it	PRP	O	nsubj	false	-1	-1	c9	null	501	nsubj	(c9;INANIMATE;NEUTRAL),
+0	27	499	2387	2389	S	501	is	is	be	VBZ	O	cop	false	-1	-1	null	null	501	cop	null
+0	27	500	2390	2393	S	501	the	the	the	DT	O	det	false	-1	-1	c9	c9	501	det	(c9;INANIMATE;UNKNOWN),
+0	27	501	2394	2409		-1	Jack-in-the-Box	Jack-in-the-Box	Jack-in-the-Box	NNP	O	null	false	-1	-1	c9	c9	-1	root	(c9;INANIMATE;UNKNOWN),
+0	27	502	2409	2410	S	501	.	.	.	.	O	punct	false	-1	-1	null	null	501	punct	null
+0	28	503	2411	2419	S	508	Savoring	Savoring	savor	VBG	O	prep	false	-1	-1	null	null	508	advcl	null
+0	28	504	2420	2423	S	505	the	the	the	DT	O	det	false	-1	-1	null	null	505	det	null
+0	28	505	2424	2432		503	surprise	surprise	surprise	NN	O	pobj	false	-1	-1	null	null	503	dobj	null
+0	28	506	2432	2433	S	508	,	,	,	,	O	punct	false	-1	-1	null	null	508	punct	null
+0	28	507	2434	2437	S	508	she	she	she	PRP	O	nsubj	false	5	5	c20	null	508	nsubj	(c20;ANIMATE;FEMALE),
+0	28	508	2438	2443	S	-1	turns	turns	turn	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	28	509	2444	2447	S	510	the	the	the	DT	O	det	false	-1	-1	null	null	510	nsubj	null
+0	28	510	2448	2454	S	508	handle	handle	handle	VB	O	xcomp	false	-1	-1	null	null	508	ccomp	null
+0	28	511	2455	2461		510	slowly	slowly	slowly	RB	O	advmod	false	-1	-1	null	null	510	advmod	null
+0	28	512	2461	2462	S	508	.	.	.	.	O	punct	false	-1	-1	null	null	508	punct	null
+0	29	513	2463	2467	S	518	When	When	when	WRB	O	advmod	false	-1	-1	null	null	518	advmod	null
+0	29	514	2468	2469		518	"	``	``	``	O	punct	false	-1	-1	null	null	518	punct	null
+0	29	515	2469	2473		518	Jack	Jack	Jack	NNP	O	nsubj	true	-1	-1	null	null	518	nsubj	null
+0	29	516	2473	2474	S	518	"	''	''	''	O	punct	true	-1	-1	null	null	518	punct	null
+0	29	517	2475	2482	S	518	finally	finally	finally	RB	O	advmod	false	-1	-1	null	null	518	advmod	null
+0	29	518	2483	2487	S	535	pops	pops	pop	VBZ	O	dep	false	-1	-1	null	null	535	advcl	null
+0	29	519	2488	2491		518	out	out	out	RP	O	prt	false	-1	-1	null	null	518	xcomp	null
+0	29	520	2491	2492	S	535	,	,	,	,	O	punct	false	-1	-1	null	null	535	punct	null
+0	29	521	2493	2496	S	535	Nan	Nan	Nan	NNP	PERSON	advmod	false	3	3	c23	c23	535	nsubj	(c23;ANIMATE;UNKNOWN),
+0	29	522	2497	2498	S	527	—	--	--	:	O	punct	false	-1	-1	c23	c23	521	punct	(c23;ANIMATE;UNKNOWN),
+0	29	523	2499	2502	S	527	the	the	the	DT	O	det	false	-1	-1	c23	c23	527	det	(c23;ANIMATE;UNKNOWN),
+0	29	524	2503	2506		527	shy	shy	shy	JJ	O	amod	false	-1	-1	c23	c23	526	amod	(c23;ANIMATE;UNKNOWN),
+0	29	525	2506	2507	S	527	,	,	,	,	O	punct	false	-1	-1	c23	c23	526	punct	(c23;ANIMATE;UNKNOWN),
+0	29	526	2508	2515	S	527	bookish	bookish	bookish	JJ	O	amod	false	-1	-1	c23	c23	527	amod	(c23;ANIMATE;UNKNOWN),
+0	29	527	2516	2520	S	535	girl	girl	girl	NN	O	nsubj	false	-1	-1	c23	c23	521	dep	(c23;ANIMATE;UNKNOWN),
+0	29	528	2521	2524	S	529	who	who	who	WP	O	nsubj	false	-1	-1	c23	c23	529	nsubj	(c23;ANIMATE;UNKNOWN),
+0	29	529	2525	2529	S	527	knew	knew	know	VBD	O	rcmod	false	-1	-1	c23	c23	527	acl:relcl	(c23;ANIMATE;UNKNOWN),
+0	29	530	2530	2535	S	529	Muffy	Muffy	Muffy	NNP	PERSON	dobj	false	2	2	c8,c23	c23	529	dobj	(c8;ANIMATE;FEMALE),(c23;ANIMATE;UNKNOWN),
+0	29	531	2536	2540	S	529	from	from	from	IN	O	prep	false	-1	-1	c23	c23	532	mark	(c23;ANIMATE;UNKNOWN),
+0	29	532	2541	2547	S	533	acting	acting	act	VBG	O	amod	false	-1	-1	c23	c23	529	advcl	(c23;ANIMATE;UNKNOWN),
+0	29	533	2548	2553		531	class	class	class	NN	O	pobj	false	-1	-1	c23	c23	532	dobj	(c23;ANIMATE;UNKNOWN),
+0	29	534	2553	2554	S	527	,	,	,	,	O	punct	false	-1	-1	null	null	521	punct	null
+0	29	535	2555	2562	S	-1	emerges	emerges	emerge	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	29	536	2563	2567	S	535	from	from	from	IN	O	prep	false	-1	-1	null	null	538	case	null
+0	29	537	2568	2574	S	536	behind	behind	behind	IN	O	dep	false	-1	-1	null	null	538	case	null
+0	29	538	2575	2578	S	542	her	her	she	PRP	O	dep	false	-1	-1	c23	null	535	nmod:behind	(c23;ANIMATE;FEMALE),
+0	29	539	2579	2582	S	538	and	and	and	CC	O	cc	false	-1	-1	null	null	535	cc	null
+0	29	540	2583	2588	S	538	slits	slits	slit	VBZ	O	conj	false	-1	-1	null	null	535	conj:and	null
+0	29	541	2589	2592	S	542	her	her	she	PRP$	O	poss	false	-1	-1	c23	null	542	nmod:poss	(c23;ANIMATE;FEMALE),
+0	29	542	2593	2599	S	537	throat	throat	throat	NN	O	pobj	false	-1	-1	null	null	540	dobj	null
+0	29	543	2600	2604	S	542	with	with	with	IN	O	prep	false	-1	-1	null	null	545	case	null
+0	29	544	2605	2606	S	545	a	a	a	DT	O	det	false	-1	-1	null	null	545	det	null
+0	29	545	2607	2612		543	razor	razor	razor	NN	O	pobj	false	-1	-1	null	null	540	nmod:with	null
+0	29	546	2612	2613	S	535	.	.	.	.	O	punct	false	-1	-1	null	null	535	punct	null
+0	30	547	2614	2619	S	548	Muffy	Muffy	Muffy	NNP	PERSON	nn	false	2	2	c8	null	548	compound	(c8;ANIMATE;FEMALE),
+0	30	548	2620	2627		-1	screams	screams	scream	NNS	O	null	false	-1	-1	null	null	552	nsubj	null
+0	30	549	2627	2628	S	548	,	,	,	,	O	punct	false	-1	-1	null	null	552	punct	null
+0	30	550	2629	2632	S	548	but	but	but	CC	O	cc	false	-1	-1	null	null	551	cc	null
+0	30	551	2633	2637	S	552	then	then	then	RB	O	advmod	false	-1	-1	null	null	552	advmod	null
+0	30	552	2638	2646	S	548	realizes	realizes	realize	VBZ	O	conj	false	-1	-1	null	null	-1	root	null
+0	30	553	2647	2650	S	557	she	she	she	PRP	O	nsubj	false	-1	-1	c8	null	557	nsubj	(c8;ANIMATE;FEMALE),
+0	30	554	2651	2653	S	557	is	is	be	VBZ	O	aux	false	-1	-1	null	null	557	aux	null
+0	30	555	2654	2657	S	557	not	not	not	RB	O	neg	false	-1	-1	null	null	557	neg	null
+0	30	556	2658	2664	S	557	really	really	really	RB	O	advmod	false	-1	-1	null	null	557	advmod	null
+0	30	557	2665	2673		552	bleeding	bleeding	bleed	VBG	O	ccomp	false	-1	-1	null	null	552	ccomp	null
+0	30	558	2673	2674	S	548	.	.	.	.	O	punct	false	-1	-1	null	null	552	punct	null
+0	31	559	2675	2678	S	561	She	She	she	PRP	O	nsubj	false	-1	-1	c8	null	561	nsubj	(c8;ANIMATE;FEMALE),
+0	31	560	2679	2680		561	"	``	``	``	O	punct	false	-1	-1	null	null	561	punct	null
+0	31	561	2680	2683		-1	got	got	get	VBD	O	null	true	-1	-1	null	null	-1	root	null
+0	31	562	2683	2684	S	561	"	''	''	''	O	punct	true	-1	-1	null	null	561	punct	null
+0	31	563	2685	2688	S	561	her	her	she	PRP$	O	dobj	false	-1	-1	c8	null	561	dobj	(c8;ANIMATE;FEMALE),
+0	31	564	2689	2693	S	563	with	with	with	IN	O	prep	false	-1	-1	null	null	567	case	null
+0	31	565	2694	2695	S	567	a	a	a	DT	O	det	false	-1	-1	null	null	567	det	null
+0	31	566	2696	2701	S	567	trick	trick	trick	NN	O	nn	false	-1	-1	null	null	567	compound	null
+0	31	567	2702	2707	S	564	razor	razor	razor	NN	O	pobj	false	-1	-1	null	null	561	nmod:with	null
+0	31	568	2708	2711	S	567	and	and	and	CC	O	cc	false	-1	-1	null	null	567	cc	null
+0	31	569	2712	2717	S	570	stage	stage	stage	NN	O	nn	false	-1	-1	null	null	570	compound	null
+0	31	570	2718	2723		567	blood	blood	blood	NN	O	conj	false	-1	-1	null	null	567	conj:and	null
+0	31	571	2723	2724	S	561	.	.	.	.	O	punct	false	-1	-1	null	null	561	punct	null
+0	32	572	2725	2728	S	573	The	The	the	DT	O	det	false	-1	-1	c19	null	573	det	(c19;INANIMATE;NEUTRAL),
+0	32	573	2729	2733	S	574	film	film	film	NN	O	nsubj	false	-1	-1	c19	null	574	nsubj	(c19;INANIMATE;NEUTRAL),
+0	32	574	2734	2738	S	-1	ends	ends	end	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	32	575	2739	2743	S	574	with	with	with	IN	O	prep	false	-1	-1	null	null	577	case	null
+0	32	576	2744	2747	S	577	the	the	the	DT	O	det	false	-1	-1	null	null	577	det	null
+0	32	577	2748	2763	S	575	Jack-in-the-box	Jack-in-the-box	jack-in-the-box	NN	O	pobj	false	-1	-1	null	null	574	nmod:with	null
+0	32	578	2764	2771	S	577	winking	winking	wink	VBG	O	partmod	false	-1	-1	null	null	577	acl	null
+0	32	579	2772	2774	S	578	at	at	at	IN	O	prep	false	-1	-1	null	null	581	case	null
+0	32	580	2775	2778	S	581	the	the	the	DT	O	det	false	-1	-1	c18	null	581	det	(c18;ANIMATE;NEUTRAL),
+0	32	581	2779	2787		579	audience	audience	audience	NN	O	pobj	false	-1	-1	c18	null	578	nmod:at	(c18;ANIMATE;NEUTRAL),
+0	32	582	2787	2788	N	574	.	.	.	.	O	punct	false	-1	-1	null	null	574	punct	null

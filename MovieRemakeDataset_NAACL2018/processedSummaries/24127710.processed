@@ -1,0 +1,57 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	1	S	1	A	A	a	DT	O	det	false	-1	-1	c1	c1	1	det	(c1;ANIMATE;MALE),
+0	0	1	2	8		-1	lawyer	lawyer	lawyer	NN	O	null	false	-1	-1	c1	c1	8	nsubj	(c1;ANIMATE;MALE),
+0	0	2	8	9	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	3	10	13	S	4	who	who	who	WP	O	nsubj	false	-1	-1	null	null	4	nsubj	null
+0	0	4	14	21	S	1	defends	defends	defend	VBZ	O	rcmod	false	-1	-1	null	null	1	acl:relcl	null
+0	0	5	22	31		4	criminals	criminals	criminal	NNS	O	dobj	false	-1	-1	c2	c2	4	dobj	(c2;ANIMATE;UNKNOWN),
+0	0	6	31	32	S	1	,	,	,	,	O	punct	false	-1	-1	null	null	1	punct	null
+0	0	7	33	38	S	8	wages	wages	wages	NNS	O	nsubj	false	-1	-1	null	null	8	nsubj	null
+0	0	8	39	48	S	1	vigilante	vigilante	vigilante	VBP	O	rcmod	false	-1	-1	null	null	-1	root	null
+0	0	9	49	56	S	8	justice	justice	justice	NN	O	dobj	false	-1	-1	null	null	8	dobj	null
+0	0	10	57	64	S	8	against	against	against	IN	O	prep	false	-1	-1	null	null	11	case	null
+0	0	11	65	69	S	10	them	them	they	PRP	O	pobj	false	-1	-1	c2	null	9	nmod:against	(c2;ANIMATE;UNKNOWN),
+0	0	12	70	72	S	8	in	in	in	IN	O	prep	false	-1	-1	null	null	13	case	null
+0	0	13	73	80		12	private	private	private	JJ	O	pobj	false	-1	-1	null	null	8	advcl	null
+0	0	14	80	81	S	1	.	.	.	.	O	punct	false	-1	-1	null	null	8	punct	null
+0	1	15	82	83	S	16	A	A	a	DT	O	det	false	-1	-1	c3	c3	16	det	(c3;ANIMATE;MALE),
+0	1	16	84	92	S	17	stranger	stranger	stranger	NN	O	nsubj	false	-1	-1	c3	c3	17	nsubj	(c3;ANIMATE;MALE),
+0	1	17	93	99	S	-1	visits	visits	visit	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	1	18	100	103	S	17	him	him	he	PRP	O	dobj	false	-1	-1	c3	null	17	dobj	(c3;ANIMATE;MALE),
+0	1	19	104	107	S	17	and	and	and	CC	O	cc	false	-1	-1	null	null	17	cc	null
+0	1	20	108	117	S	17	describes	describes	describe	VBZ	O	conj	false	-1	-1	null	null	17	conj:and	null
+0	1	21	118	121	S	22	the	the	the	DT	O	det	false	-1	-1	null	null	22	det	null
+0	1	22	122	128	S	20	murder	murder	murder	NN	O	dobj	false	-1	-1	null	null	20	dobj	null
+0	1	23	129	131	S	22	of	of	of	IN	O	prep	false	-1	-1	null	null	25	case	null
+0	1	24	132	133	S	25	a	a	a	DT	O	det	false	-1	-1	c4	c4	25	det	(c4;ANIMATE;FEMALE),
+0	1	25	134	138	S	23	girl	girl	girl	NN	O	pobj	false	-1	-1	c4	c4	22	nmod:of	(c4;ANIMATE;FEMALE),
+0	1	26	139	142	S	28	who	who	who	WP	O	nsubj	false	-1	-1	c4	c4	28	nsubjpass	(c4;ANIMATE;FEMALE),
+0	1	27	143	146	S	28	was	was	be	VBD	O	cop	false	-1	-1	c4	c4	28	auxpass	(c4;ANIMATE;FEMALE),
+0	1	28	147	153	S	25	ragged	ragged	ragged	JJ	O	rcmod	false	-1	-1	c4	c4	25	acl:relcl	(c4;ANIMATE;FEMALE),
+0	1	29	154	157	S	28	and	and	and	CC	O	cc	false	-1	-1	c4	c4	28	cc	(c4;ANIMATE;FEMALE),
+0	1	30	158	166	S	31	brutally	brutally	brutally	RB	O	advmod	false	-1	-1	c4	c4	31	advmod	(c4;ANIMATE;FEMALE),
+0	1	31	167	175	S	28	murdered	murdered	murder	VBN	O	conj	false	-1	-1	c4	c4	28	conj:and	(c4;ANIMATE;FEMALE),
+0	1	32	176	178	S	31	by	by	by	IN	O	prep	false	-1	-1	c4	c4	34	case	(c4;ANIMATE;FEMALE),
+0	1	33	179	182	S	34	her	her	she	PRP$	O	poss	false	-1	-1	c4,c5	c4,c5	34	nmod:poss	(c4;ANIMATE;FEMALE),(c5;ANIMATE;UNKNOWN),
+0	1	34	183	193		32	classmates	classmates	classmate	NNS	O	pobj	false	-1	-1	c4,c5	c4,c5	31	nmod:by	(c4;ANIMATE;FEMALE),(c5;ANIMATE;UNKNOWN),
+0	1	35	193	194	S	17	.	.	.	.	O	punct	false	-1	-1	null	null	17	punct	null
+0	2	36	195	198	S	37	The	The	the	DT	O	det	false	-1	-1	c6	null	37	det	(c6;ANIMATE;MALE),
+0	2	37	199	207	S	42	stranger	stranger	stranger	NN	O	nsubj	false	-1	-1	c6	null	42	nsubj	(c6;ANIMATE;MALE),
+0	2	38	208	210	S	42	is	is	be	VBZ	O	cop	false	-1	-1	null	null	42	cop	null
+0	2	39	211	214	S	40	the	the	the	DT	O	det	false	-1	-1	c4,c6	c6	40	det	(c4;ANIMATE;FEMALE),(c6;ANIMATE;UNKNOWN),
+0	2	40	215	219		42	girl	girl	girl	NN	O	poss	false	-1	-1	c4,c6	c6	42	nmod:poss	(c4;ANIMATE;FEMALE),(c6;ANIMATE;UNKNOWN),
+0	2	41	219	221	S	40	’s	's	's	POS	O	possessive	false	-1	-1	c4,c6	c6	40	case	(c4;ANIMATE;FEMALE),(c6;ANIMATE;UNKNOWN),
+0	2	42	222	228		-1	parent	parent	parent	NN	O	null	false	-1	-1	c6	c6	-1	root	(c6;ANIMATE;UNKNOWN),
+0	2	43	228	229	S	42	.	.	.	.	O	punct	false	-1	-1	null	null	42	punct	null
+0	3	44	230	233	S	45	The	The	the	DT	O	det	false	-1	-1	c1	null	45	det	(c1;ANIMATE;MALE),
+0	3	45	234	240	S	46	lawyer	lawyer	lawyer	NN	O	nsubj	false	-1	-1	c1	null	46	nsubj	(c1;ANIMATE;MALE),
+0	3	46	241	247	S	-1	agrees	agrees	agree	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	3	47	248	250	S	48	to	to	to	TO	O	aux	false	-1	-1	null	null	48	mark	null
+0	3	48	251	257	S	46	defend	defend	defend	VB	O	xcomp	false	-1	-1	null	null	46	xcomp	null
+0	3	49	258	261	S	50	the	the	the	DT	O	det	false	-1	-1	c5	null	50	det	(c5;ANIMATE;UNKNOWN),
+0	3	50	262	272	S	48	classmates	classmates	classmate	NNS	O	dobj	false	-1	-1	c5	null	48	dobj	(c5;ANIMATE;UNKNOWN),
+0	3	51	273	277	S	48	from	from	from	IN	O	prep	false	-1	-1	null	null	54	case	null
+0	3	52	278	286	S	54	probable	probable	probable	JJ	O	amod	false	-1	-1	null	null	54	amod	null
+0	3	53	287	291	S	54	life	life	life	NN	O	nn	false	-1	-1	null	null	54	compound	null
+0	3	54	292	301		51	sentences	sentences	sentence	NNS	O	pobj	false	-1	-1	null	null	48	nmod:from	null
+0	3	55	301	302	N	46	.	.	.	.	O	punct	false	-1	-1	null	null	46	punct	null

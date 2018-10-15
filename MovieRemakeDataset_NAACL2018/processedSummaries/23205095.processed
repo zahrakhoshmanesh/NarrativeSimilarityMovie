@@ -1,0 +1,81 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	8	S	1	Caroline	Caroline	Caroline	NNP	PERSON	nsubj	false	-1	-1	c1	c1	1	nsubj	(c1;ANIMATE;FEMALE),
+0	0	1	9	11	S	-1	is	is	be	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	2	12	14	S	4	to	to	to	TO	O	aux	false	-1	-1	null	null	4	mark	null
+0	0	3	15	17	S	4	be	be	be	VB	O	auxpass	false	-1	-1	null	null	4	auxpass	null
+0	0	4	18	21	S	1	wed	wed	wed	VBN	DATE	xcomp	false	-1	-1	null	null	1	xcomp	null
+0	0	5	22	24	S	4	to	to	to	TO	O	prep	false	-1	-1	null	null	7	case	null
+0	0	6	25	28	S	7	Sir	Sir	Sir	NNP	O	nn	false	-1	-1	null	null	7	compound	null
+0	0	7	29	34	S	5	Ralph	Ralph	Ralph	NNP	PERSON	pobj	false	0	0	c2	c2	4	nmod:to	(c2;ANIMATE;MALE),
+0	0	8	35	38	S	4	and	and	and	CC	O	cc	false	-1	-1	null	null	1	cc	null
+0	0	9	39	46	S	4	invites	invites	invite	VBZ	O	conj	false	-1	-1	null	null	1	conj:and	null
+0	0	10	47	50	S	11	her	her	she	PRP$	O	poss	false	-1	1	c1,c3	c3	12	nmod:poss	(c1;ANIMATE;FEMALE),(c3;ANIMATE;FEMALE),
+0	0	11	51	57	S	9	sister	sister	sister	NN	O	dobj	false	-1	-1	c3	c3	12	compound	(c3;ANIMATE;FEMALE),
+0	0	12	58	65	S	11	Barbara	Barbara	Barbara	NNP	PERSON	dep	false	1	1	c3	c3	9	dobj	(c3;ANIMATE;FEMALE),
+0	0	13	66	68	S	16	to	to	to	TO	O	aux	false	-1	-1	null	null	16	mark	null
+0	0	14	69	71	S	16	be	be	be	VB	O	cop	false	-1	-1	null	null	16	cop	null
+0	0	15	72	75	S	16	her	her	she	PRP$	O	poss	false	-1	-1	c1	null	16	nmod:poss	(c1;ANIMATE;FEMALE),
+0	0	16	76	86		9	bridesmaid	bridesmaid	bridesmaid	NN	O	xcomp	false	-1	-1	null	null	9	advcl	null
+0	0	17	86	87	S	1	.	.	.	.	O	punct	false	-1	-1	null	null	1	punct	null
+0	1	18	88	95	S	19	Barbara	Barbara	Barbara	NNP	PERSON	nsubj	false	1	1	c3	null	19	nsubj	(c3;ANIMATE;FEMALE),
+0	1	19	96	103	S	37	seduces	seduces	seduce	VBZ	O	dep	false	-1	-1	null	null	-1	root	null
+0	1	20	104	109		19	Ralph	Ralph	Ralph	NNP	PERSON	dobj	false	0	0	c2	null	19	dobj	(c2;ANIMATE;MALE),
+0	1	21	109	110	S	19	,	,	,	,	O	punct	false	-1	-1	null	null	19	punct	null
+0	1	22	111	114	S	19	and	and	and	CC	O	cc	false	-1	-1	null	null	19	cc	null
+0	1	23	115	122	S	19	marries	marries	marry	VBZ	O	conj	false	-1	-1	null	null	19	conj:and	null
+0	1	24	123	126	S	23	him	him	he	PRP	O	dobj	false	0	0	c2	null	25	nsubj	(c2;ANIMATE;MALE),
+0	1	25	127	134		23	herself	herself	herself	PRP	O	dep	false	-1	1	c3	null	23	xcomp	(c3;ANIMATE;FEMALE),
+0	1	26	134	135	S	19	,	,	,	,	O	punct	false	-1	-1	null	null	19	punct	null
+0	1	27	136	139		19	but	but	but	CC	O	cc	false	-1	-1	null	null	19	cc	null
+0	1	28	139	140	S	19	,	,	,	,	O	punct	false	-1	-1	null	null	36	punct	null
+0	1	29	141	148	S	19	despite	despite	despite	IN	O	prep	false	-1	-1	null	null	33	case	null
+0	1	30	149	152	S	33	her	her	she	PRP$	O	poss	false	1	1	c3	null	33	nmod:poss	(c3;ANIMATE;FEMALE),
+0	1	31	153	156	S	33	new	new	new	JJ	O	amod	false	-1	-1	null	null	33	amod	null
+0	1	32	157	164	S	33	wealthy	wealthy	wealthy	JJ	O	amod	false	-1	-1	null	null	33	amod	null
+0	1	33	165	174		29	situation	situation	situation	NN	O	pobj	false	-1	-1	null	null	36	nmod:despite	null
+0	1	34	174	175	S	37	,	,	,	,	O	punct	false	-1	-1	null	null	36	punct	null
+0	1	35	176	179	S	37	she	she	she	PRP	O	nsubjpass	false	1	1	c3	null	36	nsubj	(c3;ANIMATE;FEMALE),
+0	1	36	180	184	S	37	gets	gets	get	VBZ	O	auxpass	false	-1	-1	null	null	19	conj:but	null
+0	1	37	185	190	S	-1	bored	bored	bore	VBN	O	null	false	-1	-1	null	null	36	xcomp	null
+0	1	38	191	194	S	37	and	and	and	CC	O	cc	false	-1	-1	null	null	36	cc	null
+0	1	39	195	200	S	37	turns	turns	turn	VBZ	O	conj	false	-1	-1	null	null	36	conj:and	null
+0	1	40	201	203	S	39	to	to	to	TO	O	prep	false	-1	-1	null	null	42	case	null
+0	1	41	204	211	S	42	highway	highway	highway	NN	O	nn	false	-1	-1	null	null	42	compound	null
+0	1	42	212	219	S	40	robbery	robbery	robbery	NN	O	pobj	false	-1	-1	null	null	39	nmod:to	null
+0	1	43	220	223	S	39	for	for	for	IN	O	prep	false	-1	-1	null	null	44	mark	null
+0	1	44	224	231		43	thrills	thrills	thrill	VBZ	O	pobj	false	-1	-1	null	null	39	advcl	null
+0	1	45	231	232	S	37	.	.	.	.	O	punct	false	-1	-1	null	null	19	punct	null
+0	2	46	233	238	S	51	While	While	while	IN	O	mark	false	-1	-1	null	null	51	mark	null
+0	2	47	239	241	S	51	on	on	on	IN	O	prep	false	-1	-1	null	null	49	case	null
+0	2	48	242	245	S	49	the	the	the	DT	O	det	false	-1	-1	null	null	49	det	null
+0	2	49	246	250	S	47	road	road	road	NN	O	pobj	false	-1	-1	null	null	51	nmod:on	null
+0	2	50	251	254	S	51	she	she	she	PRP	O	nsubj	false	1	1	c3	null	51	nsubj	(c3;ANIMATE;FEMALE),
+0	2	51	255	260	S	-1	meets	meets	meet	VBZ	O	null	false	-1	-1	null	null	65	advcl	null
+0	2	52	261	262	S	54	a	a	a	DT	O	det	false	-1	-1	null	null	54	det	null
+0	2	53	263	269	S	54	famous	famous	famous	JJ	O	amod	false	-1	-1	null	null	54	amod	null
+0	2	54	270	280	SS	51	highwayman	highwayman	highwayman	NN	O	dobj	false	-1	-1	null	null	51	dobj	null
+0	2	55	282	285	S	51	and	and	and	CC	O	cc	false	-1	-1	null	null	51	cc	null
+0	2	56	286	290	S	57	they	they	they	PRP	O	nsubj	false	-1	-1	null	null	57	nsubj	null
+0	2	57	291	299	S	51	continue	continue	continue	VBP	O	conj	false	-1	-1	null	null	51	conj:and	null
+0	2	58	300	302	S	57	as	as	as	IN	O	prep	false	-1	-1	null	null	60	case	null
+0	2	59	303	304	S	60	a	a	a	DT	O	det	false	-1	-1	null	null	60	det	null
+0	2	60	305	309		58	team	team	team	NN	O	pobj	false	-1	-1	null	null	57	nmod:as	null
+0	2	61	309	310	S	51	,	,	,	,	O	punct	false	-1	-1	null	null	65	punct	null
+0	2	62	311	314	S	51	but	but	but	CC	O	cc	false	-1	-1	null	null	65	cc	null
+0	2	63	315	319	S	64	some	some	some	DT	O	det	false	-1	-1	null	null	64	det	null
+0	2	64	320	326	S	65	people	people	people	NNS	O	nsubj	false	-1	-1	null	null	65	nsubj	null
+0	2	65	327	332	S	51	begin	begin	begin	VBP	O	conj	false	-1	-1	null	null	-1	root	null
+0	2	66	333	343	S	65	suspecting	suspecting	suspect	VBG	O	xcomp	false	-1	-1	null	null	65	xcomp	null
+0	2	67	344	347	S	68	her	her	she	PRP$	O	poss	false	1	1	c3	null	68	nmod:poss	(c3;ANIMATE;FEMALE),
+0	2	68	348	356	S	66	identity	identity	identity	NN	O	dobj	false	-1	-1	null	null	66	dobj	null
+0	2	69	357	360	S	51	and	and	and	CC	O	cc	false	-1	-1	null	null	65	cc	null
+0	2	70	361	364	S	71	she	she	she	PRP	O	nsubj	false	1	1	c3	null	71	nsubj	(c3;ANIMATE;FEMALE),
+0	2	71	365	370	S	51	risks	risks	risk	VBZ	O	conj	false	-1	-1	null	null	65	conj:but	null
+0	2	72	371	376	S	71	death	death	death	NN	O	dobj	false	-1	-1	null	null	71	dobj	null
+0	2	73	377	379	S	75	if	if	if	IN	O	mark	false	-1	-1	null	null	75	mark	null
+0	2	74	380	383	S	75	she	she	she	PRP	O	nsubj	false	1	1	c3	null	75	nsubj	(c3;ANIMATE;FEMALE),
+0	2	75	384	393	S	71	continues	continues	continue	VBZ	O	advcl	false	-1	-1	null	null	71	advcl	null
+0	2	76	394	397	S	78	her	her	she	PRP$	O	poss	false	1	1	c3	null	78	nmod:poss	(c3;ANIMATE;FEMALE),
+0	2	77	398	407	S	78	nefarious	nefarious	nefarious	JJ	O	amod	false	-1	-1	null	null	78	amod	null
+0	2	78	408	418		75	activities	activities	activity	NNS	O	dobj	false	-1	-1	null	null	75	dobj	null
+0	2	79	418	419	N	51	.	.	.	.	O	punct	false	-1	-1	null	null	65	punct	null

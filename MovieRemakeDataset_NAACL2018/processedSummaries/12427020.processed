@@ -1,0 +1,85 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	5		9	Louis	Louis	Louis	NNP	PERSON	nsubj	false	0	0	c1,c1	c1	9	nsubj	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	1	5	6	S	0	,	,	,	,	O	punct	false	-1	-1	c1	null	0	punct	(c1;ANIMATE;MALE),
+0	0	2	7	8	S	5	a	a	a	DT	O	det	false	-1	-1	c1,c1	null	5	det	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	3	9	15	S	5	sickly	sickly	sickly	JJ	O	amod	false	-1	-1	c1,c1	null	5	amod	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	4	16	29	S	5	nine-year-old	nine-year-old	nine-year-old	JJ	DURATION	amod	false	-1	-1	c1,c1	null	5	amod	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	5	30	33	S	0	boy	boy	boy	NN	O	appos	false	-1	-1	c1,c1	null	0	appos	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	6	34	38	S	5	from	from	from	IN	O	prep	false	-1	-1	c1,c1	null	7	case	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	7	39	44		6	Paris	Paris	Paris	NNP	LOCATION	pobj	false	-1	-1	c1,c1	null	5	nmod:from	(c1;ANIMATE;MALE),(c1;ANIMATE;MALE),
+0	0	8	44	45	S	0	,	,	,	,	O	punct	false	-1	-1	null	null	0	punct	null
+0	0	9	46	52	S	-1	spends	spends	spend	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	0	10	53	56	S	12	his	his	he	PRP$	O	poss	false	-1	-1	c1	null	12	nmod:poss	(c1;ANIMATE;MALE),
+0	0	11	57	63	S	12	summer	summer	summer	NN	DATE	nn	false	-1	-1	null	null	12	compound	null
+0	0	12	64	72	S	9	vacation	vacation	vacation	NN	O	dobj	false	-1	-1	null	null	9	dobj	null
+0	0	13	73	75	S	9	in	in	in	IN	O	prep	false	-1	-1	null	null	16	case	null
+0	0	14	76	77	S	16	a	a	a	DT	O	det	false	-1	-1	null	null	16	det	null
+0	0	15	78	83	S	16	small	small	small	JJ	O	amod	false	-1	-1	null	null	16	amod	null
+0	0	16	84	88	S	13	town	town	town	NN	O	pobj	false	-1	-1	null	null	9	nmod:in	null
+0	0	17	89	91	S	16	in	in	in	IN	O	prep	false	-1	-1	null	null	18	case	null
+0	0	18	92	100		17	Brittany	Brittany	Brittany	NNP	LOCATION	pobj	false	-1	-1	null	null	16	nmod:in	null
+0	0	19	100	101	S	9	.	.	.	.	O	punct	false	-1	-1	null	null	9	punct	null
+0	1	20	102	105	S	21	His	His	he	PRP$	O	poss	false	-1	-1	c1,c2	c2	22	nmod:poss	(c1;ANIMATE;MALE),(c2;ANIMATE;FEMALE),
+0	1	21	106	112	S	-1	mother	mother	mother	NN	O	null	false	-1	-1	c2	c2	22	compound	(c2;ANIMATE;FEMALE),
+0	1	22	113	119	S	24	Claire	Claire	Claire	NNP	PERSON	nsubj	false	-1	-1	c2	c2	24	nsubj	(c2;ANIMATE;FEMALE),
+0	1	23	120	123	S	24	has	has	have	VBZ	O	aux	false	-1	-1	null	null	24	aux	null
+0	1	24	124	130	S	21	lodged	lodged	lodge	VBN	O	ccomp	false	-1	-1	null	null	-1	root	null
+0	1	25	131	134	S	24	him	him	he	PRP	O	dobj	false	-1	-1	c1	null	24	dobj	(c1;ANIMATE;MALE),
+0	1	26	135	139	S	24	with	with	with	IN	O	prep	false	-1	-1	null	null	29	case	null
+0	1	27	140	143	S	29	her	her	she	PRP$	O	poss	false	-1	-1	c2	null	29	nmod:poss	(c2;ANIMATE;FEMALE),
+0	1	28	144	154	S	29	girlfriend	girlfriend	girlfriend	NN	O	nn	false	-1	-1	null	null	29	compound	null
+0	1	29	155	163	S	26	Marcelle	Marcelle	Marcelle	NNP	PERSON	pobj	false	-1	-1	null	null	24	nmod:with	null
+0	1	30	164	167	S	29	and	and	and	CC	O	cc	false	-1	-1	null	null	29	cc	null
+0	1	31	168	171	S	33	her	her	she	PRP$	O	poss	false	-1	-1	c2	null	33	nmod:poss	(c2;ANIMATE;FEMALE),
+0	1	32	172	179	S	33	husband	husband	husband	NN	O	nn	false	-1	-1	null	null	33	compound	null
+0	1	33	180	184	S	29	Pelo	Pelo	Pelo	NNP	PERSON	conj	false	-1	-1	null	null	29	conj:and	null
+0	1	34	185	190	S	37	while	while	while	IN	O	mark	false	-1	-1	null	null	37	mark	null
+0	1	35	191	194	S	37	she	she	she	PRP	O	nsubj	false	-1	-1	c2	null	37	nsubj	(c2;ANIMATE;FEMALE),
+0	1	36	195	197	S	37	is	is	be	VBZ	O	aux	false	-1	-1	null	null	37	aux	null
+0	1	37	198	204	S	21	having	having	have	VBG	O	advcl	false	-1	-1	null	null	24	advcl	null
+0	1	38	205	208	S	40	her	her	she	PRP$	O	poss	false	-1	-1	c2	null	40	nmod:poss	(c2;ANIMATE;FEMALE),
+0	1	39	209	215	S	40	second	second	second	JJ	ORDINAL	amod	false	-1	-1	null	null	40	amod	null
+0	1	40	216	220		37	baby	baby	baby	NN	O	dobj	false	-1	-1	null	null	37	dobj	null
+0	1	41	220	221	S	21	.	.	.	.	O	punct	false	-1	-1	null	null	24	punct	null
+0	2	42	222	227	S	43	There	There	there	EX	O	expl	false	-1	-1	null	null	44	expl	null
+0	2	43	228	233	S	44	Louis	Louis	Louis	NNP	PERSON	nsubj	false	0	0	c1	null	44	nsubj	(c1;ANIMATE;MALE),
+0	2	44	234	239	S	-1	makes	makes	make	VBZ	O	null	false	-1	-1	null	null	-1	root	null
+0	2	45	240	247	S	44	friends	friends	friend	NNS	O	dobj	false	-1	-1	null	null	44	dobj	null
+0	2	46	248	252	S	44	with	with	with	IN	O	prep	false	-1	-1	null	null	47	case	null
+0	2	47	253	260		46	Martine	Martine	Martine	NNP	PERSON	pobj	false	-1	-1	c3	c3	44	nmod:with	(c3;ANIMATE;UNKNOWN),
+0	2	48	260	261	S	47	,	,	,	,	O	punct	false	-1	-1	null	null	47	punct	null
+0	2	49	262	265	S	51	the	the	the	DT	O	det	false	-1	-1	c3	null	51	det	(c3;ANIMATE;FEMALE),
+0	2	50	266	278	S	51	ten-year-old	ten-year-old	ten-year-old	JJ	DURATION	amod	false	-1	-1	c3	null	51	amod	(c3;ANIMATE;FEMALE),
+0	2	51	279	283	S	47	girl	girl	girl	NN	O	appos	false	-1	-1	c3	null	47	appos	(c3;ANIMATE;FEMALE),
+0	2	52	284	288	S	53	next	next	next	JJ	O	amod	false	-1	-1	null	null	44	advmod	null
+0	2	53	289	293		51	door	door	door	NN	O	dep	false	-1	-1	null	null	52	dep	null
+0	2	54	293	294	S	44	,	,	,	,	O	punct	false	-1	-1	null	null	44	punct	null
+0	2	55	295	298	S	44	and	and	and	CC	O	cc	false	-1	-1	null	null	44	cc	null
+0	2	56	299	305	S	44	learns	learns	learn	VBZ	O	conj	false	-1	-1	null	null	44	conj:and	null
+0	2	57	306	310	S	56	from	from	from	IN	O	prep	false	-1	-1	null	null	58	case	null
+0	2	58	311	314	S	57	her	her	she	PRP$	O	pobj	false	-1	-1	c3	null	56	nmod:from	(c3;ANIMATE;FEMALE),
+0	2	59	315	320	S	58	about	about	about	IN	O	prep	false	-1	-1	null	null	60	case	null
+0	2	60	321	325		59	life	life	life	NN	O	pobj	false	-1	-1	null	null	56	nmod:about	null
+0	2	61	325	326	S	44	.	.	.	.	O	punct	false	-1	-1	null	null	44	punct	null
+0	3	62	327	330	S	64	His	His	he	PRP$	O	poss	false	0	0	c1	null	64	nmod:poss	(c1;ANIMATE;MALE),
+0	3	63	331	341	S	64	subsequent	subsequent	subsequent	JJ	O	amod	false	-1	-1	null	null	64	amod	null
+0	3	64	342	352	S	65	adventures	adventures	adventure	NNS	O	nsubj	false	-1	-1	null	null	65	nsubj	null
+0	3	65	353	356	S	-1	run	run	run	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	3	66	357	360	S	67	the	the	the	DT	O	det	false	-1	-1	null	null	67	det	null
+0	3	67	361	366	S	65	gamut	gamut	gamut	NN	O	dobj	false	-1	-1	null	null	65	dobj	null
+0	3	68	367	371	S	67	from	from	from	IN	O	prep	false	-1	-1	null	null	69	case	null
+0	3	69	372	382	S	68	delightful	delightful	delightful	JJ	O	pobj	false	-1	-1	null	null	65	nmod:from	null
+0	3	70	383	385	S	69	to	to	to	TO	O	prep	false	-1	-1	null	null	71	case	null
+0	3	71	386	396		70	terrifying	terrifying	terrifying	JJ	O	pobj	false	-1	-1	null	null	69	nmod:to	null
+0	3	72	396	397	S	65	,	,	,	,	O	punct	false	-1	-1	null	null	71	punct	null
+0	3	73	398	402	S	81	with	with	with	IN	O	mark	false	-1	-1	null	null	75	case	null
+0	3	74	403	404	S	81	a	a	a	DT	O	dep	false	-1	-1	null	null	75	det	null
+0	3	75	405	411	S	81	little	little	little	JJ	O	dep	false	-1	-1	null	null	71	nmod:with	null
+0	3	76	412	413		77	"	``	``	``	O	punct	false	-1	-1	null	null	75	punct	null
+0	3	77	413	419	S	81	coming	coming	come	VBG	O	dep	true	-1	-1	null	null	75	acl	null
+0	3	78	420	422	S	77	of	of	of	IN	O	prep	true	-1	-1	null	null	79	case	null
+0	3	79	423	426		78	age	age	age	NN	O	pobj	true	-1	-1	null	null	75	nmod:of	null
+0	3	80	426	427	SS	79	"	''	''	''	O	punct	true	-1	-1	null	null	69	punct	null
+0	3	81	429	435	S	65	thrown	thrown	throw	VBN	O	advcl	false	-1	-1	null	null	69	acl	null
+0	3	82	436	438		81	in	in	in	IN	O	prt	false	-1	-1	null	null	81	nmod	null
+0	3	83	438	439	N	65	.	.	.	.	O	punct	false	-1	-1	null	null	65	punct	null

@@ -1,0 +1,59 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	correctedCharId	ClustersAssignments(,separated)	isRepresentativeOfClusters(,separated)	ListOfCollapsedHeadTokIds(,separated)	ListOfCollapsedDeprels(,separated)	AnimacyAndGender(,separated)
+0	0	0	0	5	S	16	David	David	David	NNP	PERSON	nsubj	false	-1	-1	c1,c3	c1,c3	4	compound	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	1	6	7		16	"	``	``	``	PERSON	punct	false	-1	-1	c1,c3	c1,c3	4	punct	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	2	7	11		4	Dave	Dave	Dave	NNP	PERSON	nn	true	-1	-1	c1,c3	c1,c3	4	compound	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	3	11	12	S	4	"	''	''	''	PERSON	punct	true	-1	-1	c1,c3	c1,c3	4	punct	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	4	13	21	SS	16	Whiteman	Whiteman	Whiteman	NNP	PERSON	nsubj	false	-1	-1	c1,c3	c1,c3	16	nsubj	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	5	23	26	S	4	and	and	and	CC	O	cc	false	-1	-1	c3	c3	4	cc	(c3;ANIMATE;UNKNOWN),
+0	0	6	27	30	S	7	his	his	he	PRP$	O	poss	false	-1	-1	c1,c3	c3	7	nmod:poss	(c1;ANIMATE;MALE),(c3;ANIMATE;UNKNOWN),
+0	0	7	31	35		4	wife	wife	wife	NN	O	conj	false	-1	-1	c3	c3	4	conj:and	(c3;ANIMATE;UNKNOWN),
+0	0	8	35	36	S	7	,	,	,	,	O	punct	false	-1	-1	c3	c3	7	punct	(c3;ANIMATE;UNKNOWN),
+0	0	9	37	44		7	Barbara	Barbara	Barbara	NNP	PERSON	appos	false	0	0	c2,c3	c2,c3	7	appos	(c2;ANIMATE;FEMALE),(c3;ANIMATE;UNKNOWN),
+0	0	10	44	45	S	7	,	,	,	,	O	punct	false	-1	-1	null	null	4	punct	null
+0	0	11	46	52	S	7	played	played	play	VBN	O	partmod	false	-1	-1	null	null	4	acl	null
+0	0	12	53	55	S	11	by	by	by	IN	O	prep	false	-1	-1	null	null	14	case	null
+0	0	13	56	61	S	14	Bette	Bette	Bette	NNP	PERSON	nn	false	-1	-1	null	null	14	compound	null
+0	0	14	62	68		12	Midler	Midler	Midler	NNP	PERSON	pobj	false	-1	-1	null	null	11	nmod:by	null
+0	0	15	68	69	S	7	,	,	,	,	O	punct	false	-1	-1	null	null	4	punct	null
+0	0	16	70	77	S	-1	portray	portray	portray	VBP	O	null	false	-1	-1	null	null	-1	root	null
+0	0	17	78	79	S	18	a	a	a	DT	O	det	false	-1	-1	null	null	18	det	null
+0	0	18	80	86	S	16	couple	couple	couple	NN	O	dobj	false	-1	-1	null	null	16	dobj	null
+0	0	19	87	92	S	21	whose	whose	whose	WP$	O	poss	false	-1	-1	null	null	23	dep	null
+0	0	20	93	100	S	21	20-year	20-year	20-year	JJ	DURATION	amod	false	-1	-1	null	null	21	amod	null
+0	0	21	101	109	S	23	marriage	marriage	marriage	NN	O	nsubj	false	-1	-1	null	null	23	nsubj	null
+0	0	22	110	112	S	23	is	is	be	VBZ	O	cop	false	-1	-1	null	null	23	cop	null
+0	0	23	113	125		18	unfulfilling	unfulfilling	unfulfilling	JJ	O	rcmod	false	-1	-1	null	null	18	dep	null
+0	0	24	125	126	S	16	.	.	.	.	O	punct	false	-1	-1	null	null	16	punct	null
+0	1	25	127	131	S	27	Dave	Dave	Dave	NNP	PERSON	nsubj	false	-1	-1	c1	null	27	nsubj	(c1;ANIMATE;MALE),
+0	1	26	132	134	S	27	is	is	be	VBZ	O	aux	false	-1	-1	null	null	27	aux	null
+0	1	27	135	141	S	-1	having	having	have	VBG	O	null	false	-1	-1	null	null	-1	root	null
+0	1	28	142	144	S	29	an	an	a	DT	O	det	false	-1	-1	null	null	29	det	null
+0	1	29	145	151	S	27	affair	affair	affair	NN	O	dobj	false	-1	-1	null	null	27	dobj	null
+0	1	30	152	156	S	27	with	with	with	IN	O	prep	false	-1	-1	null	null	33	case	null
+0	1	31	157	162	S	33	their	their	they	PRP$	O	poss	false	-1	-1	c3	null	33	nmod:poss	(c3;ANIMATE;UNKNOWN),
+0	1	32	163	170	S	33	live-in	live-in	live-in	JJ	O	amod	false	-1	-1	null	null	33	amod	null
+0	1	33	171	175		30	maid	maid	maid	NN	O	pobj	false	-1	-1	null	null	29	nmod:with	null
+0	1	34	175	176	S	27	,	,	,	,	O	punct	false	-1	-1	null	null	33	punct	null
+0	1	35	177	183	S	27	played	played	play	VBN	O	prep	false	-1	-1	null	null	33	acl	null
+0	1	36	184	186	S	35	by	by	by	IN	O	prep	false	-1	-1	null	null	38	case	null
+0	1	37	187	196	S	38	Elizabeth	Elizabeth	Elizabeth	NNP	PERSON	nn	false	-1	-1	null	null	38	compound	null
+0	1	38	197	201		36	Peña	Peña	Peña	NNP	PERSON	pobj	false	-1	-1	null	null	35	nmod:by	null
+0	1	39	201	202	S	27	,	,	,	,	O	punct	false	-1	-1	null	null	35	punct	null
+0	1	40	203	208	S	42	while	while	while	IN	O	mark	false	-1	-1	null	null	42	mark	null
+0	1	41	209	216	S	42	Barbara	Barbara	Barbara	NNP	PERSON	nsubj	false	0	0	c2	null	42	nsubj	(c2;ANIMATE;FEMALE),
+0	1	42	217	222	S	27	tries	tries	try	VBZ	O	advcl	false	-1	-1	null	null	35	advcl	null
+0	1	43	223	225	S	44	to	to	to	TO	O	aux	false	-1	-1	null	null	44	mark	null
+0	1	44	226	233	S	42	relieve	relieve	relieve	VB	O	xcomp	false	-1	-1	null	null	42	xcomp	null
+0	1	45	234	237	S	46	the	the	the	DT	O	det	false	-1	-1	null	null	46	det	null
+0	1	46	238	245	S	49	anxiety	anxiety	anxiety	NN	O	complm	false	-1	-1	null	null	44	dobj	null
+0	1	47	246	249	S	49	she	she	she	PRP	O	nsubj	false	0	0	c2	null	49	nsubj	(c2;ANIMATE;FEMALE),
+0	1	48	250	260	S	49	constantly	constantly	constantly	RB	O	advmod	false	-1	-1	null	null	49	advmod	null
+0	1	49	261	266	S	44	feels	feels	feel	VBZ	O	ccomp	false	-1	-1	null	null	46	acl:relcl	null
+0	1	50	267	269	S	49	by	by	by	IN	O	prep	false	-1	-1	null	null	51	mark	null
+0	1	51	270	283	S	50	experimenting	experimenting	experiment	VBG	O	pcomp	false	-1	-1	null	null	49	advcl	null
+0	1	52	284	288	S	51	with	with	with	IN	O	prep	false	-1	-1	null	null	56	case	null
+0	1	53	289	296	S	56	various	various	various	JJ	O	amod	false	-1	-1	null	null	56	amod	null
+0	1	54	297	300	S	56	New	New	New	NNP	MISC	nn	false	-1	-1	null	null	56	compound	null
+0	1	55	301	304	S	56	Age	Age	Age	NNP	MISC	nn	false	-1	-1	null	null	56	compound	null
+0	1	56	305	314		52	therapies	therapies	therapy	NNS	O	pobj	false	-1	-1	null	null	51	nmod:with	null
+0	1	57	314	315	N	27	.	.	.	.	O	punct	false	-1	-1	null	null	27	punct	null
